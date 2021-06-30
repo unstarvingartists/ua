@@ -1,11 +1,12 @@
 import * as React from "react"
+import "@fontsource/lato"
 
 // styles
 const pageStyles = {
   color: "#232129",
   backgroundColor: "#e0f2fe",
   padding: 96,
-  fontFamily: "-apple-system, Roboto, sans-serif, serif",
+  fontFamily: "Lato, -apple-system, Roboto, sans-serif, serif",
 }
 const headingStyles = {
   marginTop: 0,
