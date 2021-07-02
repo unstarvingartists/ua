@@ -1,17 +1,14 @@
-import React, { Fragment } from 'react'
-import { Popover, Transition } from '@headlessui/react'
-import {
-  MenuIcon,
-  XIcon,
-} from '@heroicons/react/outline'
-import logo from "../images/logo.svg"
+import React, { Fragment } from "react";
+import { Popover, Transition } from "@headlessui/react";
+import { MenuIcon, XIcon } from "@heroicons/react/outline";
+import logo from "../images/logo.svg";
 
 const navigation = [
-  { name: 'Programs', href: '#' },
-  { name: 'Artist Stories', href: '#' },
-  { name: 'FAQ', href: '#' },
-  { name: 'Log in', href: '#' },
-]
+  { name: "Programs", href: "#" },
+  { name: "Artist Stories", href: "#" },
+  { name: "FAQ", href: "#" },
+  { name: "Log in", href: "#" },
+];
 
 const Navigation = () => {
   return (
@@ -26,11 +23,7 @@ const Navigation = () => {
               <div className="flex items-center justify-between w-full md:w-auto">
                 <a href="#">
                   <span className="sr-only">Unstarving Artists</span>
-                  <img
-                    className="h-8 w-auto sm:h-10"
-                    src={logo}
-                    alt="Logo"
-                  />
+                  <img className="h-8 w-auto sm:h-10" src={logo} alt="Logo" />
                 </a>
                 <div className="-mr-2 flex items-center md:hidden">
                   <Popover.Button className="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
@@ -42,7 +35,11 @@ const Navigation = () => {
             </div>
             <div className="hidden md:flex md:items-center md:space-x-6">
               {navigation.map((item) => (
-                <a key={item.name} href={item.href} className="font-medium text-gray-500 hover:text-gray-900">
+                <a
+                  key={item.name}
+                  href={item.href}
+                  className="font-medium text-gray-500 hover:text-gray-900"
+                >
                   {item.name}
                 </a>
               ))}
@@ -111,6 +108,6 @@ const Navigation = () => {
         </>
       )}
     </Popover>
-  )
-}
-export default Navigation
+  );
+};
+export default Navigation;

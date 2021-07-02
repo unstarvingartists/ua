@@ -1,45 +1,51 @@
-import * as React from 'react'
-import { AnnotationIcon, GlobeAltIcon, LightningBoltIcon, MailIcon, ScaleIcon } from '@heroicons/react/outline'
+import * as React from "react";
+import {
+  AnnotationIcon,
+  GlobeAltIcon,
+  LightningBoltIcon,
+  MailIcon,
+  ScaleIcon,
+} from "@heroicons/react/outline";
 
 const transferFeatures = [
   {
     id: 1,
-    name: 'Competitive exchange rates',
+    name: "Competitive exchange rates",
     description:
-      'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.',
+      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.",
     icon: GlobeAltIcon,
   },
   {
     id: 2,
-    name: 'No hidden fees',
+    name: "No hidden fees",
     description:
-      'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.',
+      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.",
     icon: ScaleIcon,
   },
   {
     id: 3,
-    name: 'Transfers are instant',
+    name: "Transfers are instant",
     description:
-      'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.',
+      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.",
     icon: LightningBoltIcon,
   },
-]
+];
 const communicationFeatures = [
   {
     id: 1,
-    name: 'Mobile notifications',
+    name: "Mobile notifications",
     description:
-      'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.',
+      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.",
     icon: AnnotationIcon,
   },
   {
     id: 2,
-    name: 'Reminder emails',
+    name: "Reminder emails",
     description:
-      'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.',
+      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.",
     icon: MailIcon,
   },
-]
+];
 
 export default function Problem() {
   return (
@@ -62,10 +68,21 @@ export default function Problem() {
               height={20}
               patternUnits="userSpaceOnUse"
             >
-              <rect x={0} y={0} width={4} height={4} className="text-gray-200" fill="currentColor" />
+              <rect
+                x={0}
+                y={0}
+                width={4}
+                height={4}
+                className="text-gray-200"
+                fill="currentColor"
+              />
             </pattern>
           </defs>
-          <rect width={404} height={784} fill="url(#b1e6e422-73f8-40a6-b5d9-c8586e37e0e7)" />
+          <rect
+            width={404}
+            height={784}
+            fill="url(#b1e6e422-73f8-40a6-b5d9-c8586e37e0e7)"
+          />
         </svg>
 
         <div className="relative">
@@ -73,8 +90,8 @@ export default function Problem() {
             A better way to send money
           </h2>
           <p className="mt-4 max-w-3xl mx-auto text-center text-xl text-gray-500">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus magnam voluptatum cupiditate veritatis in,
-            accusamus quisquam.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus
+            magnam voluptatum cupiditate veritatis in, accusamus quisquam.
           </p>
         </div>
 
@@ -84,9 +101,10 @@ export default function Problem() {
               Transfer funds world-wide
             </h3>
             <p className="mt-3 text-lg text-gray-500">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur minima sequi recusandae, porro maiores
-              officia assumenda aliquam laborum ab aliquid veritatis impedit odit adipisci optio iste blanditiis facere.
-              Totam, velit.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur
+              minima sequi recusandae, porro maiores officia assumenda aliquam
+              laborum ab aliquid veritatis impedit odit adipisci optio iste
+              blanditiis facere. Totam, velit.
             </p>
 
             <dl className="mt-10 space-y-10">
@@ -96,9 +114,13 @@ export default function Problem() {
                     <div className="absolute flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
                       <item.icon className="h-6 w-6" aria-hidden="true" />
                     </div>
-                    <p className="ml-16 text-lg leading-6 font-medium text-gray-900">{item.name}</p>
+                    <p className="ml-16 text-lg leading-6 font-medium text-gray-900">
+                      {item.name}
+                    </p>
                   </dt>
-                  <dd className="mt-2 ml-16 text-base text-gray-500">{item.description}</dd>
+                  <dd className="mt-2 ml-16 text-base text-gray-500">
+                    {item.description}
+                  </dd>
                 </div>
               ))}
             </dl>
@@ -121,10 +143,21 @@ export default function Problem() {
                   height={20}
                   patternUnits="userSpaceOnUse"
                 >
-                  <rect x={0} y={0} width={4} height={4} className="text-gray-200" fill="currentColor" />
+                  <rect
+                    x={0}
+                    y={0}
+                    width={4}
+                    height={4}
+                    className="text-gray-200"
+                    fill="currentColor"
+                  />
                 </pattern>
               </defs>
-              <rect width={784} height={404} fill="url(#ca9667ae-9f92-4be7-abcb-9e3d727f2941)" />
+              <rect
+                width={784}
+                height={404}
+                fill="url(#ca9667ae-9f92-4be7-abcb-9e3d727f2941)"
+              />
             </svg>
             <img
               className="relative mx-auto"
@@ -152,19 +185,33 @@ export default function Problem() {
               height={20}
               patternUnits="userSpaceOnUse"
             >
-              <rect x={0} y={0} width={4} height={4} className="text-gray-200" fill="currentColor" />
+              <rect
+                x={0}
+                y={0}
+                width={4}
+                height={4}
+                className="text-gray-200"
+                fill="currentColor"
+              />
             </pattern>
           </defs>
-          <rect width={404} height={784} fill="url(#64e643ad-2176-4f86-b3d7-f2c5da3b6a6d)" />
+          <rect
+            width={404}
+            height={784}
+            fill="url(#64e643ad-2176-4f86-b3d7-f2c5da3b6a6d)"
+          />
         </svg>
 
         <div className="relative mt-12 sm:mt-16 lg:mt-24">
           <div className="lg:grid lg:grid-flow-row-dense lg:grid-cols-2 lg:gap-8 lg:items-center">
             <div className="lg:col-start-2">
-              <h3 className="text-2xl font-extrabold text-gray-900 tracking-tight sm:text-3xl">Always in the loop</h3>
+              <h3 className="text-2xl font-extrabold text-gray-900 tracking-tight sm:text-3xl">
+                Always in the loop
+              </h3>
               <p className="mt-3 text-lg text-gray-500">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit ex obcaecati natus eligendi delectus,
-                cum deleniti sunt in labore nihil quod quibusdam expedita nemo.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit
+                ex obcaecati natus eligendi delectus, cum deleniti sunt in
+                labore nihil quod quibusdam expedita nemo.
               </p>
 
               <dl className="mt-10 space-y-10">
@@ -174,9 +221,13 @@ export default function Problem() {
                       <div className="absolute flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
                         <item.icon className="h-6 w-6" aria-hidden="true" />
                       </div>
-                      <p className="ml-16 text-lg leading-6 font-medium text-gray-900">{item.name}</p>
+                      <p className="ml-16 text-lg leading-6 font-medium text-gray-900">
+                        {item.name}
+                      </p>
                     </dt>
-                    <dd className="mt-2 ml-16 text-base text-gray-500">{item.description}</dd>
+                    <dd className="mt-2 ml-16 text-base text-gray-500">
+                      {item.description}
+                    </dd>
                   </div>
                 ))}
               </dl>
@@ -200,10 +251,21 @@ export default function Problem() {
                     height={20}
                     patternUnits="userSpaceOnUse"
                   >
-                    <rect x={0} y={0} width={4} height={4} className="text-gray-200" fill="currentColor" />
+                    <rect
+                      x={0}
+                      y={0}
+                      width={4}
+                      height={4}
+                      className="text-gray-200"
+                      fill="currentColor"
+                    />
                   </pattern>
                 </defs>
-                <rect width={784} height={404} fill="url(#e80155a9-dfde-425a-b5ea-1f6fadd20131)" />
+                <rect
+                  width={784}
+                  height={404}
+                  fill="url(#e80155a9-dfde-425a-b5ea-1f6fadd20131)"
+                />
               </svg>
               <img
                 className="relative mx-auto"
@@ -216,5 +278,5 @@ export default function Problem() {
         </div>
       </div>
     </div>
-  )
+  );
 }

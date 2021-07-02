@@ -1,4 +1,4 @@
-import * as React from 'react'
+import * as React from "react";
 
 const LogoCloud = () => {
   return (
@@ -10,7 +10,9 @@ const LogoCloud = () => {
               Trusted by the happiest artists in the world
             </h2>
             <p className="mt-3 max-w-3xl text-lg text-gray-500">
-              Join 100+ artists across 12 countries who are connecting with collectors, earning a great income from their art practice, and refining their craft.
+              Join 100+ artists across 12 countries who are connecting with
+              collectors, earning a great income from their art practice, and
+              mastering their craft.
             </p>
             <div className="mt-8 sm:flex">
               <div className="rounded-md shadow">
@@ -40,10 +42,18 @@ const LogoCloud = () => {
               />
             </div>
             <div className="col-span-1 flex justify-center py-8 px-8 bg-gray-50">
-              <img className="max-h-12" src="https://tailwindui.com/img/logos/mirage-logo-gray-400.svg" alt="Mirage" />
+              <img
+                className="max-h-12"
+                src="https://tailwindui.com/img/logos/mirage-logo-gray-400.svg"
+                alt="Mirage"
+              />
             </div>
             <div className="col-span-1 flex justify-center py-8 px-8 bg-gray-50">
-              <img className="max-h-12" src="https://tailwindui.com/img/logos/tuple-logo-gray-400.svg" alt="Tuple" />
+              <img
+                className="max-h-12"
+                src="https://tailwindui.com/img/logos/tuple-logo-gray-400.svg"
+                alt="Tuple"
+              />
             </div>
             <div className="col-span-1 flex justify-center py-8 px-8 bg-gray-50">
               <img
@@ -70,7 +80,6 @@ const LogoCloud = () => {
         </div>
       </div>
     </div>
-
-  )
-}
-export default LogoCloud
+  );
+};
+export default LogoCloud;

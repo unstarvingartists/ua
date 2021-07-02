@@ -1,4 +1,4 @@
-import * as React from 'react'
+import * as React from "react";
 
 export default function CallToAction() {
   return (
@@ -28,6 +28,5 @@ export default function CallToAction() {
         </div>
       </div>
     </div>
-  )
+  );
 }
-
