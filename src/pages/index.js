@@ -1,198 +1,151 @@
-import * as React from "react"
 import "@fontsource/lato"
+/* This example requires Tailwind CSS v2.0+ */
+import React, { Fragment } from 'react'
+import { Popover, Transition } from '@headlessui/react'
+import {
+  MenuIcon,
+  XIcon,
+} from '@heroicons/react/outline'
+import logo from "../images/logo.svg"
 
-// styles
-const pageStyles = {
-  color: "#232129",
-  backgroundColor: "#e0f2fe",
-  padding: 96,
-  fontFamily: "Lato, -apple-system, Roboto, sans-serif, serif",
-}
-const headingStyles = {
-  marginTop: 0,
-  marginBottom: 64,
-  maxWidth: 320,
-}
-const headingAccentStyles = {
-  color: "#663399",
-}
-const paragraphStyles = {
-  marginBottom: 48,
-}
-const codeStyles = {
-  color: "#8A6534",
-  padding: 4,
-  backgroundColor: "#FFF4DB",
-  fontSize: "1.25rem",
-  borderRadius: 4,
-}
-const listStyles = {
-  marginBottom: 96,
-  paddingLeft: 0,
-}
-const listItemStyles = {
-  fontWeight: 300,
-  fontSize: 24,
-  maxWidth: 560,
-  marginBottom: 30,
-}
-
-const linkStyle = {
-  color: "#8954A8",
-  fontWeight: "bold",
-  fontSize: 16,
-  verticalAlign: "5%",
-}
-
-const docLinkStyle = {
-  ...linkStyle,
-  listStyleType: "none",
-  marginBottom: 24,
-}
-
-const descriptionStyle = {
-  color: "#232129",
-  fontSize: 14,
-  marginTop: 10,
-  marginBottom: 0,
-  lineHeight: 1.25,
-}
-
-const docLink = {
-  text: "Documentation",
-  url: "https://www.gatsbyjs.com/docs/",
-  color: "#8954A8",
-}
-
-const badgeStyle = {
-  color: "#fff",
-  backgroundColor: "#088413",
-  border: "1px solid #088413",
-  fontSize: 11,
-  fontWeight: "bold",
-  letterSpacing: 1,
-  borderRadius: 4,
-  padding: "4px 6px",
-  display: "inline-block",
-  position: "relative",
-  top: -2,
-  marginLeft: 10,
-  lineHeight: 1,
-}
-
-// data
-const links = [
-  {
-    text: "Tutorial",
-    url: "https://www.gatsbyjs.com/docs/tutorial/",
-    description:
-      "A great place to get started if you're new to web development. Designed to guide you through setting up your first Gatsby site.",
-    color: "#E95800",
-  },
-  {
-    text: "How to Guides",
-    url: "https://www.gatsbyjs.com/docs/how-to/",
-    description:
-      "Practical step-by-step guides to help you achieve a specific goal. Most useful when you're trying to get something done.",
-    color: "#1099A8",
-  },
-  {
-    text: "Reference Guides",
-    url: "https://www.gatsbyjs.com/docs/reference/",
-    description:
-      "Nitty-gritty technical descriptions of how Gatsby works. Most useful when you need detailed information about Gatsby's APIs.",
-    color: "#BC027F",
-  },
-  {
-    text: "Conceptual Guides",
-    url: "https://www.gatsbyjs.com/docs/conceptual/",
-    description:
-      "Big-picture explanations of higher-level Gatsby concepts. Most useful for building understanding of a particular topic.",
-    color: "#0D96F2",
-  },
-  {
-    text: "Plugin Library",
-    url: "https://www.gatsbyjs.com/plugins",
-    description:
-      "Add functionality and customize your Gatsby site or app with thousands of plugins built by our amazing developer community.",
-    color: "#8EB814",
-  },
-  {
-    text: "Build and Host",
-    url: "https://www.gatsbyjs.com/cloud",
-    badge: true,
-    description:
-      "Now you’re ready to show the world! Give your Gatsby site superpowers: Build and host on Gatsby Cloud. Get started for free!",
-    color: "#663399",
-  },
+const navigation = [
+  { name: 'Programs', href: '#' },
+  { name: 'Artist Stories', href: '#' },
+  { name: 'FAQ', href: '#' },
+  { name: 'Log in', href: '#' },
 ]
 
-// markup
-const IndexPage = () => {
+export default function Example() {
   return (
-    <main style={pageStyles}>
-      <title>Home Page</title>
-      <div class="p-6 max-w-sm mx-auto bg-white rounded-xl shadow-md flex items-center space-x-4">
-        <div class="flex-shrink-0">
-          <img class="h-12 w-12"
-                alt="Gatsby G Logo"
-                src="data:image/svg+xml,%3Csvg width='24' height='24' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M12 2a10 10 0 110 20 10 10 0 010-20zm0 2c-3.73 0-6.86 2.55-7.75 6L14 19.75c3.45-.89 6-4.02 6-7.75h-5.25v1.5h3.45a6.37 6.37 0 01-3.89 4.44L6.06 9.69C7 7.31 9.3 5.63 12 5.63c2.13 0 4 1.04 5.18 2.65l1.23-1.06A7.959 7.959 0 0012 4zm-8 8a8 8 0 008 8c.04 0 .09 0-8-8z' fill='%23639'/%3E%3C/svg%3E"
-           />
-        </div>
-        <div>
-          <div class="text-xl font-medium text-black">ChitChat</div>
-          <p class="text-gray-500">You have a new message!</p>
-        </div>
-      </div>
-      <h1 style={headingStyles}>
-        Congratulations
-        <br />
-        <span style={headingAccentStyles}>— you just made a Gatsby site! </span>
-        <span role="img" aria-label="Party popper emojis">
-          🎉🎉🎉
-        </span>
-      </h1>
-      <p style={paragraphStyles}>
-        Edit <code style={codeStyles}>src/pages/index.js</code> to see this page
-        update in real-time.{" "}
-        <span role="img" aria-label="Sunglasses smiley emoji">
-          😎
-        </span>
-      </p>
-      <ul style={listStyles}>
-        <li style={docLinkStyle}>
-          <a
-            style={linkStyle}
-            href={`${docLink.url}?utm_source=starter&utm_medium=start-page&utm_campaign=minimal-starter`}
-          >
-            {docLink.text}
-          </a>
-        </li>
-        {links.map(link => (
-          <li key={link.url} style={{ ...listItemStyles, color: link.color }}>
-            <span>
-              <a
-                style={linkStyle}
-                href={`${link.url}?utm_source=starter&utm_medium=start-page&utm_campaign=minimal-starter`}
+    <div className="relative bg-gray-50 overflow-hidden">
+      <div className="relative pt-6 pb-16 sm:pb-24">
+        <Popover>
+          {({ open }) => (
+            <>
+              <nav
+                className="relative max-w-7xl mx-auto flex items-center justify-between px-4 sm:px-6"
+                aria-label="Global"
               >
-                {link.text}
-              </a>
-              {link.badge && (
-                <span style={badgeStyle} aria-label="New Badge">
-                  NEW!
-                </span>
-              )}
-              <p style={descriptionStyle}>{link.description}</p>
-            </span>
-          </li>
-        ))}
-      </ul>
-      <img
-        alt="Gatsby G Logo"
-        src="data:image/svg+xml,%3Csvg width='24' height='24' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M12 2a10 10 0 110 20 10 10 0 010-20zm0 2c-3.73 0-6.86 2.55-7.75 6L14 19.75c3.45-.89 6-4.02 6-7.75h-5.25v1.5h3.45a6.37 6.37 0 01-3.89 4.44L6.06 9.69C7 7.31 9.3 5.63 12 5.63c2.13 0 4 1.04 5.18 2.65l1.23-1.06A7.959 7.959 0 0012 4zm-8 8a8 8 0 008 8c.04 0 .09 0-8-8z' fill='%23639'/%3E%3C/svg%3E"
-      />
-    </main>
+                <div className="flex items-center flex-1">
+                  <div className="flex items-center justify-between w-full md:w-auto">
+                    <a href="#">
+                      <span className="sr-only">Unstarving Artists</span>
+                      <img
+                        className="h-8 w-auto sm:h-10"
+                        src={logo}
+                        alt="Logo"
+                      />
+                    </a>
+                    <div className="-mr-2 flex items-center md:hidden">
+                      <Popover.Button className="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
+                        <span className="sr-only">Open main menu</span>
+                        <MenuIcon className="h-6 w-6" aria-hidden="true" />
+                      </Popover.Button>
+                    </div>
+                  </div>
+                </div>
+                <div className="hidden md:flex md:items-center md:space-x-6">
+                  {navigation.map((item) => (
+                    <a key={item.name} href={item.href} className="font-medium text-gray-500 hover:text-gray-900">
+                      {item.name}
+                    </a>
+                  ))}
+                  <span className="inline-flex rounded-md shadow-md ring-1 ring-black ring-opacity-5">
+                    <a
+                      href="#"
+                      className="inline-flex items-center px-4 py-2 border border-transparent text-base font-medium rounded-md text-indigo-600 bg-white hover:bg-gray-50"
+                    >
+                      Apply Now
+                    </a>
+                  </span>
+                </div>
+              </nav>
+
+              <Transition
+                show={open}
+                as={Fragment}
+                enter="duration-150 ease-out"
+                enterFrom="opacity-0 scale-95"
+                enterTo="opacity-100 scale-100"
+                leave="duration-100 ease-in"
+                leaveFrom="opacity-100 scale-100"
+                leaveTo="opacity-0 scale-95"
+              >
+                <Popover.Panel
+                  focus
+                  static
+                  className="absolute top-0 inset-x-0 p-2 transition transform origin-top-right md:hidden"
+                >
+                  <div className="rounded-lg shadow-md bg-white ring-1 ring-black ring-opacity-5 overflow-hidden">
+                    <div className="px-5 pt-4 flex items-center justify-between">
+                      <div>
+                        <img
+                          className="h-8 w-auto"
+                          src="https://tailwindui.com/img/logos/workflow-mark-indigo-600.svg"
+                          alt=""
+                        />
+                      </div>
+                      <div className="-mr-2">
+                        <Popover.Button className="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
+                          <span className="sr-only">Close main menu</span>
+                          <XIcon className="h-6 w-6" aria-hidden="true" />
+                        </Popover.Button>
+                      </div>
+                    </div>
+                    <div className="px-2 pt-2 pb-3 space-y-1">
+                      {navigation.map((item) => (
+                        <a
+                          key={item.name}
+                          href={item.href}
+                          className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50"
+                        >
+                          {item.name}
+                        </a>
+                      ))}
+                    </div>
+                    <a
+                      href="#"
+                      className="block w-full px-5 py-3 text-center font-medium text-indigo-600 bg-gray-50 hover:bg-gray-100"
+                    >
+                      Log in
+                    </a>
+                  </div>
+                </Popover.Panel>
+              </Transition>
+            </>
+          )}
+        </Popover>
+
+        <main className="mt-16 mx-auto max-w-7xl px-4 sm:mt-24">
+          <div className="text-center">
+            <h1 className="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl">
+              <span className="block xl:inline">Become A Highly Paid Artist Without</span>{' '}
+              <span className="block text-indigo-600 xl:inline">Art World Or Gallery Connections</span>
+            </h1>
+            <p className="mt-3 max-w-md mx-auto text-base text-gray-500 sm:text-lg md:mt-5 md:text-xl md:max-w-3xl">
+              Train remotely to become a highly paid artist. No art degree, art world connections, or gallery representation required.
+            </p>
+            <div className="mt-5 max-w-md mx-auto sm:flex sm:justify-center md:mt-8">
+              <div className="rounded-md shadow">
+                <a
+                  href="#"
+                  className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 md:py-4 md:text-lg md:px-10"
+                >
+                  See How It Works
+                </a>
+              </div>
+              <div className="mt-3 rounded-md shadow sm:mt-0 sm:ml-3">
+                <a
+                  href="#"
+                  className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-indigo-600 bg-white hover:bg-gray-50 md:py-4 md:text-lg md:px-10"
+                >
+                  Apply Now
+                </a>
+              </div>
+            </div>
+          </div>
+        </main>
+      </div>
+    </div>
   )
 }
-
-export default IndexPage
