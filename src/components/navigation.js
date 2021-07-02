@@ -57,7 +57,7 @@ const Navigation = () => {
                   <img className="h-8 w-auto sm:h-10" src={logo} alt="Logo" />
                 </a>
                 <div className="-mr-2 flex items-center md:hidden">
-                  <Popover.Button className="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
+                  <Popover.Button className="bg-gray-50 rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
                     <span className="sr-only">Open main menu</span>
                     <MenuIcon className="h-6 w-6" aria-hidden="true" />
                   </Popover.Button>
@@ -71,7 +71,7 @@ const Navigation = () => {
                     <Popover.Button
                       className={classNames(
                         open ? "text-gray-900" : "text-gray-500",
-                        "group rounded-md inline-flex items-center text-base font-medium hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+                        "group bg-gray-50 rounded-md inline-flex items-center text-base font-medium hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
                       )}
                     >
                       <span>Programs</span>
@@ -147,7 +147,7 @@ const Navigation = () => {
                 <a
                   key={item.name}
                   href={item.href}
-                  className="font-medium text-gray-500 hover:text-gray-900"
+                  className="font-medium bg-gray-50 text-gray-500 hover:text-gray-900"
                 >
                   {item.name}
                 </a>
@@ -181,11 +181,7 @@ const Navigation = () => {
               <div className="rounded-lg shadow-md bg-white ring-1 ring-black ring-opacity-5 overflow-hidden">
                 <div className="px-5 pt-4 flex items-center justify-between">
                   <div>
-                    <img
-                      className="h-8 w-auto"
-                      src="https://tailwindui.com/img/logos/workflow-mark-indigo-600.svg"
-                      alt=""
-                    />
+                    <img className="h-8 w-auto" src={logo} alt="" />
                   </div>
                   <div className="-mr-2">
                     <Popover.Button className="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
@@ -193,6 +189,25 @@ const Navigation = () => {
                       <XIcon className="h-6 w-6" aria-hidden="true" />
                     </Popover.Button>
                   </div>
+                </div>
+                <div className="mt-6">
+                  <nav className="grid gap-y-8">
+                    {features.map((item) => (
+                      <a
+                        key={item.name}
+                        href={item.href}
+                        className="-m-3 p-3 flex items-center rounded-md hover:bg-gray-50"
+                      >
+                        <item.icon
+                          className="flex-shrink-0 h-6 w-6 text-indigo-600"
+                          aria-hidden="true"
+                        />
+                        <span className="ml-3 text-base font-medium text-gray-900">
+                          {item.name}
+                        </span>
+                      </a>
+                    ))}
+                  </nav>
                 </div>
                 <div className="px-2 pt-2 pb-3 space-y-1">
                   {navigation.map((item) => (
@@ -209,7 +224,7 @@ const Navigation = () => {
                   href="#"
                   className="block w-full px-5 py-3 text-center font-medium text-indigo-600 bg-gray-50 hover:bg-gray-100"
                 >
-                  Log in
+                  Apply Now
                 </a>
               </div>
             </Popover.Panel>
