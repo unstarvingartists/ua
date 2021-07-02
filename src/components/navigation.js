@@ -53,8 +53,14 @@ const Navigation = () => {
             <div className="flex items-center flex-1">
               <div className="flex items-center justify-between w-full md:w-auto">
                 <a href="#">
-                  <span className="sr-only">Unstarving Artists</span>
-                  <img className="h-8 w-auto sm:h-10" src={logo} alt="Logo" />
+                  <img
+                    className="h-8 w-auto sm:h-10 inline"
+                    src={logo}
+                    alt="Logo"
+                  />
+                  <span className="ml-4 font-semibold bg-gray-50 text-gray-700 hover:text-gray-900">
+                    Unstarving Artists
+                  </span>
                 </a>
                 <div className="-mr-2 flex items-center md:hidden">
                   <Popover.Button className="bg-gray-50 rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
@@ -182,7 +188,10 @@ const Navigation = () => {
                 <div className="pt-5 pb-6 px-5">
                   <div className="flex items-center justify-between">
                     <div>
-                      <img className="h-8 w-auto" src={logo} alt="" />
+                      <img className="h-8 w-auto inline" src={logo} alt="" />
+                      <span className="ml-4 font-semibold bg-white text-gray-700 hover:text-gray-900">
+                        Unstarving Artists
+                      </span>
                     </div>
                     <div className="-mr-2">
                       <Popover.Button className="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
