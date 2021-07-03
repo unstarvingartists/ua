@@ -1,9 +1,9 @@
 import * as React from "react";
-import Layout from "../components/layout";
-import Navigation from "../components/navigation";
-import Hero from "../components/methodology/hero";
-import CallToAction from "../components/call-to-action";
-import Footer from "../components/footer";
+import Layout from "../../components/layout";
+import Navigation from "../../components/navigation";
+import Hero from "../../components/methodology/hero";
+import CallToAction from "../../components/call-to-action";
+import Footer from "../../components/footer";
 
 export default function Page() {
   return (
