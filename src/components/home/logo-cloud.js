@@ -30,7 +30,7 @@ const people = [
   },
   {
     name: "Kate Padget-Koh",
-    genre: "Portraits 🇭🇰",
+    genre: "Portrait 🇭🇰",
     image: kate,
   },
   {

@@ -1,59 +1,59 @@
 import * as React from "react";
 import { StarIcon } from "@heroicons/react/solid";
 import { Link } from "gatsby";
+import oliver from "../../images/oliver.jpeg";
+import oliverThumbnail from "../../images/oliver-thumbnail.jpeg";
+
+import kate from "../../images/kate.jpeg";
+import kateThumbnail from "../../images/kate-thumbnail.jpeg";
+
+import sharif from "../../images/sharif.jpeg";
+import sharifThumbnail from "../../images/sharif-thumbnail.jpeg";
+
 const posts = [
   {
-    title: "Boost your conversion rate",
-    href: "#",
-    category: { name: "Student Story", href: "#" },
+    title: "Untapped abstracts",
+    href: "/stories/oliver",
+    category: { name: "Student Story", href: "/stories/oliver" },
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto accusantium praesentium eius, ut atque fuga culpa, similique sequi cum eos quis dolorum.",
-    date: "Mar 16, 2020",
-    datetime: "2020-03-16",
-    imageUrl:
-      "https://images.unsplash.com/photo-1496128858413-b36217c2ce36?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1679&q=80",
-    readingTime: "6 min",
+      "In this student story, hear Oliver Hojas share how he went from €0 to €25,800 in less than 60 days and then went on to quit his 9 to 5 job and become a full-time original abstract artist.",
+    genre: "Abstract",
+    image: oliverThumbnail,
+    country: "Switzerland",
     author: {
-      name: "Roel Aufderehar",
-      href: "#",
-      imageUrl:
-        "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
+      name: "Oliver Hojas",
+      href: "/stories/oliver",
+      image: oliver,
     },
   },
   {
-    title: "How to use search engine optimization to drive sales",
-    href: "#",
-    category: { name: "Student Story", href: "#" },
+    title: "Profitable portraits",
+    href: "/stories/kate",
+    category: { name: "Student Story", href: "/stories/kate" },
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit facilis asperiores porro quaerat doloribus, eveniet dolore. Adipisci tempora aut inventore optio animi., tempore temporibus quo laudantium.",
-    date: "Mar 10, 2020",
-    datetime: "2020-03-10",
-    imageUrl:
-      "https://images.unsplash.com/photo-1547586696-ea22b4d4235d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1679&q=80",
-    readingTime: "4 min",
+      "In this student story, hear Kate Padget-Koh share how she started making $3,000 per portrait commission while working with adventurous entrepreneurial art collectors.",
+    genre: "Portrait",
+    image: kateThumbnail,
+    country: "Hong Kong",
     author: {
-      name: "Brenna Goyette",
-      href: "#",
-      imageUrl:
-        "https://images.unsplash.com/photo-1550525811-e5869dd03032?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
+      name: "Kate Padget-Koh",
+      href: "/stories/kate",
+      image: kate,
     },
   },
   {
-    title: "Improve your customer experience",
-    href: "#",
-    category: { name: "Student Story", href: "#" },
+    title: "Popping playing cards",
+    href: "/stories/sharif",
+    category: { name: "Student Story", href: "/stories/sharif" },
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint harum rerum voluptatem quo recusandae magni placeat saepe molestiae, sed excepturi cumque corporis perferendis hic.",
-    date: "Feb 12, 2020",
-    datetime: "2020-02-12",
-    imageUrl:
-      "https://images.unsplash.com/photo-1492724441997-5dc865305da7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1679&q=80",
-    readingTime: "11 min",
+      "In this student story, Sharif Carter breaks down how he went from $0 to $6,500 per month in 30 days selling his unique playing card style Pop art to southern Californian club-goers.",
+    genre: "Pop Art",
+    image: sharifThumbnail,
+    country: "United States",
     author: {
-      name: "Daniela Metz",
-      href: "#",
-      imageUrl:
-        "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
+      name: "Sharif Carter",
+      href: "/stories/sharif",
+      image: sharif,
     },
   },
 ];
@@ -70,9 +70,9 @@ export default function YoureInGoodCompany() {
             You're in good company
           </h2>
           <p className="mt-3 max-w-2xl mx-auto text-xl text-gray-500 sm:mt-4">
-            Thousands of people around the world have used Unstarving Artists to
-            start their own business, improve their knowledge, grow their
-            existing business and change their life.
+            Thousands of artists around the world have used Unstarving Artists
+            to start and grow their art practices, expand their minds, and
+            change their lives.
           </p>
         </div>
         <div className="mt-12 max-w-lg mx-auto grid gap-5 lg:grid-cols-3 lg:max-w-none">
@@ -84,7 +84,7 @@ export default function YoureInGoodCompany() {
               <div className="flex-shrink-0">
                 <img
                   className="h-48 w-full object-cover"
-                  src={post.imageUrl}
+                  src={post.image}
                   alt=""
                 />
               </div>
@@ -110,7 +110,7 @@ export default function YoureInGoodCompany() {
                       <span className="sr-only">{post.author.name}</span>
                       <img
                         className="h-10 w-10 rounded-full"
-                        src={post.author.imageUrl}
+                        src={post.author.image}
                         alt=""
                       />
                     </a>
@@ -122,9 +122,9 @@ export default function YoureInGoodCompany() {
                       </a>
                     </p>
                     <div className="flex space-x-1 text-sm text-gray-500">
-                      <time dateTime={post.datetime}>{post.date}</time>
+                      <span>{post.genre}</span>
                       <span aria-hidden="true">&middot;</span>
-                      <span>{post.readingTime} read</span>
+                      <span>{post.country}</span>
                     </div>
                   </div>
                 </div>
