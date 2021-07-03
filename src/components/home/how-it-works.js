@@ -40,15 +40,15 @@ export default function HowItWorks() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="lg:text-center">
           <h2 className="text-base text-blue-600 font-semibold tracking-wide uppercase">
-            Our Program
+            Our Approach
           </h2>
           <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
             Here's how it works
           </p>
           <p className="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto">
-            Unstarving Artists provides you with everything you need to have a
-            successful art practice. No lecturing — we provide an environment
-            and building blocks so you can build and play.
+            Unstarving Artists delivers everything you need to develop a
+            successful art practice. No lectures or fluff—get to building and
+            playing right away.
           </p>
         </div>
 
