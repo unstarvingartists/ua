@@ -5,7 +5,7 @@ const posts = [
   {
     title: "Boost your conversion rate",
     href: "#",
-    category: { name: "Article", href: "#" },
+    category: { name: "Student Story", href: "#" },
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto accusantium praesentium eius, ut atque fuga culpa, similique sequi cum eos quis dolorum.",
     date: "Mar 16, 2020",
@@ -23,7 +23,7 @@ const posts = [
   {
     title: "How to use search engine optimization to drive sales",
     href: "#",
-    category: { name: "Video", href: "#" },
+    category: { name: "Student Story", href: "#" },
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit facilis asperiores porro quaerat doloribus, eveniet dolore. Adipisci tempora aut inventore optio animi., tempore temporibus quo laudantium.",
     date: "Mar 10, 2020",
@@ -41,7 +41,7 @@ const posts = [
   {
     title: "Improve your customer experience",
     href: "#",
-    category: { name: "Case Study", href: "#" },
+    category: { name: "Student Story", href: "#" },
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint harum rerum voluptatem quo recusandae magni placeat saepe molestiae, sed excepturi cumque corporis perferendis hic.",
     date: "Feb 12, 2020",
@@ -67,11 +67,12 @@ export default function YoureInGoodCompany() {
       <div className="relative max-w-7xl mx-auto">
         <div className="text-center">
           <h2 className="text-3xl tracking-tight font-extrabold text-gray-900 sm:text-4xl">
-            From the blog
+            You're in good company
           </h2>
           <p className="mt-3 max-w-2xl mx-auto text-xl text-gray-500 sm:mt-4">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa
-            libero labore natus atque, ducimus sed.
+            Thousands of people around the world have used Unstarving Artists to
+            start their own business, improve their knowledge, grow their
+            existing business and change their life.
           </p>
         </div>
         <div className="mt-12 max-w-lg mx-auto grid gap-5 lg:grid-cols-3 lg:max-w-none">
