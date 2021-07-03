@@ -30,7 +30,7 @@ const programs = [
     name: "Flywheel Lab",
     href: "/flywheel-lab",
     description:
-      "Learn more about our flagship program and how artists are using it to earn more from their artwork.",
+      "Learn more about our flagship program and how artists inside are earning more from their artwork.",
     icon: FlagIcon,
   },
 ];
