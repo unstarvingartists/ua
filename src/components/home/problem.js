@@ -1,4 +1,6 @@
 import * as React from "react";
+import scatterbrain from "../../images/student-monochrome.svg";
+import focused from "../../images/hiker-man-monochrome.svg";
 
 export default function Problem() {
   return (
@@ -56,14 +58,16 @@ export default function Problem() {
               We help scatterbrained do-it-all creatives
             </h3>
             <p className="mt-3 text-lg text-gray-500">
-              This specimen represents 99% of artists. They feed on shiny
-              objects and noisy social media information. Their attention span
-              is 14 seconds and their plans rarely extend past next week.
+              This classification describes 99% of artists. They feed on shiny
+              objects and noisy fad-driven social media information. Their
+              attention span is measured in seconds and their plans rarely
+              extend past next week.
             </p>
             <p className="mt-3 text-lg text-gray-500">
-              So confused about what to do, they try to do everything, throwing
-              spaghetti at the walls hoping something will finally stick. They
-              see making it as an artist as a giant tangled knot of chaos.
+              So uncertain about what to do, they try to do everything, throwing
+              spaghetti at the wall to see if something will finally stick. They
+              see the business side of art as a giant tangled muddy knot of
+              confusion.
             </p>
           </div>
 
@@ -103,8 +107,8 @@ export default function Problem() {
             <img
               className="relative mx-auto"
               width={490}
-              src="https://tailwindui.com/img/features/feature-example-1.png"
-              alt=""
+              src={scatterbrain}
+              alt="Scatterbrained Creative"
             />
           </div>
         </div>
@@ -147,17 +151,18 @@ export default function Problem() {
           <div className="lg:grid lg:grid-flow-row-dense lg:grid-cols-2 lg:gap-8 lg:items-center">
             <div className="lg:col-start-2">
               <h3 className="text-2xl font-extrabold text-gray-900 tracking-tight sm:text-3xl">
-                Become laser-focused highly paid artists
+                Become clear-eyed highly paid artists
               </h3>
               <p className="mt-3 text-lg text-gray-500">
-                This specimen is rare, accounting for only 1% of artists. They
-                feed on value, clarity, and efficiency. They have a laser focus
-                that can stay on task for hours and their plans are long-term.
+                This breed is rare, accounting for only 1% of artists. They feed
+                on value, focus, and productivity. They have a clear-eyed focus,
+                staying on task day after day and week after week. Their plans
+                are long-term.
               </p>
               <p className="mt-3 text-lg text-gray-500">
-                You won’t find them on social media chasing vanity metrics.
-                They’re focused on doing. They are deliberate, scientific, see
-                their art practice clearly and always win.
+                You won't find them chasing vanity metrics on social media.
+                They're action takers. They are thoughtful, systematic, focused
+                and always win.
               </p>
             </div>
 
@@ -198,8 +203,8 @@ export default function Problem() {
               <img
                 className="relative mx-auto"
                 width={490}
-                src="https://tailwindui.com/img/features/feature-example-2.png"
-                alt=""
+                src={focused}
+                alt="Laser-Focused Artist"
               />
             </div>
           </div>

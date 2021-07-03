@@ -30,7 +30,7 @@ const people = [
   },
   {
     name: "Kate Padget-Koh",
-    genre: "Portraits 🇭🇰",
+    genre: "Portrait 🇭🇰",
     image: kate,
   },
   {
@@ -68,14 +68,17 @@ const LogoCloud = () => {
                   to="/stories"
                   className="flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-blue-700 bg-blue-100 hover:bg-blue-200"
                 >
-                  Artist Stories
+                  Student Stories
                 </Link>
               </div>
             </div>
           </div>
           <div className="mt-8 grid grid-cols-2 gap-0.5 md:grid-cols-3 lg:mt-0 lg:grid-cols-2">
             {people.map((person) => (
-              <div className="col-span-1 flex justify-center py-8 px-8 bg-gray-50 space-x-4 lg:space-x-6">
+              <div
+                key={person.name}
+                className="col-span-1 flex justify-center py-8 px-8 bg-gray-50 space-x-4 lg:space-x-6"
+              >
                 <img
                   className="rounded-full max-h-12"
                   src={person.image}

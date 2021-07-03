@@ -1,35 +1,36 @@
 import * as React from "react";
+import { Link } from "gatsby";
 import {
-  AnnotationIcon,
-  GlobeAltIcon,
-  LightningBoltIcon,
-  ScaleIcon,
+  ChatAlt2Icon,
+  MapIcon,
+  UserGroupIcon,
+  AdjustmentsIcon,
 } from "@heroicons/react/outline";
 
 const features = [
   {
-    name: "Competitive exchange rates",
+    name: "Proven Process",
     description:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.",
-    icon: GlobeAltIcon,
+      "We turned the guesswork of starting/growing an art practice into a science. Follow practical step-by-step instructions that are proven to work and track your progress using simple metrics.",
+    icon: MapIcon,
   },
   {
-    name: "No hidden fees",
+    name: "Mental Reprogramming",
     description:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.",
-    icon: ScaleIcon,
+      "We pioneered a new way to think about and view the world we live in. Discover who you are—your interests, biases, habits, and thought patterns. Rewire your brain for greater performance.",
+    icon: AdjustmentsIcon,
   },
   {
-    name: "Transfers are instant",
+    name: "Artist Community",
     description:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.",
-    icon: LightningBoltIcon,
+      "It's hard to change your life surrounded by the same people. Join an active community of professional and semi-professional artists, get inspired, collaborate, practice together, make friends, and have fun.",
+    icon: UserGroupIcon,
   },
   {
-    name: "Mobile notifications",
+    name: "Expert mentorship",
     description:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.",
-    icon: AnnotationIcon,
+      "No matter how good our training is (it's world-class), your art practice is unique and you'll always have questions. Get 24/7 access to multi 6-figure experts in our artist community and weekly livestream Q&As.",
+    icon: ChatAlt2Icon,
   },
 ];
 
@@ -39,14 +40,15 @@ export default function HowItWorks() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="lg:text-center">
           <h2 className="text-base text-blue-600 font-semibold tracking-wide uppercase">
-            Transactions
+            Our Approach
           </h2>
           <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
-            A better way to send money
+            Here's how it works
           </p>
           <p className="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto">
-            Lorem ipsum dolor sit amet consect adipisicing elit. Possimus magnam
-            voluptatum cupiditate veritatis in accusamus quisquam.
+            Unstarving Artists delivers everything you need to develop a
+            successful art practice. No lectures or fluff—get to building and
+            playing right away.
           </p>
         </div>
 
@@ -68,6 +70,16 @@ export default function HowItWorks() {
               </div>
             ))}
           </dl>
+        </div>
+        <div className="mt-10 text-center">
+          <Link
+            to="/methodology"
+            className="text-base font-medium text-blue-600"
+          >
+            {" "}
+            Learn more about our methodology{" "}
+            <span aria-hidden="true">&rarr;</span>{" "}
+          </Link>
         </div>
       </div>
     </div>

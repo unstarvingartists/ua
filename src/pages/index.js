@@ -5,12 +5,12 @@ import Hero from "../components/home/hero";
 import LogoCloud from "../components/home/logo-cloud";
 import Problem from "../components/home/problem";
 import HowItWorks from "../components/home/how-it-works";
-import BattleTested from "../components/home/battle-tested";
+import ProvenRealWorld from "../components/home/proven-real-world";
 import WeTeach from "../components/home/we-teach";
 import CallToAction from "../components/home/call-to-action";
 import LearnTheWay from "../components/home/learn-the-way";
 import YoureInGoodCompany from "../components/home/youre-in-good-company";
-import LearnEverything from "../components/home/learn-everything";
+import LearnEssentials from "../components/home/learn-essentials";
 import Footer from "../components/footer";
 
 export default function Home() {
@@ -22,12 +22,12 @@ export default function Home() {
       <LogoCloud />
       <Problem />
       <HowItWorks />
-      <BattleTested />
+      <ProvenRealWorld />
       <WeTeach />
       <CallToAction />
       <LearnTheWay />
       <YoureInGoodCompany />
-      <LearnEverything />
+      <LearnEssentials />
       <CallToAction />
       <Footer />
     </Layout>
