@@ -10,7 +10,7 @@ import WeTeach from "../components/home/we-teach";
 import CallToAction from "../components/home/call-to-action";
 import LearnTheWay from "../components/home/learn-the-way";
 import YoureInGoodCompany from "../components/home/youre-in-good-company";
-import LearnEverything from "../components/home/learn-everything";
+import LearnEssentials from "../components/home/learn-essentials";
 import Footer from "../components/footer";
 
 export default function Home() {
@@ -27,7 +27,7 @@ export default function Home() {
       <CallToAction />
       <LearnTheWay />
       <YoureInGoodCompany />
-      <LearnEverything />
+      <LearnEssentials />
       <CallToAction />
       <Footer />
     </Layout>
