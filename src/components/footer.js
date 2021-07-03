@@ -221,8 +221,12 @@ export default function Footer() {
               </a>
             ))}
           </div>
-          <p className="mt-8 text-base text-gray-400 md:mt-0 md:order-1">
-            &copy; 2021 Vouch Group, LLC. All rights reserved.
+          <p className="mt-8 text-xs text-gray-400 md:mt-0 md:order-1">
+            &copy; 2021 Vouch Group, LLC. All rights reserved.{" "}
+            <Link className="mx-2" to="/legal/privacy">
+              Privacy & Terms
+            </Link>{" "}
+            <Link to="/contact">Contact</Link>
           </p>
         </div>
       </div>
