@@ -214,6 +214,7 @@ export default function Footer() {
                 key={item.name}
                 href={item.href}
                 target="_blank"
+                rel="noreferrer"
                 className="text-gray-400 hover:text-gray-500"
               >
                 <span className="sr-only">{item.name}</span>
@@ -222,7 +223,8 @@ export default function Footer() {
             ))}
           </div>
           <p className="mt-8 text-xs text-gray-400 md:mt-0 md:order-1">
-            &copy; 2021 Vouch Group, LLC. All rights reserved.{" "}
+            &copy; {new Date().getFullYear()} Vouch Group, LLC. All rights
+            reserved.{" "}
             <Link className="mx-2" to="/legal/privacy">
               Privacy & Terms
             </Link>{" "}
