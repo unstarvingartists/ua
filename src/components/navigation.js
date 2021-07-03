@@ -1,8 +1,8 @@
 import React, { Fragment } from "react";
 import { Popover, Transition } from "@headlessui/react";
 import {
-  ChartBarIcon,
-  CursorClickIcon,
+  LightBulbIcon,
+  FlagIcon,
   MenuIcon,
   PhoneIcon,
   PlayIcon,
@@ -17,19 +17,20 @@ const navigation = [
   { name: "Log in", href: "#" },
 ];
 
-const features = [
+const programs = [
   {
-    name: "Analytics",
+    name: "Methodology",
     href: "#",
     description:
-      "Get a better understanding of where your traffic is coming from.",
-    icon: ChartBarIcon,
+      "Get a better understanding of how an everyday person can transform into a successful artist.",
+    icon: LightBulbIcon,
   },
   {
-    name: "Engagement",
+    name: "Flywheel Lab",
     href: "#",
-    description: "Speak directly to your customers in a more meaningful way.",
-    icon: CursorClickIcon,
+    description:
+      "Learn more about our flagship program and how it helps artists earn more from their artwork.",
+    icon: FlagIcon,
   },
 ];
 const callsToAction = [
@@ -106,7 +107,7 @@ const Navigation = () => {
                       >
                         <div className="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 overflow-hidden">
                           <div className="relative grid gap-6 bg-white px-5 py-6 sm:gap-8 sm:p-8">
-                            {features.map((item) => (
+                            {programs.map((item) => (
                               <a
                                 key={item.name}
                                 href={item.href}
@@ -202,7 +203,7 @@ const Navigation = () => {
                   </div>
                   <div className="mt-6">
                     <nav className="grid gap-y-8">
-                      {features.map((item) => (
+                      {programs.map((item) => (
                         <a
                           key={item.name}
                           href={item.href}
