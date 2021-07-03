@@ -37,7 +37,7 @@ const programs = [
 const callsToAction = [
   {
     name: "See How It Works",
-    href: "/opt-in",
+    href: "/training",
     icon: PlayIcon,
   },
   { name: "Apply Now", href: "/apply", icon: LightningBoltIcon },
