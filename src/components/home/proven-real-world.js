@@ -35,7 +35,7 @@ export default function ProvenRealWorld() {
                     Revenue earned by students
                   </dt>
                   <dd className="order-1 text-5xl font-extrabold text-blue-600">
-                    $11m
+                    $12m
                   </dd>
                 </div>
                 <div className="flex flex-col border-t border-gray-100 p-6 text-center sm:border-0 sm:border-l">
