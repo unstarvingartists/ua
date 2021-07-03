@@ -1,4 +1,5 @@
 import * as React from "react";
+import { Link } from "gatsby";
 
 export default function ProvenRealWorld() {
   return (
@@ -48,6 +49,13 @@ export default function ProvenRealWorld() {
               </dl>
             </div>
           </div>
+        </div>
+        <div className="mt-10 text-center">
+          <Link to="/stories" className="text-base font-medium text-blue-600">
+            {" "}
+            See all 36 student stories for yourself
+            <span aria-hidden="true">&rarr;</span>{" "}
+          </Link>
         </div>
       </div>
     </div>

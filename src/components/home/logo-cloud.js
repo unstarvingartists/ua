@@ -68,7 +68,7 @@ const LogoCloud = () => {
                   to="/stories"
                   className="flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-blue-700 bg-blue-100 hover:bg-blue-200"
                 >
-                  Artist Stories
+                  Student Stories
                 </Link>
               </div>
             </div>

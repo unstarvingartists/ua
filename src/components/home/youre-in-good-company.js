@@ -1,5 +1,6 @@
 import * as React from "react";
-
+import { StarIcon } from "@heroicons/react/solid";
+import { Link } from "gatsby";
 const posts = [
   {
     title: "Boost your conversion rate",
@@ -129,6 +130,39 @@ export default function YoureInGoodCompany() {
               </div>
             </div>
           ))}
+        </div>
+        <div className="mt-10 text-center">
+          <div className="mt-6 mb-1">
+            <div className="inline-flex items-center">
+              <div className="flex-shrink-0 flex">
+                <StarIcon
+                  className="h-10 w-10 text-yellow-400"
+                  aria-hidden="true"
+                />
+                <StarIcon
+                  className="h-10 w-10 text-yellow-400"
+                  aria-hidden="true"
+                />
+                <StarIcon
+                  className="h-10 w-10 text-yellow-400"
+                  aria-hidden="true"
+                />
+                <StarIcon
+                  className="h-10 w-10 text-yellow-400"
+                  aria-hidden="true"
+                />
+                <StarIcon
+                  className="h-10 w-10 text-yellow-400"
+                  aria-hidden="true"
+                />
+              </div>
+            </div>
+          </div>
+          <Link to="/stories" className="text-base font-medium text-blue-600">
+            {" "}
+            4.9 stars from 36 student stories{" "}
+            <span aria-hidden="true">&rarr;</span>{" "}
+          </Link>
         </div>
       </div>
     </div>

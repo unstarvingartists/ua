@@ -3,7 +3,7 @@ import onlineTrainingPlatform from "../../images/online-training-platform.svg";
 import interactiveArtistCommunity from "../../images/interactive-artist-community.svg";
 import expertMentorship from "../../images/expert-mentorship-on-demand.svg";
 import liveRealTime from "../../images/live-real-time-events.svg";
-
+import { Link } from "gatsby";
 export default function LearnTheWay() {
   return (
     <div className="py-16 bg-gray-50 overflow-hidden lg:py-24">
@@ -311,6 +311,16 @@ export default function LearnTheWay() {
               />
             </div>
           </div>
+        </div>
+        <div className="mt-10 text-center">
+          <Link
+            to="/methodology"
+            className="text-base font-medium text-blue-600"
+          >
+            {" "}
+            Learn more about our methodology{" "}
+            <span aria-hidden="true">&rarr;</span>{" "}
+          </Link>
         </div>
       </div>
     </div>

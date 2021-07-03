@@ -54,23 +54,15 @@ export default function WeTeach() {
                 </li>
               </ol>
             </div>
-            <div className="mt-10 flex text-base max-w-prose mx-auto lg:max-w-none">
-              <div className="rounded-md shadow">
-                <Link
-                  to="/apply"
-                  className="w-full flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700"
-                >
-                  Apply Now
-                </Link>
-              </div>
-              <div className="rounded-md shadow ml-4">
-                <Link
-                  to="/opt-in"
-                  className="w-full flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-blue-600 bg-white hover:bg-gray-50"
-                >
-                  See How It Works
-                </Link>
-              </div>
+            <div className="mt-10">
+              <Link
+                to="/methodology"
+                className="text-base font-medium text-blue-600"
+              >
+                {" "}
+                Learn more about our methodology{" "}
+                <span aria-hidden="true">&rarr;</span>{" "}
+              </Link>
             </div>
           </div>
           <div className="mt-12 relative text-base max-w-prose mx-auto lg:mt-0 lg:max-w-none">

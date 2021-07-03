@@ -1,6 +1,6 @@
 import * as React from "react";
 import { CheckIcon } from "@heroicons/react/outline";
-
+import { Link } from "gatsby";
 const features = [
   {
     name: "Invite team members",
@@ -50,11 +50,12 @@ export default function LearnEverything() {
       <div className="max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:py-24 lg:px-8">
         <div className="max-w-3xl mx-auto text-center">
           <h2 className="text-3xl font-extrabold text-gray-900">
-            All-in-one platform
+            Learn everything, conquer anything
           </h2>
           <p className="mt-4 text-lg text-gray-500">
-            Ac euismod vel sit maecenas id pellentesque eu sed consectetur.
-            Malesuada adipiscing sagittis vel nulla nec.
+            The building is only as tall as the foundation is strong enough to
+            build on. We teach you everything you need to succeed in business
+            today, tomorrow, in the future, and against any storm.
           </p>
         </div>
         <dl className="mt-12 space-y-10 sm:space-y-0 sm:grid sm:grid-cols-2 sm:gap-x-6 sm:gap-y-12 lg:grid-cols-4 lg:gap-x-8">
@@ -75,6 +76,16 @@ export default function LearnEverything() {
             </div>
           ))}
         </dl>
+        <div className="mt-10 text-center">
+          <Link
+            to="/methodology"
+            className="text-base font-medium text-blue-600"
+          >
+            {" "}
+            Learn more about our methodology{" "}
+            <span aria-hidden="true">&rarr;</span>{" "}
+          </Link>
+        </div>
       </div>
     </div>
   );

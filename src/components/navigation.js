@@ -13,7 +13,7 @@ import { ChevronDownIcon } from "@heroicons/react/solid";
 import logo from "../images/logo.svg";
 
 const navigation = [
-  { name: "Artist Stories", href: "/stories" },
+  { name: "Student Stories", href: "/stories" },
   { name: "FAQ", href: "/faq" },
   { name: "Log in", href: "https://learn.harrywhelchel.com/login" },
 ];
