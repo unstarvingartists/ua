@@ -1,42 +1,42 @@
 import * as React from "react";
 import { Link } from "gatsby";
+import oliver from "../../images/oliver.jpeg";
+import kate from "../../images/kate.jpeg";
+import sharif from "../../images/sharif.jpeg";
+import michael from "../../images/michael.jpeg";
+import ehab from "../../images/ehab.jpeg";
+import lauren from "../../images/lauren.jpeg";
 
 const people = [
   {
     name: "Oliver Hojas",
-    genre: "Abstract",
-    imageUrl:
-      "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
+    genre: "Abstract •🇨🇭",
+    image: oliver,
   },
   {
     name: "Lauren Satok",
-    genre: "Landscape",
-    imageUrl:
-      "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
+    genre: "Landscape • 🇨🇦",
+    image: lauren,
   },
   {
     name: "Michael Gibson",
-    genre: "Graphite",
-    imageUrl:
-      "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
+    genre: "Graphite • 🇨🇦",
+    image: michael,
   },
   {
     name: "Ehab Omaro",
-    genre: "Commission",
-    imageUrl:
-      "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
+    genre: "Commission • 🇳🇱",
+    image: ehab,
   },
   {
     name: "Kate Padget-Koh",
-    genre: "Portraits",
-    imageUrl:
-      "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
+    genre: "Portraits • 🇭🇰",
+    image: kate,
   },
   {
     name: "Sharif Carter",
-    genre: "Pop Art",
-    imageUrl:
-      "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
+    genre: "Pop Art • 🇺🇸",
+    image: sharif,
   },
 ];
 
@@ -78,7 +78,7 @@ const LogoCloud = () => {
               <div className="col-span-1 flex justify-center py-8 px-8 bg-gray-50 space-x-4 lg:space-x-6">
                 <img
                   className="rounded-full max-h-12"
-                  src={person.imageUrl}
+                  src={person.image}
                   alt={person.name}
                 />
                 <div className="font-medium text-lg leading-6 space-y-1">
