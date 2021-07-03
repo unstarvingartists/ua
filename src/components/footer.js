@@ -165,7 +165,7 @@ export default function Footer() {
               </div>
             </div>
           </div>
-          <div className="mt-8 xl:mt-0">
+          {/*          <div className="mt-8 xl:mt-0">
             <h3 className="text-sm font-semibold text-gray-400 tracking-wider uppercase">
               Subscribe to our newsletter
             </h3>
@@ -205,7 +205,7 @@ export default function Footer() {
                 Terms.
               </Link>
             </p>
-          </div>
+          </div>*/}
         </div>
         <div className="mt-8 border-t border-gray-200 pt-8 md:flex md:items-center md:justify-between">
           <div className="flex space-x-6 md:order-2">
