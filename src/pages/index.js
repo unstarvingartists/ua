@@ -5,7 +5,7 @@ import Hero from "../components/home/hero";
 import LogoCloud from "../components/home/logo-cloud";
 import Problem from "../components/home/problem";
 import HowItWorks from "../components/home/how-it-works";
-import BattleTested from "../components/home/battle-tested";
+import ProvenRealWorld from "../components/home/proven-real-world";
 import WeTeach from "../components/home/we-teach";
 import CallToAction from "../components/home/call-to-action";
 import LearnTheWay from "../components/home/learn-the-way";
@@ -22,7 +22,7 @@ export default function Home() {
       <LogoCloud />
       <Problem />
       <HowItWorks />
-      <BattleTested />
+      <ProvenRealWorld />
       <WeTeach />
       <CallToAction />
       <LearnTheWay />
