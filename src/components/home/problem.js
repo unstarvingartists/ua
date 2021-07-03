@@ -1,4 +1,6 @@
 import * as React from "react";
+import scatterbrain from "../../images/student-monochrome.svg";
+import focused from "../../images/hiker-man-monochrome.svg";
 
 export default function Problem() {
   return (
@@ -103,8 +105,8 @@ export default function Problem() {
             <img
               className="relative mx-auto"
               width={490}
-              src="https://tailwindui.com/img/features/feature-example-1.png"
-              alt=""
+              src={scatterbrain}
+              alt="Scatterbrained Creative"
             />
           </div>
         </div>
@@ -198,8 +200,8 @@ export default function Problem() {
               <img
                 className="relative mx-auto"
                 width={490}
-                src="https://tailwindui.com/img/features/feature-example-2.png"
-                alt=""
+                src={focused}
+                alt="Laser-Focused Artist"
               />
             </div>
           </div>
