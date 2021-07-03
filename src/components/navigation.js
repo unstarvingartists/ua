@@ -1,10 +1,11 @@
 import React, { Fragment } from "react";
+import { Link } from "gatsby";
 import { Popover, Transition } from "@headlessui/react";
 import {
   LightBulbIcon,
   FlagIcon,
   MenuIcon,
-  PhoneIcon,
+  LightningBoltIcon,
   PlayIcon,
   XIcon,
 } from "@heroicons/react/outline";
@@ -12,30 +13,34 @@ import { ChevronDownIcon } from "@heroicons/react/solid";
 import logo from "../images/logo.svg";
 
 const navigation = [
-  { name: "Artist Stories", href: "#" },
-  { name: "FAQ", href: "#" },
-  { name: "Log in", href: "#" },
+  { name: "Artist Stories", href: "/stories" },
+  { name: "FAQ", href: "/faq" },
+  { name: "Log in", href: "https://learn.harrywhelchel.com/login" },
 ];
 
 const programs = [
   {
-    name: "Methodology",
-    href: "#",
+    name: "Our Methodology",
+    href: "/methodology",
     description:
-      "Get a better understanding of how an everyday person can transform into a successful artist.",
+      "Get a better understanding of how everyday people are transforming themselves into successful artists.",
     icon: LightBulbIcon,
   },
   {
     name: "Flywheel Lab",
-    href: "#",
+    href: "/flywheel-lab",
     description:
-      "Learn more about our flagship program and how it helps artists earn more from their artwork.",
+      "Learn more about our flagship program and how artists are using it to earn more from their artwork.",
     icon: FlagIcon,
   },
 ];
 const callsToAction = [
-  { name: "Watch Demo", href: "#", icon: PlayIcon },
-  { name: "Contact Sales", href: "#", icon: PhoneIcon },
+  {
+    name: "See How It Works",
+    href: "/opt-in",
+    icon: PlayIcon,
+  },
+  { name: "Apply Now", href: "/apply", icon: LightningBoltIcon },
 ];
 
 function classNames(...classes) {
@@ -53,7 +58,7 @@ const Navigation = () => {
           >
             <div className="flex items-center flex-1">
               <div className="flex items-center justify-between w-full md:w-auto">
-                <a href="#">
+                <Link to="/">
                   <img
                     className="h-8 w-auto sm:h-10 inline"
                     src={logo}
@@ -62,9 +67,9 @@ const Navigation = () => {
                   <span className="ml-4 font-semibold bg-gray-50 text-gray-700 hover:text-gray-900">
                     Unstarving Artists
                   </span>
-                </a>
+                </Link>
                 <div className="-mr-2 flex items-center md:hidden">
-                  <Popover.Button className="bg-gray-50 rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
+                  <Popover.Button className="bg-gray-50 rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-blue-500">
                     <span className="sr-only">Open main menu</span>
                     <MenuIcon className="h-6 w-6" aria-hidden="true" />
                   </Popover.Button>
@@ -78,7 +83,7 @@ const Navigation = () => {
                     <Popover.Button
                       className={classNames(
                         open ? "text-gray-900" : "text-gray-500",
-                        "group bg-gray-50 rounded-md inline-flex items-center text-base font-medium hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+                        "group bg-gray-50 rounded-md inline-flex items-center text-base font-medium hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500"
                       )}
                     >
                       <span>Programs</span>
@@ -108,13 +113,13 @@ const Navigation = () => {
                         <div className="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 overflow-hidden">
                           <div className="relative grid gap-6 bg-white px-5 py-6 sm:gap-8 sm:p-8">
                             {programs.map((item) => (
-                              <a
+                              <Link
                                 key={item.name}
-                                href={item.href}
+                                to={item.href}
                                 className="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50"
                               >
                                 <item.icon
-                                  className="flex-shrink-0 h-6 w-6 text-indigo-600"
+                                  className="flex-shrink-0 h-6 w-6 text-blue-600"
                                   aria-hidden="true"
                                 />
                                 <div className="ml-4">
@@ -125,14 +130,14 @@ const Navigation = () => {
                                     {item.description}
                                   </p>
                                 </div>
-                              </a>
+                              </Link>
                             ))}
                           </div>
                           <div className="px-5 py-5 bg-gray-50 space-y-6 sm:flex sm:space-y-0 sm:space-x-10 sm:px-8">
                             {callsToAction.map((item) => (
                               <div key={item.name} className="flow-root">
-                                <a
-                                  href={item.href}
+                                <Link
+                                  to={item.href}
                                   className="-m-3 p-3 flex items-center rounded-md text-base font-medium text-gray-900 hover:bg-gray-100"
                                 >
                                   <item.icon
@@ -140,7 +145,7 @@ const Navigation = () => {
                                     aria-hidden="true"
                                   />
                                   <span className="ml-3">{item.name}</span>
-                                </a>
+                                </Link>
                               </div>
                             ))}
                           </div>
@@ -151,21 +156,21 @@ const Navigation = () => {
                 )}
               </Popover>
               {navigation.map((item) => (
-                <a
+                <Link
                   key={item.name}
-                  href={item.href}
+                  to={item.href}
                   className="font-medium bg-gray-50 text-gray-500 hover:text-gray-900"
                 >
                   {item.name}
-                </a>
+                </Link>
               ))}
               <span className="inline-flex rounded-md shadow-md ring-1 ring-black ring-opacity-5">
-                <a
-                  href="#"
-                  className="inline-flex items-center px-4 py-2 border border-transparent text-base font-medium rounded-md text-indigo-600 bg-white hover:bg-gray-50"
+                <Link
+                  to="/apply"
+                  className="inline-flex items-center px-4 py-2 border border-transparent text-base font-medium rounded-md text-blue-600 bg-white hover:bg-gray-50"
                 >
                   Apply Now
-                </a>
+                </Link>
               </span>
             </div>
           </nav>
@@ -195,7 +200,7 @@ const Navigation = () => {
                       </span>
                     </div>
                     <div className="-mr-2">
-                      <Popover.Button className="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
+                      <Popover.Button className="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-blue-500">
                         <span className="sr-only">Close main menu</span>
                         <XIcon className="h-6 w-6" aria-hidden="true" />
                       </Popover.Button>
@@ -204,40 +209,40 @@ const Navigation = () => {
                   <div className="mt-6">
                     <nav className="grid gap-y-8">
                       {programs.map((item) => (
-                        <a
+                        <Link
                           key={item.name}
-                          href={item.href}
+                          to={item.href}
                           className="-m-3 p-3 flex items-center rounded-md hover:bg-gray-50"
                         >
                           <item.icon
-                            className="flex-shrink-0 h-6 w-6 text-indigo-600"
+                            className="flex-shrink-0 h-6 w-6 text-blue-600"
                             aria-hidden="true"
                           />
                           <span className="ml-3 text-base font-medium text-gray-900">
                             {item.name}
                           </span>
-                        </a>
+                        </Link>
                       ))}
                     </nav>
                   </div>
                 </div>
                 <div className="px-2 pt-2 pb-3 space-y-1">
                   {navigation.map((item) => (
-                    <a
+                    <Link
                       key={item.name}
-                      href={item.href}
+                      to={item.href}
                       className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50"
                     >
                       {item.name}
-                    </a>
+                    </Link>
                   ))}
                 </div>
-                <a
-                  href="#"
-                  className="block w-full px-5 py-3 text-center font-medium text-indigo-600 bg-gray-50 hover:bg-gray-100"
+                <Link
+                  to="/apply"
+                  className="block w-full px-5 py-3 text-center font-medium text-blue-600 bg-gray-50 hover:bg-gray-100"
                 >
                   Apply Now
-                </a>
+                </Link>
               </div>
             </Popover.Panel>
           </Transition>
