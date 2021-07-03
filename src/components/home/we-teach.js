@@ -1,4 +1,5 @@
 import * as React from "react";
+import { Link } from "gatsby";
 
 export default function WeTeach() {
   return (
@@ -53,20 +54,20 @@ export default function WeTeach() {
             </div>
             <div className="mt-10 flex text-base max-w-prose mx-auto lg:max-w-none">
               <div className="rounded-md shadow">
-                <a
-                  href="#"
+                <Link
+                  to="/apply"
                   className="w-full flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700"
                 >
-                  Contact sales
-                </a>
+                  Apply Now
+                </Link>
               </div>
               <div className="rounded-md shadow ml-4">
-                <a
-                  href="#"
+                <Link
+                  to="/opt-in"
                   className="w-full flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-blue-600 bg-white hover:bg-gray-50"
                 >
-                  Learn more
-                </a>
+                  See How It Works
+                </Link>
               </div>
             </div>
           </div>
