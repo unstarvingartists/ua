@@ -10,32 +10,32 @@ import lauren from "../../images/lauren.jpeg";
 const people = [
   {
     name: "Oliver Hojas",
-    genre: "Abstract •🇨🇭",
+    genre: "Abstract 🇨🇭",
     image: oliver,
   },
   {
     name: "Lauren Satok",
-    genre: "Landscape • 🇨🇦",
+    genre: "Landscape 🇨🇦",
     image: lauren,
   },
   {
     name: "Michael Gibson",
-    genre: "Graphite • 🇨🇦",
+    genre: "Graphite 🇨🇦",
     image: michael,
   },
   {
     name: "Ehab Omaro",
-    genre: "Commission • 🇳🇱",
+    genre: "Commission 🇳🇱",
     image: ehab,
   },
   {
     name: "Kate Padget-Koh",
-    genre: "Portraits • 🇭🇰",
+    genre: "Portraits 🇭🇰",
     image: kate,
   },
   {
     name: "Sharif Carter",
-    genre: "Pop Art • 🇺🇸",
+    genre: "Pop Art 🇺🇸",
     image: sharif,
   },
 ];
