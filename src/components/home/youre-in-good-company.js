@@ -70,9 +70,9 @@ export default function YoureInGoodCompany() {
             You're in good company
           </h2>
           <p className="mt-3 max-w-2xl mx-auto text-xl text-gray-500 sm:mt-4">
-            Thousands of artists around the world have used Unstarving Artists
-            to start and grow their art practices, expand their minds, and
-            change their lives.
+            Hundreds of artists around the world have used Unstarving Artists to
+            start and grow their art practices, expand their minds, and change
+            their lives.
           </p>
         </div>
         <div className="mt-12 max-w-lg mx-auto grid gap-5 lg:grid-cols-3 lg:max-w-none">
