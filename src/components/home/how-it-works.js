@@ -11,25 +11,25 @@ const features = [
   {
     name: "Proven Process",
     description:
-      "We turned the guesswork of starting/growing a business into a science. Follow practical step-by-step instructions that are proven to work and track your progress using reliable metrics.",
+      "We turned the guesswork of starting/growing an art practice into a science. Follow practical step-by-step instructions that are proven to work and track your progress using simple metrics.",
     icon: MapIcon,
   },
   {
     name: "Mental Reprogramming",
     description:
-      "We invented a new way to think about and view the world we live in. Discover who you are, interests, biases, habits, behavior patterns. Reprogram your brain for high performance.",
+      "We pioneered a new way to think about and view the world we live in. Discover who you are—your interests, biases, habits, and thought patterns. Rewire your brain for greater performance.",
     icon: AdjustmentsIcon,
   },
   {
-    name: "Entrepreneur Community",
+    name: "Artist Community",
     description:
-      "It's hard to change your life surrounded by the same people. Join an active community of entrepreneurs, collaborate, get help, practice sales calls, make friends and have fun.",
+      "It's hard to change your life surrounded by the same people. Join an active community of professional and semi-professional artists, get inspired, collaborate, practice together, make friends, and have fun.",
     icon: UserGroupIcon,
   },
   {
     name: "Expert mentorship",
     description:
-      "No matter how good the training is, you'll always have questions. Get 24/7 access to millionaire experts in our Facebook group, weekly livestream Q&A's and email.",
+      "No matter how good our training is (it's world-class), your art practice is unique and you'll always have questions. Get 24/7 access to multi 6-figure experts in our artist community and weekly livestream Q&As.",
     icon: ChatAlt2Icon,
   },
 ];
