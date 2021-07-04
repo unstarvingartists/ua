@@ -111,7 +111,7 @@ export default function Component({ children }) {
         {children}
         <div className="text-lg max-w-prose mx-auto pt-10">
           <h1>
-            <span className="block text-base text-center text-indigo-600 font-semibold tracking-wide uppercase">
+            <span className="block text-base text-center text-blue-600 font-semibold tracking-wide uppercase">
               Introducing
             </span>
             <span className="mt-2 block text-3xl text-center leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">

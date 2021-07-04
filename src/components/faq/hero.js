@@ -64,7 +64,7 @@ export default function Component({ children }) {
                   <span className="block text-gray-900">
                     Data to enrich your
                   </span>
-                  <span className="block text-indigo-600">online business</span>
+                  <span className="block text-blue-600">online business</span>
                 </span>
               </h1>
               <p className="mt-3 text-base text-gray-500 sm:mt-5 sm:text-xl lg:text-lg xl:text-xl">
@@ -84,12 +84,12 @@ export default function Component({ children }) {
                     type="text"
                     name="email"
                     id="email"
-                    className="block w-full py-3 text-base rounded-md placeholder-gray-500 shadow-sm focus:ring-indigo-500 focus:border-indigo-500 sm:flex-1 border-gray-300"
+                    className="block w-full py-3 text-base rounded-md placeholder-gray-500 shadow-sm focus:ring-blue-500 focus:border-blue-500 sm:flex-1 border-gray-300"
                     placeholder="Enter your email"
                   />
                   <button
                     type="submit"
-                    className="mt-3 w-full px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-gray-800 shadow-sm hover:bg-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 sm:mt-0 sm:ml-3 sm:flex-shrink-0 sm:inline-flex sm:items-center sm:w-auto"
+                    className="mt-3 w-full px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-gray-800 shadow-sm hover:bg-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 sm:mt-0 sm:ml-3 sm:flex-shrink-0 sm:inline-flex sm:items-center sm:w-auto"
                   >
                     Notify me
                   </button>
@@ -148,7 +148,7 @@ export default function Component({ children }) {
               <div className="relative mx-auto w-full rounded-lg shadow-lg lg:max-w-md">
                 <button
                   type="button"
-                  className="relative block w-full bg-white rounded-lg overflow-hidden focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+                  className="relative block w-full bg-white rounded-lg overflow-hidden focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500"
                 >
                   <span className="sr-only">Watch our video to learn more</span>
                   <img
@@ -161,7 +161,7 @@ export default function Component({ children }) {
                     aria-hidden="true"
                   >
                     <svg
-                      className="h-20 w-20 text-indigo-500"
+                      className="h-20 w-20 text-blue-500"
                       fill="currentColor"
                       viewBox="0 0 84 84"
                     >
