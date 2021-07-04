@@ -47,7 +47,7 @@ function classNames(...classes) {
   return classes.filter(Boolean).join(" ");
 }
 
-const Navigation = () => {
+const Component = () => {
   return (
     <Popover>
       {({ open }) => (
@@ -251,4 +251,4 @@ const Navigation = () => {
     </Popover>
   );
 };
-export default Navigation;
+export default Component;

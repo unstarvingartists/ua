@@ -1,7 +1,7 @@
 import * as React from "react";
 import { Link } from "gatsby";
 
-const Hero = ({ children }) => {
+const Component = ({ children }) => {
   return (
     <div className="relative bg-gray-50 overflow-hidden">
       <div
@@ -116,4 +116,4 @@ const Hero = ({ children }) => {
     </div>
   );
 };
-export default Hero;
+export default Component;

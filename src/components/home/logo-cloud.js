@@ -40,7 +40,7 @@ const people = [
   },
 ];
 
-const LogoCloud = () => {
+const Component = () => {
   return (
     <div className="bg-white">
       <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8">
@@ -96,4 +96,4 @@ const LogoCloud = () => {
     </div>
   );
 };
-export default LogoCloud;
+export default Component;

@@ -3,7 +3,7 @@ import { Link } from "gatsby";
 import oliver from "../../images/oliver.jpeg";
 import oliverLogo from "../../images/oliver-logo.png";
 
-export default function WeTeach() {
+export default function Component() {
   return (
     <div className="py-16 bg-gray-50 overflow-hidden">
       <div className="max-w-7xl mx-auto px-4 space-y-8 sm:px-6 lg:px-8">
