@@ -1,7 +1,9 @@
 import * as React from "react";
 import Layout from "../components/layout";
-import Navigation from "../components/gray-navigation";
-import Hero from "../components/methodology/hero";
+import Navigation from "../components/apply/navigation";
+import Hero from "../components/apply/hero";
+import Testimonial from "../components/apply/testimonial";
+import FeatureList from "../components/apply/feature-list";
 import CallToAction from "../components/call-to-action";
 import Footer from "../components/footer";
 
@@ -11,7 +13,8 @@ export default function Page() {
       <Hero>
         <Navigation />
       </Hero>
-      <CallToAction />
+      <Testimonial />
+      <FeatureList />
       <Footer />
     </Layout>
   );
