@@ -1,4 +1,4 @@
 [[headers]]
-  for = "https://elated-khorana-9abd3a/*"
+  for = "/*"
   [headers.values]
     X-Robots-Tag = "noindex"
