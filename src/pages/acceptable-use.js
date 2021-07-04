@@ -1,17 +1,15 @@
 import * as React from "react";
 import Layout from "../components/layout";
-import Navigation from "../components/gray-navigation";
-import Hero from "../components/methodology/hero";
-import CallToAction from "../components/call-to-action";
+import Navigation from "../components/white-navigation";
+import Body from "../components/acceptable-use/body";
 import Footer from "../components/footer";
 
 export default function Page() {
   return (
     <Layout>
-      <Hero>
+      <Body>
         <Navigation />
-      </Hero>
-      <CallToAction />
+      </Body>
       <Footer />
     </Layout>
   );
