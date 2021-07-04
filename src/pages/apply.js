@@ -4,7 +4,6 @@ import Navigation from "../components/apply/navigation";
 import Hero from "../components/apply/hero";
 import Testimonial from "../components/apply/testimonial";
 import FeatureList from "../components/apply/feature-list";
-import CallToAction from "../components/call-to-action";
 import Footer from "../components/footer";
 
 export default function Page() {
