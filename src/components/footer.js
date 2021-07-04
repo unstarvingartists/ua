@@ -16,10 +16,7 @@ const navigation = {
     { name: "Student Stories", href: "/stories" },
     { name: "FAQ", href: "/faq" },
   ],
-  extras: [
-    { name: "Free Training", href: "/training" },
-    { name: "Free Community", href: "/community" },
-  ],
+  extras: [{ name: "Free Training", href: "/training" }],
   social: [
     {
       name: "YouTube",
