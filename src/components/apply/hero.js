@@ -3,7 +3,7 @@ import { Link } from "gatsby";
 
 export default function Component({ children }) {
   return (
-    <div className="relative bg-gray-50">
+    <div className="relative bg-white">
       {children}
 
       <main className="lg:relative">

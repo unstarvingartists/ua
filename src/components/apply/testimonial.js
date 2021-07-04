@@ -42,7 +42,7 @@ export default function Component() {
         <div className="relative">
           <img
             className="mx-auto h-8"
-            src="https://tailwindui.com/img/logos/workcation-logo-blue-600-mark-gray-800-and-blue-600-text.svg"
+            src="https://tailwindui.com/img/logos/workcation-logo-indigo-600-mark-gray-800-and-indigo-600-text.svg"
             alt="Workcation"
           />
           <blockquote className="mt-10">
