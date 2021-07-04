@@ -1,10 +1,10 @@
 import * as React from "react";
 import { Link } from "gatsby";
 
-export default function Hero({ children }) {
+export default function Component({ children }) {
   return (
-    <div className="min-h-screen bg-white">
-      <div className="relative pt-6 pb-16 sm:pb-24">
+    <div className="bg-white">
+      <div className="relative pt-6">
         {children}
 
         <main className="mt-6 sm:mt-10">
@@ -55,6 +55,10 @@ export default function Hero({ children }) {
                 </div>
               </div>
             </div>
+          </div>
+          {/* Logo cloud */}
+          <div className="bg-gray-100">
+            <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8"></div>
           </div>
         </main>
       </div>
