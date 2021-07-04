@@ -18,6 +18,18 @@ module.exports = {
     "gatsby-plugin-sharp",
     "gatsby-transformer-sharp",
     {
+      resolve: `gatsby-transformer-yaml`,
+      options: {
+        // typeName: ({ node }) => {
+        //   const name = node.sourceInstanceName;
+        //   if (name === `stories`) {
+        //     return `Story`;
+        //   }
+        //   return name;
+        // },
+      },
+    },
+    {
       resolve: "gatsby-source-filesystem",
       options: {
         name: "images",
@@ -32,6 +44,13 @@ module.exports = {
         path: "./src/pages/",
       },
       __key: "pages",
+    },
+    {
+      resolve: "gatsby-source-filesystem",
+      options: {
+        name: "stories",
+        path: `${__dirname}/content/stories/`,
+      },
     },
     "gatsby-plugin-postcss",
   ],
