@@ -1,6 +1,6 @@
 import * as React from "react";
 import Layout from "../components/layout";
-import Navigation from "../components/methodology/navigation";
+import Navigation from "../components/white-navigation";
 import Hero from "../components/methodology/hero";
 import WeDoEducation from "../components/methodology/we-do-education";
 import HowOurMethodWorks from "../components/methodology/how-our-method-works";

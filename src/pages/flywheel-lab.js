@@ -1,7 +1,7 @@
 import * as React from "react";
 import Layout from "../components/layout";
-import Navigation from "../components/navigation";
-import Hero from "../components/methodology/hero";
+import Navigation from "../components/white-navigation";
+import Hero from "../components/flywheel-lab/hero";
 import CallToAction from "../components/call-to-action";
 import Footer from "../components/footer";
 

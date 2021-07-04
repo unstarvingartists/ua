@@ -10,7 +10,7 @@ import {
   XIcon,
 } from "@heroicons/react/outline";
 import { ChevronDownIcon } from "@heroicons/react/solid";
-import logo from "../../images/logo.svg";
+import logo from "../images/logo.svg";
 
 const navigation = [
   { name: "Student Stories", href: "/stories" },

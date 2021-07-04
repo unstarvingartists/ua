@@ -1,6 +1,6 @@
 import * as React from "react";
 import Layout from "../../components/layout";
-import Navigation from "../../components/navigation";
+import Navigation from "../../components/gray-navigation";
 import Hero from "../../components/methodology/hero";
 import CallToAction from "../../components/call-to-action";
 import Footer from "../../components/footer";
