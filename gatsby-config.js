@@ -38,13 +38,6 @@ module.exports = {
       },
       __key: "pages",
     },
-    {
-      resolve: "gatsby-source-filesystem",
-      options: {
-        name: "stories",
-        path: `${__dirname}/content/stories/`,
-      },
-    },
     "gatsby-plugin-postcss",
   ],
 };
