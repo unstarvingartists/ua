@@ -1,4 +1,5 @@
 import * as React from "react";
+import { Link } from "gatsby";
 
 export default function Component() {
   return (
@@ -16,20 +17,20 @@ export default function Component() {
             </p>
             <div className="mt-8 sm:flex">
               <div className="rounded-md shadow">
-                <a
-                  href="#"
+                <Link
+                  to="#"
                   className="flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700"
                 >
                   Create Account
-                </a>
+                </Link>
               </div>
               <div className="mt-3 sm:mt-0 sm:ml-3">
-                <a
-                  href="#"
+                <Link
+                  to="#"
                   className="flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-indigo-700 bg-indigo-100 hover:bg-indigo-200"
                 >
                   Contact Us
-                </a>
+                </Link>
               </div>
             </div>
           </div>

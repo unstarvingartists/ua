@@ -1,4 +1,5 @@
-import React, { Fragment } from "react";
+import * as React from "react";
+import { Link } from "gatsby";
 
 export default function Component({ children }) {
   return (
@@ -95,9 +96,9 @@ export default function Component({ children }) {
                 </form>
                 <p className="mt-3 text-sm text-gray-500">
                   We care about the protection of your data. Read our{" "}
-                  <a href="#" className="font-medium text-gray-900 underline">
+                  <Link to="#" className="font-medium text-gray-900 underline">
                     Privacy Policy
-                  </a>
+                  </Link>
                   .
                 </p>
               </div>

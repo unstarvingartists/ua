@@ -1,5 +1,6 @@
 import * as React from "react";
-import { InboxIcon, SparklesIcon } from "@heroicons/react/outline";
+import { Link } from "gatsby";
+import { InboxIcon } from "@heroicons/react/outline";
 
 export default function Component() {
   return (
@@ -27,12 +28,12 @@ export default function Component() {
                   pharetra at. Lectus viverra dui tellus ornare pharetra.
                 </p>
                 <div className="mt-6">
-                  <a
-                    href="#"
+                  <Link
+                    to="#"
                     className="inline-flex px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-indigo-600 hover:bg-indigo-700"
                   >
                     Get started
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
