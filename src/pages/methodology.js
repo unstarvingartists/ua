@@ -25,13 +25,9 @@ export default function Page() {
       <TheProofIsInTheNumbers />
       <WeTeach />
       <LayerOne />
-      <CallToAction />
       <LayerTwo />
-      <CallToAction />
       <LayerThree />
-      <CallToAction />
       <LayerFour />
-      <CallToAction />
       <LayerFive />
       <CallToAction />
       <Footer />
