@@ -47,8 +47,8 @@ export default function Component() {
           <p className="mt-4 max-w-3xl mx-auto text-center text-xl text-gray-500">
             Unstarving Artists gets artists laser-focused on the simple actions
             that yield big results. You'll find our artists connecting with
-            leads, selling art, and mastering their craft—not chasing fame on
-            social media.
+            leads, selling their work, and mastering their craft—not chasing
+            fame on social media.
           </p>
         </div>
 

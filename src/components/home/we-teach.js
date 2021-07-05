@@ -45,7 +45,7 @@ export default function Component() {
                   mental models
                 </li>
                 <li>
-                  <strong>Business disciplines</strong> — Strategy, product,
+                  <strong>Business disciplines</strong> — Strategy, service,
                   marketing, & sales
                 </li>
                 <li>
