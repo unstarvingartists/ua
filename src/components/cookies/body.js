@@ -138,93 +138,140 @@ export default function Component({ children }) {
               <div className="text-lg max-w-prose mx-auto pt-10">
                 <h1>
                   <span className="block text-base text-center text-blue-600 font-semibold tracking-wide uppercase">
-                    Introducing
+                    The Fine <span className="line-through">Art</span> Print
                   </span>
                   <span className="mt-2 block text-3xl text-center leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
-                    JavaScript for Beginners
+                    Cookie Policy
                   </span>
                 </h1>
                 <p className="mt-8 text-xl text-gray-500 leading-8">
-                  Aliquet nec orci mattis amet quisque ullamcorper neque, nibh
-                  sem. At arcu, sit dui mi, nibh dui, diam eget aliquam. Quisque
-                  id at vitae feugiat egestas ac. Diam nulla orci at in viverra
-                  scelerisque eget. Eleifend egestas fringilla sapien.
+                  We use cookies to help improve your experience of{" "}
+                  <Link to="/">unstarvingartists.com.</Link>{" "}
                 </p>
               </div>
               <div className="mt-6 prose prose-indigo prose-lg text-gray-500 mx-auto">
                 <p>
-                  Faucibus commodo massa rhoncus, volutpat.{" "}
-                  <strong>Dignissim</strong> sed{" "}
-                  <strong>eget risus enim</strong>. Mattis mauris semper sed
-                  amet vitae sed turpis id. Id dolor praesent donec est. Odio
-                  penatibus risus viverra tellus varius sit neque erat velit.
-                  Faucibus commodo massa rhoncus, volutpat. Dignissim sed eget
-                  risus enim. <Link to="#">Mattis mauris semper</Link> sed amet
-                  vitae sed turpis id.
-                </p>
-                <ul>
-                  <li>Quis elit egestas venenatis mattis dignissim.</li>
-                  <li>
-                    Cras cras lobortis vitae vivamus ultricies facilisis tempus.
-                  </li>
-                  <li>Orci in sit morbi dignissim metus diam arcu pretium.</li>
-                </ul>
-                <p>
-                  Quis semper vulputate aliquam venenatis egestas sagittis
-                  quisque orci. Donec commodo sit viverra aliquam porttitor
-                  ultrices gravida eu. Tincidunt leo, elementum mattis elementum
-                  ut nisl, justo, amet, mattis. Nunc purus, diam commodo
-                  tincidunt turpis. Amet, duis sed elit interdum dignissim.
-                </p>
-                <h2>From beginner to expert in 30 days</h2>
-                <p>
-                  Id orci tellus laoreet id ac. Dolor, aenean leo, ac etiam
-                  consequat in. Convallis arcu ipsum urna nibh. Pharetra,
-                  euismod vitae interdum mauris enim, consequat vulputate nibh.
-                  Maecenas pellentesque id sed tellus mauris, ultrices mauris.
-                  Tincidunt enim cursus ridiculus mi. Pellentesque nam sed
-                  nullam sed diam turpis ipsum eu a sed convallis diam.
-                </p>
-                <blockquote>
-                  <p>
-                    Sagittis scelerisque nulla cursus in enim consectetur quam.
-                    Dictum urna sed consectetur neque tristique pellentesque.
-                    Blandit amet, sed aenean erat arcu morbi.
-                  </p>
-                </blockquote>
-                <p>
-                  Faucibus commodo massa rhoncus, volutpat. Dignissim sed eget
-                  risus enim. Mattis mauris semper sed amet vitae sed turpis id.
-                  Id dolor praesent donec est. Odio penatibus risus viverra
-                  tellus varius sit neque erat velit.
-                </p>
-                <figure>
-                  <img
-                    className="w-full rounded-lg"
-                    src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-1.2.1&auto=format&fit=facearea&w=1310&h=873&q=80&facepad=3"
-                    alt=""
-                    width={1310}
-                    height={873}
-                  />
-                  <figcaption>
-                    Sagittis scelerisque nulla cursus in enim consectetur quam.
-                  </figcaption>
-                </figure>
-                <h2>Everything you need to get up and running</h2>
-                <p>
-                  Purus morbi dignissim senectus mattis{" "}
-                  <Link to="#">adipiscing</Link>. Amet, massa quam varius orci
-                  dapibus volutpat cras. In amet eu ridiculus leo sodales cursus
-                  tristique. Tincidunt sed tempus ut viverra ridiculus non
-                  molestie. Gravida quis fringilla amet eget dui tempor
-                  dignissim. Facilisis auctor venenatis varius nunc, congue erat
-                  ac. Cras fermentum convallis quam.
+                  This cookie policy is part of Vouch Group, LLC's privacy
+                  policy, and covers the use of cookies between your device and
+                  our site. We also provide basic information on third-party
+                  services we may use, who may also use cookies as part of their
+                  service, though they are not covered by our policy.
                 </p>
                 <p>
-                  Faucibus commodo massa rhoncus, volutpat. Dignissim sed eget
-                  risus enim. Mattis mauris semper sed amet vitae sed turpis id.
-                  Id dolor praesent donec est. Odio penatibus risus viverra
-                  tellus varius sit neque erat velit.
+                  If you don’t wish to accept cookies from us, you should
+                  instruct your browser to refuse cookies from{" "}
+                  <Link to="/">unstarvingartists.com</Link> with the
+                  understanding that we may be unable to provide you with some
+                  of your desired content and services.
+                </p>
+                <h2>What is a cookie?</h2>
+                <p>
+                  A cookie is a small piece of data that a website stores on
+                  your device when you visit, typically containing information
+                  about the website itself, a unique identifier that allows the
+                  site to recognise your web browser when you return, additional
+                  data that serves the purpose of the cookie, and the lifespan
+                  of the cookie itself.
+                </p>
+                <p>
+                  Cookies are used to enable certain features (eg. logging in),
+                  to track site usage (eg. analytics), to store your user
+                  settings (eg. timezone, notification preferences), and to
+                  personalise your content (eg. advertising, language).
+                </p>
+                <p>
+                  Cookies set by the website you are visiting are normally
+                  referred to as “first-party cookies”, and typically only track
+                  your activity on that particular site. Cookies set by other
+                  sites and companies (ie. third parties) are called
+                  “third-party cookies”, and can be used to track you on other
+                  websites that use the same third-party service.
+                </p>
+                <h2>Types of cookies and how we use them</h2>
+                <h3>Essential cookies</h3>
+                <p>
+                  Essential cookies are crucial to your experience of a website,
+                  enabling core features like user logins, account management,
+                  shopping carts and payment processing. We use essential
+                  cookies to enable certain functions on our website.
+                </p>
+                <h3>Performance cookies</h3>
+                <p>
+                  Performance cookies are used in the tracking of how you use a
+                  website during your visit, without collecting personal
+                  information about you. Typically, this information is
+                  anonymous and aggregated with information tracked across all
+                  site users, to help companies understand visitor usage
+                  patterns, identify and diagnose problems or errors their users
+                  may encounter, and make better strategic decisions in
+                  improving their audience’s overall website experience. These
+                  cookies may be set by the website you’re visiting
+                  (first-party) or by third-party services. We use performance
+                  cookies on our site.
+                </p>
+                <h3>Functionality cookies</h3>
+                <p>
+                  Functionality cookies are used in collecting information about
+                  your device and any settings you may configure on the website
+                  you’re visiting (like language and timezone settings). With
+                  this information, websites can provide you with customised,
+                  enhanced or optimised content and services. These cookies may
+                  be set by the website you’re visiting (first-party) or by
+                  third-party service. We use functionality cookies for selected
+                  features on our site.
+                </p>
+                <h3>Targeting/advertising cookies</h3>
+                <p>
+                  Targeting/advertising cookies are used in determining what
+                  promotional content is more relevant and appropriate to you
+                  and your interests. Websites may use them to deliver targeted
+                  advertising or to limit the number of times you see an
+                  advertisement. This helps companies improve the effectiveness
+                  of their campaigns and the quality of content presented to
+                  you. These cookies may be set by the website you’re visiting
+                  (first-party) or by third-party services.
+                  Targeting/advertising cookies set by third-parties may be used
+                  to track you on other websites that use the same third-party
+                  service. We use targeting/advertising cookies on our site.
+                </p>
+                <h2>Third-party cookies on our site</h2>
+                <p>
+                  We may employ third-party companies and individuals on our
+                  websites—for example, analytics providers and content
+                  partners. We grant these third parties access to selected
+                  information to perform specific tasks on our behalf. They may
+                  also set third-party cookies in order to deliver the services
+                  they are providing. Third-party cookies can be used to track
+                  you on other websites that use the same third-party service.
+                  As we have no control over third-party cookies, they are not
+                  covered by Vouch Group, LLC's cookie policy.
+                </p>
+                <h3>Our third-party privacy promise</h3>
+                <p>
+                  We review the privacy policies of all our third-party
+                  providers before enlisting their services to ensure their
+                  practices align with ours. We will never knowingly include
+                  third-party services that compromise or violate the privacy of
+                  our users.
+                </p>
+                <h2>How you can control or opt out of cookies</h2>
+                <p>
+                  If you do not wish to accept cookies from us, you can instruct
+                  your browser to refuse cookies from our website. Most browsers
+                  are configured to accept cookies by default, but you can
+                  update these settings to either refuse cookies altogether, or
+                  to notify you when a website is trying to set or update a
+                  cookie.
+                </p>
+                <p>
+                  If you browse websites from multiple devices, you may need to
+                  update your settings on each individual device.
+                </p>
+                <p>
+                  Although some cookies can be blocked with little impact on
+                  your experience of a website, blocking all cookies may mean
+                  you are unable to access certain features and content across
+                  the sites you visit.
                 </p>
               </div>
             </div>
