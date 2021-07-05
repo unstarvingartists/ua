@@ -16,7 +16,9 @@ const navigation = {
     { name: "Student Stories", href: "/stories" },
     { name: "FAQ", href: "/faq" },
   ],
-  extras: [{ name: "Free Training", href: "/training" }],
+  extras: [
+    { name: "Free Training", href: "https://go.unstarvingartists.org/opt-in" },
+  ],
   social: [
     {
       name: "YouTube",
