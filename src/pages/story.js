@@ -2,7 +2,7 @@ import * as React from "react";
 import Layout from "../components/layout";
 import Navigation from "../components/gray-navigation";
 import Hero from "../components/methodology/hero";
-import Story from "../components/story/story";
+import Body from "../components/story/body";
 import CallToAction from "../components/call-to-action";
 import Footer from "../components/footer";
 
@@ -12,7 +12,7 @@ export default function Page() {
       <Hero>
         <Navigation />
       </Hero>
-      <Story />
+      <Body />
       <CallToAction />
       <Footer />
     </Layout>
