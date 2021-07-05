@@ -138,93 +138,134 @@ export default function Component({ children }) {
               <div className="text-lg max-w-prose mx-auto pt-10">
                 <h1>
                   <span className="block text-base text-center text-blue-600 font-semibold tracking-wide uppercase">
-                    Introducing
+                    The Fine <span className="line-through">Art</span> Print
                   </span>
                   <span className="mt-2 block text-3xl text-center leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
-                    JavaScript for Beginners
+                    Earnings Disclaimer
                   </span>
                 </h1>
                 <p className="mt-8 text-xl text-gray-500 leading-8">
-                  Aliquet nec orci mattis amet quisque ullamcorper neque, nibh
-                  sem. At arcu, sit dui mi, nibh dui, diam eget aliquam. Quisque
-                  id at vitae feugiat egestas ac. Diam nulla orci at in viverra
-                  scelerisque eget. Eleifend egestas fringilla sapien.
+                  Disclaimer: No Earnings Projections, Promises Or
+                  Representations
                 </p>
               </div>
               <div className="mt-6 prose prose-indigo prose-lg text-gray-500 mx-auto">
                 <p>
-                  Faucibus commodo massa rhoncus, volutpat.{" "}
-                  <strong>Dignissim</strong> sed{" "}
-                  <strong>eget risus enim</strong>. Mattis mauris semper sed
-                  amet vitae sed turpis id. Id dolor praesent donec est. Odio
-                  penatibus risus viverra tellus varius sit neque erat velit.
-                  Faucibus commodo massa rhoncus, volutpat. Dignissim sed eget
-                  risus enim. <Link to="#">Mattis mauris semper</Link> sed amet
-                  vitae sed turpis id.
-                </p>
-                <ul>
-                  <li>Quis elit egestas venenatis mattis dignissim.</li>
-                  <li>
-                    Cras cras lobortis vitae vivamus ultricies facilisis tempus.
-                  </li>
-                  <li>Orci in sit morbi dignissim metus diam arcu pretium.</li>
-                </ul>
-                <p>
-                  Quis semper vulputate aliquam venenatis egestas sagittis
-                  quisque orci. Donec commodo sit viverra aliquam porttitor
-                  ultrices gravida eu. Tincidunt leo, elementum mattis elementum
-                  ut nisl, justo, amet, mattis. Nunc purus, diam commodo
-                  tincidunt turpis. Amet, duis sed elit interdum dignissim.
-                </p>
-                <h2>From beginner to expert in 30 days</h2>
-                <p>
-                  Id orci tellus laoreet id ac. Dolor, aenean leo, ac etiam
-                  consequat in. Convallis arcu ipsum urna nibh. Pharetra,
-                  euismod vitae interdum mauris enim, consequat vulputate nibh.
-                  Maecenas pellentesque id sed tellus mauris, ultrices mauris.
-                  Tincidunt enim cursus ridiculus mi. Pellentesque nam sed
-                  nullam sed diam turpis ipsum eu a sed convallis diam.
-                </p>
-                <blockquote>
-                  <p>
-                    Sagittis scelerisque nulla cursus in enim consectetur quam.
-                    Dictum urna sed consectetur neque tristique pellentesque.
-                    Blandit amet, sed aenean erat arcu morbi.
-                  </p>
-                </blockquote>
-                <p>
-                  Faucibus commodo massa rhoncus, volutpat. Dignissim sed eget
-                  risus enim. Mattis mauris semper sed amet vitae sed turpis id.
-                  Id dolor praesent donec est. Odio penatibus risus viverra
-                  tellus varius sit neque erat velit.
-                </p>
-                <figure>
-                  <img
-                    className="w-full rounded-lg"
-                    src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-1.2.1&auto=format&fit=facearea&w=1310&h=873&q=80&facepad=3"
-                    alt=""
-                    width={1310}
-                    height={873}
-                  />
-                  <figcaption>
-                    Sagittis scelerisque nulla cursus in enim consectetur quam.
-                  </figcaption>
-                </figure>
-                <h2>Everything you need to get up and running</h2>
-                <p>
-                  Purus morbi dignissim senectus mattis{" "}
-                  <Link to="#">adipiscing</Link>. Amet, massa quam varius orci
-                  dapibus volutpat cras. In amet eu ridiculus leo sodales cursus
-                  tristique. Tincidunt sed tempus ut viverra ridiculus non
-                  molestie. Gravida quis fringilla amet eget dui tempor
-                  dignissim. Facilisis auctor venenatis varius nunc, congue erat
-                  ac. Cras fermentum convallis quam.
+                  You recognize and agree that we have made no implications,
+                  warranties, promises, suggestions, projections,
+                  representations or guarantees whatsoever to you about future
+                  prospects or earnings, or that you will earn any money, with
+                  respect to your purchase of Vouch Group, LLC ("Unstarving
+                  Artists" hereafter) products and/or services, and that we have
+                  not authorized any such projection, promise, or representation
+                  by others.
                 </p>
                 <p>
-                  Faucibus commodo massa rhoncus, volutpat. Dignissim sed eget
-                  risus enim. Mattis mauris semper sed amet vitae sed turpis id.
-                  Id dolor praesent donec est. Odio penatibus risus viverra
-                  tellus varius sit neque erat velit.
+                  Any earnings or income statements, or any earnings or income
+                  examples, are only estimates of what we think you could earn.
+                  There is no assurance you will do as well as stated in any
+                  examples. If you rely upon any figures provided, you must
+                  accept the entire risk of not doing as well as the information
+                  provided. This applies whether the earnings or income examples
+                  are monetary in nature or pertain to advertising credits which
+                  may be earned (whether such credits are convertible to cash or
+                  not).
+                </p>
+                <p>
+                  There is no assurance that any prior successes or past results
+                  as to earnings or income (whether monetary or advertising
+                  credits, whether convertible to cash or not) will apply, nor
+                  can any prior successes be used, as an indication of your
+                  future success or results from any of the information,
+                  content, or strategies. Any and all claims or representations
+                  as to income or earnings (whether monetary or advertising
+                  credits, whether convertible to cash or not) are not to be
+                  considered as “average earnings”.
+                </p>
+                <p>
+                  (i) The Economy. The economy, both where you do business, and
+                  on a national and even worldwide scale, creates additional
+                  uncertainty and economic risk. An economic recession or
+                  depression might negatively affect the results produced by
+                  Unstarving Artists products and/or services.
+                </p>
+                <p>
+                  (ii) Your Success Or Lack Of It. Your success in using the
+                  information or strategies provided at
+                  https://www.unstarvingartists.org depends on a variety of
+                  factors. We have no way of knowing how well you will do, as we
+                  do not know you, your background, your work ethic, your
+                  dedication, your motivation, your desire, or your business
+                  skills or practices. Therefore, we do not guarantee or imply
+                  that you will get rich, that you will do as well, or that you
+                  will have any earnings (whether monetary or advertising
+                  credits, whether convertible to cash or not), at all.
+                </p>
+                <p>
+                  Internet businesses and earnings derived therefrom, involve
+                  unknown risks and are not suitable for everyone. You may not
+                  rely on any information presented on the website or otherwise
+                  provided by us, unless you do so with the knowledge and
+                  understanding that you can experience significant losses
+                  (including, but not limited to, the loss of any monies paid to
+                  purchase Unstarving Artists products and/or services, and/or
+                  any monies spent setting up, operating, and/or marketing
+                  Unstarving Artists products and/or services, and further, that
+                  you may have no earnings at all (whether monetary or
+                  advertising credits, whether convertible to cash or not).
+                </p>
+                <p>
+                  (iii) Forward-Looking Statements. MATERIALS CONTAINED ON THIS
+                  WEBSITE OR IN MATERIALS PURCHASED AND/OR DOWNLOADED FROM THIS
+                  WEBSITE MAY CONTAIN INFORMATION THAT INCLUDES OR IS BASED UPON
+                  FORWARD-LOOKING STATEMENTS WITHIN THE MEANING OF THE
+                  SECURITIES LITIGATION REFORM ACT OF 1995. FORWARD-LOOKING
+                  STATEMENTS GIVE OUR EXPECTATIONS OR FORECASTS OF FUTURE
+                  EVENTS. YOU CAN IDENTIFY THESE STATEMENTS BY THE FACT THAT
+                  THEY DO NOT RELATE STRICTLY TO HISTORICAL OR CURRENT FACTS.
+                  THEY USE WORDS SUCH AS “ANTICIPATE,” “ESTIMATE,” “EXPECT,”
+                  “PROJECT,” “INTEND,” “PLAN,” “BELIEVE,” AND OTHER WORDS AND
+                  TERMS OF SIMILAR MEANING IN CONNECTION WITH A DESCRIPTION OF
+                  POTENTIAL EARNINGS OR FINANCIAL PERFORMANCE.
+                </p>
+                <p>
+                  ANY AND ALL FORWARD LOOKING STATEMENTS HERE, IN OTHER
+                  MATERIALS CONTAINED ON THIS WEBSITE OR IN MATERIALS PURCHASED
+                  AND/OR DOWNLOADED FROM THIS WEBSITE ARE INTENDED TO EXPRESS
+                  OUR OPINION OF EARNINGS POTENTIAL. MANY FACTORS WILL BE
+                  IMPORTANT IN DETERMINING YOUR ACTUAL RESULTS AND NO GUARANTEES
+                  ARE MADE THAT YOU WILL ACHIEVE RESULTS SIMILAR TO OURS OR
+                  ANYBODY ELSE, IN FACT NO GUARANTEES ARE MADE THAT YOU WILL
+                  ACHIEVE ANY RESULTS FROM OUR IDEAS AND TECHNIQUES IN OUR
+                  MATERIAL.
+                </p>
+                <p>
+                  (iv) Due Diligence. You are advised to do your own due
+                  diligence when it comes to making business decisions and
+                  should use caution and seek the advice of qualified
+                  professionals. You should check with your accountant, lawyer,
+                  or professional advisor, before acting on this or any
+                  information. You may not consider any examples, documents, or
+                  other content on the website or otherwise provided by us to be
+                  the equivalent of professional advice. Nothing contained on
+                  the website or in materials available for sale or download on
+                  the website provides professional advice in any way. You
+                  should consult with your own accountant, lawyer, or
+                  professional advisor for any questions you may have.
+                </p>
+                <p>
+                  We assume no responsibility for any losses or damages
+                  resulting from your use of any link, information, or
+                  opportunity contained within the website or within any
+                  information disclosed by the owner of this site in any form
+                  whatsoever.
+                </p>
+                <p>
+                  (v) Purchase Price. Although we believe the price is fair for
+                  the value that you receive, you understand and agree that the
+                  purchase price for Unstarving Artists products and/or services
+                  has been arbitrarily set by us. This price bears no
+                  relationship to objective standards.
                 </p>
               </div>
             </div>
