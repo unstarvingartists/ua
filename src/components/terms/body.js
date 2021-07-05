@@ -169,7 +169,7 @@ export default function Component({ children }) {
                   trademark law.
                 </p>
               </div>
-              <div className="mt-6 prose prose-indigo prose-lg text-gray-500 mx-auto">
+              <div className="mt-6 prose prose-blue prose-lg text-gray-500 mx-auto">
                 <h3>Last Revised: July 4, 2021</h3>
                 <h2>1. Refund and Cancellation Policies</h2>
                 <p>

@@ -82,9 +82,8 @@ const Component = ({ children }) => {
               <span className="block xl:inline">Got a question for us?</span>
             </h1>
             <p className="mt-3 max-w-md mx-auto text-base text-gray-500 sm:text-lg md:mt-5 md:text-xl md:max-w-3xl">
-              Everything you need to become a highly paid artist. No art degree,
-              art world connections, or gallery representation required. Not a
-              tech whiz? That's ok too.
+              We're happy to hear from you. Please use the information below to
+              get in touch.
             </p>
           </div>
         </main>

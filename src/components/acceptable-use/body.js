@@ -155,7 +155,7 @@ export default function Component({ children }) {
                   "Services").
                 </p>
               </div>
-              <div className="mt-6 prose prose-indigo prose-lg text-gray-500 mx-auto">
+              <div className="mt-6 prose prose-blue prose-lg text-gray-500 mx-auto">
                 <h2>Prohibited activities and uses</h2>
                 <p>
                   You may not use the Services to publish content or engage in

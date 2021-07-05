@@ -151,7 +151,7 @@ export default function Component({ children }) {
                   scelerisque eget. Eleifend egestas fringilla sapien.
                 </p>
               </div>
-              <div className="mt-6 prose prose-indigo prose-lg text-gray-500 mx-auto">
+              <div className="mt-6 prose prose-blue prose-lg text-gray-500 mx-auto">
                 <p>
                   Faucibus commodo massa rhoncus, volutpat.{" "}
                   <strong>Dignissim</strong> sed{" "}

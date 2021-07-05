@@ -80,7 +80,7 @@ export default function Component() {
                 Blandit amet, sed aenean erat arcu morbi.
               </p>
             </div>
-            <div className="mt-5 prose prose-indigo text-gray-500 mx-auto lg:max-w-none lg:row-start-1 lg:col-start-1">
+            <div className="mt-5 prose prose-blue text-gray-500 mx-auto lg:max-w-none lg:row-start-1 lg:col-start-1">
               <p>
                 Sollicitudin tristique eros erat odio sed vitae, consequat
                 turpis elementum. Lorem nibh vel, eget pretium arcu vitae. Eros

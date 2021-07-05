@@ -149,7 +149,7 @@ export default function Component({ children }) {
                   <Link to="/">unstarvingartists.com.</Link>{" "}
                 </p>
               </div>
-              <div className="mt-6 prose prose-indigo prose-lg text-gray-500 mx-auto">
+              <div className="mt-6 prose prose-blue prose-lg text-gray-500 mx-auto">
                 <p>
                   This cookie policy is part of Vouch Group, LLC's privacy
                   policy, and covers the use of cookies between your device and

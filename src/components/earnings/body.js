@@ -149,7 +149,7 @@ export default function Component({ children }) {
                   Representations
                 </p>
               </div>
-              <div className="mt-6 prose prose-indigo prose-lg text-gray-500 mx-auto">
+              <div className="mt-6 prose prose-blue prose-lg text-gray-500 mx-auto">
                 <p>
                   You recognize and agree that we have made no implications,
                   warranties, promises, suggestions, projections,

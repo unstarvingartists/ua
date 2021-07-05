@@ -148,7 +148,7 @@ export default function Component({ children }) {
                   Your privacy is important to us.
                 </p>
               </div>
-              <div className="mt-6 prose prose-indigo prose-lg text-gray-500 mx-auto">
+              <div className="mt-6 prose prose-blue prose-lg text-gray-500 mx-auto">
                 <p>
                   It is Vouch Group, LLC’s policy to respect your privacy
                   regarding any information we may collect from you across our
