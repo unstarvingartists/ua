@@ -1,14 +1,13 @@
 import * as React from "react";
 import { Link } from "gatsby";
 
-const navigation = {
-  company: [
-    { name: "Our story", href: "/story" },
-    { name: "Our philosophy", href: "/philosophy" },
-    { name: "Our company", href: "/company" },
-    { name: "Careers", href: "/careers" },
-  ],
-};
+const navigation = [
+  { name: "Privacy Policy", href: "/privacy" },
+  { name: "Cookie Policy", href: "/cookies" },
+  { name: "Terms & Conditions", href: "/terms" },
+  { name: "Earnings Disclaimer", href: "/earnings" },
+  { name: "Acceptable User", href: "/acceptable-use" },
+];
 
 export default function Component({ children }) {
   return (
@@ -122,11 +121,12 @@ export default function Component({ children }) {
           <div className="sm:grid sm:grid-cols-6 sm:gap-4">
             <div>
               <ul className="mt-4 space-y-4">
-                {navigation.company.map((item) => (
+                {navigation.map((item) => (
                   <li key={item.name}>
                     <Link
                       to={item.href}
                       className="text-base text-gray-500 hover:text-gray-900"
+                      activeClassName="text-gray-700 underline font-semibold"
                     >
                       {item.name}
                     </Link>
