@@ -5,12 +5,12 @@ export default function Component() {
   return (
     <StaticQuery
       query={graphql`
-        query postsQuery {
+        query studentStoriesQuery {
           allMdx(
             filter: {
               frontmatter: { category: { name: { eq: "Student Story" } } }
             }
-            sort: { fields: [frontmatter___title], order: ASC }
+            sort: { fields: [frontmatter___id], order: ASC }
           ) {
             edges {
               node {
