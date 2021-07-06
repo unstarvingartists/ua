@@ -18,8 +18,8 @@ export default function Component({ children }) {
             </h1>
             <p className="mt-3 max-w-md mx-auto text-lg text-gray-500 sm:text-xl md:mt-5 md:max-w-3xl">
               In order to keep our customer experience at the highest levels
-              possible, HYROS is invite-only. We only work with businesses of a
-              certain size and in certain industries.
+              possible, Unstarving Artists is invite-only. We only work with
+              businesses of a certain size and in certain industries.
             </p>
             <p className="mt-3 max-w-md mx-auto text-lg text-gray-500 sm:text-xl md:mt-5 md:max-w-3xl">
               If you need additional info, please book a demo below and we will

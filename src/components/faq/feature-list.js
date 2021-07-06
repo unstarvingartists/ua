@@ -4,16 +4,16 @@ import faqImage from "../../images/faq-painting.jpeg";
 
 const features = [
   {
-    name: "Why HYROS can save you 20-30% of your ad spend WITHOUT lowering sales.",
+    name: "Why Unstarving Artists can save you 20-30% of your ad spend WITHOUT lowering sales.",
   },
   {
-    name: "How HYROS allows businesses to scale at least 20-30% further",
+    name: "How Unstarving Artists allows businesses to scale at least 20-30% further",
   },
   {
-    name: "How HYROS can train Facebook and Google AIs to find your customers more cheaply",
+    name: "How Unstarving Artists can train Facebook and Google AIs to find your customers more cheaply",
   },
   {
-    name: "How HYROS provides you unmatched long-term customer value analytics so you can see your customer's true value",
+    name: "How Unstarving Artists provides you unmatched long-term customer value analytics so you can see your customer's true value",
   },
 ];
 

@@ -35,7 +35,7 @@ export default function Component() {
       </div>
       <div className="relative max-w-7xl mx-auto py-24 px-4 sm:py-32 sm:px-6 lg:px-8">
         <h1 className="text-4xl font-extrabold tracking-tight text-white sm:text-5xl lg:text-6xl">
-          With HYROS you will be able to
+          With Unstarving Artists you will be able to
         </h1>
         <div className="mt-6 text-xl text-blue-100 max-w-3xl">
           <dl className="space-y-10 sm:space-y-0 sm:grid sm:grid-cols-1 sm:grid-rows-6 sm:grid-flow-col sm:gap-x-6 sm:gap-y-10 lg:gap-x-8">

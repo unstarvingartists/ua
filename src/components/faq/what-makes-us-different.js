@@ -13,7 +13,7 @@ export default function Component() {
               What Makes Us Different
             </h2>
             <h3 className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
-              Why Is HYROS Better Than Other Systems On The Market?
+              Why Is Unstarving Artists Better Than Other Systems On The Market?
             </h3>
           </div>
         </div>
@@ -76,11 +76,11 @@ export default function Component() {
           <div className="mt-8 lg:mt-0">
             <div className="text-base max-w-prose mx-auto lg:max-w-none">
               <p className="text-lg text-gray-500">
-                At HYROS we build our business by delivering superior results,
-                not by trashing our competitors. Simply put, HYROS is unlike any
-                other tracking system on the market and we take completely
-                different approaches to tracking. It would be like comparing a
-                helicopter to a pickup truck.
+                At Unstarving Artists we build our business by delivering
+                superior results, not by trashing our competitors. Simply put,
+                Unstarving Artists is unlike any other tracking system on the
+                market and we take completely different approaches to tracking.
+                It would be like comparing a helicopter to a pickup truck.
               </p>
             </div>
             <div className="mt-5 prose prose-blue text-gray-500 mx-auto lg:max-w-none lg:row-start-1 lg:col-start-1">
@@ -96,17 +96,17 @@ export default function Component() {
               </p>
               <p>
                 #2: Go to our customer Facebook group HERE and ask our customers
-                about their experiences on other platforms VS HYROS. There is a
-                reason people constantly leave other platforms to become HYROS
-                customers for life. Our customers are quite vocal about why they
-                love our platform.
+                about their experiences on other platforms VS Unstarving
+                Artists. There is a reason people constantly leave other
+                platforms to become Unstarving Artists customers for life. Our
+                customers are quite vocal about why they love our platform.
               </p>
               <p>
                 #3: Go to our customer Facebook group HERE and ask our customers
-                about their experiences on other platforms VS HYROS. There is a
-                reason people constantly leave other platforms to become HYROS
-                customers for life. Our customers are quite vocal about why they
-                love our platform.
+                about their experiences on other platforms VS Unstarving
+                Artists. There is a reason people constantly leave other
+                platforms to become Unstarving Artists customers for life. Our
+                customers are quite vocal about why they love our platform.
               </p>
             </div>
             <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
