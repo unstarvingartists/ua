@@ -10,27 +10,30 @@ export default function Component() {
             filter: {
               frontmatter: { category: { name: { eq: "Student Story" } } }
             }
+            sort: { fields: [frontmatter___title], order: ASC }
           ) {
             edges {
               node {
                 id
                 frontmatter {
                   category {
-                    name
                     href
+                    name
                   }
-                  date
-                  datetime
+                  country
                   description
+                  genre
                   href
-                  imageUrl
-                  path
-                  readingTime
-                  title
-                  author {
+                  student {
                     href
-                    imageUrl
                     name
+                    image {
+                      publicURL
+                    }
+                  }
+                  title
+                  image {
+                    publicURL
                   }
                 }
               }
@@ -54,15 +57,15 @@ export default function Component() {
               </p>
             </div>
             <div className="mt-12 max-w-lg mx-auto grid gap-5 lg:grid-cols-3 lg:max-w-none">
-              {data.allMdx.edges.map((post) => (
+              {data.allMdx.edges.map(({ node: post }) => (
                 <div
-                  key={post.node.frontmatter.title}
+                  key={post.frontmatter.title}
                   className="flex flex-col rounded-lg shadow-lg overflow-hidden"
                 >
                   <div className="flex-shrink-0">
                     <img
                       className="h-48 w-full object-cover"
-                      src={post.node.frontmatter.imageUrl}
+                      src={post.frontmatter.image.publicURL}
                       alt=""
                     />
                   </div>
@@ -70,33 +73,30 @@ export default function Component() {
                     <div className="flex-1">
                       <p className="text-sm font-medium text-blue-600">
                         <a
-                          href={post.node.frontmatter.category.href}
+                          href={post.frontmatter.category.href}
                           className="hover:underline"
                         >
-                          {post.node.frontmatter.category.name}
+                          {post.frontmatter.category.name}
                         </a>
                       </p>
-                      <a
-                        href={post.node.frontmatter.href}
-                        className="block mt-2"
-                      >
+                      <a href={post.frontmatter.href} className="block mt-2">
                         <p className="text-xl font-semibold text-gray-900">
-                          {post.node.frontmatter.title}
+                          {post.frontmatter.title}
                         </p>
                         <p className="mt-3 text-base text-gray-500">
-                          {post.node.frontmatter.description}
+                          {post.frontmatter.description}
                         </p>
                       </a>
                     </div>
                     <div className="mt-6 flex items-center">
                       <div className="flex-shrink-0">
-                        <a href={post.node.frontmatter.author.href}>
+                        <a href={post.frontmatter.student.href}>
                           <span className="sr-only">
-                            {post.node.frontmatter.author.name}
+                            {post.frontmatter.student.name}
                           </span>
                           <img
                             className="h-10 w-10 rounded-full"
-                            src={post.node.frontmatter.author.imageUrl}
+                            src={post.frontmatter.student.image.publicURL}
                             alt=""
                           />
                         </a>
@@ -104,18 +104,16 @@ export default function Component() {
                       <div className="ml-3">
                         <p className="text-sm font-medium text-gray-900">
                           <a
-                            href={post.node.frontmatter.author.href}
+                            href={post.frontmatter.student.href}
                             className="hover:underline"
                           >
-                            {post.node.frontmatter.author.name}
+                            {post.frontmatter.student.name}
                           </a>
                         </p>
                         <div className="flex space-x-1 text-sm text-gray-500">
-                          <time dateTime={post.node.frontmatter.datetime}>
-                            {post.node.frontmatter.date}
-                          </time>
+                          <span>{post.frontmatter.genre}</span>
                           <span aria-hidden="true">&middot;</span>
-                          <span>{post.node.frontmatter.readingTime} read</span>
+                          <span>{post.frontmatter.country}</span>
                         </div>
                       </div>
                     </div>
