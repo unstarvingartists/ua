@@ -125,7 +125,10 @@ export default function Component({ mdx, children }) {
         <div className="mt-6 prose prose-blue prose-lg text-gray-500 mx-auto">
           <ReactPlayer
             className="rounded-lg shadow-lg mx-auto"
-            url={mdx.frontmatter.wistiaEmbedURL}
+            url={mdx.frontmatter.videoURL}
+            config={{
+              wistia: { options: { playerColor: "2563eb" } },
+            }}
           />
         </div>
       </div>

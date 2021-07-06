@@ -140,6 +140,9 @@ export default function Component({ children }) {
                 className="relative mx-auto w-full rounded-lg shadow-lg lg:max-w-md"
                 url="https://vouch.wistia.com/medias/ix846v07qt"
                 height="260px"
+                config={{
+                  wistia: { options: { playerColor: "2563eb" } },
+                }}
               />
             </div>
           </div>
