@@ -1,4 +1,5 @@
 import * as React from "react";
+import { Link } from "gatsby";
 
 const faqs = [
   {
@@ -37,7 +38,6 @@ const faqs = [
     answer:
       "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
   },
-  // More questions...
 ];
 
 export default function Component() {
@@ -48,10 +48,9 @@ export default function Component() {
           <h2 className="text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl">
             Frequently asked questions
           </h2>
-          <p className="mt-4 text-gray-500">
-            Ac euismod vel sit maecenas id pellentesque eu sed consectetur.
-            Malesuada adipiscing sagittis vel nulla nec. Urna, sed a lectus
-            elementum blandit et.
+          <p className="mt-4 text-gray-500 prose prose-blue">
+            Have specific questions or want to sign up? Apply for a strategy
+            session <Link to="/apply">here</Link>.
           </p>
         </div>
         <div className="mt-20">

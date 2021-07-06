@@ -1,5 +1,6 @@
 import * as React from "react";
 import { CameraIcon } from "@heroicons/react/solid";
+import { Link } from "gatsby";
 
 export default function Component() {
   return (
@@ -9,10 +10,10 @@ export default function Component() {
         <div className="mx-auto text-base max-w-prose lg:grid lg:grid-cols-2 lg:gap-8 lg:max-w-none">
           <div>
             <h2 className="text-base text-blue-600 font-semibold tracking-wide uppercase">
-              Case Study
+              What Makes Us Different
             </h2>
             <h3 className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
-              Meet Whitney
+              Why Is HYROS Better Than Other Systems On The Market?
             </h3>
           </div>
         </div>
@@ -75,54 +76,56 @@ export default function Component() {
           <div className="mt-8 lg:mt-0">
             <div className="text-base max-w-prose mx-auto lg:max-w-none">
               <p className="text-lg text-gray-500">
-                Sagittis scelerisque nulla cursus in enim consectetur quam.
-                Dictum urna sed consectetur neque tristique pellentesque.
-                Blandit amet, sed aenean erat arcu morbi.
+                At HYROS we build our business by delivering superior results,
+                not by trashing our competitors. Simply put, HYROS is unlike any
+                other tracking system on the market and we take completely
+                different approaches to tracking. It would be like comparing a
+                helicopter to a pickup truck.
               </p>
             </div>
             <div className="mt-5 prose prose-blue text-gray-500 mx-auto lg:max-w-none lg:row-start-1 lg:col-start-1">
+              <strong>Here is what we suggest</strong>
               <p>
-                Sollicitudin tristique eros erat odio sed vitae, consequat
-                turpis elementum. Lorem nibh vel, eget pretium arcu vitae. Eros
-                eu viverra donec ut volutpat donec laoreet quam urna.
+                #1: PLEASE go try our "competitors" and run our tracking head to
+                head with them. Unlike our competitors, we have a 90-day
+                satisfaction guarantee BECAUSE we know our services deliver
+                superior results. We are 100% positive you will see not only
+                better tracking, but also better customer support, an
+                easier-to-use platform and setup, and far more specialized
+                features for education businesses.
               </p>
               <p>
-                Bibendum eu nulla feugiat justo, elit adipiscing. Ut tristique
-                sit nisi lorem pulvinar. Urna, laoreet fusce nibh leo. Dictum et
-                et et sit. Faucibus sed non gravida lectus dignissim imperdiet
-                a.
+                #2: Go to our customer Facebook group HERE and ask our customers
+                about their experiences on other platforms VS HYROS. There is a
+                reason people constantly leave other platforms to become HYROS
+                customers for life. Our customers are quite vocal about why they
+                love our platform.
               </p>
               <p>
-                Dictum magnis risus phasellus vitae quam morbi. Quis lorem lorem
-                arcu, metus, egestas netus cursus. In.
+                #3: Go to our customer Facebook group HERE and ask our customers
+                about their experiences on other platforms VS HYROS. There is a
+                reason people constantly leave other platforms to become HYROS
+                customers for life. Our customers are quite vocal about why they
+                love our platform.
               </p>
-              <ul>
-                <li>Quis elit egestas venenatis mattis dignissim.</li>
-                <li>
-                  Cras cras lobortis vitae vivamus ultricies facilisis tempus.
-                </li>
-                <li>Orci in sit morbi dignissim metus diam arcu pretium.</li>
-              </ul>
-              <p>
-                Rhoncus nisl, libero egestas diam fermentum dui. At quis
-                tincidunt vel ultricies. Vulputate aliquet velit faucibus
-                semper. Pellentesque in venenatis vestibulum consectetur nibh
-                id. In id ut tempus egestas. Enim sit aliquam nec, a. Morbi enim
-                fermentum lacus in. Viverra.
-              </p>
-              <h3>How we helped</h3>
-              <p>
-                Tincidunt integer commodo, cursus etiam aliquam neque, et.
-                Consectetur pretium in volutpat, diam. Montes, magna cursus
-                nulla feugiat dignissim id lobortis amet. Laoreet sem est
-                phasellus eu proin massa, lectus. Diam rutrum posuere donec
-                ultricies non morbi. Mi a platea auctor mi.
-              </p>
-              <p>
-                Sagittis scelerisque nulla cursus in enim consectetur quam.
-                Dictum urna sed consectetur neque tristique pellentesque.
-                Blandit amet, sed aenean erat arcu morbi.
-              </p>
+            </div>
+            <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
+              <div className="rounded-md shadow">
+                <Link
+                  to="https://go.unstarvingartists.org/opt-in"
+                  className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700 md:py-4 md:text-lg md:px-10"
+                >
+                  See How It Works
+                </Link>
+              </div>
+              <div className="mt-3 sm:mt-0 sm:ml-3">
+                <Link
+                  to="/apply"
+                  className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-blue-700 bg-blue-100 hover:bg-blue-200 md:py-4 md:text-lg md:px-10"
+                >
+                  Apply Now
+                </Link>
+              </div>
             </div>
           </div>
         </div>
