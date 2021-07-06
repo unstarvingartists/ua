@@ -33,6 +33,41 @@ export const query = graphql`
         }
       }
     }
+    allMdx(
+      filter: {
+        frontmatter: { category: { name: { eq: "Student Story" } } }
+        slug: { ne: $slug }
+      }
+      sort: { fields: [frontmatter___id], order: ASC }
+      limit: 3
+    ) {
+      edges {
+        node {
+          id
+          frontmatter {
+            category {
+              href
+              name
+            }
+            country
+            description
+            genre
+            href
+            student {
+              href
+              name
+              image {
+                publicURL
+              }
+            }
+            title
+            image {
+              publicURL
+            }
+          }
+        }
+      }
+    }
   }
 `;
 
@@ -42,7 +77,7 @@ export default function Page({ data }) {
       <Body {...data}>
         <Navigation />
       </Body>
-      <CheckoutMore />
+      <CheckoutMore {...data} />
       <CallToAction />
       <Footer />
     </Layout>
