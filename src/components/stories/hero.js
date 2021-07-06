@@ -68,9 +68,9 @@ export default function Component({ children }) {
               </h1>
               <p className="mt-3 text-base text-gray-500 sm:mt-5 sm:text-xl lg:text-lg xl:text-xl">
                 We know Unstarving Artists is life-changing because we hear it
-                from artists and students every day. Watch our artists share how
-                our Flywheel Lab program helped them earn more from their
-                artwork, and get ready to rewrite your own story.
+                from artists every day. Watch our artists share how our Flywheel
+                Lab program helped them earn more from their artwork, and get
+                ready to rewrite your own story.
               </p>
               <div className="mt-8 sm:max-w-lg sm:mx-auto sm:text-center lg:text-left lg:mx-0">
                 <div className="mt-10 sm:flex sm:justify-center lg:justify-start">
