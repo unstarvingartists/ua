@@ -1,7 +1,7 @@
 import * as React from "react";
 import Layout from "../components/layout";
 import Navigation from "../components/gray-navigation";
-import Hero from "../components/methodology/hero";
+import Hero from "../components/philosophy/hero";
 import Body from "../components/philosophy/body";
 import CallToAction from "../components/call-to-action";
 import Footer from "../components/footer";
