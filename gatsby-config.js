@@ -16,9 +16,6 @@ module.exports = {
     },
     {
       resolve: "gatsby-plugin-sharp",
-      options: {
-        icon: "src/images/icon.png",
-      },
     },
     "gatsby-plugin-mdx",
     "gatsby-transformer-sharp",
