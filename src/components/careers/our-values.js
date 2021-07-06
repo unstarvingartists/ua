@@ -1,36 +1,42 @@
 import * as React from "react";
 /* This example requires Tailwind CSS v2.0+ */
 import {
-  GlobeAltIcon,
+  ShieldCheckIcon,
+  EyeIcon,
+  LightBulbIcon,
+  HeartIcon,
   LightningBoltIcon,
-  MailIcon,
-  ScaleIcon,
 } from "@heroicons/react/outline";
 
 const features = [
   {
-    name: "Competitive rates",
+    name: "Spartan Wall",
     description:
-      "Consequuntur omnis dicta cumque, inventore atque ab dolores aspernatur tempora ab doloremque.",
-    icon: GlobeAltIcon,
+      "We win the battle for our customers by protecting / taking care of each other.",
+    icon: ShieldCheckIcon,
   },
   {
-    name: "No hidden fees",
+    name: "Make The Experience Share Worthy",
     description:
-      "Corporis quisquam nostrum nulla veniam recusandae temporibus aperiam officia incidunt at distinctio ratione.",
-    icon: ScaleIcon,
+      'In all things consider the impression the client will have and think "Will this WOW them so much that they HAVE to tell someone about it"',
+    icon: HeartIcon,
   },
   {
-    name: "Instant transfers",
+    name: "Brutal Data-Driven Truth",
     description:
-      "Omnis, illo delectus? Libero, possimus nulla nemo tenetur adipisci repellat dolore eligendi velit doloribus mollitia.",
+      "Whether in our work or data we must never operate off anything but the 110% accurate truth.",
     icon: LightningBoltIcon,
   },
   {
-    name: "Reminder emails",
+    name: '"Seek And Destroy" Proactive Problem Solving',
     description:
-      "Veniam necessitatibus reiciendis fugit explicabo dolorem nihil et omnis assumenda odit? Quisquam unde accusantium.",
-    icon: MailIcon,
+      "Instinctively pursuing and solving hard problems is where our success comes from.",
+    icon: LightBulbIcon,
+  },
+  {
+    name: "Eye Of Mordor Long-Term Focus",
+    description: "Focus on the key mission and keep the mission the key focus.",
+    icon: EyeIcon,
   },
 ];
 
@@ -75,7 +81,7 @@ export default function Component() {
         <div className="relative lg:grid lg:grid-cols-3 lg:gap-x-8">
           <div className="lg:col-span-1">
             <h2 className="text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl">
-              A better way to send money.
+              Our team values
             </h2>
           </div>
           <dl className="mt-10 space-y-10 sm:space-y-0 sm:grid sm:grid-cols-2 sm:gap-x-8 sm:gap-y-10 lg:mt-0 lg:col-span-2">

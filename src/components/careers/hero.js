@@ -81,35 +81,17 @@ const Component = ({ children }) => {
           <div className="text-center">
             <h1 className="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl">
               <span className="block xl:inline">
-                Become A Highly Paid Artist Without
+                We offer the simplest most effective practical business training
               </span>{" "}
               <span className="block text-blue-600 xl:inline">
-                Art World Or Gallery Connections
+                for artists in the world
               </span>
             </h1>
             <p className="mt-3 max-w-md mx-auto text-base text-gray-500 sm:text-lg md:mt-5 md:text-xl md:max-w-3xl">
-              Everything you need to become a highly paid artist. No art degree,
-              art world connections, or gallery representation required. Not a
-              tech whiz? That's ok too.
+              We are here to revolutionize the art industry by making it
+              radically simpler and more accessible for everyday people to earn
+              a living from their artwork.
             </p>
-            <div className="mt-5 max-w-md mx-auto sm:flex sm:justify-center md:mt-8">
-              <div className="rounded-md shadow">
-                <Link
-                  to="https://go.unstarvingartists.org/opt-in"
-                  className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700 md:py-4 md:text-lg md:px-10"
-                >
-                  See How It Works
-                </Link>
-              </div>
-              <div className="mt-3 rounded-md shadow sm:mt-0 sm:ml-3">
-                <Link
-                  to="/apply"
-                  className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-blue-600 bg-white hover:bg-gray-50 md:py-4 md:text-lg md:px-10"
-                >
-                  Apply Now
-                </Link>
-              </div>
-            </div>
           </div>
         </main>
       </div>
