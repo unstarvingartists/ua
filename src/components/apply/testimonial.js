@@ -1,4 +1,7 @@
 import * as React from "react";
+import oliver from "../../images/oliver.jpeg";
+import oliverLogo from "../../images/oliver-logo.png";
+
 export default function Component() {
   return (
     <section className="py-12 bg-gray-50 overflow-hidden md:py-20 lg:py-24">
@@ -40,17 +43,11 @@ export default function Component() {
         </svg>
 
         <div className="relative">
-          <img
-            className="mx-auto h-8"
-            src="https://tailwindui.com/img/logos/workcation-logo-indigo-600-mark-gray-800-and-indigo-600-text.svg"
-            alt="Workcation"
-          />
+          <img className="mx-auto h-8" src={oliverLogo} alt="Oliver Hojas" />
           <blockquote className="mt-10">
             <div className="max-w-3xl mx-auto text-center text-2xl leading-9 font-medium text-gray-900">
               <p>
-                &ldquo;Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Nemo expedita voluptas culpa sapiente alias molestiae. Numquam
-                corrupti in laborum sed rerum et corporis.&rdquo;
+                &ldquo;I've sold $100,400+ of my art—my art is valuable!&rdquo;
               </p>
             </div>
             <footer className="mt-8">
@@ -58,13 +55,13 @@ export default function Component() {
                 <div className="md:flex-shrink-0">
                   <img
                     className="mx-auto h-10 w-10 rounded-full"
-                    src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
-                    alt=""
+                    src={oliver}
+                    alt="Oliver Hojas"
                   />
                 </div>
                 <div className="mt-3 text-center md:mt-0 md:ml-4 md:flex md:items-center">
                   <div className="text-base font-medium text-gray-900">
-                    Judith Black
+                    Oliver Hojas
                   </div>
 
                   <svg
@@ -76,7 +73,7 @@ export default function Component() {
                   </svg>
 
                   <div className="text-base font-medium text-gray-500">
-                    CEO, Workcation
+                    Abstract Artist, Switzerland
                   </div>
                 </div>
               </div>
