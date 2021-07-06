@@ -1,6 +1,7 @@
 import * as React from "react";
 import { Link } from "gatsby";
-import { InboxIcon } from "@heroicons/react/outline";
+import { BeakerIcon } from "@heroicons/react/outline";
+import oliver from "../../images/oliver.jpeg";
 
 export default function Component() {
   return (
@@ -11,7 +12,7 @@ export default function Component() {
             <div>
               <div>
                 <span className="h-12 w-12 rounded-md flex items-center justify-center bg-blue-600">
-                  <InboxIcon
+                  <BeakerIcon
                     className="h-6 w-6 text-white"
                     aria-hidden="true"
                   />
@@ -19,20 +20,26 @@ export default function Component() {
               </div>
               <div className="mt-6">
                 <h2 className="text-3xl font-extrabold tracking-tight text-gray-900">
-                  Stay on top of customer support
+                  Here's a summary of everything you get
                 </h2>
                 <p className="mt-4 text-lg text-gray-500">
-                  Semper curabitur ullamcorper posuere nunc sed. Ornare iaculis
-                  bibendum malesuada faucibus lacinia porttitor. Pulvinar
-                  laoreet sagittis viverra duis. In venenatis sem arcu pretium
-                  pharetra at. Lectus viverra dui tellus ornare pharetra.
+                  This is not your typical "course". We provide you with
+                  everything you need to be successful.
                 </p>
+                <ul className="mt-4 text-lg text-gray-500">
+                  <li>✔ Reprogram your brain</li>
+                  <li>✔ Discover your niche</li>
+                  <li>✔ Identify a market desire</li>
+                  <li>✔ See your art as a solution</li>
+                  <li>✔ Market & sell it successfully</li>
+                  <li>✔ Generate a 6-figure profit</li>
+                </ul>
                 <div className="mt-6">
                   <Link
-                    to="#"
+                    to="https://go.unstarvingartists.org/opt-in"
                     className="inline-flex px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-blue-600 hover:bg-blue-700"
                   >
-                    Get started
+                    See how it works
                   </Link>
                 </div>
               </div>
@@ -41,9 +48,8 @@ export default function Component() {
               <blockquote>
                 <div>
                   <p className="text-base text-gray-500">
-                    &ldquo;Cras velit quis eros eget rhoncus lacus ultrices sed
-                    diam. Sit orci risus aenean curabitur donec aliquet. Mi
-                    venenatis in euismod ut.&rdquo;
+                    &ldquo;I've sold $100,400+ of my art—my art is
+                    valuable!&rdquo;
                   </p>
                 </div>
                 <footer className="mt-3">
@@ -51,12 +57,12 @@ export default function Component() {
                     <div className="flex-shrink-0">
                       <img
                         className="h-6 w-6 rounded-full"
-                        src="https://images.unsplash.com/photo-1509783236416-c9ad59bae472?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80"
-                        alt=""
+                        src={oliver}
+                        alt="Oliver Hojas"
                       />
                     </div>
                     <div className="text-base font-medium text-gray-700">
-                      Marcia Hill, Digital Marketing Manager
+                      Oliver Hojas, Abstract Artist
                     </div>
                   </div>
                 </footer>

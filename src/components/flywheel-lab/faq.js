@@ -1,75 +1,71 @@
 import * as React from "react";
 import {
-  GlobeAltIcon,
-  LightningBoltIcon,
-  ScaleIcon,
+  ChartBarIcon,
+  PresentationChartLineIcon,
+  ClockIcon,
+  CurrencyDollarIcon,
 } from "@heroicons/react/outline";
 
 const features = [
   {
-    name: "Competitive exchange rates",
-    description:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.",
-    icon: GlobeAltIcon,
+    name: "Level 1",
+    description: "Beginner friendly",
+    icon: ChartBarIcon,
   },
   {
-    name: "No hidden fees",
-    description:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.",
-    icon: ScaleIcon,
+    name: "The Goal",
+    description: "Successful art practice",
+    icon: CurrencyDollarIcon,
   },
   {
-    name: "Transfers are instant",
-    description:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.",
-    icon: LightningBoltIcon,
+    name: "Program Length",
+    description: "7 Weeks",
+    icon: ClockIcon,
   },
   {
-    name: "Transfers are instant",
-    description:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.",
-    icon: LightningBoltIcon,
+    name: "Program Format",
+    description: "Online",
+    icon: PresentationChartLineIcon,
   },
 ];
 
 const faqs = [
   {
     id: 1,
-    question: "What's the best thing about Switzerland?",
+    question: "What is it?",
     answer:
-      "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+      "Flywheel Lab is a 7-week online training program with live Q&A calls and a community of semi-professional and professional artists. It shows you how to start a profitable art practice from scratch.",
   },
   {
     id: 2,
-    question: "What's the best thing about Switzerland?",
+    question: "Who is it for?",
     answer:
-      "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+      "Flywheel Lab is for anybody who wants to start their own art practice and grow it to 6-figures. It works for anybody, regardless of your previous knowledge or experience.",
   },
   {
     id: 3,
-    question: "What's the best thing about Switzerland?",
+    question: "Where does it happen?",
     answer:
-      "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+      "Flywheel Lab is online and consists of training videos, tools, live Q&A calls and a client community. You complete it online, on your own time.",
   },
   {
     id: 4,
-    question: "What's the best thing about Switzerland?",
+    question: "How does it work?",
     answer:
-      "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+      "You watch the videos, complete the action items, use the provided tools and templates. Ask questions in the client community or on the live Q&A calls, follow the process, get results.",
   },
   {
     id: 5,
-    question: "What's the best thing about Switzerland?",
+    question: "When does it start?",
     answer:
-      "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+      "Flywheel Lab is an online program and starts the moment you enroll. You can complete it in your own time and work through it as fast or slow as you wish. You get lifetime access.",
   },
   {
     id: 6,
-    question: "What's the best thing about Switzerland?",
+    question: "Why does it exist?",
     answer:
-      "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+      "We created the Flywheel Lab program because there was nothing that showed a complete beginner how to start their own art practice from scratch. We filled that gap and in extreme detail.",
   },
-  // More questions...
 ];
 
 export default function Component() {
