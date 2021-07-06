@@ -1,6 +1,6 @@
 import * as React from "react";
 import { StarIcon } from "@heroicons/react/solid";
-import { Link, StaticQuery, graphql } from "gatsby";
+import { Link } from "gatsby";
 
 export default function Component({ allMdx }) {
   return (
