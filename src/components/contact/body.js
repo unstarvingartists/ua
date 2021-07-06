@@ -1,5 +1,4 @@
 import * as React from "react";
-import { MailIcon } from "@heroicons/react/outline";
 import { Link } from "gatsby";
 
 export default function Component() {
