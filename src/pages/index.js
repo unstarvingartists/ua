@@ -12,10 +12,12 @@ import LearnTheWay from "../components/home/learn-the-way";
 import YoureInGoodCompany from "../components/home/youre-in-good-company";
 import LearnEssentials from "../components/home/learn-essentials";
 import Footer from "../components/footer";
+import Seo from "../components/seo";
 
 export default function Page() {
   return (
     <Layout>
+      <Seo title="Become A Highly Paid Artist" />
       <Hero>
         <Navigation />
       </Hero>
