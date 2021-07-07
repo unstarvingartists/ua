@@ -6,90 +6,66 @@ import {
   CheckIcon,
 } from "@heroicons/react/outline";
 
-const transferFeatures = [
-  {
-    id: 1,
-    name: "Competitive exchange rates",
-    description:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.",
-    icon: GlobeAltIcon,
-  },
-  {
-    id: 2,
-    name: "No hidden fees",
-    description:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.",
-    icon: ScaleIcon,
-  },
-  {
-    id: 3,
-    name: "Transfers are instant",
-    description:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.",
-    icon: LightningBoltIcon,
-  },
-];
-
 const features = [
   {
-    name: "Invite team members",
+    name: "Problem solving",
     description:
-      "Tempor tellus in aliquet eu et sit nulla tellus. Suspendisse est, molestie blandit quis ac. Lacus.",
+      "Defining the problem, using scientific method to hypothesize solutions, testing and iteration.",
   },
   {
-    name: "Notifications",
+    name: "Critical thinking",
     description:
-      "Ornare donec rhoncus vitae nisl velit, neque, mauris dictum duis. Nibh urna non parturient.",
+      "Questioning everything, thinking objectively and independently to form judgements.",
   },
   {
-    name: "List view",
+    name: "Prioritization",
     description:
-      "Etiam cras augue ornare pretium sit malesuada morbi orci, venenatis. Dictum lacus.",
+      "Gathering and arranging items or activities in order of importance relative to each other.",
   },
   {
-    name: "Boards",
+    name: "Planning and scheduling",
     description:
-      "Interdum quam pulvinar turpis tortor, egestas quis diam amet, natoque. Mauris sagittis.",
+      "Thinking long-term, defining goals, reverse engineering, chunking, scheduling, delegating.",
   },
   {
-    name: "Invite team members",
+    name: "Decision making",
     description:
-      "Tempor tellus in aliquet eu et sit nulla tellus. Suspendisse est, molestie blandit quis ac. Lacus.",
+      "Rapidly gathering relevant information, making tradeoffs and deciding what needs to be done.",
   },
   {
-    name: "Notifications",
+    name: "Structuring and organizing",
     description:
-      "Ornare donec rhoncus vitae nisl velit, neque, mauris dictum duis. Nibh urna non parturient.",
+      "Categorizing, defining, labeling, structuring and optimizing everything for optimal efficiency.",
   },
   {
-    name: "List view",
+    name: "Resource allocation",
     description:
-      "Etiam cras augue ornare pretium sit malesuada morbi orci, venenatis. Dictum lacus.",
+      "Allocating time, focus and energy to important things while ignoring nonimportant things.",
   },
   {
-    name: "Boards",
+    name: "Perception",
     description:
-      "Interdum quam pulvinar turpis tortor, egestas quis diam amet, natoque. Mauris sagittis.",
+      "Looking at things from different perspectives and consolidating based on all points of view.",
   },
   {
-    name: "Keyboard shortcuts",
+    name: "Analysis and understanding",
     description:
-      "Ullamcorper in ipsum ac feugiat. Senectus at aliquam vulputate mollis nec. In at risus odio.",
+      "Detailed examination of the elements or structure of something to form understanding.",
   },
   {
-    name: "Reporting",
+    name: "Visual mapping",
     description:
-      "Magna a vel sagittis aliquam eu amet. Et lorem auctor quam nunc odio. Sed bibendum.",
+      "Mental visualization of information by identifying objects and interconnections.",
   },
   {
-    name: "Calendars",
+    name: "Systems thinking",
     description:
-      "Sed mi, dapibus turpis orci posuere integer. A porta viverra posuere adipiscing turpis.",
+      "Holistic understanding of systems, inputs, processes, outputs, feedback and environment.",
   },
   {
-    name: "Mobile app",
+    name: "Divergent and convergent thinking",
     description:
-      "Quisque sapien nunc nisl eros. Facilisis sagittis maecenas id dignissim tristique proin sed.",
+      "Thinking of many possible paths and collapsing them to decide on the best single path.",
   },
 ];
 
@@ -134,32 +110,21 @@ export default function Component() {
         <div className="relative mt-12 lg:mt-24 lg:grid lg:grid-cols-2 lg:gap-8 lg:items-center">
           <div className="relative">
             <h3 className="text-2xl font-extrabold text-gray-900 tracking-tight sm:text-3xl">
-              Transfer funds world-wide
+              Layer 2. Mental cognition
             </h3>
             <p className="mt-3 text-lg text-gray-500">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur
-              minima sequi recusandae, porro maiores officia assumenda aliquam
-              laborum ab aliquid veritatis impedit odit adipisci optio iste
-              blanditiis facere. Totam, velit.
+              Mental cognition is the second layer, it's responsible for problem
+              solving, critical thinking, planning, scheduling and prioritizing.
             </p>
-
-            <dl className="mt-10 space-y-10">
-              {transferFeatures.map((item) => (
-                <div key={item.id} className="relative">
-                  <dt>
-                    <div className="absolute flex items-center justify-center h-12 w-12 rounded-md bg-blue-500 text-white">
-                      <item.icon className="h-6 w-6" aria-hidden="true" />
-                    </div>
-                    <p className="ml-16 text-lg leading-6 font-medium text-gray-900">
-                      {item.name}
-                    </p>
-                  </dt>
-                  <dd className="mt-2 ml-16 text-base text-gray-500">
-                    {item.description}
-                  </dd>
-                </div>
-              ))}
-            </dl>
+            <p className="mt-3 text-lg text-gray-500">
+              It's the "executive" function that weighs all possible actions to
+              determine their contribution towards goals and then prioritizes
+              them for execution in the logical order of importance.
+            </p>
+            <p className="mt-3 text-lg text-gray-500">
+              We enhance mental cognition in our students minds so they can
+              think for themselves and troubleshoot without instructions.
+            </p>
           </div>
 
           <div className="mt-10 -mx-4 relative lg:mt-0" aria-hidden="true">

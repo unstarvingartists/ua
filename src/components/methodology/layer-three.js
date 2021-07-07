@@ -8,88 +8,79 @@ import {
 
 const features = [
   {
-    name: "Invite team members",
+    name: "Pick a niche",
     description:
-      "Tempor tellus in aliquet eu et sit nulla tellus. Suspendisse est, molestie blandit quis ac. Lacus.",
+      "Find an area you're interested in, focus on it and understand it better than anybody else.",
   },
   {
-    name: "Notifications",
+    name: "Solve a problem",
     description:
-      "Ornare donec rhoncus vitae nisl velit, neque, mauris dictum duis. Nibh urna non parturient.",
+      "Identify a painful widespread problem your niche has and solve it with your product.",
   },
   {
-    name: "List view",
+    name: "Work from the market backwards",
     description:
-      "Etiam cras augue ornare pretium sit malesuada morbi orci, venenatis. Dictum lacus.",
+      "All ideas should originate from your market, not your brain. You serve them, not yourself.",
   },
   {
-    name: "Boards",
+    name: "Customer obsession",
     description:
-      "Interdum quam pulvinar turpis tortor, egestas quis diam amet, natoque. Mauris sagittis.",
+      "Do whats best for your customer, because that is what's best for you, you just don't know it.",
   },
   {
-    name: "Invite team members",
+    name: "High standards",
     description:
-      "Tempor tellus in aliquet eu et sit nulla tellus. Suspendisse est, molestie blandit quis ac. Lacus.",
+      "Great just isn't good enough. Set excruciatingly high standards & demand them from everyone.",
   },
   {
-    name: "Notifications",
+    name: "Frugality",
     description:
-      "Ornare donec rhoncus vitae nisl velit, neque, mauris dictum duis. Nibh urna non parturient.",
+      "Constraints breed resourcefulness, self-sufficiency and invention. Do more with less.",
   },
   {
-    name: "List view",
+    name: "Relentless grit",
     description:
-      "Etiam cras augue ornare pretium sit malesuada morbi orci, venenatis. Dictum lacus.",
+      "Some people work harder, some smarter, some longer. We do all three at once.",
   },
   {
-    name: "Boards",
+    name: "Laser focus",
     description:
-      "Interdum quam pulvinar turpis tortor, egestas quis diam amet, natoque. Mauris sagittis.",
+      "Keep the main thing the main thing and ruthlessly eliminate distraction.",
   },
   {
-    name: "Keyboard shortcuts",
+    name: "Go all in",
     description:
-      "Ullamcorper in ipsum ac feugiat. Senectus at aliquam vulputate mollis nec. In at risus odio.",
+      "Be all in or get all out. There's no halfway, no plan b. Thinking small is self-fulfilling prophecy.",
   },
   {
-    name: "Reporting",
+    name: "Value > fame",
     description:
-      "Magna a vel sagittis aliquam eu amet. Et lorem auctor quam nunc odio. Sed bibendum.",
+      "Business is a game of solving problems, adding value and getting paid. Fame is not business.",
   },
   {
-    name: "Calendars",
+    name: "Think scientifically",
     description:
-      "Sed mi, dapibus turpis orci posuere integer. A porta viverra posuere adipiscing turpis.",
+      "Reason from first principles like a scientist or engineer. Use data, test and iterate everything.",
   },
   {
-    name: "Mobile app",
+    name: "Competition is for losers",
     description:
-      "Quisque sapien nunc nisl eros. Facilisis sagittis maecenas id dignissim tristique proin sed.",
-  },
-];
-
-const transferFeatures = [
-  {
-    id: 1,
-    name: "Competitive exchange rates",
-    description:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.",
-    icon: GlobeAltIcon,
+      "Differentiation is everything, the moment you look like everybody else, you're dead.",
   },
   {
-    id: 2,
-    name: "No hidden fees",
+    name: "Systemize and measure everything",
     description:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.",
-    icon: ScaleIcon,
+      "Think in systems: Inputs, processes, outputs and feedback. Measure & optimize everything.",
   },
   {
-    id: 3,
-    name: "Transfers are instant",
+    name: "Cashflow over profits",
     description:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.",
-    icon: LightningBoltIcon,
+      "Cashflows are more important than profits and earnings. Seek to grow cashflows, not profits.",
+  },
+  {
+    name: "It's all about the long-term",
+    description:
+      "Make short-term sacrifices for long-term success. Business is a marathon, not a sprint!",
   },
 ];
 
@@ -174,32 +165,27 @@ export default function Component() {
           </div>
           <div className="relative">
             <h3 className="text-2xl font-extrabold text-gray-900 tracking-tight sm:text-3xl">
-              Transfer funds world-wide
+              Layer 3. Business principles
             </h3>
             <p className="mt-3 text-lg text-gray-500">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur
-              minima sequi recusandae, porro maiores officia assumenda aliquam
-              laborum ab aliquid veritatis impedit odit adipisci optio iste
-              blanditiis facere. Totam, velit.
+              Business principles are fundamental beliefs, rules, or values that
+              represent what is desirable and positive for the business and the
+              people within it. Business principles together form a philosophy.
             </p>
-
-            <dl className="mt-10 space-y-10">
-              {transferFeatures.map((item) => (
-                <div key={item.id} className="relative">
-                  <dt>
-                    <div className="absolute flex items-center justify-center h-12 w-12 rounded-md bg-blue-500 text-white">
-                      <item.icon className="h-6 w-6" aria-hidden="true" />
-                    </div>
-                    <p className="ml-16 text-lg leading-6 font-medium text-gray-900">
-                      {item.name}
-                    </p>
-                  </dt>
-                  <dd className="mt-2 ml-16 text-base text-gray-500">
-                    {item.description}
-                  </dd>
-                </div>
-              ))}
-            </dl>
+            <p className="mt-3 text-lg text-gray-500">
+              We think differently about business, we see it as analytical,
+              quantitative, scientific and more "engineering" than
+              "charismatic". We have a bias towards value and results, not
+              social popularity.
+            </p>
+            <p className="mt-3 text-lg text-gray-500">
+              We teach our students our idiosyncratic business philosophy and
+              allow them to adopt it as their own or edit it so that its more
+              personally aligned to their own beliefs and philosophy.
+            </p>
+            <p className="mt-3 text-lg text-gray-500">
+              Unstarving Artists' business philosophy is built on 15 principles:
+            </p>
           </div>
         </div>
         <div className="bg-gray-50">

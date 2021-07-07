@@ -8,88 +8,64 @@ import {
 
 const features = [
   {
-    name: "Invite team members",
+    name: "Finding a niche you're interested in",
     description:
-      "Tempor tellus in aliquet eu et sit nulla tellus. Suspendisse est, molestie blandit quis ac. Lacus.",
+      "Instructions that show you how to discover a niche that aligns to your interests.",
   },
   {
-    name: "Notifications",
+    name: "Conducting market research",
     description:
-      "Ornare donec rhoncus vitae nisl velit, neque, mauris dictum duis. Nibh urna non parturient.",
+      "Instructions that show you how to research your niche online, via phone and in-person.",
   },
   {
-    name: "List view",
+    name: "Naming & incorporating your business",
     description:
-      "Etiam cras augue ornare pretium sit malesuada morbi orci, venenatis. Dictum lacus.",
+      "Instructions that show you how to name your business, incorporate, and open up shop.",
   },
   {
-    name: "Boards",
+    name: "How to get clients organically",
     description:
-      "Interdum quam pulvinar turpis tortor, egestas quis diam amet, natoque. Mauris sagittis.",
+      "Instructions that show you how to get clients with cold email, Facebook, LinkedIn and mail.",
   },
   {
-    name: "Invite team members",
+    name: "Setting up your domain and website",
     description:
-      "Tempor tellus in aliquet eu et sit nulla tellus. Suspendisse est, molestie blandit quis ac. Lacus.",
+      "Instructions that show you how to set up your domain and website quickly and for free.",
   },
   {
-    name: "Notifications",
+    name: "Closing deals with a single phone call",
     description:
-      "Ornare donec rhoncus vitae nisl velit, neque, mauris dictum duis. Nibh urna non parturient.",
+      "Instructions that show you how to convert prospects to clients using a 45-min script.",
   },
   {
-    name: "List view",
+    name: "Creating funnels that convert",
     description:
-      "Etiam cras augue ornare pretium sit malesuada morbi orci, venenatis. Dictum lacus.",
+      "Step-by-step instructions, templates, software, and workflows to create marketing funnels.",
   },
   {
-    name: "Boards",
+    name: "Creating Facebook ads",
     description:
-      "Interdum quam pulvinar turpis tortor, egestas quis diam amet, natoque. Mauris sagittis.",
+      "Instructions, templates, tools and software to create world class Fb ads that truly dominate.",
   },
   {
-    name: "Keyboard shortcuts",
+    name: "Hiring and managing contractors",
     description:
-      "Ullamcorper in ipsum ac feugiat. Senectus at aliquam vulputate mollis nec. In at risus odio.",
+      "Instructions, templates, interview questions, software and systems to hire/manage a team.",
   },
   {
-    name: "Reporting",
+    name: "Sophisticated marketing automation",
     description:
-      "Magna a vel sagittis aliquam eu amet. Et lorem auctor quam nunc odio. Sed bibendum.",
+      "Instructions, downloadable templates and software to create world leading automations.",
   },
   {
-    name: "Calendars",
+    name: "Accounting, cashflow and finance",
     description:
-      "Sed mi, dapibus turpis orci posuere integer. A porta viverra posuere adipiscing turpis.",
+      "Instructions, tools, software and systems to do your books, maximize profits, know your KPI's.",
   },
   {
-    name: "Mobile app",
+    name: "Structuring & scaling your business",
     description:
-      "Quisque sapien nunc nisl eros. Facilisis sagittis maecenas id dignissim tristique proin sed.",
-  },
-];
-
-const transferFeatures = [
-  {
-    id: 1,
-    name: "Competitive exchange rates",
-    description:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.",
-    icon: GlobeAltIcon,
-  },
-  {
-    id: 2,
-    name: "No hidden fees",
-    description:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.",
-    icon: ScaleIcon,
-  },
-  {
-    id: 3,
-    name: "Transfers are instant",
-    description:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.",
-    icon: LightningBoltIcon,
+      "Instructions, org charts, hiring strategies and management systems to rapidly grow a team.",
   },
 ];
 
@@ -174,32 +150,38 @@ export default function Component() {
           </div>
           <div className="relative">
             <h3 className="text-2xl font-extrabold text-gray-900 tracking-tight sm:text-3xl">
-              Transfer funds world-wide
+              Layer 5. Business processes
             </h3>
             <p className="mt-3 text-lg text-gray-500">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur
-              minima sequi recusandae, porro maiores officia assumenda aliquam
-              laborum ab aliquid veritatis impedit odit adipisci optio iste
-              blanditiis facere. Totam, velit.
+              Business processes are sets of actions or steps taken in order to
+              achieve a particular result. Every business discipline has
+              multiple business processes that sit on top. Think of them as
+              step-by-step instructions, like a recipe for baking a cake, except
+              for anything!
             </p>
-
-            <dl className="mt-10 space-y-10">
-              {transferFeatures.map((item) => (
-                <div key={item.id} className="relative">
-                  <dt>
-                    <div className="absolute flex items-center justify-center h-12 w-12 rounded-md bg-blue-500 text-white">
-                      <item.icon className="h-6 w-6" aria-hidden="true" />
-                    </div>
-                    <p className="ml-16 text-lg leading-6 font-medium text-gray-900">
-                      {item.name}
-                    </p>
-                  </dt>
-                  <dd className="mt-2 ml-16 text-base text-gray-500">
-                    {item.description}
-                  </dd>
-                </div>
-              ))}
-            </dl>
+            <p className="mt-3 text-lg text-gray-500">
+              Example: Marketing is a business discipline where you understand
+              the theory of how it works. But to actually execute successful
+              marketing, you need to know the step-by-step instructions of
+              creating ads, adjusting budgets, measuring KPI's, troubleshooting
+              errors, etc.
+            </p>
+            <p className="mt-3 text-lg text-gray-500">
+              Most online courses teach you high level theories with vague
+              instructions on how to execute the theories in the real world.
+              This leaves students clueless about how to execute what they know
+              and actually get results.
+            </p>
+            <p className="mt-3 text-lg text-gray-500">
+              We teach our students the big picture, the details, and every
+              layer in between. Our courses show you how to start and grow a
+              profitable business with instructions that go as detailed as what
+              buttons to click and what works to write. (seriously... it's
+              nuts).
+            </p>
+            <p className="mt-3 text-lg text-gray-500">
+              Below are some of the processes you'll learn in our courses:
+            </p>
           </div>
         </div>
         <div className="bg-gray-50">

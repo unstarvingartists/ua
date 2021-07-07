@@ -6,90 +6,66 @@ import {
   CheckIcon,
 } from "@heroicons/react/outline";
 
-const transferFeatures = [
-  {
-    id: 1,
-    name: "Competitive exchange rates",
-    description:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.",
-    icon: GlobeAltIcon,
-  },
-  {
-    id: 2,
-    name: "No hidden fees",
-    description:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.",
-    icon: ScaleIcon,
-  },
-  {
-    id: 3,
-    name: "Transfers are instant",
-    description:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.",
-    icon: LightningBoltIcon,
-  },
-];
-
 const features = [
   {
-    name: "Invite team members",
+    name: "Business fundamentals",
     description:
-      "Tempor tellus in aliquet eu et sit nulla tellus. Suspendisse est, molestie blandit quis ac. Lacus.",
+      "Picking a niche, identifying problems, finding opportunities, market validation, pricing.",
   },
   {
-    name: "Notifications",
+    name: "Product development",
     description:
-      "Ornare donec rhoncus vitae nisl velit, neque, mauris dictum duis. Nibh urna non parturient.",
+      "Designing, delivering and improving differentiated products customers love.",
   },
   {
-    name: "List view",
+    name: "Marketing",
     description:
-      "Etiam cras augue ornare pretium sit malesuada morbi orci, venenatis. Dictum lacus.",
+      "Getting attention, generating interest, leads, appointments and hot prospects ready to buy.",
   },
   {
-    name: "Boards",
+    name: "Sales",
     description:
-      "Interdum quam pulvinar turpis tortor, egestas quis diam amet, natoque. Mauris sagittis.",
+      "Sales calls, scripts, ethical persuasion, handling objections and closing the deal on a single call.",
   },
   {
-    name: "Invite team members",
+    name: "Websites and funnels",
     description:
-      "Tempor tellus in aliquet eu et sit nulla tellus. Suspendisse est, molestie blandit quis ac. Lacus.",
+      "Creating websites, landing pages and funnels, by yourself. Be better than experts, get it free!",
   },
   {
-    name: "Notifications",
+    name: "Accounting, legal and tax",
     description:
-      "Ornare donec rhoncus vitae nisl velit, neque, mauris dictum duis. Nibh urna non parturient.",
+      "Incorporating your company, structuring it efficiently, doing your books, contracts and tax.",
   },
   {
-    name: "List view",
+    name: "Operations",
     description:
-      "Etiam cras augue ornare pretium sit malesuada morbi orci, venenatis. Dictum lacus.",
+      "How to manage your entire biz like a machine. Systemize and optimize for optimal efficiency.",
   },
   {
-    name: "Boards",
+    name: "Management and hiring",
     description:
-      "Interdum quam pulvinar turpis tortor, egestas quis diam amet, natoque. Mauris sagittis.",
+      "How to hire contractors and employees, management, culture, performance tracking.",
   },
   {
-    name: "Keyboard shortcuts",
+    name: "PPC advertising and CRO",
     description:
-      "Ullamcorper in ipsum ac feugiat. Senectus at aliquam vulputate mollis nec. In at risus odio.",
+      "Facebook ads, testing, scaling, split tests, conversion rate optimization, domination!",
   },
   {
-    name: "Reporting",
+    name: "Scaling",
     description:
-      "Magna a vel sagittis aliquam eu amet. Et lorem auctor quam nunc odio. Sed bibendum.",
+      "How to scale from 3 customers to $50m /year at breakneck speed with systems/automation.",
   },
   {
-    name: "Calendars",
+    name: "Systems and automation",
     description:
-      "Sed mi, dapibus turpis orci posuere integer. A porta viverra posuere adipiscing turpis.",
+      "How to create and optimize efficient systems, leverage technology and machine automation.",
   },
   {
-    name: "Mobile app",
+    name: "Strategy",
     description:
-      "Quisque sapien nunc nisl eros. Facilisis sagittis maecenas id dignissim tristique proin sed.",
+      "How to dominate your market with asymmetric warfare strategy & tactics unseen in business.",
   },
 ];
 
@@ -134,32 +110,27 @@ export default function Component() {
         <div className="relative mt-12 lg:mt-24 lg:grid lg:grid-cols-2 lg:gap-8 lg:items-center">
           <div className="relative">
             <h3 className="text-2xl font-extrabold text-gray-900 tracking-tight sm:text-3xl">
-              Transfer funds world-wide
+              Layer 4. Business disciplines
             </h3>
             <p className="mt-3 text-lg text-gray-500">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur
-              minima sequi recusandae, porro maiores officia assumenda aliquam
-              laborum ab aliquid veritatis impedit odit adipisci optio iste
-              blanditiis facere. Totam, velit.
+              Business disciplines are specific branches of knowledge relating
+              to business functions like: sales, marketing, product, operations,
+              accounting, legal, support and management.
             </p>
-
-            <dl className="mt-10 space-y-10">
-              {transferFeatures.map((item) => (
-                <div key={item.id} className="relative">
-                  <dt>
-                    <div className="absolute flex items-center justify-center h-12 w-12 rounded-md bg-blue-500 text-white">
-                      <item.icon className="h-6 w-6" aria-hidden="true" />
-                    </div>
-                    <p className="ml-16 text-lg leading-6 font-medium text-gray-900">
-                      {item.name}
-                    </p>
-                  </dt>
-                  <dd className="mt-2 ml-16 text-base text-gray-500">
-                    {item.description}
-                  </dd>
-                </div>
-              ))}
-            </dl>
+            <p className="mt-3 text-lg text-gray-500">
+              Most online courses cover one discipline, this creates single
+              skilled workers who get eaten alive in business. We teach you
+              multiple disciplines so that you can start and grow a business
+              yourself, moving quickly, without hiring contractors or staff.
+            </p>
+            <p className="mt-3 text-lg text-gray-500">
+              We create polymath entrepreneurs that are multi-discipline and
+              pack the firepower of 30 people in one. Imagine outproducing 30
+              people in 1/3 the time. That's what we refer to as "full stack".
+            </p>
+            <p className="mt-3 text-lg text-gray-500">
+              Below are some of the disciplines you'll learn in our courses:
+            </p>
           </div>
 
           <div className="mt-10 -mx-4 relative lg:mt-0" aria-hidden="true">

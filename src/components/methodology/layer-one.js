@@ -8,88 +8,64 @@ import {
 
 const features = [
   {
-    name: "Invite team members",
+    name: "Taking ownership",
     description:
-      "Tempor tellus in aliquet eu et sit nulla tellus. Suspendisse est, molestie blandit quis ac. Lacus.",
+      "Understanding that your life situation is nobody's doing but your own. You create it.",
   },
   {
-    name: "Notifications",
+    name: "Self awareness",
     description:
-      "Ornare donec rhoncus vitae nisl velit, neque, mauris dictum duis. Nibh urna non parturient.",
+      "Becoming aware of who you are, psychology, selfimage, biases, interests, behavior patterns.",
   },
   {
-    name: "List view",
+    name: "Changing your identity",
     description:
-      "Etiam cras augue ornare pretium sit malesuada morbi orci, venenatis. Dictum lacus.",
+      "Taking a baseline of your current identity, designing a new one and growing into it.",
   },
   {
-    name: "Boards",
+    name: "Making the unconscious conscious",
     description:
-      "Interdum quam pulvinar turpis tortor, egestas quis diam amet, natoque. Mauris sagittis.",
+      "Understanding the hidden reasons that drive your unwanted behavior and decisions.",
   },
   {
-    name: "Invite team members",
+    name: "Hyper-aware pattern recognition",
     description:
-      "Tempor tellus in aliquet eu et sit nulla tellus. Suspendisse est, molestie blandit quis ac. Lacus.",
+      "Catching your own thought and behavior patterns as they fire and before you respond.",
   },
   {
-    name: "Notifications",
+    name: "Rebuilding belief systems",
     description:
-      "Ornare donec rhoncus vitae nisl velit, neque, mauris dictum duis. Nibh urna non parturient.",
+      "Taking an audit of everything you believe to be true and rebuilding it from the ground up.",
   },
   {
-    name: "List view",
+    name: "Limbic system awareness",
     description:
-      "Etiam cras augue ornare pretium sit malesuada morbi orci, venenatis. Dictum lacus.",
+      "Becoming aware of your emotions, impulses, desires, motivations and how to change them.",
   },
   {
-    name: "Boards",
+    name: "Feedback loop intervention",
     description:
-      "Interdum quam pulvinar turpis tortor, egestas quis diam amet, natoque. Mauris sagittis.",
+      "Understanding the exponential function of consciousness. Hacking it up catching it down.",
   },
   {
-    name: "Keyboard shortcuts",
+    name: "Transcending binary logic",
     description:
-      "Ullamcorper in ipsum ac feugiat. Senectus at aliquam vulputate mollis nec. In at risus odio.",
+      "Understanding the flaws and limitations of duality, binary logic. How to think non-linear.",
   },
   {
-    name: "Reporting",
+    name: "Laser-like focus",
     description:
-      "Magna a vel sagittis aliquam eu amet. Et lorem auctor quam nunc odio. Sed bibendum.",
+      "How to shut out the noise and concentrate intensely for extended periods of time at will.",
   },
   {
-    name: "Calendars",
+    name: "Self-discipline & impulse control",
     description:
-      "Sed mi, dapibus turpis orci posuere integer. A porta viverra posuere adipiscing turpis.",
+      "How to control your impulses, stick to plans, see things through and never waver on goals.",
   },
   {
-    name: "Mobile app",
+    name: "Machine-like consistency",
     description:
-      "Quisque sapien nunc nisl eros. Facilisis sagittis maecenas id dignissim tristique proin sed.",
-  },
-];
-
-const transferFeatures = [
-  {
-    id: 1,
-    name: "Competitive exchange rates",
-    description:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.",
-    icon: GlobeAltIcon,
-  },
-  {
-    id: 2,
-    name: "No hidden fees",
-    description:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.",
-    icon: ScaleIcon,
-  },
-  {
-    id: 3,
-    name: "Transfers are instant",
-    description:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.",
-    icon: LightningBoltIcon,
+      "Developing extreme grit so that you can work 12-hour days, 6-day weeks, for years on end.",
   },
 ];
 
@@ -174,32 +150,23 @@ export default function Component() {
           </div>
           <div className="relative">
             <h3 className="text-2xl font-extrabold text-gray-900 tracking-tight sm:text-3xl">
-              Transfer funds world-wide
+              Layer 1. Mental awareness
             </h3>
             <p className="mt-3 text-lg text-gray-500">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur
-              minima sequi recusandae, porro maiores officia assumenda aliquam
-              laborum ab aliquid veritatis impedit odit adipisci optio iste
-              blanditiis facere. Totam, velit.
+              Mental awareness is the boot loader for everything. It's
+              responsible for your identity, self image, belief systems,
+              awareness of your own actions, thoughts and behavior.
             </p>
-
-            <dl className="mt-10 space-y-10">
-              {transferFeatures.map((item) => (
-                <div key={item.id} className="relative">
-                  <dt>
-                    <div className="absolute flex items-center justify-center h-12 w-12 rounded-md bg-blue-500 text-white">
-                      <item.icon className="h-6 w-6" aria-hidden="true" />
-                    </div>
-                    <p className="ml-16 text-lg leading-6 font-medium text-gray-900">
-                      {item.name}
-                    </p>
-                  </dt>
-                  <dd className="mt-2 ml-16 text-base text-gray-500">
-                    {item.description}
-                  </dd>
-                </div>
-              ))}
-            </dl>
+            <p className="mt-3 text-lg text-gray-500">
+              It's the "awake and alert" function that allows you to catch
+              things, identify patterns, think rationally and avoid delusions,
+              and your ability to self control and self discipline when emotions
+              kick in.
+            </p>
+            <p className="mt-3 text-lg text-gray-500">
+              We start our work here by flushing out delusions, rebuilding
+              identities and making people more conscious of reality.
+            </p>
           </div>
         </div>
         <div className="bg-gray-50">
