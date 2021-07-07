@@ -1,6 +1,6 @@
 import * as React from "react";
 import { Link } from "gatsby";
-import nappy from "../../images/george-washington-delaware-1851.jpeg";
+import image from "../../images/george-washington-delaware-1851.jpeg";
 
 export default function Component({ children }) {
   return (
@@ -17,8 +17,8 @@ export default function Component({ children }) {
                   <div className="absolute inset-0">
                     <img
                       className="h-full w-full object-cover"
-                      src={nappy}
-                      alt="Napoleon Bonaparte"
+                      src={image}
+                      alt="George Washington Crossing The Delaware"
                     />
                     <div className="absolute inset-0 bg-blue-700 mix-blend-multiply" />
                   </div>

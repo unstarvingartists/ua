@@ -1,6 +1,6 @@
 import * as React from "react";
 import { CheckIcon } from "@heroicons/react/outline";
-import image from "../../images/consummation.jpeg";
+import image from "../../images/nappy.jpeg";
 
 const features = [
   {

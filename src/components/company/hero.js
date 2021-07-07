@@ -1,5 +1,5 @@
 import * as React from "react";
-import scream from "../../images/scream.jpeg";
+import image from "../../images/scream.jpeg";
 
 export default function Component({ children }) {
   return (
@@ -16,7 +16,7 @@ export default function Component({ children }) {
                   <div className="absolute inset-0">
                     <img
                       className="h-full w-full object-cover"
-                      src={scream}
+                      src={image}
                       alt="Our Company"
                     />
                     <div className="absolute inset-0 bg-blue-700 mix-blend-multiply" />
