@@ -2,7 +2,7 @@ import * as React from "react";
 import { Link } from "gatsby";
 import { BeakerIcon } from "@heroicons/react/outline";
 import oliver from "../../images/oliver.jpeg";
-
+import summary from "../../images/undraw_Investment_data_re_sh9x.svg";
 export default function Component() {
   return (
     <div className="relative bg-white pt-16 pb-32 overflow-hidden">
@@ -73,8 +73,8 @@ export default function Component() {
             <div className="pl-4 -mr-48 sm:pl-6 md:-mr-16 lg:px-0 lg:m-0 lg:relative lg:h-full">
               <img
                 className="w-full rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:left-0 lg:h-full lg:w-auto lg:max-w-none"
-                src="https://tailwindui.com/img/component-images/inbox-app-screenshot-1.jpg"
-                alt="Inbox user interface"
+                src={summary}
+                alt="summary"
               />
             </div>
           </div>

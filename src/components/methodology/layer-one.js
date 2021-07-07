@@ -6,6 +6,8 @@ import {
   CheckIcon,
 } from "@heroicons/react/outline";
 
+import layerone from "../../images/undraw_conceptual_idea_xw7k.svg";
+
 const features = [
   {
     name: "Taking ownership",
@@ -144,7 +146,7 @@ export default function Component() {
             <img
               className="relative mx-auto"
               width={490}
-              src="https://tailwindui.com/img/features/feature-example-1.png"
+              src={layerone}
               alt=""
             />
           </div>

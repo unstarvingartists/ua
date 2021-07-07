@@ -6,6 +6,8 @@ import {
   CheckIcon,
 } from "@heroicons/react/outline";
 
+import layerfour from "../../images/undraw_art_lover_yjfr.svg";
+
 const features = [
   {
     name: "Business fundamentals",
@@ -169,7 +171,7 @@ export default function Component() {
             <img
               className="relative mx-auto"
               width={490}
-              src="https://tailwindui.com/img/features/feature-example-1.png"
+              src={layerfour}
               alt=""
             />
           </div>

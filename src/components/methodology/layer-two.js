@@ -6,6 +6,8 @@ import {
   CheckIcon,
 } from "@heroicons/react/outline";
 
+import layertwo from "../../images/undraw_art_museum_8or4.svg";
+
 const features = [
   {
     name: "Problem solving",
@@ -163,7 +165,7 @@ export default function Component() {
             <img
               className="relative mx-auto"
               width={490}
-              src="https://tailwindui.com/img/features/feature-example-1.png"
+              src={layertwo}
               alt=""
             />
           </div>

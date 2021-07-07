@@ -6,6 +6,8 @@ import {
   CheckIcon,
 } from "@heroicons/react/outline";
 
+import layerfive from "../../images/undraw_art_0tat.svg";
+
 const features = [
   {
     name: "Finding a niche you're interested in",
@@ -144,7 +146,7 @@ export default function Component() {
             <img
               className="relative mx-auto"
               width={490}
-              src="https://tailwindui.com/img/features/feature-example-1.png"
+              src={layerfive}
               alt=""
             />
           </div>

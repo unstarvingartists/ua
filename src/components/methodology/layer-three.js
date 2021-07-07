@@ -6,6 +6,8 @@ import {
   CheckIcon,
 } from "@heroicons/react/outline";
 
+import layerthree from "../../images/undraw_artist_b4rc.svg";
+
 const features = [
   {
     name: "Pick a niche",
@@ -159,7 +161,7 @@ export default function Component() {
             <img
               className="relative mx-auto"
               width={490}
-              src="https://tailwindui.com/img/features/feature-example-1.png"
+              src={layerthree}
               alt=""
             />
           </div>
