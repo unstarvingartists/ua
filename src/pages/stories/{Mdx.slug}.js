@@ -21,7 +21,7 @@ export const query = graphql`
         description
         genre
         href
-        videoURL
+        videoID
         student {
           href
           name

@@ -1,8 +1,23 @@
-import * as React from "react";
+import React, { useEffect } from "react";
 import { Link } from "gatsby";
-import ReactPlayer from "react-player";
+
+const wistia = `<div class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div class="wistia_embed wistia_async_ix846v07qt videoFoam=true" style="height:100%;position:relative;width:100%"><div class="wistia_swatch" style="height:100%;left:0;opacity:0;overflow:hidden;position:absolute;top:0;transition:opacity 200ms;width:100%;"><img src="https://fast.wistia.com/embed/medias/ix846v07qt/swatch" style="filter:blur(5px);height:100%;object-fit:contain;width:100%;" alt="" aria-hidden="true" onload="this.parentNode.style.opacity=1;" /></div></div></div></div>`;
 
 export default function Component({ children }) {
+  useEffect(() => {
+    const script1 = document.createElement("script");
+    const script2 = document.createElement("script");
+
+    script1.src = "https://fast.wistia.com/embed/medias/ix846v07qt.jsonp";
+    script1.async = true;
+
+    script2.src = "https://fast.wistia.com/assets/external/E-v1.js";
+    script2.async = true;
+
+    document.body.appendChild(script1);
+    document.body.appendChild(script2);
+  });
+
   return (
     <div className="relative bg-white overflow-hidden">
       <div
@@ -137,14 +152,9 @@ export default function Component({ children }) {
                 />
               </svg>
               <div className="relative mx-auto w-full rounded-lg shadow-lg lg:max-w-md">
-                <div className="relative block w-full bg-white rounded-lg overflow-hidden focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
+                <div className="relative block w-full bg-white rounded-lg overflow-hidden focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500">
                   <span className="sr-only">Watch our video to learn more</span>
-                  <ReactPlayer
-                    url="https://vouch.wistia.com/medias/ix846v07qt"
-                    config={{
-                      wistia: { options: { playerColor: "2563eb" } },
-                    }}
-                  />
+                  <div dangerouslySetInnerHTML={{ __html: wistia }}></div>
                 </div>
               </div>
             </div>
