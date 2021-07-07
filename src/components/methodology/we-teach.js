@@ -1,5 +1,4 @@
 import * as React from "react";
-import { Link } from "gatsby";
 import oliver from "../../images/oliver.jpeg";
 import oliverLogo from "../../images/oliver-logo.png";
 

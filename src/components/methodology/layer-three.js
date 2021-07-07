@@ -1,10 +1,5 @@
 import * as React from "react";
-import {
-  GlobeAltIcon,
-  LightningBoltIcon,
-  ScaleIcon,
-  CheckIcon,
-} from "@heroicons/react/outline";
+import { CheckIcon } from "@heroicons/react/outline";
 
 import layerthree from "../../images/undraw_creativity_wqmm.svg";
 
