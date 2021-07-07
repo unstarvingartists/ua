@@ -1,6 +1,14 @@
 import * as React from "react";
 import { Link } from "gatsby";
 import { StarIcon } from "@heroicons/react/solid";
+import rkg from "../../images/rkg-office.jpeg";
+import cruise from "../../images/cruise.jpeg";
+import chirpyhire from "../../images/chirpyhire.jpeg";
+import convopanda from "../../images/convopanda.jpeg";
+import convopandatwo from "../../images/convopanda-2.jpeg";
+import peterinterview from "../../images/peter-interview.jpeg";
+import oliverfirstsale from "../../images/oliver-first-sale.png";
+import flywheellabbox from "../../images/flywheel-lab-box.png";
 
 const navigation = [
   { name: "Our story", href: "/story" },
@@ -172,10 +180,9 @@ export default function Component({ children }) {
                 </p>
 
                 <p>
-                  In fact, when I landed a job at the Rimm-Kaufman Group (a
-                  digital marketing agency to the Fortune 500) at 21 years old
-                  just graduated from college, I became a family "success"
-                  story.
+                  In fact, when I landed a job at a digital marketing agency for
+                  the Fortune 500 at 21 years old just graduated from college, I
+                  became a family "success" story.
                 </p>
 
                 <p>
@@ -187,14 +194,15 @@ export default function Component({ children }) {
                 <p>But all that would soon change...</p>
                 <figure>
                   <img
-                    className="w-full rounded-lg"
-                    src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-1.2.1&auto=format&fit=facearea&w=1310&h=873&q=80&facepad=3"
-                    alt=""
+                    className="w-full rounded-lg shadow-lg"
+                    src={rkg}
+                    alt="This was my exact desk at RKG back in "
                     width={1310}
                     height={873}
                   />
                   <figcaption>
-                    Sagittis scelerisque nulla cursus in enim consectetur quam.
+                    This was the exact floor my desk was on at the marketing
+                    agency back in 2012.
                   </figcaption>
                 </figure>
                 <h2>The First Epiphany</h2>
@@ -251,14 +259,14 @@ export default function Component({ children }) {
                 </p>
                 <figure>
                   <img
-                    className="w-full rounded-lg"
-                    src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-1.2.1&auto=format&fit=facearea&w=1310&h=873&q=80&facepad=3"
-                    alt=""
+                    className="w-full rounded-lg shadow-lg"
+                    src={cruise}
+                    alt="Cruise"
                     width={1310}
                     height={873}
                   />
                   <figcaption>
-                    Sagittis scelerisque nulla cursus in enim consectetur quam.
+                    My cruise trip from Sydney, through Bali, to Singapore.
                   </figcaption>
                 </figure>
 
@@ -380,6 +388,20 @@ export default function Component({ children }) {
                   text-message based recruiting app for healthcare companies.
                 </p>
 
+                <figure>
+                  <img
+                    className="w-full rounded-lg shadow-lg"
+                    src={chirpyhire}
+                    alt="ChirpyHire at a conference."
+                    width={1310}
+                    height={873}
+                  />
+                  <figcaption>
+                    Me promoting ChirpyHire at a Florida healthcare industry
+                    conference in 2015.
+                  </figcaption>
+                </figure>
+
                 <p>And this time... it was actually a bit of a flop again.</p>
 
                 <p>18 months. $50,000 spent. $3,000 in monthly revenue.</p>
@@ -481,14 +503,14 @@ export default function Component({ children }) {
                 </p>
                 <figure>
                   <img
-                    className="w-full rounded-lg"
-                    src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-1.2.1&auto=format&fit=facearea&w=1310&h=873&q=80&facepad=3"
-                    alt=""
+                    className="w-full rounded-lg shadow-lg"
+                    src={convopanda}
+                    alt="ConvoPanda"
                     width={1310}
                     height={873}
                   />
                   <figcaption>
-                    Sagittis scelerisque nulla cursus in enim consectetur quam.
+                    The coworking space where I launched ConvoPanda.
                   </figcaption>
                 </figure>
 
@@ -517,14 +539,15 @@ export default function Component({ children }) {
                 </p>
                 <figure>
                   <img
-                    className="w-full rounded-lg"
-                    src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-1.2.1&auto=format&fit=facearea&w=1310&h=873&q=80&facepad=3"
-                    alt=""
+                    className="w-full rounded-lg shadow-lg"
+                    src={convopandatwo}
+                    alt="ConvoPanda Two"
                     width={1310}
                     height={873}
                   />
                   <figcaption>
-                    Sagittis scelerisque nulla cursus in enim consectetur quam.
+                    In 2019, I expanded ConvoPanda into a lead generation
+                    consultancy.
                   </figcaption>
                 </figure>
                 <p>
@@ -582,6 +605,19 @@ export default function Component({ children }) {
                   then 10 at a time.
                 </p>
 
+                <figure>
+                  <img
+                    className="w-full rounded-lg shadow-lg"
+                    src={peterinterview}
+                    alt="Peter Byram, my first client as a sales coach."
+                    width={1310}
+                    height={873}
+                  />
+                  <figcaption>
+                    Peter Byram, my first client as a sales coach.
+                  </figcaption>
+                </figure>
+
                 <p>
                   Rather than teaching people how to offer digital marketing
                   services, I focused more on the real money-maker: client
@@ -597,8 +633,8 @@ export default function Component({ children }) {
 
                 <p>
                   The thing is though there are a lot of business consultants
-                  out there for other coaches and consultants. It's a brutally
-                  competitive niche. And I knew that if I wanted to expand, I
+                  out there for other coaches and consultants. It's a bit of a
+                  red ocean niche. And I knew that if I wanted to expand, I
                   would need to find a segment of the market that was
                   underserved and could massively benefit from my mastery of
                   client acquisition.
@@ -644,6 +680,19 @@ export default function Component({ children }) {
                   end of month two, he had earned €25,800. It took him just nine
                   months to reach €100,000 in sales.
                 </p>
+                <figure>
+                  <img
+                    className="w-full rounded-lg shadow-lg"
+                    src={oliverfirstsale}
+                    alt="Some of Oliver's early and quick wins."
+                    width={1310}
+                    height={873}
+                  />
+                  <figcaption>
+                    Oliver's very first sale. This was by far the most he had
+                    ever sold a piece for.
+                  </figcaption>
+                </figure>
                 <p>We were definitely on to something.</p>
                 <p>
                   The word got out about the success Oliver was seeing in his
@@ -696,14 +745,15 @@ export default function Component({ children }) {
                 </p>
                 <figure>
                   <img
-                    className="w-full rounded-lg"
-                    src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-1.2.1&auto=format&fit=facearea&w=1310&h=873&q=80&facepad=3"
-                    alt=""
+                    className="w-full rounded-lg shadow-lg"
+                    src={flywheellabbox}
+                    alt="Flywheel Lab Box"
                     width={1310}
                     height={873}
                   />
                   <figcaption>
-                    Sagittis scelerisque nulla cursus in enim consectetur quam.
+                    The Flywheel Lab program have been battle tested and proven
+                    with 100+ students worldwide.
                   </figcaption>
                 </figure>
                 <p>
