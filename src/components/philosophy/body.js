@@ -1,6 +1,7 @@
 import * as React from "react";
 import { Link } from "gatsby";
 import { StarIcon } from "@heroicons/react/solid";
+import image from "../../images/harry-6.jpg";
 
 const navigation = [
   { name: "Our story", href: "/story" },
@@ -214,14 +215,12 @@ export default function Component({ children }) {
                 <figure>
                   <img
                     className="w-full rounded-lg"
-                    src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-1.2.1&auto=format&fit=facearea&w=1310&h=873&q=80&facepad=3"
-                    alt=""
+                    src={image}
+                    alt="Harry"
                     width={1310}
                     height={873}
                   />
-                  <figcaption>
-                    Sagittis scelerisque nulla cursus in enim consectetur quam.
-                  </figcaption>
+                  <figcaption>Our client success is our success.</figcaption>
                 </figure>
               </div>
               <div className="mt-10 text-center">

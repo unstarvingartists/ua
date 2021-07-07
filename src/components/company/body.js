@@ -1,6 +1,9 @@
 import * as React from "react";
 import { Link } from "gatsby";
 import { StarIcon } from "@heroicons/react/solid";
+import start from "../../images/starting-unstarving-artists.jpeg";
+import newoffice from "../../images/new-office.jpeg";
+import team from "../../images/team.png";
 
 const navigation = [
   { name: "Our story", href: "/story" },
@@ -161,13 +164,13 @@ export default function Component({ children }) {
                 <figure>
                   <img
                     className="w-full rounded-lg"
-                    src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-1.2.1&auto=format&fit=facearea&w=1310&h=873&q=80&facepad=3"
+                    src={start}
                     alt=""
                     width={1310}
                     height={873}
                   />
                   <figcaption>
-                    Sagittis scelerisque nulla cursus in enim consectetur quam.
+                    Where I first had the idea for Unstarving Artists.
                   </figcaption>
                 </figure>
                 <h2>Two locations, global reach</h2>
@@ -178,13 +181,14 @@ export default function Component({ children }) {
                 <figure>
                   <img
                     className="w-full rounded-lg"
-                    src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-1.2.1&auto=format&fit=facearea&w=1310&h=873&q=80&facepad=3"
-                    alt=""
+                    src={newoffice}
+                    alt="New Office"
                     width={1310}
                     height={873}
                   />
                   <figcaption>
-                    Sagittis scelerisque nulla cursus in enim consectetur quam.
+                    Unstarving Artists has two offices in Atlanta and
+                    Copenhagen.
                   </figcaption>
                 </figure>
                 <h2>All star team</h2>
@@ -197,13 +201,13 @@ export default function Component({ children }) {
                 <figure>
                   <img
                     className="w-full rounded-lg"
-                    src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-1.2.1&auto=format&fit=facearea&w=1310&h=873&q=80&facepad=3"
-                    alt=""
+                    src={team}
+                    alt="Team"
                     width={1310}
                     height={873}
                   />
                   <figcaption>
-                    Sagittis scelerisque nulla cursus in enim consectetur quam.
+                    Thierry and I catching up at a regular team meeting.
                   </figcaption>
                 </figure>
                 <p>

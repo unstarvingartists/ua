@@ -194,7 +194,7 @@ export default function Component({ children }) {
                 <p>But all that would soon change...</p>
                 <figure>
                   <img
-                    className="w-full rounded-lg shadow-lg"
+                    className="w-full rounded-lg"
                     src={rkg}
                     alt="This was my exact desk at RKG back in "
                     width={1310}
@@ -259,7 +259,7 @@ export default function Component({ children }) {
                 </p>
                 <figure>
                   <img
-                    className="w-full rounded-lg shadow-lg"
+                    className="w-full rounded-lg"
                     src={cruise}
                     alt="Cruise"
                     width={1310}
@@ -390,7 +390,7 @@ export default function Component({ children }) {
 
                 <figure>
                   <img
-                    className="w-full rounded-lg shadow-lg"
+                    className="w-full rounded-lg"
                     src={chirpyhire}
                     alt="ChirpyHire at a conference."
                     width={1310}
@@ -503,7 +503,7 @@ export default function Component({ children }) {
                 </p>
                 <figure>
                   <img
-                    className="w-full rounded-lg shadow-lg"
+                    className="w-full rounded-lg"
                     src={convopanda}
                     alt="ConvoPanda"
                     width={1310}
@@ -539,7 +539,7 @@ export default function Component({ children }) {
                 </p>
                 <figure>
                   <img
-                    className="w-full rounded-lg shadow-lg"
+                    className="w-full rounded-lg"
                     src={convopandatwo}
                     alt="ConvoPanda Two"
                     width={1310}
@@ -607,7 +607,7 @@ export default function Component({ children }) {
 
                 <figure>
                   <img
-                    className="w-full rounded-lg shadow-lg"
+                    className="w-full rounded-lg"
                     src={peterinterview}
                     alt="Peter Byram, my first client as a sales coach."
                     width={1310}
@@ -682,7 +682,7 @@ export default function Component({ children }) {
                 </p>
                 <figure>
                   <img
-                    className="w-full rounded-lg shadow-lg"
+                    className="w-full rounded-lg"
                     src={oliverfirstsale}
                     alt="Some of Oliver's early and quick wins."
                     width={1310}
@@ -745,7 +745,7 @@ export default function Component({ children }) {
                 </p>
                 <figure>
                   <img
-                    className="w-full rounded-lg shadow-lg"
+                    className="w-full rounded-lg"
                     src={flywheellabbox}
                     alt="Flywheel Lab Box"
                     width={1310}
