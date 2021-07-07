@@ -1,8 +1,7 @@
 import * as React from "react";
 import Layout from "../components/layout";
-import Navigation from "../components/white-navigation";
+import Navigation from "../components/gray-navigation";
 import Hero from "../components/faq/hero";
-import FeatureList from "../components/faq/feature-list";
 import Faq from "../components/faq/faq";
 import WhatMakesUsDifferent from "../components/faq/what-makes-us-different";
 import YoureInGoodCompany from "../components/home/youre-in-good-company";
@@ -16,7 +15,6 @@ export default function Page() {
       <Hero>
         <Navigation />
       </Hero>
-      <FeatureList />
       <Faq />
       <WhatMakesUsDifferent />
       <MoreFaq />
