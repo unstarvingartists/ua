@@ -1,4 +1,6 @@
 import * as React from "react";
+import loading from "../../images/undraw_teaching_f1cm.svg";
+import thoughtProcess from "../../images/undraw_thought_process_67my.svg";
 
 export default function Component() {
   return (
@@ -99,7 +101,7 @@ export default function Component() {
             <img
               className="relative mx-auto"
               width={490}
-              src="https://tailwindui.com/img/features/feature-example-1.png"
+              src={loading}
               alt=""
             />
           </div>
@@ -191,7 +193,7 @@ export default function Component() {
               <img
                 className="relative mx-auto"
                 width={490}
-                src="https://tailwindui.com/img/features/feature-example-2.png"
+                src={thoughtProcess}
                 alt=""
               />
             </div>
