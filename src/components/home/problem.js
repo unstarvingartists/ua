@@ -1,6 +1,6 @@
 import * as React from "react";
-import scatterbrain from "../../images/student-monochrome.svg";
-import focused from "../../images/hiker-man-monochrome.svg";
+import scatterbrain from "../../images/undraw_creative_woman_v415.svg";
+import focused from "../../images/undraw_making_art_759c.svg";
 
 export default function Component() {
   return (
