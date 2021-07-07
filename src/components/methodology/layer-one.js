@@ -6,7 +6,7 @@ import {
   CheckIcon,
 } from "@heroicons/react/outline";
 
-import layerone from "../../images/undraw_conceptual_idea_xw7k.svg";
+import layerone from "../../images/undraw_work_in_progress_uhmv.svg";
 
 const features = [
   {

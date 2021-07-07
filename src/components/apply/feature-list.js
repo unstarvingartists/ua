@@ -1,6 +1,6 @@
 import * as React from "react";
 import { CheckIcon } from "@heroicons/react/outline";
-import venus from "../../images/venus.jpeg";
+import image from "../../images/consummation.jpeg";
 
 const features = [
   {
@@ -27,7 +27,7 @@ export default function Component() {
   return (
     <div className="relative bg-blue-800">
       <div className="absolute inset-0">
-        <img className="w-full h-full object-cover" src={venus} alt="" />
+        <img className="w-full h-full object-cover" src={image} alt="" />
         <div
           className="absolute inset-0 bg-blue-800 mix-blend-multiply"
           aria-hidden="true"

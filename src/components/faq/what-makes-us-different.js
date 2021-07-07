@@ -1,6 +1,7 @@
 import * as React from "react";
 import { CameraIcon } from "@heroicons/react/solid";
 import { Link } from "gatsby";
+import image from "../../images/harry-4.jpg";
 
 export default function Component() {
   return (
@@ -57,8 +58,8 @@ export default function Component() {
                 <div className="aspect-w-12 aspect-h-7 lg:aspect-none">
                   <img
                     className="rounded-lg shadow-lg object-cover object-center"
-                    src="https://images.unsplash.com/photo-1546913199-55e06682967e?ixlib=rb-1.2.1&auto=format&fit=crop&crop=focalpoint&fp-x=.735&fp-y=.55&w=1184&h=1376&q=80"
-                    alt="Whitney leaning against a railing on a downtown street"
+                    src={image}
+                    alt="Harry"
                     width={1184}
                     height={1376}
                   />

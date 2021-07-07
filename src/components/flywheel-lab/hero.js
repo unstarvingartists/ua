@@ -1,7 +1,7 @@
 import * as React from "react";
 import { Link } from "gatsby";
 
-import image from "../../images/undraw_transfer_money_rywa.svg";
+import image from "../../images/undraw_artist_b4rc.svg";
 
 export default function Component({ children }) {
   return (
