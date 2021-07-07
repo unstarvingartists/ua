@@ -5,10 +5,12 @@ import Hero from "../components/company/hero";
 import Body from "../components/company/body";
 import CallToAction from "../components/call-to-action";
 import Footer from "../components/footer";
+import Seo from "../components/seo";
 
 export default function Page() {
   return (
     <Layout>
+      <Seo title="Our company" />
       <Hero>
         <Navigation />
       </Hero>

@@ -5,6 +5,7 @@ import Body from "../../components/stories/story/body";
 import CheckoutMore from "../../components/stories/story/checkout-more";
 import CallToAction from "../../components/call-to-action";
 import Footer from "../../components/footer";
+import Seo from "../../components/seo";
 import { graphql } from "gatsby";
 
 export const query = graphql`
@@ -75,6 +76,7 @@ export const query = graphql`
 export default function Page({ data }) {
   return (
     <Layout>
+      <Seo title={data.mdx.frontmatter.student.name} />
       <Body {...data}>
         <Navigation />
       </Body>

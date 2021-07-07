@@ -8,10 +8,12 @@ import YoureInGoodCompany from "../components/home/youre-in-good-company";
 import MoreFaq from "../components/faq/more-faq";
 import CallToAction from "../components/call-to-action";
 import Footer from "../components/footer";
+import Seo from "../components/seo";
 
 export default function Page() {
   return (
     <Layout>
+      <Seo title="Frequently Asked Questions" />
       <Hero>
         <Navigation />
       </Hero>

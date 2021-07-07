@@ -7,10 +7,12 @@ import CallToAction from "../components/careers/call-to-action";
 import OurValues from "../components/careers/our-values";
 import TeamOfLeaders from "../components/careers/team-of-leaders";
 import Footer from "../components/footer";
+import Seo from "../components/seo";
 
 export default function Page() {
   return (
     <Layout>
+      <Seo title="Careers" />
       <Hero>
         <Navigation />
       </Hero>

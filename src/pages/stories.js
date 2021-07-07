@@ -5,10 +5,12 @@ import Hero from "../components/stories/hero";
 import StudentStories from "../components/stories/student-stories";
 import CallToAction from "../components/call-to-action";
 import Footer from "../components/footer";
+import Seo from "../components/seo";
 
 export default function Page() {
   return (
     <Layout>
+      <Seo title="Student Stories" />
       <Hero>
         <Navigation />
       </Hero>

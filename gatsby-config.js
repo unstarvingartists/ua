@@ -5,6 +5,10 @@ module.exports = {
     siteUrl: "https://unstarvingartists.com",
     twitterUsername: "@unstarvingarts",
     image: "/social-graph.png",
+    metaImage: {
+      height: 2400,
+      width: 1260,
+    },
     author: "Unstarving Artists",
     keywords: ["artists", "sales", "become a highly paid artist"],
     description:

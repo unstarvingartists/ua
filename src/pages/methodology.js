@@ -13,10 +13,12 @@ import LayerFive from "../components/methodology/layer-five";
 import WeTeach from "../components/methodology/we-teach";
 import CallToAction from "../components/call-to-action";
 import Footer from "../components/footer";
+import Seo from "../components/seo";
 
 export default function Page() {
   return (
     <Layout>
+      <Seo title="Our methodology" />
       <Hero>
         <Navigation />
       </Hero>

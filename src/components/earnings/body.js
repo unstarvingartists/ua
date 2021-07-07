@@ -6,7 +6,7 @@ const navigation = [
   { name: "Cookie Policy", href: "/cookies" },
   { name: "Terms & Conditions", href: "/terms" },
   { name: "Earnings Disclaimer", href: "/earnings" },
-  { name: "Acceptable User", href: "/acceptable-use" },
+  { name: "Acceptable Use", href: "/acceptable-use" },
 ];
 
 export default function Component({ children }) {

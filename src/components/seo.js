@@ -15,13 +15,21 @@ function SEO({ description, lang, meta, image: metaImage, title, pathname }) {
             author
             keywords
             siteUrl
-            twitterUsername
             image
+            metaImage {
+              height
+              width
+            }
           }
         }
       }
     `
   );
+
+  metaImage ||= {};
+  metaImage.src ||= site.siteMetadata.image;
+  metaImage.height ||= site.siteMetadata.metaImage.height;
+  metaImage.width ||= site.siteMetadata.metaImage.width;
 
   const metaDescription = description || site.siteMetadata.description;
   const defaultTitle = site.siteMetadata?.title;

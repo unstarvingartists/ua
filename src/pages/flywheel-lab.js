@@ -10,12 +10,13 @@ import LearnTheWay from "../components/home/learn-the-way";
 import HowItWorks from "../components/home/how-it-works";
 import YoureInGoodCompany from "../components/home/youre-in-good-company";
 import TheProofIsInTheNumbers from "../components/methodology/the-proof-is-in-the-numbers";
-
+import Seo from "../components/seo";
 import Footer from "../components/footer";
 
 export default function Page() {
   return (
     <Layout>
+      <Seo title="Flywheel Lab" />
       <Hero>
         <Navigation />
       </Hero>
