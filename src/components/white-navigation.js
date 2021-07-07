@@ -40,7 +40,7 @@ const callsToAction = [
     href: "https://go.unstarvingartists.org/opt-in",
     icon: PlayIcon,
   },
-  { name: "Apply Now", href: "/apply", icon: LightningBoltIcon },
+  { name: "Apply Now", to: "/apply", icon: LightningBoltIcon },
 ];
 
 function classNames(...classes) {
@@ -134,20 +134,39 @@ const Component = () => {
                             ))}
                           </div>
                           <div className="px-5 py-5 bg-white space-y-6 sm:flex sm:space-y-0 sm:space-x-10 sm:px-8">
-                            {callsToAction.map((item) => (
-                              <div key={item.name} className="flow-root">
-                                <Link
-                                  to={item.href}
-                                  className="-m-3 p-3 flex items-center rounded-md text-base font-medium text-gray-900 hover:bg-gray-100"
-                                >
-                                  <item.icon
-                                    className="flex-shrink-0 h-6 w-6 text-gray-400"
-                                    aria-hidden="true"
-                                  />
-                                  <span className="ml-3">{item.name}</span>
-                                </Link>
-                              </div>
-                            ))}
+                            {callsToAction.map((item) => {
+                              if (!!item.to) {
+                                return (
+                                  <div key={item.name} className="flow-root">
+                                    <Link
+                                      to={item.to}
+                                      className="-m-3 p-3 flex items-center rounded-md text-base font-medium text-gray-900 hover:bg-gray-100"
+                                    >
+                                      <item.icon
+                                        className="flex-shrink-0 h-6 w-6 text-gray-400"
+                                        aria-hidden="true"
+                                      />
+                                      <span className="ml-3">{item.name}</span>
+                                    </Link>
+                                  </div>
+                                );
+                              } else {
+                                return (
+                                  <div key={item.name} className="flow-root">
+                                    <a
+                                      href={item.href}
+                                      className="-m-3 p-3 flex items-center rounded-md text-base font-medium text-gray-900 hover:bg-gray-100"
+                                    >
+                                      <item.icon
+                                        className="flex-shrink-0 h-6 w-6 text-gray-400"
+                                        aria-hidden="true"
+                                      />
+                                      <span className="ml-3">{item.name}</span>
+                                    </a>
+                                  </div>
+                                );
+                              }
+                            })}
                           </div>
                         </div>
                       </Popover.Panel>
@@ -155,15 +174,29 @@ const Component = () => {
                   </>
                 )}
               </Popover>
-              {navigation.map((item) => (
-                <Link
-                  key={item.name}
-                  to={item.href}
-                  className="font-medium bg-white text-gray-500 hover:text-gray-900"
-                >
-                  {item.name}
-                </Link>
-              ))}
+              {navigation.map((item) => {
+                if (!!item.to) {
+                  return (
+                    <Link
+                      key={item.name}
+                      to={item.to}
+                      className="font-medium bg-white-50 text-gray-500 hover:text-gray-900"
+                    >
+                      {item.name}
+                    </Link>
+                  );
+                } else {
+                  return (
+                    <a
+                      key={item.name}
+                      className="font-medium bg-white-50 text-gray-500 hover:text-gray-900"
+                      href={item.href}
+                    >
+                      {item.name}
+                    </a>
+                  );
+                }
+              })}
               <span className="inline-flex rounded-md shadow-md ring-1 ring-black ring-opacity-5">
                 <Link
                   to="/apply"

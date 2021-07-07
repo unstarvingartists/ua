@@ -3,18 +3,18 @@ import { Link } from "gatsby";
 
 const navigation = {
   company: [
-    { name: "Our story", href: "/story" },
-    { name: "Our philosophy", href: "/philosophy" },
-    { name: "Our company", href: "/company" },
-    { name: "Careers", href: "/careers" },
+    { name: "Our story", to: "/story" },
+    { name: "Our philosophy", to: "/philosophy" },
+    { name: "Our company", to: "/company" },
+    { name: "Careers", to: "/careers" },
   ],
   programs: [
-    { name: "Our methodology", href: "/methodology" },
-    { name: "Flywheel Lab", href: "/flywheel-lab" },
+    { name: "Our methodology", to: "/methodology" },
+    { name: "Flywheel Lab", to: "/flywheel-lab" },
   ],
   resources: [
-    { name: "Student Stories", href: "/stories" },
-    { name: "FAQ", href: "/faq" },
+    { name: "Student Stories", to: "/stories" },
+    { name: "FAQ", to: "/faq" },
   ],
   extras: [
     { name: "Free Training", href: "https://go.unstarvingartists.org/opt-in" },
@@ -100,7 +100,7 @@ export default function Component() {
                   {navigation.company.map((item) => (
                     <li key={item.name}>
                       <Link
-                        to={item.href}
+                        to={item.to}
                         className="text-base text-gray-500 hover:text-gray-900"
                       >
                         {item.name}
@@ -117,7 +117,7 @@ export default function Component() {
                   {navigation.programs.map((item) => (
                     <li key={item.name}>
                       <Link
-                        to={item.href}
+                        to={item.to}
                         className="text-base text-gray-500 hover:text-gray-900"
                       >
                         {item.name}
@@ -136,7 +136,7 @@ export default function Component() {
                   {navigation.resources.map((item) => (
                     <li key={item.name}>
                       <Link
-                        to={item.href}
+                        to={item.to}
                         className="text-base text-gray-500 hover:text-gray-900"
                       >
                         {item.name}
@@ -152,12 +152,12 @@ export default function Component() {
                 <ul className="mt-4 space-y-4">
                   {navigation.extras.map((item) => (
                     <li key={item.name}>
-                      <Link
-                        to={item.href}
+                      <a
+                        href={item.href}
                         className="text-base text-gray-500 hover:text-gray-900"
                       >
                         {item.name}
-                      </Link>
+                      </a>
                     </li>
                   ))}
                 </ul>

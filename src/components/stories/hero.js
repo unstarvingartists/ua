@@ -75,12 +75,12 @@ export default function Component({ children }) {
               <div className="mt-8 sm:max-w-lg sm:mx-auto sm:text-center lg:text-left lg:mx-0">
                 <div className="mt-10 sm:flex sm:justify-center lg:justify-start">
                   <div className="rounded-md shadow">
-                    <Link
-                      to="https://go.unstarvingartists.org/opt-in"
+                    <a
+                      href="https://go.unstarvingartists.org/opt-in"
                       className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700 md:py-4 md:text-lg md:px-10"
                     >
                       See How It Works
-                    </Link>
+                    </a>
                   </div>
                   <div className="mt-3 rounded-md shadow sm:mt-0 sm:ml-3">
                     <Link
@@ -136,14 +136,17 @@ export default function Component({ children }) {
                   fill="url(#4f4f415c-a0e9-44c2-9601-6ded5a34a13e)"
                 />
               </svg>
-              <ReactPlayer
-                className="relative mx-auto w-full rounded-lg shadow-lg lg:max-w-md"
-                url="https://vouch.wistia.com/medias/ix846v07qt"
-                height="260px"
-                config={{
-                  wistia: { options: { playerColor: "2563eb" } },
-                }}
-              />
+              <div className="relative mx-auto w-full rounded-lg shadow-lg lg:max-w-md">
+                <div className="relative block w-full bg-white rounded-lg overflow-hidden focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
+                  <span className="sr-only">Watch our video to learn more</span>
+                  <ReactPlayer
+                    url="https://vouch.wistia.com/medias/ix846v07qt"
+                    config={{
+                      wistia: { options: { playerColor: "2563eb" } },
+                    }}
+                  />
+                </div>
+              </div>
             </div>
           </div>
         </main>

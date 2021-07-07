@@ -7,7 +7,6 @@ import {
   FlagIcon,
   CubeIcon,
 } from "@heroicons/react/outline";
-import { Link } from "gatsby";
 
 const features = [
   {
@@ -86,15 +85,15 @@ export default function Component() {
           </dl>
         </div>
         <div className="mt-10 text-center">
-          <Link
-            to="https://go.unstarvingartists.org/opt-in"
+          <a
+            href="https://go.unstarvingartists.org/opt-in"
             className="text-base font-medium text-blue-600"
           >
             {" "}
             See how it works for yourself <span aria-hidden="true">
               &rarr;
             </span>{" "}
-          </Link>
+          </a>
         </div>
       </div>
     </div>

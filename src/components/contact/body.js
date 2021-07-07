@@ -1,5 +1,4 @@
 import * as React from "react";
-import { Link } from "gatsby";
 
 export default function Component() {
   return (
@@ -21,9 +20,9 @@ export default function Component() {
             </h2>
             <p className="prose prose-blue mt-4 text-lg text-gray-500 sm:mt-3">
               Watch our{" "}
-              <Link to="https://go.unstarvingartists.org/opt-in">
+              <a href="https://go.unstarvingartists.org/opt-in">
                 free training
-              </Link>{" "}
+              </a>{" "}
               and then apply for a strategy session.
             </p>
             <h2 className="text-3xl mt-9 font-extrabold tracking-tight sm:text-4xl">

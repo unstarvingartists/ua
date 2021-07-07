@@ -1,5 +1,4 @@
 import * as React from "react";
-import { Link } from "gatsby";
 import harry from "../../images/harry-1.jpg";
 
 export default function Component({ children }) {
@@ -27,12 +26,12 @@ export default function Component({ children }) {
             </p>
             <div className="mt-10 sm:flex sm:justify-center lg:justify-start">
               <div className="rounded-md shadow">
-                <Link
-                  to="https://vouch.iljmp.com/2/ianhh"
+                <a
+                  href="https://vouch.iljmp.com/2/ianhh"
                   className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700 md:py-4 md:text-lg md:px-10"
                 >
                   Apply Now
-                </Link>
+                </a>
               </div>
             </div>
           </div>

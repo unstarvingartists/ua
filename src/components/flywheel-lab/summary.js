@@ -1,5 +1,4 @@
 import * as React from "react";
-import { Link } from "gatsby";
 import { BeakerIcon } from "@heroicons/react/outline";
 import oliver from "../../images/oliver.jpeg";
 import summary from "../../images/undraw_Abstract_re_l9xy.svg";
@@ -35,12 +34,12 @@ export default function Component() {
                   <li>✔ Generate a 6-figure profit</li>
                 </ul>
                 <div className="mt-6">
-                  <Link
-                    to="https://go.unstarvingartists.org/opt-in"
+                  <a
+                    href="https://go.unstarvingartists.org/opt-in"
                     className="inline-flex px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-blue-600 hover:bg-blue-700"
                   >
                     See how it works
-                  </Link>
+                  </a>
                 </div>
               </div>
             </div>
