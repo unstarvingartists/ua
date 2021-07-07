@@ -10,7 +10,7 @@ import LayerTwo from "../components/methodology/layer-two";
 import LayerThree from "../components/methodology/layer-three";
 import LayerFour from "../components/methodology/layer-four";
 import LayerFive from "../components/methodology/layer-five";
-import WeTeach from "../components/home/we-teach";
+import WeTeach from "../components/methodology/we-teach";
 import CallToAction from "../components/call-to-action";
 import Footer from "../components/footer";
 
