@@ -42,13 +42,12 @@ export default function Component() {
 
         <div className="relative">
           <h2 className="text-center text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
-            We do education differently
+            The traditional education method is broken
           </h2>
           <p className="mt-4 max-w-3xl mx-auto text-center text-xl text-gray-500">
-            The traditional method of education is broken, so we came up with
-            our own. Instead of treating education as a linear mechanical
-            process, we treat it as a non-linear symbiotic process (like
-            nature).
+            So we came up with our own. We don't view education as a linear
+            mechanical process, we view it as a non-linear dynamic process—like
+            nature.
           </p>
         </div>
 
@@ -59,9 +58,9 @@ export default function Component() {
             </h3>
             <p className="mt-3 text-lg text-gray-500">
               Most universities and online courses use a linear education system
-              that resembles an assembly line. The student consumes
-              unpersonalized information and then is expected to achieve real
-              world results.
+              that resembles a 1950's assembly line. The student consumes
+              impersonalized theory and then is expected to achieve real world
+              results.
             </p>
           </div>
 
@@ -149,10 +148,10 @@ export default function Component() {
               </h3>
               <p className="mt-3 text-lg text-gray-500">
                 Unstarving Artists uses a non-linear education system that
-                resembles the symbiotic process of nature. We provide an
-                environment, building blocks, mental reprogramming, real world
-                application and feedback so you can optimize for and achieve
-                your life goals.
+                resembles the dynamic process of nature. With the environment,
+                building blocks, mental reprogramming, real world application
+                and feedback that we provide you with, you can predictably
+                optimize for and achieve your life goals.
               </p>
             </div>
 

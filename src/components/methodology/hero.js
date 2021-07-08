@@ -25,16 +25,18 @@ export default function Component({ children }) {
                   <div className="relative px-4 py-16 sm:px-6 sm:py-24 lg:py-32 lg:px-8">
                     <h1 className="text-center text-4xl font-extrabold tracking-tight sm:text-5xl lg:text-6xl">
                       <span className="block text-white">
-                        Luck Is The Residue Of
+                        Luck Is What Happens When
                       </span>
-                      <span className="block text-blue-200">Good Design</span>
+                      <span className="block text-blue-200">
+                        Preparation Meets Opportunity
+                      </span>
                     </h1>
                     <p className="mt-6 max-w-lg mx-auto text-center text-xl text-blue-200 sm:max-w-3xl">
                       Success isn't born, it's made. To us, success is a
                       science. We don't believe in luck, fate or magic — only
                       cause & effect. Our method focuses on the things with
-                      "causality", not social popularity. We follow results and
-                      data, not the crowd.
+                      "causality", not whatever is in vogue. We follow results
+                      and data, not the crowd.
                     </p>
                     <div className="mt-10 max-w-sm mx-auto sm:max-w-none sm:flex sm:justify-center">
                       <div className="space-y-4 sm:space-y-0 sm:mx-auto sm:inline-grid sm:grid-cols-2 sm:gap-5">
