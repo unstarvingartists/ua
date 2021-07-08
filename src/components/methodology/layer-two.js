@@ -30,7 +30,7 @@ const features = [
       "Rapidly collecting relevant information, weighing trade-offs, and deciding what to do.",
   },
   {
-    name: "Structuring and organizing",
+    name: "Efficient organization",
     description:
       "Bucketing, defining, naming, organizing, and tuning things for optimum efficiency.",
   },
@@ -50,7 +50,7 @@ const features = [
       "Breaking something down into its constituent elements to gain a deeper understanding.",
   },
   {
-    name: "Visual mapping",
+    name: "Mental mapping",
     description:
       "Internalizing principles by visualizing related concepts and their interconnections.",
   },
@@ -62,7 +62,7 @@ const features = [
   {
     name: "Divergent and convergent thinking",
     description:
-      "Thinking of many possible paths and collapsing them to decide on the best single path.",
+      "Exploring many possible paths and then selecting the single best one to walk down.",
   },
 ];
 
