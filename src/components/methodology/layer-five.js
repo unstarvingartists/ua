@@ -5,44 +5,44 @@ import layerfive from "../../images/undraw_conceptual_idea_xw7k.svg";
 
 const features = [
   {
-    name: "Finding a niche you're interested in",
+    name: "Discovering a niche you're interested in",
     description:
-      "Instructions that show you how to discover a niche that aligns to your interests.",
+      "Instructions on how to choose a niche that aligns with your talents & interests.",
   },
   {
     name: "Conducting market research",
     description:
-      "Instructions that show you how to research your niche online, via phone and in-person.",
+      "Instructions that walkthrough researching your niche online, in-person, and via calls.",
   },
   {
-    name: "Naming & incorporating your business",
+    name: "Naming & incorporating your practice",
     description:
-      "Instructions that show you how to name your business, incorporate, and open up shop.",
+      "Instructions that show you how to incorporate your art practice and set up shop.",
   },
   {
     name: "How to get clients organically",
     description:
-      "Instructions that show you how to get clients with cold email, Facebook, LinkedIn and mail.",
+      "Instructions that show you how to get clients with FB, IG, LinkedIn, cold email, and more.",
   },
   {
-    name: "Setting up your domain and website",
+    name: "Setting up social media",
     description:
-      "Instructions that show you how to set up your domain and website quickly and for free.",
+      "Instructions that show you how to set up your social media presence quickly and for free.",
   },
   {
     name: "Closing deals with a single phone call",
     description:
-      "Instructions that show you how to convert prospects to clients using a 45-min script.",
+      "Instructions that show you how to turn prospects into clients with a 45-min script.",
   },
   {
     name: "Creating funnels that convert",
     description:
-      "Step-by-step instructions, templates, software, and workflows to create marketing funnels.",
+      "Step-by-step instructions, templates, and workflows to create social media funnels.",
   },
   {
-    name: "Creating Facebook ads",
+    name: "Creating Facebook posts",
     description:
-      "Instructions, templates, tools and software to create world class Fb ads that truly dominate.",
+      "Instructions, templates, and tools to create world class FB posts that attract deep-pocketed collectors.",
   },
   {
     name: "Hiring and managing contractors",
@@ -50,9 +50,9 @@ const features = [
       "Instructions, templates, interview questions, software and systems to hire/manage a team.",
   },
   {
-    name: "Sophisticated marketing automation",
+    name: "Sophisticated business automation",
     description:
-      "Instructions, downloadable templates and software to create world leading automations.",
+      "Instructions, downloadable templates, and software to create time saving automations.",
   },
   {
     name: "Accounting, cashflow and finance",
@@ -60,7 +60,7 @@ const features = [
       "Instructions, tools, software and systems to do your books, maximize profits, know your KPI's.",
   },
   {
-    name: "Structuring & scaling your business",
+    name: "Structuring & scaling your practice",
     description:
       "Instructions, org charts, hiring strategies and management systems to rapidly grow a team.",
   },
@@ -151,16 +151,16 @@ export default function Component() {
             </h3>
             <p className="mt-3 text-lg text-gray-500">
               Practice processes are sets of actions or steps taken in order to
-              achieve a particular result. Every business discipline has
-              multiple business processes that sit on top. Think of them as
-              step-by-step instructions, like a recipe for baking a cake, except
-              for anything!
+              achieve a particular result. Every art practice discipline has
+              multiple practice processes that sit on top. Think of them as
+              step-by-step instructions, like a recipe for making your favorite
+              pizza, except for anything!
             </p>
             <p className="mt-3 text-lg text-gray-500">
-              Example: Marketing is a business discipline where you understand
-              the theory of how it works. But to actually execute successful
-              marketing, you need to know the step-by-step instructions of
-              creating ads, adjusting budgets, measuring KPI's, troubleshooting
+              Example: Marketing is a discipline where you understand the theory
+              of how it works. But to actually market your art practice
+              effectively, you need to know the step-by-step instructions of
+              creating posts, publishing them, measuring KPI's, troubleshooting
               errors, etc.
             </p>
             <p className="mt-3 text-lg text-gray-500">
@@ -171,13 +171,13 @@ export default function Component() {
             </p>
             <p className="mt-3 text-lg text-gray-500">
               We teach our students the big picture, the details, and every
-              layer in between. Our courses show you how to start and grow a
-              profitable business with instructions that go as detailed as what
-              buttons to click and what works to write. (seriously... it's
-              nuts).
+              layer in between. Our programs show you how to start and grow a
+              profitable art practice with instructions that go as detailed as
+              what buttons to click and what works to write. (seriously... it's
+              wild).
             </p>
             <p className="mt-3 text-lg text-gray-500">
-              Below are some of the processes you'll learn in our courses:
+              Below are some of the processes you'll learn in our programs:
             </p>
           </div>
         </div>
