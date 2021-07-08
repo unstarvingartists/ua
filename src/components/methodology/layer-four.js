@@ -7,62 +7,62 @@ const features = [
   {
     name: "Business fundamentals",
     description:
-      "Picking a niche, identifying problems, finding opportunities, market validation, pricing.",
+      "Choosing a niche, identifying desires, finding opportunities, market validation, and pricing.",
   },
   {
-    name: "Product development",
+    name: "Collector experience",
     description:
-      "Designing, delivering and improving differentiated products customers love.",
+      "Designing, delivering and improving a differentiated experience that collectors love.",
   },
   {
     name: "Marketing",
     description:
-      "Getting attention, generating interest, leads, appointments and hot prospects ready to buy.",
+      "Getting your market's attention so you can speak with deep-pocketed collectors ready to buy.",
   },
   {
     name: "Sales",
     description:
-      "Sales calls, scripts, ethical persuasion, handling objections and closing the deal on a single call.",
+      "Talking to prospects, ethical persuasion, handling objections, and selling your artwork on calls.",
   },
   {
-    name: "Websites and funnels",
+    name: "Psychology & neuroscience",
     description:
-      "Creating websites, landing pages and funnels, by yourself. Be better than experts, get it free!",
+      "Psychology, human behavior, habits, unhelpful beliefs, and how to rewire your brain for growth.",
   },
   {
-    name: "Accounting, legal and tax",
+    name: "Problem solving",
     description:
-      "Incorporating your company, structuring it efficiently, doing your books, contracts and tax.",
+      "How to think clearly, make good decisions quickly, and see ten steps ahead with precision.",
+  },
+  {
+    name: "Accounting, legal & tax",
+    description:
+      "Incorporating your art practice, structuring it efficiently, doing your books, legal contracts, tax.",
+  },
+  {
+    name: "Social media",
+    description:
+      "Creating social media pages and funnels, all by yourself. Be better than the experts, get it for free!",
+  },
+  {
+    name: "Lead generation",
+    description:
+      "Creating evergreen social media posts that generate real leads, scheduling and testing posts.",
+  },
+  {
+    name: "Management & hiring",
+    description:
+      "How to hire art reps and apprentices, management, culture, performance tracking.",
   },
   {
     name: "Operations",
     description:
-      "How to manage your entire biz like a machine. Systemize and optimize for optimal efficiency.",
+      "Seeing your art practice as a machine. Systemize, tune, and optimize it for efficiency.",
   },
   {
-    name: "Management and hiring",
+    name: "Scaling & automation",
     description:
-      "How to hire contractors and employees, management, culture, performance tracking.",
-  },
-  {
-    name: "PPC advertising and CRO",
-    description:
-      "Facebook ads, testing, scaling, split tests, conversion rate optimization, domination!",
-  },
-  {
-    name: "Scaling",
-    description:
-      "How to scale from 3 customers to $50m /year at breakneck speed with systems/automation.",
-  },
-  {
-    name: "Systems and automation",
-    description:
-      "How to create and optimize efficient systems, leverage technology and machine automation.",
-  },
-  {
-    name: "Strategy",
-    description:
-      "How to dominate your market with asymmetric warfare strategy & tactics unseen in business.",
+      "How to scale from 0 collectors to $300k+ / year at breakneck speed with systems/automation.",
   },
 ];
 

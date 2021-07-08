@@ -45,9 +45,9 @@ export default function Component() {
             The traditional education method is broken
           </h2>
           <p className="mt-4 max-w-3xl mx-auto text-center text-xl text-gray-500">
-            So we came up with our own. We don't view education as a linear
-            mechanical process, we view it as a non-linear dynamic process—like
-            nature.
+            So we came up with our own way of doing things. We don't view
+            education as a linear mechanical process, we view it as a non-linear
+            dynamic process—like nature.
           </p>
         </div>
 
