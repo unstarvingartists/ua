@@ -111,22 +111,24 @@ export default function Component() {
             </h3>
             <p className="mt-3 text-lg text-gray-500">
               Practice disciplines are specific branches of knowledge relating
-              to business functions like: sales, marketing, product, operations,
-              accounting, legal, support and management.
+              to art practice functions like: sales, marketing, service,
+              operations, accounting, legal, support, and management.
             </p>
             <p className="mt-3 text-lg text-gray-500">
               Most online courses cover one discipline, this creates single
-              skilled workers who get eaten alive in business. We teach you
-              multiple disciplines so that you can start and grow a business
-              yourself, moving quickly, without hiring contractors or staff.
+              skilled artists who get eaten alive when attempting to sell their
+              artwork. We teach you multiple disciplines so that you can start
+              and grow an art practice yourself, moving quickly, without hiring
+              contractors or staff.
             </p>
             <p className="mt-3 text-lg text-gray-500">
-              We create polymath entrepreneurs that are multi-discipline and
-              pack the firepower of 30 people in one. Imagine outproducing 30
-              people in 1/3 the time. That's what we refer to as "full stack".
+              We create polymath "artist-entrepreneurs" that are
+              multi-discipline and pack the firepower of 10 people in one.
+              Imagine outproducing 10 people in 1/3rd the time. That's what we
+              refer to as "full stack".
             </p>
             <p className="mt-3 text-lg text-gray-500">
-              Below are some of the disciplines you'll learn in our courses:
+              Below are some of the disciplines you'll learn in our programs:
             </p>
           </div>
 
