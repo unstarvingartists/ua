@@ -170,7 +170,7 @@ export default function Component({ children }) {
                     height={873}
                   />
                   <figcaption>
-                    Where I first had the idea for Unstarving Artists.
+                    The basement where Unstarving Artists was started.
                   </figcaption>
                 </figure>
                 <h2>Two locations, global reach</h2>
