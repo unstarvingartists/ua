@@ -11,17 +11,17 @@ const faqs = [
   {
     question: "Week Two - New Paradigm & World View",
     answer:
-      "In week two we teach you a new paradigm and world view that is so profoundly different that its like seeing for the first time.</br></br>We discuss why most peoples thinking and beliefs are flawed and destructive and how you can rewire your entire brain so that it helps you and doesn't sabotage you. This part of the program will change your life.",
+      "In week two we teach you a new paradigm and world view. It's a mindset shift so profoundly different that it's like seeing clearly for the first time.</br></br>We discuss why most peoples' thinking and beliefs are flawed and destructive and how you can rewire your brain (no matter your age, background, or experience level) so that it helps you and doesn't sabotage you. This part of the program will change your life.",
   },
   {
     question: "Week Three - Crafting Your Offer",
     answer:
-      "In week three we go deeper into crafting your art offer to ensure high profit margins. We look at how the way you package and position your art work can make all the difference in selling a work for thousands of dollars instead of just hundreds.</br></br>This week alone often leads to artists dramatically increasing their sales.",
+      "In week three we go deeper into crafting your art offer to ensure high profit margins. We look at how the way you package and position your artwork can make all the difference in selling a work for thousands of dollars instead of just hundreds.</br></br>This week alone often leads to artists dramatically increasing their sales.",
   },
   {
     question: "Week Four - Collector Conversion",
     answer:
-      "In week four we discuss the art and science of converting a total stranger to a paying collector with one phone call.</br></br>We teach you the mistakes most artists make, how to sell like a master and we introduce you to our revolutionary collector conversion script. From structure to questions to objection handling responses, this week covers sales from A to Z.",
+      "In week four we discuss the art and science of converting a total stranger to a happy paying collector with one phone call.</br></br>We teach you the mistakes most artists make, how to sell like a master and we introduce you to our revolutionary collector conversion script. From structure to questions to objection handling responses, this week covers art sales from A to Z.",
   },
   {
     question: "Week Five - Flywheel Evolution",
@@ -36,7 +36,7 @@ const faqs = [
   {
     question: "Week Seven - Minimum Viable Craft",
     answer:
-      "In week seven we discuss how to structure the service delivery and operations of your art practice so that you can service your collectors, deliver jaw dropping artwork while keeping your sanity and high profit margins.</br></br>Here you will learn how to set your collector's expectations, work with contractors and clients as well as manage your own time for maximum efficiency.",
+      "In week seven we discuss how to structure the service delivery and operations of your art practice so that you can wow your collectors, deliver jaw dropping artwork while keeping your sanity and high profit margins.</br></br>Here you will learn how to set your collector's expectations, work effectively with your collectors and with contractors as well as manage your own time for maximum efficiency.",
   },
 ];
 
