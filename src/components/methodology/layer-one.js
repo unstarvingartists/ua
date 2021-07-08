@@ -7,62 +7,62 @@ const features = [
   {
     name: "Taking ownership",
     description:
-      "Understanding that your life situation is nobody's doing but your own. You create it.",
+      "Realizing that your situation in life is nobody's doing but your own. You create it.",
   },
   {
     name: "Self awareness",
     description:
-      "Becoming aware of who you are, psychology, selfimage, biases, interests, behavior patterns.",
+      "Cultivating awareness of your self-image, emotions, biases, thought and behavior patterns.",
   },
   {
-    name: "Changing your identity",
+    name: "Forging your identity",
     description:
-      "Taking a baseline of your current identity, designing a new one and growing into it.",
+      "Getting clear on your identity, designing a more successful one, and growing into it.",
   },
   {
     name: "Making the unconscious conscious",
     description:
-      "Understanding the hidden reasons that drive your unwanted behavior and decisions.",
+      "Knowing the hidden reasons behind your undesired behavior and decisions.",
   },
   {
     name: "Hyper-aware pattern recognition",
     description:
-      "Catching your own thought and behavior patterns as they fire and before you respond.",
+      "Observing your own thought and behavior patterns as they fire and before you act.",
   },
   {
     name: "Rebuilding belief systems",
     description:
-      "Taking an audit of everything you believe to be true and rebuilding it from the ground up.",
+      "Auditing everything you hold to be true and rebuilding a worldview from the ground up.",
   },
   {
     name: "Limbic system awareness",
     description:
-      "Becoming aware of your emotions, impulses, desires, motivations and how to change them.",
+      "Becoming aware of your emotional impulses and desires and how to override them.",
   },
   {
     name: "Feedback loop intervention",
     description:
-      "Understanding the exponential function of consciousness. Hacking it up catching it down.",
+      "Grasping the leveraged nature of consciousness. Riding the positive up, and intercepting the negative on the way down.",
   },
   {
-    name: "Transcending binary logic",
+    name: "Transcending the linear",
     description:
-      "Understanding the flaws and limitations of duality, binary logic. How to think non-linear.",
+      "Appreciating the flaws of linear thinking. Graduating to systems thinking.",
   },
   {
     name: "Laser-like focus",
     description:
-      "How to shut out the noise and concentrate intensely for extended periods of time at will.",
+      "Quieting the noise to spend extended periods of time in deep concentration at will.",
   },
   {
     name: "Self-discipline & impulse control",
     description:
-      "How to control your impulses, stick to plans, see things through and never waver on goals.",
+      'Impulse control, planning, and "stick-to-itiveness" so you never waver on your goals.',
   },
   {
     name: "Machine-like consistency",
     description:
-      "Developing extreme grit so that you can work 12-hour days, 6-day weeks, for years on end.",
+      "Building extraordinary grit to work as much and as long as you want, year after year.",
   },
 ];
 
@@ -150,19 +150,20 @@ export default function Component() {
               Layer 1. Mental awareness
             </h3>
             <p className="mt-3 text-lg text-gray-500">
-              Mental awareness is the boot loader for everything. It's
-              responsible for your identity, self image, belief systems,
-              awareness of your own actions, thoughts and behavior.
+              Mental awareness kickstarts everything. It's what gives you your
+              sense of identity, self-image, beliefs, awareness of your
+              emotions, thoughts, actions, and behaviors.
             </p>
             <p className="mt-3 text-lg text-gray-500">
-              It's the "awake and alert" function that allows you to catch
-              things, identify patterns, think rationally and avoid delusions,
-              and your ability to self control and self discipline when emotions
-              kick in.
+              It's the creative and critical thinking functions that allow you
+              to identify patterns, think clearly, catch yourself, avoid
+              delusions, and your capability for self-control and
+              self-discipline when emotions stir inside you.
             </p>
             <p className="mt-3 text-lg text-gray-500">
-              We start our work here by flushing out delusions, rebuilding
-              identities and making people more conscious of reality.
+              We begin here to flush out delusions and unhelpful beliefs,
+              rebuild identities, and make our students more conscious of
+              reality.
             </p>
           </div>
         </div>
