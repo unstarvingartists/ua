@@ -7,77 +7,77 @@ const features = [
   {
     name: "Pick a niche",
     description:
-      "Find an area you're interested in, focus on it and understand it better than anybody else.",
+      "Find an area you are interested in, focus on it, and understand it better than anyone else.",
   },
   {
-    name: "Solve a problem",
+    name: "Meet a desire",
     description:
-      "Identify a painful widespread problem your niche has and solve it with your product.",
+      "Identify a deep widespread desire your niche has and address it with your work.",
   },
   {
     name: "Work from the market backwards",
     description:
-      "All ideas should originate from your market, not your brain. You serve them, not yourself.",
+      "All ideas should emerge from a dialogue with the market, not your brain. Serve others first.",
   },
   {
-    name: "Customer obsession",
+    name: "Collector obsession",
     description:
-      "Do whats best for your customer, because that is what's best for you, you just don't know it.",
+      "Do what's best for your collector, because that is what's best for you, you just might not see it yet.",
   },
   {
     name: "High standards",
     description:
-      "Great just isn't good enough. Set excruciatingly high standards & demand them from everyone.",
+      "Don't settle for great. Set uncommonly high standards & expect them from everyone.",
   },
   {
     name: "Frugality",
     description:
-      "Constraints breed resourcefulness, self-sufficiency and invention. Do more with less.",
+      "Do more with less. Constraints yield resourcefulness, independence, and invention.",
   },
   {
     name: "Relentless grit",
     description:
-      "Some people work harder, some smarter, some longer. We do all three at once.",
+      "Some people choose to work harder, smarter, or longer. We choose all three at once.",
   },
   {
     name: "Laser focus",
     description:
-      "Keep the main thing the main thing and ruthlessly eliminate distraction.",
+      "There's nothing so useless as doing efficiently that which should not be done at all.",
   },
   {
     name: "Go all in",
     description:
-      "Be all in or get all out. There's no halfway, no plan b. Thinking small is self-fulfilling prophecy.",
+      "Whether you think you can or can't—either way you're right. Decide and commit. Know you can and will do it.",
   },
   {
     name: "Value > fame",
     description:
-      "Business is a game of solving problems, adding value and getting paid. Fame is not business.",
+      "Art is a game of solving problems, creating value, and getting paid. Fame is not a business model.",
   },
   {
     name: "Think scientifically",
     description:
-      "Reason from first principles like a scientist or engineer. Use data, test and iterate everything.",
+      "Use data, test, and iterate. Channel your inner scientist and reason from first principles.",
   },
   {
     name: "Competition is for losers",
     description:
-      "Differentiation is everything, the moment you look like everybody else, you're dead.",
+      "Collectors like differentiation. If you blindly copy everyone else, you're dead.",
   },
   {
     name: "Systemize and measure everything",
     description:
-      "Think in systems: inputs, processes, outputs and feedback. Measure & optimize everything.",
+      "See your art practice as a system. Inputs, processes, outputs, feedback, and more.",
   },
   {
-    name: "Cashflow over profits",
+    name: "Cash over profits",
     description:
-      "Cashflows are more important than profits and earnings. Seek to grow cashflows, not profits.",
+      "Cash today is more important than potential profits tomorrow. Seek to grow cash, not potential profits.",
   },
   {
     name: "It's all about the long-term",
     description:
-      "Make short-term sacrifices for long-term success. Business is a marathon, not a sprint!",
+      "Sacrifice in the short-term for sustainable long-term success. It's a marathon—not a sprint!",
   },
 ];
 
@@ -162,26 +162,27 @@ export default function Component() {
           </div>
           <div className="relative">
             <h3 className="text-2xl font-extrabold text-gray-900 tracking-tight sm:text-3xl">
-              Layer 3. Business principles
+              Layer 3. Practice principles
             </h3>
             <p className="mt-3 text-lg text-gray-500">
-              Business principles are fundamental beliefs, rules, or values that
-              represent what is desirable and positive for the business and the
-              people within it. Business principles together form a philosophy.
+              Practice principles are fundamental beliefs, rules, or values that
+              represent what is desirable and positive for the art practice and
+              the artist within it. Practice principles together form a
+              philosophy.
             </p>
             <p className="mt-3 text-lg text-gray-500">
-              We think differently about business, we see it as analytical,
-              quantitative, scientific and more "engineering" than
+              We think differently about the art profession, we see it as
+              analytical, quantitative, scientific and more "engineering" than
               "charismatic". We have a bias towards value and results, not
               social popularity.
             </p>
             <p className="mt-3 text-lg text-gray-500">
-              We teach our students our idiosyncratic business philosophy and
+              We teach our students our idiosyncratic practice philosophy and
               allow them to adopt it as their own or edit it so that its more
               personally aligned to their own beliefs and philosophy.
             </p>
             <p className="mt-3 text-lg text-gray-500">
-              Unstarving Artists' business philosophy is built on 15 principles:
+              Unstarving Artists' practice philosophy is built on 15 principles:
             </p>
           </div>
         </div>

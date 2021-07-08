@@ -40,15 +40,15 @@ export default function Component() {
                   prioritization, & problem solving
                 </li>
                 <li>
-                  <strong>Business principles</strong> — Frameworks, concepts, &
+                  <strong>Practice principles</strong> — Frameworks, concepts, &
                   mental models
                 </li>
                 <li>
-                  <strong>Business disciplines</strong> — Strategy, service,
+                  <strong>Practice disciplines</strong> — Strategy, service,
                   marketing, & sales
                 </li>
                 <li>
-                  <strong>Business processes</strong> — Tools, systems,
+                  <strong>Practice processes</strong> — Tools, systems,
                   workflows, & metrics
                 </li>
               </ol>

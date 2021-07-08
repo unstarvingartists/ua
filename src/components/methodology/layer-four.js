@@ -107,10 +107,10 @@ export default function Component() {
         <div className="relative mt-12 lg:mt-24 lg:grid lg:grid-cols-2 lg:gap-8 lg:items-center">
           <div className="relative">
             <h3 className="text-2xl font-extrabold text-gray-900 tracking-tight sm:text-3xl">
-              Layer 4. Business disciplines
+              Layer 4. Practice disciplines
             </h3>
             <p className="mt-3 text-lg text-gray-500">
-              Business disciplines are specific branches of knowledge relating
+              Practice disciplines are specific branches of knowledge relating
               to business functions like: sales, marketing, product, operations,
               accounting, legal, support and management.
             </p>

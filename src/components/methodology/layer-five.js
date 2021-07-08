@@ -147,10 +147,10 @@ export default function Component() {
           </div>
           <div className="relative">
             <h3 className="text-2xl font-extrabold text-gray-900 tracking-tight sm:text-3xl">
-              Layer 5. Business processes
+              Layer 5. Practice processes
             </h3>
             <p className="mt-3 text-lg text-gray-500">
-              Business processes are sets of actions or steps taken in order to
+              Practice processes are sets of actions or steps taken in order to
               achieve a particular result. Every business discipline has
               multiple business processes that sit on top. Think of them as
               step-by-step instructions, like a recipe for baking a cake, except
