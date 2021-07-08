@@ -12,37 +12,37 @@ const features = [
   {
     name: "Environment",
     description:
-      "A students ability to grow is heavily influenced by their environment. We provide the ultimate learning environment with online community, accountability, live Q&A's and mentorship.",
+      "A student's ability to grow is heavily affected by their environment. We provide the optimal learning environment with positive supportive community, accountability, live Q&As, and expert mentorship.",
     icon: SunIcon,
   },
   {
     name: "Building blocks",
     description:
-      "Students are unique and creative, so instead of killing that part of them (like most), we provide them with building blocks of information and let them arrange them anyway they like!",
+      'Each student is unique and creative. Instead of killing that part of them, like most educators do, we provide them with knowledge "building blocks" that they can then arrange anyway they choose!',
     icon: CubeIcon,
   },
   {
     name: "Mental reprogramming",
     description:
-      "The #1 killer of education is psychological, not logical. For students to learn and evolve, we must reprogram their minds to enhance awareness, cognition and remove delusions.",
+      "The top stumbling blocks for students are psychological, not practical. For students to learn and grow, we must retool their minds for enhanced awareness, self-esteem, cognition, and the removal of unhelpful beliefs.",
     icon: LightBulbIcon,
   },
   {
     name: "Real-world application",
     description:
-      'In theory, theory and practice are the same. In practice, they are not. We cover the theory, then instantly apply it in the real world to see what happens. This creates "thinker doers".',
+      'In theory, students just need theory. In practice, students need practice too. We breakdown the theory, then have students apply it right away in the real world for feedback. This creates "thoughtful action takers".',
     icon: GlobeIcon,
   },
   {
     name: "Real-world goals",
     description:
-      "Certificates and degrees are abstractions that don't reflect reality and give false entitlement. Our students don't get certificates, they aim for, optimize and achieve the real-world goal.",
+      "Degrees and certificates are forms of recognition that don't reflect reality and lead to a false sense of entitlement. Our students don't get certificates. They focus on and optimize for real-world goals.",
     icon: FlagIcon,
   },
   {
     name: "Real-world feedback",
     description:
-      "Learning requires feedback so students can measure progress and iterate actions to improve. Our students get feedback from the market, not quizzes, tests or assignments.",
+      "Students need feedback to measure their progress and improve their activities. Our students receive genuine actionable feedback from the market, not from artifical quizzes, tests, or assignments.",
     icon: RefreshIcon,
   },
 ];
@@ -59,9 +59,9 @@ export default function Component() {
             How our method works
           </p>
           <p className="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto">
-            Traditional education systems produce cookie-cutter humans with no
-            souls or uniqueness. We provide students with an environment and
-            building blocks — then we let emergence happen.
+            Traditional education systems produce cookie-cutter people with no
+            creativity or critical thinking. We provide students with a hands-on
+            environment and building blocks—then we let emergence happen.
           </p>
         </div>
 

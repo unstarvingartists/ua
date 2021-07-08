@@ -25,9 +25,9 @@ export default function Component() {
           <div className="relative z-10">
             <div className="prose prose-blue text-gray-500 mx-auto lg:max-w-none">
               <p>
-                To become a highly paid artist, you must embrace the “full
-                stack”—five connected layers of fundamental principles that are
-                built on top of each other.
+                To build a successful art practice, you must embrace the “full
+                stack”—five connected layers of fundamental principles that
+                build on top of each other.
               </p>
 
               <ol>
