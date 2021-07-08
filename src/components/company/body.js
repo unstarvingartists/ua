@@ -220,7 +220,7 @@ export default function Component({ children }) {
                 <h2>By the people for the people</h2>
                 <p>
                   At Unstarving Artists we try never to forget that our programs
-                  are for the people. They're not for the profits. The profits
+                  are for the people. They are not for the profits. The profits
                   follow, and if we have remembered that, they have never failed
                   to appear. The better we have remembered it, the larger they
                   have been.

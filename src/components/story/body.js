@@ -797,7 +797,7 @@ export default function Component({ children }) {
                 <p>
                   Nothing makes me happier than seeing other people change
                   themselves and change their lives for the better. People
-                  aren't just “the way they are”. They're built one piece at a
+                  aren't just “the way they are”. They are built one piece at a
                   time, and you can build yourself into whoever you want to be.
                 </p>
 

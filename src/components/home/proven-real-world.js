@@ -10,9 +10,10 @@ export default function Component() {
             Proven real-world results with artists like you
           </h2>
           <p className="mt-3 text-xl text-gray-500 sm:mt-4">
-            We don’t provide you with certificates, degrees, credentials,
-            badges, or participation awards. We provide you with real-world
-            results: collectors, growth, profits, self-improvement, and success.
+            We don’t provide our artists with certificates, degrees,
+            credentials, badges, or participation awards. We provide our artists
+            with real-world results: collectors, growth, profits,
+            self-improvement, and success.
           </p>
         </div>
       </div>
