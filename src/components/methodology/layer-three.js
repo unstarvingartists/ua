@@ -67,7 +67,7 @@ const features = [
   {
     name: "Systemize and measure everything",
     description:
-      "Think in systems: Inputs, processes, outputs and feedback. Measure & optimize everything.",
+      "Think in systems: inputs, processes, outputs and feedback. Measure & optimize everything.",
   },
   {
     name: "Cashflow over profits",

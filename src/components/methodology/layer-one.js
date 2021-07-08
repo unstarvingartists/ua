@@ -47,7 +47,7 @@ const features = [
   {
     name: "Transcending the linear",
     description:
-      "Appreciating the flaws of linear thinking. Graduating to systems thinking.",
+      "Appreciating the flaws of linear thinking. Graduating to non-linear thinking.",
   },
   {
     name: "Laser-like focus",

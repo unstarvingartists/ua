@@ -7,57 +7,57 @@ const features = [
   {
     name: "Problem solving",
     description:
-      "Defining the problem, using scientific method to hypothesize solutions, testing and iteration.",
+      "Getting clear on the root problem, hypothesizing solutions, prioritize ones to test, and iterating.",
   },
   {
     name: "Critical thinking",
     description:
-      "Questioning everything, thinking objectively and independently to form judgements.",
+      "Questioning assumptions, reasoning from first principles, and objectively forming judgements.",
   },
   {
     name: "Prioritization",
     description:
-      "Gathering and arranging items or activities in order of importance relative to each other.",
+      "Knowing what activities to do in what order and how much relative emphasis to place on each activity.",
   },
   {
     name: "Planning and scheduling",
     description:
-      "Thinking long-term, defining goals, reverse engineering, chunking, scheduling, delegating.",
+      "Defining long-term goals, reverse engineering them into milestones, scheduling, batching, and delegating.",
   },
   {
     name: "Decision making",
     description:
-      "Rapidly gathering relevant information, making tradeoffs and deciding what needs to be done.",
+      "Rapidly collecting relevant information, weighing trade-offs, and deciding what to do.",
   },
   {
     name: "Structuring and organizing",
     description:
-      "Categorizing, defining, labeling, structuring and optimizing everything for optimal efficiency.",
+      "Bucketing, defining, naming, organizing, and tuning things for optimum efficiency.",
   },
   {
     name: "Resource allocation",
     description:
-      "Allocating time, focus and energy to important things while ignoring nonimportant things.",
+      "Devoting time, focus, and energy to critical things while ignore unessential activities.",
   },
   {
     name: "Perception",
     description:
-      "Looking at things from different perspectives and consolidating based on all points of view.",
+      "Looking at something from all angles and synthesizing based on multiple points of view.",
   },
   {
     name: "Analysis and understanding",
     description:
-      "Detailed examination of the elements or structure of something to form understanding.",
+      "Breaking something down into its constituent elements to gain a deeper understanding.",
   },
   {
     name: "Visual mapping",
     description:
-      "Mental visualization of information by identifying objects and interconnections.",
+      "Internalizing principles by visualizing related concepts and their interconnections.",
   },
   {
     name: "Systems thinking",
     description:
-      "Holistic understanding of systems, inputs, processes, outputs, feedback and environment.",
+      "Grasping the interplay of inputs, outputs, processes, feedback, and the environment within a system.",
   },
   {
     name: "Divergent and convergent thinking",
@@ -110,17 +110,18 @@ export default function Component() {
               Layer 2. Mental cognition
             </h3>
             <p className="mt-3 text-lg text-gray-500">
-              Mental cognition is the second layer, it's responsible for problem
-              solving, critical thinking, planning, scheduling and prioritizing.
+              Mental cognition, the second layer, is responsible for creative
+              problem solving, critical thinking, planning, and prioritization.
             </p>
             <p className="mt-3 text-lg text-gray-500">
-              It's the "executive" function that weighs all possible actions to
-              determine their contribution towards goals and then prioritizes
-              them for execution in the logical order of importance.
+              It's the higher-level "executive" function that selects and
+              successfully monitors behaviors that facilitate the attainment of
+              chosen goals.
             </p>
             <p className="mt-3 text-lg text-gray-500">
-              We enhance mental cognition in our students minds so they can
-              think for themselves and troubleshoot without instructions.
+              We bolster mental cognition in our students' minds so they can
+              think for themselves and troubleshoot more and more without
+              hand-holding.
             </p>
           </div>
 
