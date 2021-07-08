@@ -155,10 +155,10 @@ export default function Component() {
               emotions, thoughts, actions, and behaviors.
             </p>
             <p className="mt-3 text-lg text-gray-500">
-              It's the creative and critical thinking functions that allow you
-              to identify patterns, think clearly, catch yourself, avoid
-              delusions, and your capability for self-control and
-              self-discipline when emotions stir inside you.
+              It's the base primal function that allows you to identify
+              patterns, think clearly, catch yourself, avoid delusions, and your
+              capability for self-control and self-discipline when emotions stir
+              inside you.
             </p>
             <p className="mt-3 text-lg text-gray-500">
               We begin here to flush out delusions and unhelpful beliefs,
