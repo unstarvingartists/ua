@@ -1,6 +1,6 @@
 import * as React from "react";
-import oliver from "../../images/oliver.jpeg";
-import oliverLogo from "../../images/oliver-logo.png";
+import ehab from "../../images/ehab.jpeg";
+import ehabLogo from "../../images/ehab-logo.png";
 
 export default function Component() {
   return (
@@ -43,11 +43,15 @@ export default function Component() {
         </svg>
 
         <div className="relative">
-          <img className="mx-auto h-8" src={oliverLogo} alt="Oliver Hojas" />
+          <img className="mx-auto h-16" src={ehabLogo} alt="Ehab Omaro" />
           <blockquote className="mt-10">
             <div className="max-w-3xl mx-auto text-center text-2xl leading-9 font-medium text-gray-900">
               <p>
-                &ldquo;I've sold $100,400+ of my art—my art is valuable!&rdquo;
+                &ldquo;Please stop struggling and really start to think about
+                the practical side of your art. How to promote yourself, how to
+                stand out from other artists, how to sell your art, how to make
+                a living out of it. Be mentored and find someone that can help
+                you take your art to the next level.&rdquo;
               </p>
             </div>
             <footer className="mt-8">
@@ -55,13 +59,13 @@ export default function Component() {
                 <div className="md:flex-shrink-0">
                   <img
                     className="mx-auto h-10 w-10 rounded-full"
-                    src={oliver}
-                    alt="Oliver Hojas"
+                    src={ehab}
+                    alt="Ehab Omaro"
                   />
                 </div>
                 <div className="mt-3 text-center md:mt-0 md:ml-4 md:flex md:items-center">
                   <div className="text-base font-medium text-gray-900">
-                    Oliver Hojas
+                    Ehab Omaro
                   </div>
 
                   <svg
@@ -73,7 +77,7 @@ export default function Component() {
                   </svg>
 
                   <div className="text-base font-medium text-gray-500">
-                    Abstract Artist, Switzerland
+                    Commission Artist, The Netherlands
                   </div>
                 </div>
               </div>

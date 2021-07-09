@@ -4,22 +4,22 @@ import image from "../../images/nappy.jpeg";
 
 const features = [
   {
-    name: "Accurately attribute the true source of every sale in your business;",
+    name: "Reprogram your brain for greater performance and easier art sales.",
   },
   {
-    name: "Attribute as much as 70% more sales than standard ad platform tracking;",
+    name: "Discover your niche and target the deep-pocketed collectors inside.",
   },
   {
-    name: "Clearly see which ad campaigns are actually delivering a profit;",
+    name: "Identify a market desire and harness it to create demand for your work.",
   },
   {
-    name: "Cut 10-15% of wasted ad spend instantly;",
+    name: "See your art as a solution and have collectors scrambling to work with you.",
   },
   {
-    name: "Stop crisscrossing attribution across multiple traffic sources;",
+    name: "Market & sell your artwork successfully. At higher rates. Again and again.",
   },
   {
-    name: "Calculate your customers' true lifetime value over days, months, and years;",
+    name: "Generate a 6-figure profit. Share your art with the world. Make a difference.",
   },
 ];
 
