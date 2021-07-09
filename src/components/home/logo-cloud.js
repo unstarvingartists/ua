@@ -1,71 +1,8 @@
 import * as React from "react";
-import { Link, graphql, useStaticQuery } from "gatsby";
-import { GatsbyImage, getImage } from "gatsby-plugin-image";
-
-const people = [
-  {
-    name: "Oliver Hojas",
-    genre: "Abstract 🇨🇭",
-    src: "oliver.jpeg",
-  },
-  {
-    name: "Lauren Satok",
-    genre: "Landscape 🇨🇦",
-    src: "lauren.jpeg",
-  },
-  {
-    name: "Michael Gibson",
-    genre: "Graphite 🇨🇦",
-    src: "michael.jpeg",
-  },
-  {
-    name: "Ehab Omaro",
-    genre: "Commission 🇳🇱",
-    src: "ehab.jpeg",
-  },
-  {
-    name: "Kate Padget-Koh",
-    genre: "Portrait 🇭🇰",
-    src: "kate.jpeg",
-  },
-  {
-    name: "Sharif Carter",
-    genre: "Pop Art 🇺🇸",
-    src: "sharif.jpeg",
-  },
-];
+import { Link } from "gatsby";
+import { StaticImage } from "gatsby-plugin-image";
 
 const Component = () => {
-  const data = useStaticQuery(graphql`
-    query homeLogoCloudQuery {
-      allFile(
-        filter: {
-          sourceInstanceName: { eq: "images" }
-          relativePath: {
-            in: [
-              "oliver.jpeg"
-              "kate.jpeg"
-              "michael.jpeg"
-              "sharif.jpeg"
-              "ehab.jpeg"
-              "lauren.jpeg"
-            ]
-          }
-        }
-      ) {
-        edges {
-          node {
-            id
-            relativePath
-            childImageSharp {
-              gatsbyImageData(width: 200)
-            }
-          }
-        }
-      }
-    }
-  `);
-
   return (
     <div className="bg-white">
       <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8">
@@ -99,28 +36,72 @@ const Component = () => {
             </div>
           </div>
           <div className="mt-8 grid grid-cols-2 gap-0.5 md:grid-cols-3 lg:mt-0 lg:grid-cols-2">
-            {people.map((person) => {
-              const source = data.allFile.edges.find(
-                (element) => element.node.relativePath === person.src
-              );
-              const image = getImage(source.node);
-              return (
-                <div
-                  key={person.name}
-                  className="col-span-1 flex justify-center py-8 px-8 bg-gray-50 space-x-4 lg:space-x-6"
-                >
-                  <GatsbyImage
-                    className="rounded-full max-h-12"
-                    image={image}
-                    alt={person.name}
-                  />
-                  <div className="font-medium text-lg leading-6 space-y-1">
-                    <h3>{person.name}</h3>
-                    <p className="text-blue-600">{person.genre}</p>
-                  </div>
-                </div>
-              );
-            })}
+            <div className="col-span-1 flex justify-center py-8 px-8 bg-gray-50 space-x-4 lg:space-x-6">
+              <StaticImage
+                className="rounded-full max-h-12"
+                src="../../images/oliver.jpeg"
+                alt="Oliver Hojas"
+              />
+              <div className="font-medium text-lg leading-6 space-y-1">
+                <h3>Oliver Hojas</h3>
+                <p className="text-blue-600">Abstract 🇨🇭</p>
+              </div>
+            </div>
+            <div className="col-span-1 flex justify-center py-8 px-8 bg-gray-50 space-x-4 lg:space-x-6">
+              <StaticImage
+                className="rounded-full max-h-12"
+                src="../../images/lauren.jpeg"
+                alt="Lauren Satok"
+              />
+              <div className="font-medium text-lg leading-6 space-y-1">
+                <h3>Lauren Satok</h3>
+                <p className="text-blue-600">Landscape 🇨🇦</p>
+              </div>
+            </div>
+            <div className="col-span-1 flex justify-center py-8 px-8 bg-gray-50 space-x-4 lg:space-x-6">
+              <StaticImage
+                className="rounded-full max-h-12"
+                src="../../images/michael.jpeg"
+                alt="Michael Gibson"
+              />
+              <div className="font-medium text-lg leading-6 space-y-1">
+                <h3>Michael Gibson</h3>
+                <p className="text-blue-600">Graphite 🇨🇦</p>
+              </div>
+            </div>
+            <div className="col-span-1 flex justify-center py-8 px-8 bg-gray-50 space-x-4 lg:space-x-6">
+              <StaticImage
+                className="rounded-full max-h-12"
+                src="../../images/ehab.jpeg"
+                alt="Ehab Omaro"
+              />
+              <div className="font-medium text-lg leading-6 space-y-1">
+                <h3>Ehab Omaro</h3>
+                <p className="text-blue-600">Commission 🇳🇱</p>
+              </div>
+            </div>
+            <div className="col-span-1 flex justify-center py-8 px-8 bg-gray-50 space-x-4 lg:space-x-6">
+              <StaticImage
+                className="rounded-full max-h-12"
+                src="../../images/kate.jpeg"
+                alt="Kate Padget-Koh"
+              />
+              <div className="font-medium text-lg leading-6 space-y-1">
+                <h3>Kate Padget-Koh</h3>
+                <p className="text-blue-600">Portrait 🇭🇰</p>
+              </div>
+            </div>
+            <div className="col-span-1 flex justify-center py-8 px-8 bg-gray-50 space-x-4 lg:space-x-6">
+              <StaticImage
+                className="rounded-full max-h-12"
+                src="../../images/sharif.jpeg"
+                alt="Sharif Carter"
+              />
+              <div className="font-medium text-lg leading-6 space-y-1">
+                <h3>Sharif Carter</h3>
+                <p className="text-blue-600">Pop Art 🇺🇸</p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
