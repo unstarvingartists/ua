@@ -149,13 +149,13 @@ export default function Component({ children }) {
                 <p className="mt-8 text-xl text-gray-500 leading-8">
                   Our company was founded by Harry Whelchel in 2020 from his
                   parents' basement in Atlanta, GA. Back then the company was
-                  called “Vouch” and the company was literally just him, a
-                  laptop, a cellphone and a dream.
+                  called “Vouch” and the business was literally just him, a
+                  laptop, and a dream.
                 </p>
               </div>
               <div className="mt-6 prose prose-blue prose-lg text-gray-500 mx-auto">
                 <p>
-                  Today the company has evolved into a market leading e-learning
+                  Today the company has evolved into a market leading education
                   platform that helps everyday people start and grow their own
                   art practices and live lives of freedom. Since 2020 the
                   company has grown to over 115 paying customers, opened offices
@@ -193,10 +193,11 @@ export default function Component({ children }) {
                 </figure>
                 <h2>All star team</h2>
                 <p>
-                  We’re building a team of inspired, smart, and driven
-                  individuals from all sorts of backgrounds. With countless
-                  opportunities for growth and mentorship, we strive to help
-                  each team member carve out the path that’s right for them.
+                  We’re building a championship team of inspired, smart, and
+                  driven individuals from all sorts of backgrounds. With
+                  unmatched opportunities for growth and mentorship, we strive
+                  to help each team member carve out the path that’s right for
+                  them.
                 </p>
                 <figure>
                   <img
