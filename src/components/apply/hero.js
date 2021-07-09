@@ -16,13 +16,13 @@ export default function Component({ children }) {
               </span>
             </h1>
             <p className="mt-3 max-w-md mx-auto text-lg text-gray-500 sm:text-xl md:mt-5 md:max-w-3xl">
-              In order to keep our customer experience at the highest levels
-              possible, Unstarving Artists is invite-only. We only work with
-              businesses of a certain size and in certain industries.
+              In order to keep our student experience at the highest level
+              possible, Unstarving Artists is by invitation only.
             </p>
             <p className="mt-3 max-w-md mx-auto text-lg text-gray-500 sm:text-xl md:mt-5 md:max-w-3xl">
-              If you need additional info, please book a demo below and we will
-              see if we are a good fit for your business.
+              At the moment, we can only speak with people we feel we're in a
+              great position to help. If you'd like to speak, please apply below
+              and we will see if we are a good fit for your art practice.
             </p>
             <div className="mt-10 sm:flex sm:justify-center lg:justify-start">
               <div className="rounded-md shadow">
