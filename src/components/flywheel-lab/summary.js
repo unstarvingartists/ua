@@ -45,22 +45,10 @@ export default function Component() {
                 <div>
                   <p className="text-base text-gray-500">
                     &ldquo;Social media has dynamically transformed the art
-                    market in ways that you have yet to understand. I'm going to
-                    say this—it's going to sound crazy.
-                    <br />
-                    <br />
-                    If you don't want to be in a gallery you don't need to be.
-                    You don't need the galleries. I'm in galleries. I love my
-                    gallery relationships. I'm not saying that that part of our
-                    ecosystem needs to be blown up. It's needed and going to be
-                    there.
-                    <br />
-                    <br />
-                    What I'm saying is, your ability as an artist to connect
-                    personally with your collectors and develop your
-                    relationship with your collectors now—it is so easy and so
-                    profitable—why wouldn't you do that? I don't understand why
-                    you wouldn't do it.&rdquo;
+                    market in ways that you have yet to understand. Your ability
+                    as an artist to directly connect with your collectors now—it
+                    is so easy and so profitable—why wouldn't you do
+                    that?&rdquo;
                   </p>
                 </div>
                 <footer className="mt-3">
