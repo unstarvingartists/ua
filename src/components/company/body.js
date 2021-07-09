@@ -191,10 +191,10 @@ export default function Component({ children }) {
                     Copenhagen.
                   </figcaption>
                 </figure>
-                <h2>All star team</h2>
+                <h2>Crack team</h2>
                 <p>
-                  We’re building a championship team of inspired, smart, and
-                  driven individuals from all sorts of backgrounds. With
+                  We’re building a team of positive, supportive, and
+                  self-starting individuals from all sorts of backgrounds. With
                   unmatched opportunities for growth and mentorship, we strive
                   to help each team member carve out the path that’s right for
                   them.
@@ -212,24 +212,25 @@ export default function Component({ children }) {
                   </figcaption>
                 </figure>
                 <p>
-                  The culture at Unstarving Artists can be described as: "A
-                  magic balance between sawn off shotguns and scented candles".
-                  Our team is hard working with an insatiable hunger to win but
-                  at the same time laid back, caring and not willing to break
-                  values just to get ahead.
+                  The culture at Unstarving Artists can be described as: "a
+                  perfect balance between Beatlemania and zen gardens". Our team
+                  is hard working with an insatiable hunger to win but at the
+                  same time laid back, caring and not willing to break values
+                  just to get ahead.
                 </p>
                 <h2>By the people for the people</h2>
                 <p>
-                  At Unstarving Artists we try never to forget that our programs
-                  are for the people. They are not for the profits. The profits
-                  follow, and if we have remembered that, they have never failed
-                  to appear. The better we have remembered it, the larger they
-                  have been.
+                  At Unstarving Artists we aim never to forget that our primary
+                  purpose is to help everyday people become successful artist
+                  and live lives of freedom. Our primary purpose is not to make
+                  profits. If we remember our purpose, the profits always
+                  follow. They have never failed to appear. The better we
+                  remember our purpose, the larger the profits have been.
                 </p>
                 <p>
-                  People are always before profits at Unstarving Artists and
-                  ironically that's the best way to make profits appear in the
-                  first place.
+                  People are always before profits at Unstarving Artists and in
+                  a pleasantly surprising way that's the best way to make
+                  profits appear in the first place.
                 </p>
               </div>
               <div className="mt-10 text-center">
