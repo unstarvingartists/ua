@@ -210,10 +210,10 @@ export default function Component({ children }) {
                 </p>
                 <p>
                   At Unstarving Artists, you won't find any gurus or see photos
-                  of people posing in Lamborghinis or private jets. Rather than
-                  spending time on attention-seeking flashy behavior, our time
-                  is best served helping our clients and letting their results
-                  speak for us.
+                  of people posing in Lamborghinis or private jets. We believe
+                  our efforts are best served helping our clients and then
+                  letting their results speak for us. We look forward to working
+                  with you.
                 </p>
                 <figure>
                   <img
