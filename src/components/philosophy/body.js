@@ -141,14 +141,14 @@ export default function Component({ children }) {
                     We believe the education and employment systems in today's
                     world are fundamentally flawed and need fixing. The
                     traditional path of school, college and corporate employment
-                    leaves people in debt, ill-equipped and soulless.
+                    leaves people in debt, ill-equipped and lacking purpose.
                   </p>
                   <p>
                     Through Unstarving Artists our mission is to send the
                     elevator back down and help everyday people start and grow
                     wildly profitable art practices and live lives of freedom.
-                    Our students have made over $12,000,000 and we're just
-                    getting started.
+                    Our students have made over $12,000,000. We're just getting
+                    started.
                   </p>
                 </blockquote>
               </div>
@@ -170,47 +170,50 @@ export default function Component({ children }) {
               <div className="mt-6 prose prose-blue prose-lg text-gray-500 mx-auto">
                 <ol>
                   <li>
-                    We believe that people are powerful beyond measure and can
-                    live the lives of their dreams. The problem is nobody ever
-                    taught them how the world works and how money is made
-                    outside of employment.
+                    We believe that people are incredibly powerful and can live
+                    the lives of their dreams. The stumbling block is nobody
+                    ever taught them how the world works and how incomes are
+                    made outside of employment.
                   </li>
                   <li>
-                    We believe that knowledge is power and the only gap between
-                    the rich and the poor is the access to the right information
-                    + the mental paradigm to perceive it.
+                    We believe that knowledge is power. The only gap between
+                    those who are rich and those who are poor is access to the
+                    right knowledge and having an effective mental paradigm to
+                    perceive the world.
                   </li>
                   <li>
-                    We believe that the traditional path of education and
-                    employment is fundamentally wrong and that we are here on
-                    the face of this earth to fix it.
+                    We believe that the traditional path of education is
+                    fundamentally flawed and breaking down more and more each
+                    year. We believe we're here on earth to offer a better way.
                   </li>
                   <li>
-                    We believe that we have the best training programs on the
-                    planet for helping everyday people start their own art
-                    practice, make money and take the steering wheel of their
-                    own fate.
+                    We believe that we have the world's best training programs
+                    for helping everyday people start their own art practice,
+                    earn an income from their artwork, and take in hand the
+                    steering wheel of their own destiny.
                   </li>
                   <li>
-                    We believe in questioning the unquestioned and holding
-                    nothing sacred in pursuit of the objective truth.
+                    We believe in the pursuit of the objective truth,
+                    questioning the unquestioned, and holding nothing sacred.
                   </li>
                   <li>
-                    We believe less is more and focus is devastatingly powerful.
-                    In the modern day it’s more about what you ignore rather
-                    than what you pay attention to.
+                    We believe less is more and that focus is extraordinarily
+                    powerful. In a world of information abundance, turning out
+                    the irrelevant noise is more and more important.
                   </li>
                 </ol>
                 <h2>Our client success is our success</h2>
                 <p>
-                  Our marketing plan is profoundly simple: Get our clients life
-                  changing results and the rest takes care of itself.
+                  The way we get the word out about what we do is profoundly
+                  simple: get our clients life changing results and the rest
+                  will take care of itself.
                 </p>
                 <p>
-                  At Unstarving Artists you won’t hear about any gurus or see
-                  any photos of people in Lamborghinis. We dedicate our time and
-                  effort to helping our clients and we let their results speak
-                  for us.
+                  At Unstarving Artists, you won't find any gurus or see photos
+                  of people posing in Lamborghinis or private jets. Rather than
+                  spending time on attention-seeking flashy behavior, our time
+                  is best served helping our clients and letting their results
+                  speak for us.
                 </p>
                 <figure>
                   <img
