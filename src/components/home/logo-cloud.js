@@ -1,46 +1,71 @@
 import * as React from "react";
-import { Link } from "gatsby";
-import oliver from "../../images/oliver.jpeg";
-import kate from "../../images/kate.jpeg";
-import sharif from "../../images/sharif.jpeg";
-import michael from "../../images/michael.jpeg";
-import ehab from "../../images/ehab.jpeg";
-import lauren from "../../images/lauren.jpeg";
+import { Link, graphql, useStaticQuery } from "gatsby";
+import { GatsbyImage, getImage } from "gatsby-plugin-image";
 
 const people = [
   {
     name: "Oliver Hojas",
     genre: "Abstract 🇨🇭",
-    image: oliver,
+    src: "oliver.jpeg",
   },
   {
     name: "Lauren Satok",
     genre: "Landscape 🇨🇦",
-    image: lauren,
+    src: "lauren.jpeg",
   },
   {
     name: "Michael Gibson",
     genre: "Graphite 🇨🇦",
-    image: michael,
+    src: "michael.jpeg",
   },
   {
     name: "Ehab Omaro",
     genre: "Commission 🇳🇱",
-    image: ehab,
+    src: "ehab.jpeg",
   },
   {
     name: "Kate Padget-Koh",
     genre: "Portrait 🇭🇰",
-    image: kate,
+    src: "kate.jpeg",
   },
   {
     name: "Sharif Carter",
     genre: "Pop Art 🇺🇸",
-    image: sharif,
+    src: "sharif.jpeg",
   },
 ];
 
 const Component = () => {
+  const data = useStaticQuery(graphql`
+    query homeLogoCloudQuery {
+      allFile(
+        filter: {
+          sourceInstanceName: { eq: "images" }
+          relativePath: {
+            in: [
+              "oliver.jpeg"
+              "kate.jpeg"
+              "michael.jpeg"
+              "sharif.jpeg"
+              "ehab.jpeg"
+              "lauren.jpeg"
+            ]
+          }
+        }
+      ) {
+        edges {
+          node {
+            id
+            relativePath
+            childImageSharp {
+              gatsbyImageData(width: 200)
+            }
+          }
+        }
+      }
+    }
+  `);
+
   return (
     <div className="bg-white">
       <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8">
@@ -74,22 +99,28 @@ const Component = () => {
             </div>
           </div>
           <div className="mt-8 grid grid-cols-2 gap-0.5 md:grid-cols-3 lg:mt-0 lg:grid-cols-2">
-            {people.map((person) => (
-              <div
-                key={person.name}
-                className="col-span-1 flex justify-center py-8 px-8 bg-gray-50 space-x-4 lg:space-x-6"
-              >
-                <img
-                  className="rounded-full max-h-12"
-                  src={person.image}
-                  alt={person.name}
-                />
-                <div className="font-medium text-lg leading-6 space-y-1">
-                  <h3>{person.name}</h3>
-                  <p className="text-blue-600">{person.genre}</p>
+            {people.map((person) => {
+              const source = data.allFile.edges.find(
+                (element) => element.node.relativePath === person.src
+              );
+              const image = getImage(source.node);
+              return (
+                <div
+                  key={person.name}
+                  className="col-span-1 flex justify-center py-8 px-8 bg-gray-50 space-x-4 lg:space-x-6"
+                >
+                  <GatsbyImage
+                    className="rounded-full max-h-12"
+                    image={image}
+                    alt={person.name}
+                  />
+                  <div className="font-medium text-lg leading-6 space-y-1">
+                    <h3>{person.name}</h3>
+                    <p className="text-blue-600">{person.genre}</p>
+                  </div>
                 </div>
-              </div>
-            ))}
+              );
+            })}
           </div>
         </div>
       </div>
