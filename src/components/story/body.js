@@ -151,8 +151,8 @@ export default function Component({ children }) {
                   </p>
                   <p>
                     His flagship Flywheel Lab training program has produced 3
-                    millionaires, dozens of six-figure earners, and allowed
-                    countless everyday people to become full-time artists.
+                    millionaires, dozens of six-figure earners, and allowed many
+                    everyday people to become full-time artists.
                   </p>
                 </blockquote>
               </div>
@@ -180,9 +180,9 @@ export default function Component({ children }) {
                 </p>
 
                 <p>
-                  In fact, when I landed a job at a digital marketing agency for
-                  the Fortune 500 at 21 years old just graduated from college, I
-                  became a family "success" story.
+                  In fact, when I had graduated from college at 21 years old and
+                  landed a job at a digital marketing agency for the Fortune
+                  500, I became a family "success" story.
                 </p>
 
                 <p>
@@ -205,7 +205,7 @@ export default function Component({ children }) {
                     agency back in 2012.
                   </figcaption>
                 </figure>
-                <h2>The First Epiphany</h2>
+                <h2>The First Insight</h2>
                 <p>
                   There was one sense in which my college experience was quite
                   unique. You see, I was in a men's a cappella group. We sang
@@ -215,13 +215,13 @@ export default function Component({ children }) {
                 <p>
                   One year, our group's president was able to secure us an
                   invitation to spend spring break on a cruise ship in exchange
-                  for a few performances on board. Envisioning us spending a few
-                  days off the coast of Florida on a crowded ship filled with
-                  young people, I said, "Sure, why not", and we were on our way.
+                  for us performing on board. Envisioning us spending a few days
+                  off the coast of Florida on a crowded ship filled with young
+                  people, I said, "Sure, why not", and we were on our way.
                 </p>
 
                 <p>
-                  You can imagine my surprise when we ended up on the #1 rated
+                  You can imagine my surprise when we ended up on an
                   all-inclusive luxury cruise ship sailing from Australia to
                   Singapore over 10 days. This was no 3-day Florida cruise.
                 </p>
@@ -287,35 +287,36 @@ export default function Component({ children }) {
                 <p>
                   First, my new friend had no time for pessimism. If something
                   negative was in the morning newspaper or the topic of
-                  conversation turned cynical, he would quietly remove himself
-                  from the discussion. One day I asked him about it and he told
-                  me, "Harry, I don't read, watch, or listen to anything that is
+                  conversation turned dour, he would quietly remove himself from
+                  the discussion. One day I asked him about it and he told me,
+                  "Harry, I don't read, watch, or listen to anything that is
                   negative."
                 </p>
 
                 <p>
-                  At first, his answer confused me. I felt it was a bit rude and
-                  even selfish, but the more I reflected on his words, the more
-                  I realized how much time I spent worrying about and focusing
-                  on negative things in the wider world that were outside my
-                  control. It was wasted time and energy, and this insight
-                  played a huge role in shaping my worldview and still does to
-                  this day.
+                  At first, his answer confused me. I felt it was a bit of a
+                  strict rule even rude, but the more I thought about it, the
+                  more I realized how much time I spent worrying about and
+                  focusing on negative things in the wider world that were
+                  outside my control. It was wasted time and energy, and this
+                  insight played a huge role in shaping my worldview and still
+                  does today.
                 </p>
 
                 <p>
                   The other thing that stood out to me was how differently a
                   wealthy person approaches day to day life versus someone like
-                  me who was raised to be frugal. Fine dining every night? No
-                  problem. Popping in for an afternoon lecture given by a world
-                  leading intellectual? Why not?
+                  me who was raised to be frugal. Healthly fresh dining every
+                  night? No problem. Attending an afternoon talk given by a
+                  world leading expert? Why not?
                 </p>
 
                 <p>
-                  And it wasn't so much of an excessive spending thing, as much
-                  as it was an experiences thing. My friend could afford to pay
-                  for day-to-day enriching life-improving experiences, no matter
-                  what they were.
+                  And it wasn't so much of an excessive indulgence thing, as
+                  much as it was an experiences thing. My friend could afford to
+                  and chose to use his resources to invest in day-to-day
+                  enriching live improving experiences, no matter what they
+                  were.
                 </p>
 
                 <p>
@@ -327,9 +328,9 @@ export default function Component({ children }) {
                 </p>
 
                 <p>
-                  I asked around about what my newly-wed friend did to make
-                  money. They told me he owned his own business. He was
-                  something called an entrepreneur.
+                  I asked around about what my new friend did to make money.
+                  They told me he owned his own business. He was something
+                  called an entrepreneur.
                 </p>
 
                 <p>
@@ -361,8 +362,8 @@ export default function Component({ children }) {
                 </p>
 
                 <p>
-                  There were a few red lights, road bumps, and detours along the
-                  way to say the least.
+                  Like any journey, there were a few red lights, road bumps, and
+                  detours along the way—to say the least.
                 </p>
 
                 <p>
@@ -372,12 +373,12 @@ export default function Component({ children }) {
                   gift.
                 </p>
 
-                <p>It failed miserably. Haha it was embarrassing.</p>
+                <p>It failed miserably. It was embarrassing.</p>
 
                 <p>3 months. $10,000 spent. Zero revenue.</p>
 
                 <p>
-                  I realized my heart and mind just weren't in the idea and I
+                  I realized my heart and mind just weren't in the project and I
                   scrapped it.
                 </p>
 
@@ -431,9 +432,12 @@ export default function Component({ children }) {
                   businesses was creating marketing campaigns, so to get my feet
                   back under me and begin building some savings for my next
                   venture, I started creating marketing campaigns for
-                  businesses. This was my first introduction to the emerging
-                  online service economy, and it started to transform my
-                  understanding of what entrepreneurship meant.
+                  businesses.
+                </p>
+                <p>
+                  This was my first introduction to the emerging online service
+                  economy, and it started to transform my understanding of what
+                  entrepreneurship meant.
                 </p>
 
                 <p>But I'm getting a bit ahead of myself.</p>
@@ -454,8 +458,8 @@ export default function Component({ children }) {
 
                 <p>
                   By the time I was ready to launch ConvoPanda, I had made some
-                  very important strategic changes in how I launched this 3rd
-                  business.
+                  very important strategic adjustments to how I launched this
+                  3rd business.
                 </p>
 
                 <p>
@@ -481,25 +485,28 @@ export default function Component({ children }) {
                 </p>
 
                 <p>
-                  With my first two businesses, I created things I thought the
-                  market would want. When I finally went to sell them, the
-                  market responded with “I don't need this”. These words burned
-                  into my brain, and I thought over this for months on end until
-                  I figured out a process to find out what the market wants in
-                  advance of starting the business, essentially avoiding the
-                  risk altogether.
+                  With my first two businesses, I created things I thought would
+                  be fun to create and I just hoped other people would want to
+                  purchase them. When I finally went to sell them, other people
+                  responded with "meh" or "I don't need this".
+                </p>
+                <p>
+                  This experience seared into my mind, and I thought over this
+                  for months on end until I figured out a process to find out
+                  what people want in advance of starting the business,
+                  effectively eliminating the risk altogether.
                 </p>
 
                 <p>
-                  With ConvoPanda, I made absolutely sure there was demand for
-                  what I wanted to do by pre-selling it. Before the first line
-                  of a marketing campaign was even written, I contacted SaaS
+                  With ConvoPanda, I made absolutely sure there was real
+                  interest in what I wanted to do by pre-selling it. Before I
+                  wrote the first line of a marketing campaign, I contacted SaaS
                   businesses and pre-sold $9,000 worth of projects.
                 </p>
 
                 <p>
-                  By the time I was building marketing campaigns, I had a real
-                  client base, and I was making real revenue.
+                  By the time I was preparing campaigns, I had real clients, and
+                  I was making real revenue.
                 </p>
                 <figure>
                   <img
@@ -514,13 +521,13 @@ export default function Component({ children }) {
                   </figcaption>
                 </figure>
 
-                <h2>The Second Epiphany</h2>
+                <h2>The Second Insight</h2>
                 <p>
                   As anyone who has run a marketing agency will tell you, it's
                   time intensive. It takes a lot of time and effort to keep up,
                   especially if you're a solo operator. If you hire team
-                  members, paying them can keep you from reaching profitability
-                  for months if not years. Even though I was bringing on clients
+                  members, paying them can push off reaching profitability for
+                  months if not years. Even though I was bringing on clients
                   with ConvoPanda and was on the path to success, I needed to
                   adapt.
                 </p>
@@ -528,14 +535,14 @@ export default function Component({ children }) {
                 <p>
                   Rather than attempting to hire a big expensive team or source
                   3rd party funding, I simply continued creating and selling
-                  marketing campaigns and ultimately expanded that business into
+                  marketing campaigns and ultimately expanded the business into
                   a lead generation consultancy.
                 </p>
 
                 <p>
                   Lead generation, like marketing, was a skill I picked up from
-                  building my previous businesses, and as I began offering it as
-                  a service, I was astounded at how big the demand was.
+                  my previous businesses, and as I began offering it as a
+                  service, I was blown away by how much interest their was.
                 </p>
                 <figure>
                   <img
@@ -553,56 +560,60 @@ export default function Component({ children }) {
                 <p>
                   In a fraction of the time it had taken ChirpyHire to achieve
                   profitability, my lead generation consultancy was actually
-                  making significantly more revenue and with so much less
-                  overhead.
+                  making significantly more revenue and with much fewer
+                  expenses.
                 </p>
 
                 <p>
-                  I began to see that client acquisition was a huge problem that
-                  almost everybody had but hardly anybody knew how to fix. If
-                  you could find the recipe to getting clients, you could
-                  basically write your own checks.
+                  I began to see that attracting and acquiring clients was a
+                  massive challenge that almost everyone had, that said, very
+                  few knew how to fix. If you could find the formula to getting
+                  clients, you would always have clients interested in working
+                  with you.
                 </p>
 
-                <p>And then one day, it clicked.</p>
+                <p>And then one day, it dawned on me.</p>
 
                 <p>
-                  I realized that the key to success for virtually every
-                  business on the planet is to identify the niche you are
-                  targeting, figure out their desires and pains, and help them
-                  solve their problems and achieve their goals.
-                </p>
-
-                <p>
-                  This was my second big epiphany, and I knew instinctively that
-                  it was my ticket to that cruise ship.
+                  I saw clearly for the first time that the key to success for
+                  every business on the planet is to identify the niche you are
+                  serving, determine their desires and pains, and then help them
+                  achieve their goals and solve their problems.
                 </p>
 
                 <p>
-                  And so, I sold ChirpyHire and used the money to aggressively
-                  scale my lead generation consultancy while working tirelessly
-                  to master the art of client acquisition.
+                  This was my second big insight, and I knew that it was my meal
+                  ticket for life.
+                </p>
+
+                <p>
+                  And so, I sold ChirpyHire and used the proceeds to grow my
+                  lead generation consultancy while working continuously to
+                  master the art of client acquisition.
                 </p>
                 <h2>Sales Coaching</h2>
                 <p>
-                  One side effect of mastering a skill that everyone needs is
-                  that everyone wants to learn it or benefit from it in some
+                  One side effect of having a skill that everyone needs is that
+                  lots of people want to learn it or benefit from it in some
                   way.
                 </p>
 
                 <p>
-                  Some businesses would of course hire me to run their lead
-                  generation. But what I found particularly interesting was that
-                  a lot of business owners simply wanted my advice. They would
-                  pay me increasingly larger sums to help them accomplish
-                  certain goals and get over certain hurdles.
+                  In the early days, some people would of course hire me to run
+                  their lead generation. But what I found particularly
+                  interesting was that a lot of folks were happy to just get my
+                  advice. They would pay me increasingly larger sums to advise
+                  them on how to achieve certain goals and remove certain
+                  obstacles.
                 </p>
                 <p>
-                  As my consultancy reached multiple six figures, I also began
-                  having people approach me to teach them how to build their own
-                  profitable consultancies. At first I would coach 1-on-1, but
-                  as demand increased, I expanded to coaching groups of 5 and
-                  then 10 at a time.
+                  As my consultancy reached multiple six figures, my clients
+                  started wanting my advice not only on lead generation. But
+                  also on sales and service delivery. In other words, they
+                  wanted me teach them holistically how to build their own
+                  profitable consultancy. At first I would advise them 1-on-1,
+                  but interest grew, I started coaching groups of 5 and then 10
+                  at once.
                 </p>
 
                 <figure>
@@ -619,38 +630,44 @@ export default function Component({ children }) {
                 </figure>
 
                 <p>
-                  Rather than teaching people how to offer digital marketing
-                  services, I focused more on the real money-maker: client
-                  acquisition. Armed with the knowledge of how to identify a
-                  niche, target niche clients, and sell to them, my students
-                  were experiencing success regardless of their business niche.
+                  Rather than showing people how to sell lead generation
+                  services, I showed them how to acquire their own clients, get
+                  them results, and use those results to attract more
+                  clients—regardless of what service they offered.
                 </p>
 
                 <p>
-                  Basically I was teaching people how to become consultants and
-                  build their own consulting businesses.
+                  With the simple general principles I had developed around
+                  niche identification, client acquisition, and service
+                  delivery, my students were getting results regardless of their
+                  niche.
                 </p>
 
                 <p>
-                  The thing is though there are a lot of business consultants
-                  out there for other coaches and consultants. It's a bit of a
-                  red ocean niche. And I knew that if I wanted to expand, I
+                  It was a lot of fun seeing consultants again and again achieve
+                  personal and professional breakthroughs as a result of us
+                  working together.
+                </p>
+
+                <p>
+                  The thing is though there are a lot of sales coaches out there
+                  for business owners. And I knew that if I wanted to expand, I
                   would need to find a segment of the market that was
                   underserved and could massively benefit from my mastery of
                   client acquisition.
                 </p>
 
                 <p>
-                  Accordingly, I started working on identifying this underserved
+                  Accordingly, I started working on identifying an underserved
                   niche. A niche filled with everyday people that could benefit
                   from the lead generation and client acquisition knowledge I
                   knew I could teach them in a relatively short period of time.
                 </p>
-                <h2>My Third Epiphany</h2>
+                <h2>My Third Insight</h2>
                 <p>
                   I started reflecting back on the 70+ clients I had worked with
-                  over the past year and one client immediately jumped out at
-                  me. A young artist named Oliver Hojas.
+                  over the past year and one client soon jumped out at me—a
+                  young artist named Oliver Hojas.
                 </p>
                 <p>
                   Oliver and I had connected on social media after he had been
@@ -716,32 +733,34 @@ export default function Component({ children }) {
                 </p>
                 <h2>The Flywheel Lab Training</h2>
                 <p>
-                  Similar to my previous businesses, I didn’t knock it out of
-                  the park right away. I wasn’t failing by any measure, and the
-                  first few training programs I created succeeded in bringing in
-                  a solid profit, but I wasn’t quite reaching my goals either...
-                  at least the goals that I envisioned.
+                  Like my previous businesses, I didn't experience an overnight
+                  success. I wasn't failing this time by any stretch of the
+                  imagination, and the first few training programs I created
+                  were getting artists results and bringing in a solid profit.
+                  That said, I wasn't quite reaching my goals yet—at least the
+                  goals that I had in mind.
                 </p>
 
                 <p>
-                  There are thousands of people out there offering online
-                  programs, and one thing that many of them have in common is
-                  that they just give their clients a small piece of the puzzle.
-                  Some of the richest sellers out there will break up the value
-                  they offer into 10 different pieces and then just string
-                  clients along, using psychology to get them hooked without
-                  actually leaving them better off.
+                  There are a lot of folks out there offering online courses,
+                  and one thing that many of them have in common is they just
+                  provide their clients with a small piece of the whole picture.
+                  Some of the wealthiest sellers out there split up the value
+                  they offer into 5 to 10 different pieces and then just string
+                  their clients along, using psychology to hook them in without
+                  actually changing their lives for the better.
                 </p>
 
                 <p>
-                  That’s not how I wanted to run my business. That's not how I
-                  wanted to work with artists.
+                  That’s not how I wanted to do things. That's not how I wanted
+                  to work with artists.
                 </p>
 
                 <p>
-                  I wanted to give people everything they needed to legitimately
-                  succeed in one package and if they follow through and put the
-                  work in, they will inevitably succeed.
+                  I wanted to give my clients everything they needed to see real
+                  results all in one package so that if they followed through
+                  and put the work in, they would inevitably achieve their
+                  goals.
                 </p>
                 <figure>
                   <img
@@ -770,16 +789,16 @@ export default function Component({ children }) {
                 </p>
 
                 <p>
-                  I knew when I first launched the Flywheel Lab to a small group
-                  of students that I had created something special, but even I
-                  couldn’t have predicted just how popular and successful the
-                  program would be.
+                  When I first introduced the Flywheel Lab to a small group of
+                  students, I knew I had created something special. That said,
+                  even I couldn't have foreseen just how effective and popular
+                  the program would be.
                 </p>
 
                 <p>
                   Within 2 years, this single program created 3 millionaires,
-                  dozens of six-figure earners, and allowed countless more
-                  students to quit their jobs and become full-time artists.
+                  dozens of six-figure earners, and allowed many more students
+                  to quit their jobs and become full-time artists.
                 </p>
 
                 <p>
@@ -790,29 +809,37 @@ export default function Component({ children }) {
 
                 <p>
                   If you’d like to get a better feel for what the Flywheel Lab
-                  is all about, check out this video: "The 3 Step Process We
-                  Used To Earn A 5 Figure A Month Income From Our Art".
+                  is all about, check out this video:{" "}
+                  <a
+                    target="_blank"
+                    rel="noreferrer"
+                    href="https://go.unstarvingartists.org/opt-in"
+                  >
+                    "The 3 Step Process We Used To Earn A 5 Figure A Month
+                    Income From Our Art"
+                  </a>
+                  .
                 </p>
-                <h2>Looking To The Future</h2>
+                <h2>Looking To What's Next</h2>
                 <p>
-                  Nothing makes me happier than seeing other people change
-                  themselves and change their lives for the better. People
-                  aren't just “the way they are”. They are built one piece at a
-                  time, and you can build yourself into whoever you want to be.
+                  Nothing is more satisfying to me than seeing other people grow
+                  and change their lives for the better. People aren't just "the
+                  way they are". They are built piece by piece, and you can
+                  build yourself into whoever you want to be.
                 </p>
 
                 <p>
-                  My students have become my best friends and I like to
-                  celebrate their success at each stage of the journey. When
+                  My students have become dear friends and I like to celebrate
+                  their success with them at each stage of the journey. When
                   somebody reaches 6-figures, I send them an invite to have a
                   private lunch with me and a few of their friends. When
                   somebody reaches 7-figures, we do something even more special.
                 </p>
 
                 <p>
-                  What began as a struggle, became an idea, which struck a nerve
-                  and became a movement. The Unstarving Artist Revolution is
-                  here, and I’d love for you join me!
+                  What started as a struggle, became an idea, which struck a
+                  chord and became a movement. The Unstarving Artist Revolution
+                  is here, and I'd be glad to have you join me!
                 </p>
               </div>
               <div className="mt-10 text-center">
