@@ -1,7 +1,18 @@
 module.exports = {
   siteMetadata: {
     title: "Unstarving Artists",
+    titleTemplate: "%s | Unstarving Artists",
     siteUrl: "https://unstarvingartists.com",
+    twitterUsername: "@unstarvingarts",
+    image: "/social-graph.png",
+    metaImage: {
+      height: 2400,
+      width: 1260,
+    },
+    author: "Unstarving Artists",
+    keywords: ["artists", "sales", "become a highly paid artist"],
+    description:
+      "Become a highly paid artist without art world or gallery connections. Everything you need to become a highly paid artist. No art degree, art world connections, or gallery representation required. Not a tech whiz? That's ok too.",
   },
   plugins: [
     "gatsby-plugin-netlify-cms",
@@ -16,9 +27,6 @@ module.exports = {
     },
     {
       resolve: "gatsby-plugin-sharp",
-      options: {
-        icon: "src/images/icon.png",
-      },
     },
     "gatsby-plugin-mdx",
     "gatsby-transformer-sharp",
@@ -37,6 +45,13 @@ module.exports = {
         path: "./src/pages/",
       },
       __key: "pages",
+    },
+    {
+      resolve: "gatsby-source-filesystem",
+      options: {
+        name: "stories",
+        path: `${__dirname}/content/stories/`,
+      },
     },
     "gatsby-plugin-postcss",
   ],

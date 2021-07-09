@@ -1,9 +1,9 @@
 import * as React from "react";
 import { Link } from "gatsby";
 import oliver from "../../images/oliver.jpeg";
-import oliverLogo from "../../images/oliver-logo.svg";
+import oliverLogo from "../../images/oliver-logo.png";
 
-export default function WeTeach() {
+export default function Component() {
   return (
     <div className="py-16 bg-gray-50 overflow-hidden">
       <div className="max-w-7xl mx-auto px-4 space-y-8 sm:px-6 lg:px-8">
@@ -26,9 +26,9 @@ export default function WeTeach() {
           <div className="relative z-10">
             <div className="prose prose-blue text-gray-500 mx-auto lg:max-w-none">
               <p>
-                To become a highly paid artist, you must embrace the “full
-                stack”—five connected layers of fundamental principles that are
-                built on top of each other.
+                To build a successful art practice, you must embrace the “full
+                stack”—five connected layers of fundamental principles that
+                build on top of each other.
               </p>
 
               <ol>
@@ -41,15 +41,15 @@ export default function WeTeach() {
                   prioritization, & problem solving
                 </li>
                 <li>
-                  <strong>Business principles</strong> — Frameworks, concepts, &
+                  <strong>Practice principles</strong> — Frameworks, concepts, &
                   mental models
                 </li>
                 <li>
-                  <strong>Business disciplines</strong> — Strategy, product,
+                  <strong>Practice disciplines</strong> — Strategy, service,
                   marketing, & sales
                 </li>
                 <li>
-                  <strong>Business processes</strong> — Tools, systems,
+                  <strong>Practice processes</strong> — Tools, systems,
                   workflows, & metrics
                 </li>
               </ol>

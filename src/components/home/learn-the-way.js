@@ -1,10 +1,11 @@
 import * as React from "react";
-import onlineTrainingPlatform from "../../images/online-training-platform.svg";
-import interactiveArtistCommunity from "../../images/interactive-artist-community.svg";
-import expertMentorship from "../../images/expert-mentorship-on-demand.svg";
-import liveRealTime from "../../images/live-real-time-events.svg";
+import onlineTrainingPlatform from "../../images/undraw_Online_learning_re_qw08.svg";
+import interactiveArtistCommunity from "../../images/undraw_conference_call_b0w6.svg";
+import expertMentorship from "../../images/undraw_group_video_el8e.svg";
+import liveRealTime from "../../images/undraw_team_spirit_hrr4.svg";
 import { Link } from "gatsby";
-export default function LearnTheWay() {
+
+export default function Component() {
   return (
     <div className="py-16 bg-gray-50 overflow-hidden lg:py-24">
       <div className="relative max-w-xl mx-auto px-4 sm:px-6 lg:px-8 lg:max-w-7xl">

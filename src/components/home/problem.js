@@ -1,8 +1,8 @@
 import * as React from "react";
-import scatterbrain from "../../images/student-monochrome.svg";
-import focused from "../../images/hiker-man-monochrome.svg";
+import scatterbrain from "../../images/undraw_creative_woman_v415.svg";
+import focused from "../../images/undraw_making_art_759c.svg";
 
-export default function Problem() {
+export default function Component() {
   return (
     <div className="py-16 bg-gray-50 overflow-hidden lg:py-24">
       <div className="relative max-w-xl mx-auto px-4 sm:px-6 lg:px-8 lg:max-w-7xl">
@@ -47,7 +47,7 @@ export default function Problem() {
           <p className="mt-4 max-w-3xl mx-auto text-center text-xl text-gray-500">
             Unstarving Artists gets artists laser-focused on the simple actions
             that yield big results. You'll find our artists connecting with
-            leads, selling art, and mastering their craft—not chasing fame on
+            leads, selling pieces, and producing more work—not chasing fame on
             social media.
           </p>
         </div>
@@ -160,9 +160,9 @@ export default function Problem() {
                 are long-term.
               </p>
               <p className="mt-3 text-lg text-gray-500">
-                You won't find them chasing vanity metrics on social media.
-                They're action takers. They are thoughtful, systematic, focused
-                and always win.
+                You won't find them chasing vanity metrics on social media. They
+                are action takers. They are thoughtful, systematic, focused and
+                always win.
               </p>
             </div>
 

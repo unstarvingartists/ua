@@ -45,7 +45,7 @@ const features = [
   {
     name: "Lead generation",
     description:
-      "Creating evergreen social media posts that generate real leads, scheduling, testing, and friends.",
+      "Creating evergreen social media posts that generate real leads, scheduling and testing posts.",
   },
   {
     name: "Management & hiring",
