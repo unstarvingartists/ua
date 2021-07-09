@@ -103,7 +103,7 @@ export default function Component() {
                 <StaticImage
                   src="../../images/oliver-logo.png"
                   alt="Oliver Hojas Logo"
-                  height={32}
+                  width={32}
                 />
                 <div className="relative text-lg text-gray-700 font-medium mt-8">
                   <svg
@@ -129,6 +129,7 @@ export default function Component() {
                     className="w-12 h-12 sm:w-20 sm:h-20 rounded-full bg-blue-300"
                     src="../../images/oliver.jpeg"
                     alt="Oliver Hojas"
+                    width={80}
                   />
                 </div>
                 <span className="relative ml-4 text-blue-300 font-semibold leading-6 sm:ml-24 sm:pl-1">

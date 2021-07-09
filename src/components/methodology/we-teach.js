@@ -1,6 +1,5 @@
 import * as React from "react";
-import oliver from "../../images/oliver.jpeg";
-import oliverLogo from "../../images/oliver-logo.png";
+import { StaticImage } from "gatsby-plugin-image";
 
 export default function Component() {
   return (
@@ -91,7 +90,11 @@ export default function Component() {
             </svg>
             <blockquote className="relative bg-white rounded-lg shadow-lg">
               <div className="rounded-t-lg px-6 py-8 sm:px-10 sm:pt-10 sm:pb-8">
-                <img src={oliverLogo} alt="Oliver Hojas Logo" className="h-8" />
+                <StaticImage
+                  src="../../images/oliver-logo.png"
+                  alt="Oliver Hojas Logo"
+                  width={32}
+                />
                 <div className="relative text-lg text-gray-700 font-medium mt-8">
                   <svg
                     className="absolute top-0 left-0 transform -translate-x-3 -translate-y-2 h-8 w-8 text-gray-200"
@@ -112,10 +115,11 @@ export default function Component() {
               </div>
               <cite className="relative flex items-center sm:items-start bg-blue-600 rounded-b-lg not-italic py-5 px-6 sm:py-5 sm:pl-12 sm:pr-10 sm:mt-10">
                 <div className="relative rounded-full border-2 border-white sm:absolute sm:top-0 sm:transform sm:-translate-y-1/2">
-                  <img
+                  <StaticImage
                     className="w-12 h-12 sm:w-20 sm:h-20 rounded-full bg-blue-300"
-                    src={oliver}
+                    src="../../images/oliver.jpeg"
                     alt="Oliver Hojas"
+                    width={80}
                   />
                 </div>
                 <span className="relative ml-4 text-blue-300 font-semibold leading-6 sm:ml-24 sm:pl-1">
