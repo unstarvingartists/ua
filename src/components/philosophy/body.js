@@ -212,8 +212,8 @@ export default function Component({ children }) {
                   At Unstarving Artists, you won't find any gurus or see photos
                   of people posing in Lamborghinis or private jets. We believe
                   our efforts are best served helping our clients and then
-                  letting their results speak for us. We look forward to working
-                  with you.
+                  letting their results speak for us. We'd love to see you be
+                  our next success story.
                 </p>
                 <figure>
                   <img
