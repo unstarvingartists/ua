@@ -1,6 +1,6 @@
 import * as React from "react";
-import { BeakerIcon } from "@heroicons/react/outline";
-import oliver from "../../images/oliver.jpeg";
+import { FlagIcon } from "@heroicons/react/outline";
+import michael from "../../images/michael.jpeg";
 import summary from "../../images/undraw_Abstract_re_l9xy.svg";
 export default function Component() {
   return (
@@ -11,10 +11,7 @@ export default function Component() {
             <div>
               <div>
                 <span className="h-12 w-12 rounded-md flex items-center justify-center bg-blue-600">
-                  <BeakerIcon
-                    className="h-6 w-6 text-white"
-                    aria-hidden="true"
-                  />
+                  <FlagIcon className="h-6 w-6 text-white" aria-hidden="true" />
                 </span>
               </div>
               <div className="mt-6">
@@ -23,7 +20,7 @@ export default function Component() {
                 </h2>
                 <p className="mt-4 text-lg text-gray-500">
                   This is not your typical "course". We provide you with
-                  everything you need to be successful.
+                  everything you need to become a successful artist.
                 </p>
                 <ul className="mt-4 text-lg text-gray-500">
                   <li>✔ Reprogram your brain</li>
@@ -47,8 +44,23 @@ export default function Component() {
               <blockquote>
                 <div>
                   <p className="text-base text-gray-500">
-                    &ldquo;I've sold $100,400+ of my art—my art is
-                    valuable!&rdquo;
+                    &ldquo;Social media has dynamically transformed the art
+                    market in ways that you have yet to understand. I'm going to
+                    say this—it's going to sound crazy.
+                    <br />
+                    <br />
+                    If you don't want to be in a gallery you don't need to be.
+                    You don't need the galleries. I'm in galleries. I love my
+                    gallery relationships. I'm not saying that that part of our
+                    ecosystem needs to be blown up. It's needed and going to be
+                    there.
+                    <br />
+                    <br />
+                    What I'm saying is, your ability as an artist to connect
+                    personally with your collectors and develop your
+                    relationship with your collectors now—it is so easy and so
+                    profitable—why wouldn't you do that? I don't understand why
+                    you wouldn't do it.&rdquo;
                   </p>
                 </div>
                 <footer className="mt-3">
@@ -56,12 +68,12 @@ export default function Component() {
                     <div className="flex-shrink-0">
                       <img
                         className="h-6 w-6 rounded-full"
-                        src={oliver}
-                        alt="Oliver Hojas"
+                        src={michael}
+                        alt="Michael Gibson"
                       />
                     </div>
                     <div className="text-base font-medium text-gray-700">
-                      Oliver Hojas, Abstract Artist
+                      Michael Gibson, Graphite Mixed Media Artist
                     </div>
                   </div>
                 </footer>
