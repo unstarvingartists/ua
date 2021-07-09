@@ -1,6 +1,7 @@
 import * as React from "react";
 import { CameraIcon } from "@heroicons/react/solid";
 import { Link } from "gatsby";
+import { StaticImage } from "gatsby-plugin-image";
 import image from "../../images/harry-4.jpg";
 
 export default function Component() {
@@ -56,6 +57,13 @@ export default function Component() {
             <div className="relative text-base mx-auto max-w-prose lg:max-w-none">
               <figure>
                 <div className="aspect-w-12 aspect-h-7 lg:aspect-none">
+                  {/*                  <StaticImage
+                    width={1184}
+                    height={1376}
+                    imgClassName="rounded-lg shadow-lg object-cover object-center"
+                    src="../../images/harry-4.jpg"
+                    alt="Harry"
+                  />*/}
                   <img
                     className="rounded-lg shadow-lg object-cover object-center"
                     src={image}
