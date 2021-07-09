@@ -4,38 +4,46 @@ import {
   ShieldCheckIcon,
   EyeIcon,
   LightBulbIcon,
+  ThumbUpIcon,
   HeartIcon,
   LightningBoltIcon,
 } from "@heroicons/react/outline";
 
 const features = [
   {
-    name: "Spartan Wall",
+    name: "Positive",
     description:
-      "We win the battle for our customers by protecting / taking care of each other.",
+      "Assume good intentions. Always seek out the charitable and open-minded way to view things.",
+    icon: ThumbUpIcon,
+  },
+  {
+    name: "Supportive",
+    description:
+      "We win the battle for our clients by protecting and taking care of each other.",
     icon: ShieldCheckIcon,
   },
   {
-    name: "Make The Experience Share Worthy",
-    description:
-      'In all things consider the impression the client will have and think "Will this WOW them so much that they HAVE to tell someone about it"',
-    icon: HeartIcon,
-  },
-  {
-    name: "Brutal Data-Driven Truth",
-    description:
-      "Whether in our work or data we must never operate off anything but the 110% accurate truth.",
-    icon: LightningBoltIcon,
-  },
-  {
-    name: '"Seek And Destroy" Proactive Problem Solving',
+    name: "Self-Starting",
     description:
       "Instinctively pursuing and solving hard problems is where our success comes from.",
     icon: LightBulbIcon,
   },
   {
-    name: "Eye Of Mordor Long-Term Focus",
-    description: "Focus on the key mission and keep the mission the key focus.",
+    name: "Make The Experience Share Worthy",
+    description:
+      'In all things consider the impression the client will have and think, "Will this WOW them so much that they HAVE to tell someone about it".',
+    icon: HeartIcon,
+  },
+  {
+    name: "Brutal Data-Driven Truth",
+    description:
+      "Trust in accurate data. In our work, we must never operate off anything but the 110% accurate truth.",
+    icon: LightningBoltIcon,
+  },
+  {
+    name: "Eagle-Eyed Long-Term Focus",
+    description:
+      "Have courage to focus on the long-term mission. Everything else will follow.",
     icon: EyeIcon,
   },
 ];
