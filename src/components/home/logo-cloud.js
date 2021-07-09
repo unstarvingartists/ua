@@ -36,7 +36,9 @@ const people = [
 ];
 
 const Component = () => {
-  const data = useStaticQuery(graphql`
+  const {
+    allFile: { edges },
+  } = useStaticQuery(graphql`
     query homeLogoCloudQuery {
       allFile(
         filter: {
@@ -58,13 +60,20 @@ const Component = () => {
             id
             relativePath
             childImageSharp {
-              gatsbyImageData(width: 200)
+              gatsbyImageData(width: 48)
             }
           }
         }
       }
     }
   `);
+
+  people.map((person) => {
+    const { node: source } = edges.find(
+      ({ node: { relativePath } }) => relativePath === person.src
+    );
+    return (person.image = getImage(source));
+  });
 
   return (
     <div className="bg-white">
@@ -100,10 +109,6 @@ const Component = () => {
           </div>
           <div className="mt-8 grid grid-cols-2 gap-0.5 md:grid-cols-3 lg:mt-0 lg:grid-cols-2">
             {people.map((person) => {
-              const source = data.allFile.edges.find(
-                (element) => element.node.relativePath === person.src
-              );
-              const image = getImage(source.node);
               return (
                 <div
                   key={person.name}
@@ -111,8 +116,9 @@ const Component = () => {
                 >
                   <GatsbyImage
                     className="rounded-full max-h-12"
-                    image={image}
+                    image={person.image}
                     alt={person.name}
+                    loading="eager"
                   />
                   <div className="font-medium text-lg leading-6 space-y-1">
                     <h3>{person.name}</h3>
