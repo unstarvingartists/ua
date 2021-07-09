@@ -171,9 +171,9 @@ export default function Component({ children }) {
                 <ol>
                   <li>
                     We believe that people are incredibly powerful and can live
-                    the lives of their dreams. The stumbling block is nobody
-                    ever taught them how the world works and how incomes are
-                    made outside of employment.
+                    the lives of their dreams. The problem is nobody ever taught
+                    them how the world works and how incomes are made outside of
+                    employment.
                   </li>
                   <li>
                     We believe that knowledge is power. The only gap between
