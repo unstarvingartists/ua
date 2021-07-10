@@ -2,8 +2,7 @@ import * as React from "react";
 import { Link } from "gatsby";
 import { StarIcon } from "@heroicons/react/solid";
 import { StaticImage } from "gatsby-plugin-image";
-import oliverfirstsale from "../../images/oliver-first-sale.png";
-import rkg from "../../images/rkg-office.jpeg";
+
 const navigation = [
   { name: "Our story", href: "/story" },
   { name: "Our philosophy", href: "/philosophy" },
@@ -192,9 +191,9 @@ export default function Component({ children }) {
                     alt="This was the exact floor my desk was on at the marketing
                     agency back in 2012."
                     className="w-full"
+                    imgClassName="w-full"
                     width={736}
                     objectFit="contain"
-                    imgClassName="w-full"
                   />
                   <figcaption>
                     This was the exact floor my desk was on at the marketing
@@ -258,9 +257,9 @@ export default function Component({ children }) {
                     src="../../images/cruise.jpeg"
                     alt="My cruise trip from Sydney, through Bali, to Singapore."
                     className="w-full"
-                    width={736}
-                    objectFit="contain"
                     imgClassName="w-full"
+                    width={1472}
+                    objectFit="contain"
                   />
                   <figcaption>
                     My cruise trip from Sydney, through Bali, to Singapore.
@@ -392,9 +391,9 @@ export default function Component({ children }) {
                     alt="Me promoting ChirpyHire at a Florida healthcare industry
                     conference in 2015."
                     className="w-full"
+                    imgClassName="w-full"
                     width={736}
                     objectFit="contain"
-                    imgClassName="w-full"
                   />
                   <figcaption>
                     Me promoting ChirpyHire at a Florida healthcare industry
@@ -512,9 +511,9 @@ export default function Component({ children }) {
                     src="../../images/convopanda.jpeg"
                     alt="The coworking space where I launched ConvoPanda."
                     className="w-full"
+                    imgClassName="w-full"
                     width={736}
                     objectFit="contain"
-                    imgClassName="w-full"
                   />
                   <figcaption>
                     The coworking space where I launched ConvoPanda.
@@ -550,9 +549,9 @@ export default function Component({ children }) {
                     alt="In 2019, I expanded ConvoPanda into a lead generation
                     consultancy."
                     className="w-full"
+                    imgClassName="w-full"
                     width={736}
                     objectFit="contain"
-                    imgClassName="w-full"
                   />
                   <figcaption>
                     In 2019, I expanded ConvoPanda into a lead generation
@@ -623,9 +622,9 @@ export default function Component({ children }) {
                     src="../../images/peter-interview.jpeg"
                     alt="Peter Byram, my first client as a sales coach."
                     className="w-full"
-                    width={736}
-                    objectFit="contain"
                     imgClassName="w-full"
+                    width={1472}
+                    objectFit="contain"
                   />
                   <figcaption>
                     Peter Byram, my first client as a sales coach.
@@ -706,9 +705,9 @@ export default function Component({ children }) {
                     alt="Oliver's very first sale. This was by far the most he had
                     ever sold a piece for."
                     className="w-full"
-                    width={736}
-                    objectFit="contain"
                     imgClassName="w-full"
+                    width={1472}
+                    objectFit="contain"
                   />
                   <figcaption>
                     Oliver's very first sale. This was by far the most he had
@@ -773,9 +772,9 @@ export default function Component({ children }) {
                     alt="The Flywheel Lab program have been battle tested and proven
                     with 100+ students worldwide."
                     className="w-full"
+                    imgClassName="w-full"
                     width={736}
                     objectFit="contain"
-                    imgClassName="w-full"
                   />
                   <figcaption>
                     The Flywheel Lab program have been battle tested and proven
