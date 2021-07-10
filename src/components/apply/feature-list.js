@@ -4,7 +4,7 @@ import { StaticImage } from "gatsby-plugin-image";
 
 const features = [
   {
-    name: "Reprogram your brain for greater performance and easier art sales.",
+    name: "Reprogram your brain for greater performance and smarter execution.",
   },
   {
     name: "Discover your niche and target the deep-pocketed collectors inside.",
