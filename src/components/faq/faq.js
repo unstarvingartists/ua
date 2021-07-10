@@ -6,58 +6,58 @@ const faqs = [
     question:
       "How does the Flywheel Lab program work and why use it over other ways to grow your art practice?",
     answer:
-      "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+      "Flywheel Lab is a 7-week online training program with live Q&A calls and a community of semi-professional and professional artists. It shows you how to start a profitable art practice from scratch and grow it to 6-figures. It is the simplest, clearest, most effective way for people to become successful artists.",
   },
   {
     question:
       "How can Unstarving Artists help me price my work and why use this approach over other methods?",
     answer:
-      "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+      "Earning more from your work is all about increasing the perceived value of what you do. If you'd prefer to be able to sell fewer pieces at higher prices to better collectors, rather than trying to sell a TON of pieces for $150 or less, then you will love our approach.",
   },
   {
     question:
       "How can Unstarving Artists help me find leads and why use this approach over other methods?",
     answer:
-      "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+      "Finding leads is all about having a predictable way to get in touch with your target market and knowing how to get them open and interested in learning more about your work. If you'd prefer to connect directly and predictably with deep-pocketed collectors, rather than hoping the often unpredictable galleries, agents, or social media platforms will bless you with leads, then you will love our approach.",
   },
   {
     question:
       "How can Unstarving Artists help me make more sales and why use this approach over other methods?",
     answer:
-      "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+      "Making more sales is all about having an intentional systematic approach to your conversations with collectors. If you'd prefer to speak with warm friendly collectors who are highly educated in you and your work, rather than standoffish uninterested strangers looking for a fast exit from the conversation, then you will love our approach.",
   },
   {
     question: "What sorts of artists does Unstarving Artists' work with?",
     answer:
-      "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+      "We work with professional and rookie artists. Professionals are artists that make a living day to day from their work. They may make an OK living but they want to make a fantastic living. Rookies are artists with a stable income from elsewhere yet they've sold multiple pieces of their work. Their art feels like a side hustle but they know it could be more.",
   },
   {
     question:
       "I'm a sculptor, ceramist, architect, drafter, photographer, etc. Can I have success with Unstarving Artists?",
     answer:
-      "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+      "Absolutely. Unstarving Artists can be a great fit for all visual artists regardless of their medium. What's most important is that you want to earn more income from your work, that you are open to learning and growing in new ways in order to do so, and that you are able to stay committed to the process.",
   },
   {
     question:
       "Do I need to be a full-time artist to have success with Unstarving Artists?",
     answer:
-      "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+      "No you do not. When you join Unstarving Artists you will find a great mix of part-time and full-time artists growing their art practices. The program allows you to go at your own pace and it comes with lifetime access. So even if something comes up, and you have to pause for a short time, you can pick things right back up where you left off and we are happy to support you.",
   },
   {
     question:
       "Do I need to have an art degree, MFA, etc. to have success with Unstarving Artists?",
     answer:
-      "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+      "No, not at all. When you join Unstarving Artists, you will find plenty of artists with no formal training or higher education in art. Often these artists do well and do well quite quickly. They come in open-minded without getting confused by theories or bad habits from the old ways they were taught to do things.",
   },
   {
     question: "Why join Unstarving Artists instead of getting an art degree?",
     answer:
-      "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+      "The traditional education system is broken. Due to a number of factors, every year traditional degrees are preparing people less and less well for a career in the field of their choice. At the same time, costs are skyrocketing—the average net cost of attending art school is $42,000. If you'd prefer a real world, results focused, accessible and affordable program, then you'll love our approach.",
   },
   {
     question: "I have an art degree. Can Unstarving Artists still work for me?",
     answer:
-      "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+      "Absolutely. When you join Unstarving Artists, you will find plenty of artists with formal training and higher education in art. Often these artists do well and do well quite quickly. They come in confidently, believing in themselves and the value of their work, which often leads to their conversations with collectors more quickly turning into sales.",
   },
   {
     question:
