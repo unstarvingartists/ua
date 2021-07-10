@@ -2,7 +2,6 @@ import * as React from "react";
 import { CameraIcon } from "@heroicons/react/solid";
 import { Link } from "gatsby";
 import { StaticImage } from "gatsby-plugin-image";
-import image from "../../images/harry-4.jpg";
 
 export default function Component() {
   return (
@@ -56,47 +55,13 @@ export default function Component() {
             </svg>
             <div className="relative text-base mx-auto max-w-prose lg:max-w-none">
               <figure>
-                <div className="aspect-w-12 aspect-h-7 lg:aspect-none">
+                <div>
                   <StaticImage
-                    width={1184}
-                    height={1376}
-                    imgStyle={{ height: "auto" }}
-                    className="rounded-lg shadow-lg object-cover object-center"
-                    imgClassName="rounded-lg shadow-lg object-cover object-center"
+                    className="rounded-lg shadow-lg"
+                    imgClassName="rounded-lg object-cover object-center"
                     src="../../images/harry-4.jpg"
                     alt="Harry"
-                    objectFit="cover"
-                    objectPosition="center"
-                  />
-                </div>
-                <figcaption className="mt-3 flex text-sm text-gray-500">
-                  <CameraIcon
-                    className="flex-none w-5 h-5 text-gray-400"
-                    aria-hidden="true"
-                  />
-                  <span className="ml-2">Photograph by Marcus O’Leary</span>
-                </figcaption>
-              </figure>
-            </div>
-            <div className="relative text-base mx-auto max-w-prose lg:max-w-none mt-20">
-              <figure>
-                <div className="aspect-w-12 aspect-h-7 lg:aspect-none">
-                  {/*                  <StaticImage
-                    width={1184}
-                    height={1376}
-                    className="rounded-lg shadow-lg object-cover object-center"
-                    imgClassName="rounded-lg shadow-lg object-cover object-center"
-                    src="../../images/harry-4.jpg"
-                    alt="Harry"
-                    objectFit="cover"
-                    objectPosition="center"
-                  />*/}
-                  <img
-                    className="rounded-lg shadow-lg object-cover object-center"
-                    src={image}
-                    alt="Harry"
-                    width={1184}
-                    height={1376}
+                    width={592}
                   />
                 </div>
                 <figcaption className="mt-3 flex text-sm text-gray-500">

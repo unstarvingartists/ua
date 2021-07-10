@@ -1,6 +1,5 @@
 import * as React from "react";
-import ehab from "../../images/ehab.jpeg";
-import ehabLogo from "../../images/ehab-logo.png";
+import { StaticImage } from "gatsby-plugin-image";
 
 export default function Component() {
   return (
@@ -43,7 +42,13 @@ export default function Component() {
         </svg>
 
         <div className="relative">
-          <img className="mx-auto h-16" src={ehabLogo} alt="Ehab Omaro" />
+          <div className="text-center">
+            <StaticImage
+              height={64}
+              src="../../images/ehab-logo.png"
+              alt="Ehab Omaro"
+            />
+          </div>
           <blockquote className="mt-10">
             <div className="max-w-3xl mx-auto text-center text-2xl leading-9 font-medium text-gray-900">
               <p>
@@ -57,9 +62,10 @@ export default function Component() {
             <footer className="mt-8">
               <div className="md:flex md:items-center md:justify-center">
                 <div className="md:flex-shrink-0">
-                  <img
+                  <StaticImage
                     className="mx-auto h-10 w-10 rounded-full"
-                    src={ehab}
+                    src="../../images/ehab.jpeg"
+                    width={40}
                     alt="Ehab Omaro"
                   />
                 </div>
