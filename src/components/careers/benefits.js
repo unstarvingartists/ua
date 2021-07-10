@@ -1,14 +1,15 @@
 import * as React from "react";
 import { UserGroupIcon } from "@heroicons/react/outline";
-import benefits from "../../images/careers-benefits.jpg";
+import { StaticImage } from "gatsby-plugin-image";
 
 export default function Component() {
   return (
     <div className="relative bg-white">
       <div className="h-56 bg-blue-600 sm:h-72 lg:absolute lg:left-0 lg:h-full lg:w-1/2">
-        <img
+        <StaticImage
+          width={1280}
           className="w-full h-full object-cover"
-          src={benefits}
+          src="../../images/careers-benefits.jpg"
           alt="Team Benefits"
         />
       </div>

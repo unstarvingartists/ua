@@ -31,7 +31,7 @@ export default function Component() {
           className="w-full h-full object-cover"
           src="../../images/nappy.jpeg"
           alt="Napoleon Bonaparte"
-          width={1280}
+          width={2560}
         />
         <div
           className="absolute inset-0 bg-blue-800 mix-blend-multiply"

@@ -1,9 +1,7 @@
 import * as React from "react";
 import { Link } from "gatsby";
 import { StarIcon } from "@heroicons/react/solid";
-import start from "../../images/starting-unstarving-artists.jpeg";
-import newoffice from "../../images/new-office.jpeg";
-import team from "../../images/team.png";
+import { StaticImage } from "gatsby-plugin-image";
 
 const navigation = [
   { name: "Our story", href: "/story" },
@@ -162,12 +160,12 @@ export default function Component({ children }) {
                   in Atlanta and Copenhagen and employs 2 people.
                 </p>
                 <figure>
-                  <img
+                  <StaticImage
                     className="w-full rounded-lg"
-                    src={start}
+                    imgClassName="w-full rounded-lg"
+                    src="../../images/starting-unstarving-artists.jpeg"
                     alt=""
-                    width={1310}
-                    height={873}
+                    width={736}
                   />
                   <figcaption>
                     The basement where Unstarving Artists was started.
@@ -179,12 +177,12 @@ export default function Component({ children }) {
                   Georgia and another in Copenhagen, Denmark.
                 </p>
                 <figure>
-                  <img
+                  <StaticImage
                     className="w-full rounded-lg"
-                    src={newoffice}
+                    imgClassName="w-full rounded-lg"
+                    src="../../images/new-office.jpeg"
                     alt="New Office"
-                    width={1310}
-                    height={873}
+                    width={736}
                   />
                   <figcaption>
                     Unstarving Artists has two offices in Atlanta and
@@ -200,12 +198,12 @@ export default function Component({ children }) {
                   them.
                 </p>
                 <figure>
-                  <img
+                  <StaticImage
                     className="w-full rounded-lg"
-                    src={team}
+                    imgClassName="w-full rounded-lg"
+                    src="../../images/team.png"
                     alt="Team"
-                    width={1310}
-                    height={873}
+                    width={736}
                   />
                   <figcaption>
                     Thierry and I catching up at a regular team meeting.
