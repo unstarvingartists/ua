@@ -190,10 +190,9 @@ export default function Component({ children }) {
                     src="../../images/rkg-office.jpeg"
                     alt="This was the exact floor my desk was on at the marketing
                     agency back in 2012."
-                    className="w-full"
-                    imgClassName="w-full"
+                    className="w-full rounded-lg"
+                    imgClassName="w-full rounded-lg"
                     width={736}
-                    objectFit="contain"
                   />
                   <figcaption>
                     This was the exact floor my desk was on at the marketing
@@ -256,10 +255,9 @@ export default function Component({ children }) {
                   <StaticImage
                     src="../../images/cruise.jpeg"
                     alt="My cruise trip from Sydney, through Bali, to Singapore."
-                    className="w-full"
-                    imgClassName="w-full"
+                    className="w-full rounded-lg"
+                    imgClassName="w-full rounded-lg"
                     width={1472}
-                    objectFit="contain"
                   />
                   <figcaption>
                     My cruise trip from Sydney, through Bali, to Singapore.
@@ -390,10 +388,9 @@ export default function Component({ children }) {
                     src="../../images/chirpyhire.jpeg"
                     alt="Me promoting ChirpyHire at a Florida healthcare industry
                     conference in 2015."
-                    className="w-full"
-                    imgClassName="w-full"
+                    className="w-full rounded-lg"
+                    imgClassName="w-full rounded-lg"
                     width={736}
-                    objectFit="contain"
                   />
                   <figcaption>
                     Me promoting ChirpyHire at a Florida healthcare industry
@@ -510,10 +507,9 @@ export default function Component({ children }) {
                   <StaticImage
                     src="../../images/convopanda.jpeg"
                     alt="The coworking space where I launched ConvoPanda."
-                    className="w-full"
-                    imgClassName="w-full"
+                    className="w-full rounded-lg"
+                    imgClassName="w-full rounded-lg"
                     width={736}
-                    objectFit="contain"
                   />
                   <figcaption>
                     The coworking space where I launched ConvoPanda.
@@ -548,10 +544,9 @@ export default function Component({ children }) {
                     src="../../images/convopanda-2.jpeg"
                     alt="In 2019, I expanded ConvoPanda into a lead generation
                     consultancy."
-                    className="w-full"
-                    imgClassName="w-full"
+                    className="w-full rounded-lg"
+                    imgClassName="w-full rounded-lg"
                     width={736}
-                    objectFit="contain"
                   />
                   <figcaption>
                     In 2019, I expanded ConvoPanda into a lead generation
@@ -621,10 +616,9 @@ export default function Component({ children }) {
                   <StaticImage
                     src="../../images/peter-interview.jpeg"
                     alt="Peter Byram, my first client as a sales coach."
-                    className="w-full"
-                    imgClassName="w-full"
-                    width={1472}
-                    objectFit="contain"
+                    className="w-full rounded-lg"
+                    imgClassName="w-full rounded-lg"
+                    width={1200}
                   />
                   <figcaption>
                     Peter Byram, my first client as a sales coach.
