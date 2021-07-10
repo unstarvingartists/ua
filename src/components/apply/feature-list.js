@@ -4,7 +4,7 @@ import image from "../../images/nappy.jpeg";
 
 const features = [
   {
-    name: "Reprogram your brain for greater performance and easier art sales.",
+    name: "Reprogram your brain for greater performance and smarter execution.",
   },
   {
     name: "Discover your niche and target the deep-pocketed collectors inside.",
