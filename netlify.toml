@@ -9,12 +9,32 @@
   status = 301
   force = false
 [[redirects]]
+  from = "http://www.unstarvingartists.org"
+  to = "https://www.unstarvingartists.com"
+  status = 301
+  force = false
+[[redirects]]
+  from = "http://www.unstarvingartists.org/*"
+  to = "https://www.unstarvingartists.com"
+  status = 301
+  force = false
+[[redirects]]
   from = "https://unstarvingartists.org"
   to = "https://www.unstarvingartists.com"
   status = 301
   force = false
 [[redirects]]
   from = "https://unstarvingartists.org/*"
+  to = "https://www.unstarvingartists.com"
+  status = 301
+  force = false
+[[redirects]]
+  from = "http://unstarvingartists.org"
+  to = "https://www.unstarvingartists.com"
+  status = 301
+  force = false
+[[redirects]]
+  from = "http://unstarvingartists.org/*"
   to = "https://www.unstarvingartists.com"
   status = 301
   force = false
