@@ -63,37 +63,37 @@ const faqs = [
     question:
       "Do I need to have art world connections, gallery representation, etc. to have success with Unstarving Artists?",
     answer:
-      "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+      "No, not at all. When you join Unstarving Artists, you will find plenty of artists who have not been featured in galleries, exhibits, or publications. That said, they still sell their artwork at high rates by connecting directly with collectors in their niche.",
   },
   {
     question:
       "Why join Unstarving Artists instead of securing gallery representation?",
     answer:
-      "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+      "You can actually do both. We love the gallery ecosystem and a number of our artists work with galleries. When you join Unstarving Artists, your increased sales will give you the confidence, if you'd like, to wind down underperforming galleries and secure more favorable commission splits with the galleries you keep.",
   },
   {
     question:
       "I have gallery representation. Can Unstarving Artists still work for me?",
     answer:
-      "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+      "Absolutely. When you join Unstarving Artists, you will find plenty of artists with gallery relationships. Often these artists maintain gallery representation but choose to work with fewer higher quality galleries. What's more, they often secure more favorable commission splits with their galleries going forward.",
   },
   {
     question:
       "Do I need to be a tech whiz to have success with Unstarving Artists?",
     answer:
-      "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+      "No, not at all. When you join Unstarving Artists, you will find plenty of artists that generate leads in their local area. It's not about specific tech. It's about fundamental communication skills that equally apply online or in person. Plus, if you do wish to generate leads online, our methods are simple and user friendly.",
   },
   {
     question:
       "Do I need to budget for hard costs (software, tools, ad spend, etc.) to have success with Unstarving Artists?",
     answer:
-      "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+      "No, not at all. When you join Unstarving Artists, you will be able to start making sales without having to invest in any software, tools, or ad spend. Once you start having success, there are optional tools you can invest in. That said, any optional fees are nominal and we often are able to secure deep discounts for our students.",
   },
   {
     question:
       "Do I need to have a big social media following to have success with Unstarving Artists?",
     answer:
-      "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+      "No, not at all. When you join Unstarving Artists, you will find plenty of artists whose are just starting out on social media. Our approach doesn't require you to painstakingly build a large following first before you can make sales. You'll be able to make sales right away while growing your following at the same time.",
   },
 ];
 
