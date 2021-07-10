@@ -59,6 +59,13 @@ module.exports = {
         path: `${__dirname}/content/stories/`,
       },
     },
+    {
+      resolve: "gatsby-plugin-google-tagmanager",
+      options: {
+        id: "GTM-TX4GXWB",
+        enableWebVitalsTracking: true,
+      },
+    },
     "gatsby-plugin-postcss",
   ],
 };
