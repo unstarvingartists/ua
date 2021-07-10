@@ -5,10 +5,10 @@ import Body from "../components/acceptable-use/body";
 import Footer from "../components/footer";
 import Seo from "../components/seo";
 
-export default function Page() {
+export default function Page({ location }) {
   return (
     <Layout>
-      <Seo title="Acceptable Use Policy" />
+      <Seo title="Acceptable Use Policy" pathname={location.pathname} />
       <Body>
         <Navigation />
       </Body>

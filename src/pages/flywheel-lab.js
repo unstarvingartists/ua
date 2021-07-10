@@ -13,10 +13,10 @@ import TheProofIsInTheNumbers from "../components/methodology/the-proof-is-in-th
 import Seo from "../components/seo";
 import Footer from "../components/footer";
 
-export default function Page() {
+export default function Page({ location }) {
   return (
     <Layout>
-      <Seo title="Flywheel Lab" />
+      <Seo title="Flywheel Lab" pathname={location.pathname} />
       <Hero>
         <Navigation />
       </Hero>

@@ -7,10 +7,10 @@ import FeatureList from "../components/apply/feature-list";
 import Footer from "../components/footer";
 import Seo from "../components/seo";
 
-export default function Page() {
+export default function Page({ location }) {
   return (
     <Layout>
-      <Seo title="Apply Now" />
+      <Seo title="Apply Now" pathname={location.pathname} />
       <Hero>
         <Navigation />
       </Hero>

@@ -7,10 +7,10 @@ import CallToAction from "../components/call-to-action";
 import Footer from "../components/footer";
 import Seo from "../components/seo";
 
-export default function Page() {
+export default function Page({ location }) {
   return (
     <Layout>
-      <Seo title="Student Stories" />
+      <Seo title="Student Stories" pathname={location.pathname} />
       <Hero>
         <Navigation />
       </Hero>

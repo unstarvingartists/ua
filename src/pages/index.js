@@ -14,10 +14,10 @@ import LearnEssentials from "../components/home/learn-essentials";
 import Footer from "../components/footer";
 import Seo from "../components/seo";
 
-export default function Page() {
+export default function Page({ location }) {
   return (
     <Layout>
-      <Seo title="Become A Highly Paid Artist" />
+      <Seo title="Become A Highly Paid Artist" pathname={location.pathname} />
       <Hero>
         <Navigation />
       </Hero>
