@@ -1,5 +1,6 @@
 import * as React from "react";
 import { CheckIcon } from "@heroicons/react/outline";
+import { StaticImage } from "gatsby-plugin-image";
 import image from "../../images/nappy.jpeg";
 
 const features = [
@@ -27,7 +28,13 @@ export default function Component() {
   return (
     <div className="relative bg-blue-800">
       <div className="absolute inset-0">
-        <img className="w-full h-full object-cover" src={image} alt="" />
+        <StaticImage
+          className="w-full h-full object-cover"
+          imgClassName="w-full h-full object-cover"
+          src="../../images/nappy.jpeg"
+          alt="Napoleon Bonaparte"
+          width={1280}
+        />
         <div
           className="absolute inset-0 bg-blue-800 mix-blend-multiply"
           aria-hidden="true"
