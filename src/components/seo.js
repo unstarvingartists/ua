@@ -78,6 +78,10 @@ function SEO({ description, lang, meta, image: metaImage, title, pathname }) {
           content: `website`,
         },
         {
+          property: `og:url`,
+          content: canonical,
+        },
+        {
           name: `twitter:creator`,
           content: site.siteMetadata.author,
         },
