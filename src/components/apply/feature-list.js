@@ -29,7 +29,6 @@ export default function Component() {
       <div className="absolute inset-0">
         <StaticImage
           className="w-full h-full object-cover"
-          imgClassName="w-full h-full object-cover"
           src="../../images/nappy.jpeg"
           alt="Napoleon Bonaparte"
           width={1280}
