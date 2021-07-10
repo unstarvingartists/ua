@@ -1,7 +1,6 @@
 import * as React from "react";
 import { CheckIcon } from "@heroicons/react/outline";
 import { StaticImage } from "gatsby-plugin-image";
-import image from "../../images/nappy.jpeg";
 
 const features = [
   {

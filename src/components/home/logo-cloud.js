@@ -107,7 +107,7 @@ const Component = () => {
               </div>
             </div>
           </div>
-          <div className="mt-8 grid grid-cols-2 gap-0.5 md:grid-cols-3 lg:mt-0 lg:grid-cols-2">
+          <div className="mt-8 grid grid-cols-1 gap-0.5 sm:grid-cols-2 md:grid-cols-3 lg:mt-0 lg:grid-cols-2">
             {people.map((person) => {
               return (
                 <div
@@ -117,6 +117,7 @@ const Component = () => {
                   <GatsbyImage
                     className="rounded-full max-h-12"
                     image={person.image}
+                    width={48}
                     alt={person.name}
                     loading="eager"
                   />
