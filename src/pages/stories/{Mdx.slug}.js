@@ -73,10 +73,13 @@ export const query = graphql`
   }
 `;
 
-export default function Page({ data }) {
+export default function Page({ data, location }) {
   return (
     <Layout>
-      <Seo title={data.mdx.frontmatter.student.name} />
+      <Seo
+        title={data.mdx.frontmatter.student.name}
+        pathname={location.pathname}
+      />
       <Body {...data}>
         <Navigation />
       </Body>
