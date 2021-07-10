@@ -80,7 +80,7 @@ export default function Component() {
                 our Flywheel Lab program is unlike any other training program on
                 the market and we take a completely different approach to
                 helping our artists build profitable art practices. It would be
-                like comparing a helicopter to a scooter.
+                like comparing a rocketship to a scooter.
               </p>
             </div>
             <div className="mt-5 prose prose-blue text-gray-500 mx-auto lg:max-w-none lg:row-start-1 lg:col-start-1">
