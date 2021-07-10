@@ -1,5 +1,4 @@
 import * as React from "react";
-import { CameraIcon } from "@heroicons/react/solid";
 import { Link } from "gatsby";
 import { StaticImage } from "gatsby-plugin-image";
 
@@ -14,7 +13,7 @@ export default function Component() {
               What Makes Us Different
             </h2>
             <h3 className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
-              Why Is Unstarving Artists Better Than Other Systems On The Market?
+              Why Is Flywheel Lab Better Than Other Programs On The Market?
             </h3>
           </div>
         </div>
@@ -65,11 +64,10 @@ export default function Component() {
                   />
                 </div>
                 <figcaption className="mt-3 flex text-sm text-gray-500">
-                  <CameraIcon
-                    className="flex-none w-5 h-5 text-gray-400"
-                    aria-hidden="true"
-                  />
-                  <span className="ml-2">Photograph by Marcus O’Leary</span>
+                  <span>
+                    Rather than hear from us why we're different, check out our
+                    Student Stories.
+                  </span>
                 </figcaption>
               </figure>
             </div>
@@ -79,35 +77,32 @@ export default function Component() {
               <p className="text-lg text-gray-500">
                 At Unstarving Artists we build our business by delivering
                 superior results, not by trashing our competitors. Simply put,
-                Unstarving Artists is unlike any other tracking system on the
-                market and we take completely different approaches to tracking.
-                It would be like comparing a helicopter to a pickup truck.
+                our Flywheel Lab program is unlike any other training program on
+                the market and we take a completely different approach to
+                helping our artists build profitable art practices. It would be
+                like comparing a helicopter to a scooter.
               </p>
             </div>
             <div className="mt-5 prose prose-blue text-gray-500 mx-auto lg:max-w-none lg:row-start-1 lg:col-start-1">
               <strong>Here is what we suggest</strong>
               <p>
-                #1: PLEASE go try our "competitors" and run our tracking head to
-                head with them. Unlike our competitors, we have a 90-day
-                satisfaction guarantee BECAUSE we know our services deliver
-                superior results. We are 100% positive you will see not only
-                better tracking, but also better customer support, an
-                easier-to-use platform and setup, and far more specialized
-                features for education businesses.
+                #1: PLEASE go try our "competitors" and run our methods head to
+                head with theirs. Unlike our competitors, we have a 90-day
+                action-based guarantee BECAUSE we know our program delivers
+                superior results. If you put in the work, we are 100% positive
+                you will see not only better results, but also better client
+                support, easier-to-use training, and far more specialized
+                examples for artists.
               </p>
               <p>
-                #2: Go to our customer Facebook group HERE and ask our customers
-                about their experiences on other platforms VS Unstarving
-                Artists. There is a reason people constantly leave other
-                platforms to become Unstarving Artists customers for life. Our
-                customers are quite vocal about why they love our platform.
-              </p>
-              <p>
-                #3: Go to our customer Facebook group HERE and ask our customers
-                about their experiences on other platforms VS Unstarving
-                Artists. There is a reason people constantly leave other
-                platforms to become Unstarving Artists customers for life. Our
-                customers are quite vocal about why they love our platform.
+                #2: Go check out our Student Stories{" "}
+                <Link to="/stories">HERE</Link> and watch literally dozens and
+                dozens of in-depth interviews with artists and past clients of
+                ours. Hear them share firsthand about their experiences working
+                with Harry and Unstarving Artists vs. other things they've tried
+                in the past. There is a reason people constantly leave other
+                programs to become Unstarving Artists clients for life. Our
+                clients are quite vocal about why they love us and our programs.
               </p>
             </div>
             <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
