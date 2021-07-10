@@ -11,6 +11,7 @@ export default function Component() {
             className="h-56 w-full object-cover lg:absolute lg:h-full"
             src="../../images/office.jpeg"
             alt="Office"
+            loading="eager"
           />
         </div>
       </div>

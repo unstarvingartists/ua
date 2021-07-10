@@ -20,6 +20,7 @@ export default function Component({ children }) {
                       className="h-full w-full object-cover"
                       src="../../images/george-washington-delaware-1851.jpeg"
                       alt="George Washington Crossing The Delaware"
+                      loading="eager"
                     />
                     <div className="absolute inset-0 bg-blue-700 mix-blend-multiply" />
                   </div>

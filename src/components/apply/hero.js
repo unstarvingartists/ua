@@ -42,6 +42,7 @@ export default function Component({ children }) {
             width={1280}
             src="../../images/harry-1.jpg"
             alt="See what we can do your art practice."
+            loading="eager"
           />
         </div>
       </main>

@@ -19,6 +19,7 @@ export default function Component({ children }) {
                       src="../../images/harry-3.jpg"
                       alt="Meet Harry Whelchel"
                       width={1216}
+                      loading="eager"
                     />
                     <div className="absolute inset-0 bg-blue-700 mix-blend-multiply" />
                   </div>
