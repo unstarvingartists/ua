@@ -41,14 +41,12 @@ export default function Component() {
           />
         </svg>
 
-        <div className="relative">
-          <div className="text-center">
-            <StaticImage
-              height={64}
-              src="../../images/ehab-logo.png"
-              alt="Ehab Omaro"
-            />
-          </div>
+        <div className="relative text-center">
+          <StaticImage
+            height={64}
+            src="../../images/ehab-logo.png"
+            alt="Ehab Omaro"
+          />
           <blockquote className="mt-10">
             <div className="max-w-3xl mx-auto text-center text-2xl leading-9 font-medium text-gray-900">
               <p>
