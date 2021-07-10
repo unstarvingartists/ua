@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: "Unstarving Artists",
     titleTemplate: "%s | Unstarving Artists",
-    siteUrl: "https://unstarvingartists.com",
+    siteUrl: "https://www.unstarvingartists.com",
     twitterUsername: "@unstarvingarts",
     image: "/social-graph.png",
     metaImage: {
