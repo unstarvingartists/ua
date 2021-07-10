@@ -1,5 +1,5 @@
 import * as React from "react";
-import harry from "../../images/harry-1.jpg";
+import { StaticImage } from "gatsby-plugin-image";
 
 export default function Component({ children }) {
   return (
@@ -37,9 +37,10 @@ export default function Component({ children }) {
           </div>
         </div>
         <div className="relative w-full h-64 sm:h-72 md:h-96 lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2 lg:h-full">
-          <img
+          <StaticImage
             className="absolute inset-0 w-full h-full object-cover"
-            src={harry}
+            width={1280}
+            src="../../images/harry-1.jpg"
             alt="See what we can do your art practice."
           />
         </div>

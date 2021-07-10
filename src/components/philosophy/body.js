@@ -1,7 +1,7 @@
 import * as React from "react";
 import { Link } from "gatsby";
 import { StarIcon } from "@heroicons/react/solid";
-import image from "../../images/harry-6.jpg";
+import { StaticImage } from "gatsby-plugin-image";
 
 const navigation = [
   { name: "Our story", href: "/story" },
@@ -216,12 +216,12 @@ export default function Component({ children }) {
                   our next success story.
                 </p>
                 <figure>
-                  <img
+                  <StaticImage
                     className="w-full rounded-lg"
-                    src={image}
+                    imgClassName="w-full rounded-lg"
+                    src="../../images/harry-6.jpg"
                     alt="Harry"
-                    width={1310}
-                    height={873}
+                    width={736}
                   />
                   <figcaption>Our client success is our success.</figcaption>
                 </figure>

@@ -1,5 +1,5 @@
 import * as React from "react";
-import image from "../../images/scream.jpeg";
+import { StaticImage } from "gatsby-plugin-image";
 
 export default function Component({ children }) {
   return (
@@ -14,9 +14,10 @@ export default function Component({ children }) {
               <div className="max-w-7xl mx-auto sm:px-6 lg:px-8">
                 <div className="relative shadow-xl sm:rounded-2xl sm:overflow-hidden">
                   <div className="absolute inset-0">
-                    <img
+                    <StaticImage
+                      width={1216}
                       className="h-full w-full object-cover"
-                      src={image}
+                      src="../../images/scream.jpeg"
                       alt="Our Company"
                     />
                     <div className="absolute inset-0 bg-blue-700 mix-blend-multiply" />
