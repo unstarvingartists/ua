@@ -2,12 +2,17 @@ import * as React from "react";
 
 import Layout from "../components/layout";
 import Seo from "../components/seo";
+import Hero from "../components/404/hero";
+import Navigation from "../components/white-navigation";
+import Footer from "../components/footer";
 
 const NotFoundPage = ({ location }) => (
   <Layout>
     <Seo title="404: Not found" pathname={location.pathname} />
-    <h1>404: Not Found</h1>
-    <p>You just navigated to a page that doesn&#39;t exist... the sadness.</p>
+    <Hero>
+      <Navigation />
+    </Hero>
+    <Footer />
   </Layout>
 );
 
