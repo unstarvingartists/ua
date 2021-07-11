@@ -15,7 +15,7 @@ import logo from "../images/logo.svg";
 const navigation = [
   { name: "Student Stories", to: "/stories" },
   { name: "FAQ", to: "/faq" },
-  { name: "Log in", href: "https://learn.harrywhelchel.com/login" },
+  { name: "Log in", href: "https://learn.unstarvingartists.com/login" },
 ];
 
 const programs = [
