@@ -18,7 +18,9 @@ export const query = graphql`
     }
     mdx(slug: { eq: $slug }) {
       id
+      body
       frontmatter {
+        lede
         category {
           href
           name
@@ -93,7 +95,7 @@ export default function Page({ data, location }) {
       <Hero {...data} {...location}>
         <Navigation />
       </Hero>
-      <Body />
+      <Body {...data} />
       <CheckoutMore {...data} />
       <CallToAction />
       <Footer />
