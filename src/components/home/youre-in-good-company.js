@@ -74,17 +74,19 @@ export default function Component() {
                     className="flex flex-col rounded-lg shadow-lg overflow-hidden"
                   >
                     <div className="flex-shrink-0">
-                      <GatsbyImage
-                        className="h-48 w-full object-cover"
-                        image={image}
-                        alt={post.frontmatter.title}
-                      />
+                      <Link to={post.frontmatter.student.href}>
+                        <GatsbyImage
+                          className="h-48 w-full object-cover"
+                          image={image}
+                          alt={post.frontmatter.title}
+                        />
+                      </Link>
                     </div>
                     <div className="flex-1 bg-white p-6 flex flex-col justify-between">
                       <div className="flex-1">
                         <p className="text-sm font-medium text-blue-600">
                           <a
-                            href={post.frontmatter.category.href}
+                            href={post.frontmatter.student.href}
                             className="hover:underline"
                           >
                             {post.frontmatter.category.name}

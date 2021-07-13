@@ -57,6 +57,8 @@ export default function Component() {
                       <img
                         className="h-6 w-6 rounded-full"
                         src={michael}
+                        height="24"
+                        width="24"
                         alt="Michael Gibson"
                       />
                     </div>
@@ -73,6 +75,8 @@ export default function Component() {
               <img
                 className="w-full lg:w-auto lg:py-36"
                 src={summary}
+                width={560}
+                height={747}
                 alt="summary"
               />
             </div>

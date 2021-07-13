@@ -102,6 +102,7 @@ export default function Component() {
             <img
               className="relative mx-auto"
               width={490}
+              height={354}
               src={onlineTrainingPlatform}
               alt="Online Training Platform"
             />
@@ -160,6 +161,7 @@ export default function Component() {
               <img
                 className="relative mx-auto"
                 width={490}
+                height={314}
                 src={interactiveArtistCommunity}
                 alt="Interactive Artist Community"
               />
@@ -216,6 +218,7 @@ export default function Component() {
             <img
               className="relative mx-auto"
               width={490}
+              height={367}
               src={expertMentorship}
               alt="Expert Mentorship On Demand"
             />
@@ -307,6 +310,7 @@ export default function Component() {
               <img
                 className="relative mx-auto"
                 width={490}
+                height={370}
                 src={liveRealTime}
                 alt="Live Real Time Events"
               />

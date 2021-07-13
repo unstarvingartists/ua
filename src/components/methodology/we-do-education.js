@@ -100,8 +100,9 @@ export default function Component() {
             <img
               className="relative mx-auto"
               width={490}
+              height={392}
               src={loading}
-              alt=""
+              alt="Linear education (old)"
             />
           </div>
         </div>
@@ -192,8 +193,9 @@ export default function Component() {
               <img
                 className="relative mx-auto"
                 width={490}
+                height={410}
                 src={thoughtProcess}
-                alt=""
+                alt="Non-linear education (new)"
               />
             </div>
           </div>

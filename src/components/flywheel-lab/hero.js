@@ -132,7 +132,13 @@ export default function Component({ children }) {
                 />
               </svg>
               <div className="relative mx-auto w-full">
-                <img className="w-full" src={image} alt="" />
+                <img
+                  className="w-full"
+                  src={image}
+                  width="600"
+                  height="434"
+                  alt="Unstarving Artist"
+                />
               </div>
             </div>
           </div>
