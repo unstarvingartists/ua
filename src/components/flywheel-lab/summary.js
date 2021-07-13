@@ -57,8 +57,8 @@ export default function Component() {
                       <img
                         className="h-6 w-6 rounded-full"
                         src={michael}
-                        height="24"
-                        width="24"
+                        height={24}
+                        width={24}
                         alt="Michael Gibson"
                       />
                     </div>

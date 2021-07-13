@@ -42,25 +42,25 @@ export default function Component({ allMdx }) {
                 <div className="flex-1 bg-white p-6 flex flex-col justify-between">
                   <div className="flex-1">
                     <p className="text-sm font-medium text-blue-600">
-                      <a
-                        href={post.frontmatter.category.href}
+                      <Link
+                        to={post.frontmatter.student.href}
                         className="hover:underline"
                       >
                         {post.frontmatter.category.name}
-                      </a>
+                      </Link>
                     </p>
-                    <a href={post.frontmatter.href} className="block mt-2">
+                    <Link to={post.frontmatter.href} className="block mt-2">
                       <p className="text-xl font-semibold text-gray-900">
                         {post.frontmatter.title}
                       </p>
                       <p className="mt-3 text-base text-gray-500">
                         {post.frontmatter.description}
                       </p>
-                    </a>
+                    </Link>
                   </div>
                   <div className="mt-6 flex items-center">
                     <div className="flex-shrink-0">
-                      <a href={post.frontmatter.student.href}>
+                      <Link to={post.frontmatter.student.href}>
                         <span className="sr-only">
                           {post.frontmatter.student.name}
                         </span>
@@ -69,16 +69,16 @@ export default function Component({ allMdx }) {
                           image={studentImage}
                           alt={post.frontmatter.student.name}
                         />
-                      </a>
+                      </Link>
                     </div>
                     <div className="ml-3">
                       <p className="text-sm font-medium text-gray-900">
-                        <a
-                          href={post.frontmatter.student.href}
+                        <Link
+                          to={post.frontmatter.student.href}
                           className="hover:underline"
                         >
                           {post.frontmatter.student.name}
-                        </a>
+                        </Link>
                       </p>
                       <div className="flex space-x-1 text-sm text-gray-500">
                         <span>{post.frontmatter.genre}</span>
