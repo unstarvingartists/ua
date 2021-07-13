@@ -11,6 +11,11 @@ import { graphql } from "gatsby";
 
 export const query = graphql`
   query studentStoryQuery($slug: String) {
+    site {
+      siteMetadata {
+        siteUrl
+      }
+    }
     mdx(slug: { eq: $slug }) {
       id
       frontmatter {
@@ -85,7 +90,7 @@ export default function Page({ data, location }) {
         title={data.mdx.frontmatter.student.name}
         pathname={location.pathname}
       />
-      <Hero {...data}>
+      <Hero {...data} {...location}>
         <Navigation />
       </Hero>
       <Body />
