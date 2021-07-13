@@ -59,12 +59,16 @@ export const query = graphql`
               href
               name
               image {
-                publicURL
+                childImageSharp {
+                  gatsbyImageData(width: 40)
+                }
               }
             }
             title
             image {
-              publicURL
+              childImageSharp {
+                gatsbyImageData(width: 392)
+              }
             }
           }
         }

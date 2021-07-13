@@ -168,8 +168,9 @@ export default function Component() {
             <img
               className="relative mx-auto"
               width={490}
+              height={285}
               src={layerfour}
-              alt=""
+              alt="Layer 4. Practice disciplines"
             />
           </div>
         </div>
