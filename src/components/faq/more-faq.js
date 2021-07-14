@@ -34,7 +34,7 @@ const faqs = [
     question:
       "When I join Unstarving Artists, do you take commissions on my art sales?",
     answer:
-      "No, not at all. When you join Unstarving Artists, you won't pay us any commissions on your art sales. You'll get everything you need to reach $10k, $20k, even $30k / month in art sales and, with every sale that you make, you'll get to pocket 100% of the fruits of your labor. Enjoy!",
+      "No, not at all. When you join Unstarving Artists, you won't pay us any commissions on your art sales. You will get everything you need to reach $10k, $20k, even $30k / month in art sales and, with every sale that you make, you will get to pocket 100% of the fruits of your labor. Enjoy!",
   },
   {
     question: "When I join Unstarving Artists, what exactly do I get?",
