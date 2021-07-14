@@ -8,10 +8,33 @@ script.src = "https://176563.tracking.hyros.com/v1/lst/universal-script?ph=bfd3d
 head.appendChild(script);
 `;
 
+const fb = `
+window.fbAsyncInit = function() {
+  FB.init({
+    appId            : '561176641540069',
+    autoLogAppEvents : true,
+    xfbml            : true,
+    version          : 'v11.0'
+  });
+};
+`;
+
 const HeadComponents = [
   <script key="hyros" dangerouslySetInnerHTML={{ __html: hyros }} />,
 ];
 
-exports.onRenderBody = ({ setHeadComponents }) => {
+const PreBodyComponents = [
+  <script key="fb" dangerouslySetInnerHTML={{ __html: fb }} />,
+  <script
+    key="fb2"
+    async={true}
+    defer={true}
+    crossOrigin="anonymous"
+    src="https://connect.facebook.net/en_US/sdk.js"
+  />,
+];
+
+exports.onRenderBody = ({ setHeadComponents, setPreBodyComponents }) => {
   setHeadComponents(HeadComponents);
+  setPreBodyComponents(PreBodyComponents);
 };
