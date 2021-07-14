@@ -18,7 +18,7 @@ export default function Component({ children }) {
               </span>
             </h1>
             <p className="font-bold mt-3 max-w-md mx-auto text-lg text-gray-900 sm:text-xl md:mt-5 md:max-w-3xl">
-              Inside, You’ll Get Access To...
+              Inside, You Will Get Access To...
             </p>
             <p className="mt-3 max-w-md mx-auto text-lg text-gray-500 sm:text-xl md:mt-5 md:max-w-3xl">
               ⚡ Exclusive training on the process we used to earn a 5 figure a
