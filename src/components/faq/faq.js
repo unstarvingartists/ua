@@ -52,7 +52,7 @@ const faqs = [
   {
     question: "Why join Unstarving Artists instead of getting an art degree?",
     answer:
-      "The traditional education system is broken. Due to a number of factors, every year traditional degrees are preparing people less and less well for a career in the field of their choice. At the same time, costs are skyrocketing—the average net cost of attending art school is $42,000. If you'd prefer a real world, results focused, accessible and affordable program, then you'll love our approach.",
+      "The traditional education system is broken. Due to a number of factors, every year traditional degrees are preparing people less and less well for a career in the field of their choice. At the same time, costs are skyrocketing—the average net cost of attending art school is $42,000. If you'd prefer a real world, results focused, accessible and affordable program, then you will love our approach.",
   },
   {
     question: "I have an art degree. Can Unstarving Artists still work for me?",
@@ -93,7 +93,7 @@ const faqs = [
     question:
       "Do I need to have a big social media following to have success with Unstarving Artists?",
     answer:
-      "No, not at all. When you join Unstarving Artists, you will find plenty of artists whose are just starting out on social media. Our approach doesn't require you to painstakingly build a large following first before you can make sales. You'll be able to make sales right away while growing your following at the same time.",
+      "No, not at all. When you join Unstarving Artists, you will find plenty of artists whose are just starting out on social media. Our approach doesn't require you to painstakingly build a large following first before you can make sales. You will be able to make sales right away while growing your following at the same time.",
   },
 ];
 
