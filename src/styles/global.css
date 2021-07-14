@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.prose video {
+  margin-top: inherit;
+  margin-bottom: inherit;
+}
+
+.prose-lg video {
+  margin-top: inherit;
+  margin-bottom: inherit;
+}
