@@ -1,5 +1,4 @@
 import * as React from "react";
-import { FacebookProvider, Group } from "react-facebook";
 
 export default function Component({ children }) {
   return (
@@ -36,15 +35,40 @@ export default function Component({ children }) {
           </div>
         </div>
         <div className="flex items-center justify-items-center mx-auto relative w-full h-64 sm:h-72 md:h-96 lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2 lg:h-full">
-          <FacebookProvider appId="561176641540069">
-            <Group
-              href="https://www.facebook.com/groups/unstarvingartistscommunity"
-              width="437"
-              showSocialContext={true}
-              showMetaData={false}
-              skin="light"
-            />
-          </FacebookProvider>
+          <div className="facebook-group-widget">
+            <div className="facebook-group-banner">
+              <img
+                className="group-banner-image"
+                src="https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-0/c0.0.569.297/p320x320/31306849_2082238448682891_7452725349072240640_n.jpg?_nc_cat=0&amp;oh=b78b3eecda9ae7d496fc588680206fa2&amp;oe=5B9B6A1B"
+                alt=""
+              />
+            </div>
+            <div className="facebook-group-title">
+              <h4>Unstarving Artists Community™</h4>
+              <h6>Facebook Group · 100's of members</h6>
+            </div>
+            <div className="facebook-group-join-cta">
+              <a
+                className="button expanded no-utm"
+                href="https://www.facebook.com/plugins/group/join/popup/?group_id=1102408969900298&amp;source=email_campaign_plugin"
+                target="_blank"
+                rel="noopener"
+              >
+                <img
+                  width="16"
+                  src="https://facebook.com/images/groups/plugin/email/app_fb_32_fig_white.png"
+                />
+                &nbsp; Join Group
+              </a>
+            </div>
+            <div className="facebook-group-description">
+              <p>
+                Welcome to the Consulting Community™. This is the official
+                Facebook group for both fans and customers of Consulting.com and
+                Sam Ovens. Anybody can join.
+              </p>
+            </div>
+          </div>
         </div>
       </main>
     </div>
