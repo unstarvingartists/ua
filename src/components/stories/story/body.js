@@ -140,6 +140,18 @@ export default function Component({ mdx, children }) {
         <div className="mt-6 prose prose-blue prose-lg text-gray-500 mx-auto">
           <div dangerouslySetInnerHTML={{ __html: wistia }}></div>
         </div>
+        <div className="mt-6 text-center">
+          <a
+            href="https://www.facebook.com/groups/unstarvingartistscommunity"
+            target="_blank"
+            rel="noreferrer"
+            className="text-base font-medium text-blue-600"
+          >
+            {" "}
+            Join Our FREE Facebook Group For Artists{" "}
+            <span aria-hidden="true">&rarr;</span>{" "}
+          </a>
+        </div>
       </div>
     </div>
   );

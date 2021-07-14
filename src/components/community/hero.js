@@ -11,7 +11,7 @@ export default function Component({ children }) {
           <div className="px-4 lg:w-1/2 sm:px-8 xl:pr-16">
             <h1 className="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl lg:text-5xl xl:text-6xl">
               <span className="block xl:inline">
-                Join Our FREE Facebook™ Group For
+                Join Our FREE Facebook Group For
               </span>{" "}
               <span className="block text-blue-600 xl:inline">
                 Artists Today!
@@ -51,7 +51,7 @@ export default function Component({ children }) {
             className="absolute inset-0 w-full h-full object-cover"
             width={1280}
             src="../../images/harry-5.jpg"
-            alt="Join Our FREE Facebook™ Group For Artists Today!"
+            alt="Join Our FREE Facebook Group For Artists Today!"
             loading="eager"
           />
         </div>
