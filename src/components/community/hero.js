@@ -34,7 +34,22 @@ export default function Component({ children }) {
             </p>
           </div>
         </div>
-        <div className="relative w-full h-64 sm:h-72 md:h-96 lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2 lg:h-full"></div>
+        <div className="relative w-full h-64 sm:h-72 md:h-96 lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2 lg:h-full">
+          <div
+            className="fb-group"
+            data-href="https://www.facebook.com/groups/unstarvingartistscommunity"
+            data-width="427"
+            data-show-social-context="true"
+            data-show-metadata="false"
+          >
+            <blockquote
+              cite="https://www.facebook.com/groups/unstarvingartistscommunity"
+              className="fb-xfbml-parse-ignore"
+            >
+              Unstarving Artists Community™
+            </blockquote>
+          </div>
+        </div>
       </main>
     </div>
   );
