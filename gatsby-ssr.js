@@ -12,19 +12,6 @@ const HeadComponents = [
   <script key="hyros" dangerouslySetInnerHTML={{ __html: hyros }} />,
 ];
 
-const PreBodyComponents = [
-  <div key="fb-root" id="fb-root"></div>,
-  <script
-    key="fb"
-    async={true}
-    defer={true}
-    crossOrigin="anonymous"
-    src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v11.0&appId=561176641540069&autoLogAppEvents=1"
-    nonce="qAe7vyD5"
-  />,
-];
-
-exports.onRenderBody = ({ setHeadComponents, setPreBodyComponents }) => {
+exports.onRenderBody = ({ setHeadComponents }) => {
   setHeadComponents(HeadComponents);
-  setPreBodyComponents(PreBodyComponents);
 };
