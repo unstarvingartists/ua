@@ -164,7 +164,7 @@ export default function Component({ children }) {
                     className="w-full rounded-lg"
                     imgClassName="w-full rounded-lg"
                     src="../../images/starting-unstarving-artists.jpeg"
-                    alt=""
+                    alt="The basement where Unstarving Artists was started."
                     width={736}
                   />
                   <figcaption>

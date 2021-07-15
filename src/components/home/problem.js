@@ -107,6 +107,7 @@ export default function Component() {
             <img
               className="relative mx-auto"
               width={490}
+              height={388}
               src={scatterbrain}
               alt="Scatterbrained Creative"
             />
@@ -203,6 +204,7 @@ export default function Component() {
               <img
                 className="relative mx-auto"
                 width={490}
+                height={462}
                 src={focused}
                 alt="Laser-Focused Artist"
               />

@@ -1,5 +1,6 @@
 import * as React from "react";
 import { StarIcon } from "@heroicons/react/solid";
+import { GatsbyImage, getImage } from "gatsby-plugin-image";
 import { Link } from "gatsby";
 
 export default function Component({ allMdx }) {
@@ -20,69 +21,76 @@ export default function Component({ allMdx }) {
           </p>
         </div>
         <div className="mt-12 max-w-lg mx-auto grid gap-5 lg:grid-cols-3 lg:max-w-none">
-          {allMdx.edges.map(({ node: post }) => (
-            <div
-              key={post.frontmatter.title}
-              className="flex flex-col rounded-lg shadow-lg overflow-hidden"
-            >
-              <div className="flex-shrink-0">
-                <img
-                  className="h-48 w-full object-cover"
-                  src={post.frontmatter.image.publicURL}
-                  alt=""
-                />
-              </div>
-              <div className="flex-1 bg-white p-6 flex flex-col justify-between">
-                <div className="flex-1">
-                  <p className="text-sm font-medium text-blue-600">
-                    <a
-                      href={post.frontmatter.category.href}
-                      className="hover:underline"
-                    >
-                      {post.frontmatter.category.name}
-                    </a>
-                  </p>
-                  <a href={post.frontmatter.href} className="block mt-2">
-                    <p className="text-xl font-semibold text-gray-900">
-                      {post.frontmatter.title}
-                    </p>
-                    <p className="mt-3 text-base text-gray-500">
-                      {post.frontmatter.description}
-                    </p>
-                  </a>
+          {allMdx.edges.map(({ node: post }) => {
+            const image = getImage(post.frontmatter.image);
+            const studentImage = getImage(post.frontmatter.student.image);
+
+            return (
+              <div
+                key={post.frontmatter.title}
+                className="flex flex-col rounded-lg shadow-lg overflow-hidden"
+              >
+                <div className="flex-shrink-0">
+                  <Link to={post.frontmatter.student.href}>
+                    <GatsbyImage
+                      className="h-48 w-full object-cover"
+                      image={image}
+                      alt={post.frontmatter.title}
+                    />
+                  </Link>
                 </div>
-                <div className="mt-6 flex items-center">
-                  <div className="flex-shrink-0">
-                    <a href={post.frontmatter.student.href}>
-                      <span className="sr-only">
-                        {post.frontmatter.student.name}
-                      </span>
-                      <img
-                        className="h-10 w-10 rounded-full"
-                        src={post.frontmatter.student.image.publicURL}
-                        alt=""
-                      />
-                    </a>
-                  </div>
-                  <div className="ml-3">
-                    <p className="text-sm font-medium text-gray-900">
-                      <a
-                        href={post.frontmatter.student.href}
+                <div className="flex-1 bg-white p-6 flex flex-col justify-between">
+                  <div className="flex-1">
+                    <p className="text-sm font-medium text-blue-600">
+                      <Link
+                        to={post.frontmatter.student.href}
                         className="hover:underline"
                       >
-                        {post.frontmatter.student.name}
-                      </a>
+                        {post.frontmatter.category.name}
+                      </Link>
                     </p>
-                    <div className="flex space-x-1 text-sm text-gray-500">
-                      <span>{post.frontmatter.genre}</span>
-                      <span aria-hidden="true">&middot;</span>
-                      <span>{post.frontmatter.country}</span>
+                    <Link to={post.frontmatter.href} className="block mt-2">
+                      <p className="text-xl font-semibold text-gray-900">
+                        {post.frontmatter.title}
+                      </p>
+                      <p className="mt-3 text-base text-gray-500">
+                        {post.frontmatter.description}
+                      </p>
+                    </Link>
+                  </div>
+                  <div className="mt-6 flex items-center">
+                    <div className="flex-shrink-0">
+                      <Link to={post.frontmatter.student.href}>
+                        <span className="sr-only">
+                          {post.frontmatter.student.name}
+                        </span>
+                        <GatsbyImage
+                          className="h-10 w-10 rounded-full"
+                          image={studentImage}
+                          alt={post.frontmatter.student.name}
+                        />
+                      </Link>
+                    </div>
+                    <div className="ml-3">
+                      <p className="text-sm font-medium text-gray-900">
+                        <Link
+                          to={post.frontmatter.student.href}
+                          className="hover:underline"
+                        >
+                          {post.frontmatter.student.name}
+                        </Link>
+                      </p>
+                      <div className="flex space-x-1 text-sm text-gray-500">
+                        <span>{post.frontmatter.genre}</span>
+                        <span aria-hidden="true">&middot;</span>
+                        <span>{post.frontmatter.country}</span>
+                      </div>
                     </div>
                   </div>
                 </div>
               </div>
-            </div>
-          ))}
+            );
+          })}
         </div>
         <div className="mt-10 text-center">
           <div className="mt-6 mb-1">

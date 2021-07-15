@@ -62,7 +62,7 @@ const Component = () => {
                   <img
                     className="h-8 w-auto sm:h-10 inline"
                     src={logo}
-                    alt="Logo"
+                    alt="Unstarving Artists Logo"
                   />
                   <span className="ml-4 font-semibold bg-gray-50 text-gray-700 hover:text-gray-900">
                     Unstarving Artists
@@ -227,7 +227,11 @@ const Component = () => {
                 <div className="pt-5 pb-6 px-5">
                   <div className="flex items-center justify-between">
                     <div>
-                      <img className="h-8 w-auto inline" src={logo} alt="" />
+                      <img
+                        className="h-8 w-auto inline"
+                        src={logo}
+                        alt="Unstarving Artists Logo"
+                      />
                       <span className="ml-4 font-semibold bg-white text-gray-700 hover:text-gray-900">
                         Unstarving Artists
                       </span>
