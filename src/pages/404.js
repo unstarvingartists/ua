@@ -5,7 +5,7 @@ import Hero from "../components/404/hero";
 
 const NotFoundPage = ({ location }) => (
   <Layout>
-    <Seo title="404: Not found" pathname={location.pathname} />
+    <Seo title="Page not found" pathname={location.pathname} />
     <Hero />
   </Layout>
 );
