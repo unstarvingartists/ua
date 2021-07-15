@@ -1,34 +1,86 @@
 import * as React from "react";
 import { Link } from "gatsby";
+import { StaticImage } from "gatsby-plugin-image";
+import logo from "../../images/logo.svg";
 
 const Component = ({ children }) => {
   return (
-    <div className="relative bg-white overflow-hidden">
-      <div
-        className="hidden sm:block sm:absolute sm:inset-y-0 sm:h-full sm:w-full"
-        aria-hidden="true"
-      ></div>
-      <div className="relative pt-6 pb-16 sm:pb-24">
-        {children}
-        <main className="max-w-7xl mx-auto px-4 space-y-8 sm:px-6 lg:px-8 py-36">
-          <div className="text-base max-w-prose mx-auto lg:max-w-none">
-            <h2 className="text-base text-blue-600 font-semibold tracking-wide uppercase">
-              404 Error
-            </h2>
-            <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
-              Page not found!
-            </p>
-            <p className="text-lg text-gray-500 mt-2">
-              You may have mistyped the address or the page has been moved.
-            </p>
-            <div className="mt-10">
-              <Link to="/" className="text-base font-medium text-blue-600">
-                {" "}
-                Go back home <span aria-hidden="true">&rarr;</span>{" "}
+    <div className="bg-white min-h-screen flex flex-col lg:relative">
+      <div className="flex-grow flex flex-col">
+        <main className="flex-grow flex flex-col bg-white">
+          <div className="flex-grow mx-auto max-w-7xl w-full flex flex-col px-4 sm:px-6 lg:px-8">
+            <div className="flex-shrink-0 pt-10 sm:pt-16">
+              <Link to="/" className="inline-flex">
+                <span className="sr-only">Workflow</span>
+                <img
+                  className="h-12 w-auto"
+                  src={logo}
+                  alt="Unstarving Artists Logo"
+                />
               </Link>
+            </div>
+            <div className="flex-shrink-0 my-auto py-16 sm:py-32">
+              <p className="text-sm font-semibold text-blue-600 uppercase tracking-wide">
+                404 error
+              </p>
+              <h1 className="mt-2 text-4xl font-extrabold text-gray-900 tracking-tight sm:text-5xl">
+                Page not found
+              </h1>
+              <p className="mt-2 text-base text-gray-500">
+                Sorry, we couldn’t find the page you’re looking for.
+              </p>
+              <div className="mt-6">
+                <Link
+                  to="/"
+                  className="text-base font-medium text-blue-600 hover:text-blue-500"
+                >
+                  Go back home<span aria-hidden="true"> &rarr;</span>
+                </Link>
+              </div>
             </div>
           </div>
         </main>
+        <footer className="flex-shrink-0 bg-gray-50">
+          <div className="mx-auto max-w-7xl w-full px-4 py-16 sm:px-6 lg:px-8">
+            <nav className="flex space-x-4">
+              <Link
+                to="/methodology"
+                className="text-sm font-medium text-gray-500 hover:text-gray-600"
+              >
+                Our Methodology
+              </Link>
+              <span
+                className="inline-block border-l border-gray-300"
+                aria-hidden="true"
+              />
+              <Link
+                to="/stories"
+                className="text-sm font-medium text-gray-500 hover:text-gray-600"
+              >
+                Student Stories
+              </Link>
+              <span
+                className="inline-block border-l border-gray-300"
+                aria-hidden="true"
+              />
+              <Link
+                to="/faq"
+                className="text-sm font-medium text-gray-500 hover:text-gray-600"
+              >
+                FAQ
+              </Link>
+            </nav>
+          </div>
+        </footer>
+      </div>
+      <div className="hidden lg:block lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
+        <StaticImage
+          className="absolute inset-0 h-full w-full object-cover"
+          src="../../images/the-concert.jpeg"
+          width={1280}
+          height={1440}
+          alt="The Concert by Vermeer"
+        />
       </div>
     </div>
   );
