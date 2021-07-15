@@ -189,7 +189,7 @@ export default function Component({ children }) {
                     Copenhagen.
                   </figcaption>
                 </figure>
-                <h2>Crack team</h2>
+                <h2>All star team</h2>
                 <p>
                   We’re building a team of positive, supportive, and
                   self-starting individuals from all sorts of backgrounds. With
