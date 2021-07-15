@@ -3,34 +3,33 @@ import { Link } from "gatsby";
 
 const Component = ({ children }) => {
   return (
-    <div className="relative bg-white overflow-hidden">
-      <div
-        className="hidden sm:block sm:absolute sm:inset-y-0 sm:h-full sm:w-full"
-        aria-hidden="true"
-      ></div>
-      <div className="relative pt-6 pb-16 sm:pb-24">
-        {children}
-        <main className="max-w-7xl mx-auto px-4 space-y-8 sm:px-6 lg:px-8 py-36">
-          <div className="text-base max-w-prose mx-auto lg:max-w-none">
-            <h2 className="text-base text-blue-600 font-semibold tracking-wide uppercase">
-              404 Error
-            </h2>
-            <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
-              Page not found!
-            </p>
-            <p className="text-lg text-gray-500 mt-2">
-              You may have mistyped the address or the page has been moved.
-            </p>
-            <div className="mt-10">
-              <Link to="/" className="text-base font-medium text-blue-600">
-                {" "}
-                Go back home <span aria-hidden="true">&rarr;</span>{" "}
-              </Link>
-            </div>
-          </div>
-        </main>
+    <main
+      className="min-h-screen bg-cover bg-top sm:bg-top"
+      style={{
+        backgroundImage:
+          'url("https://images.unsplash.com/photo-1545972154-9bb223aac798?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=3050&q=80&exp=8&con=-15&sat=-75")',
+      }}
+    >
+      <div className="max-w-7xl mx-auto px-4 py-16 text-center sm:px-6 sm:py-24 lg:px-8 lg:py-48">
+        <p className="text-sm font-semibold text-black text-opacity-50 uppercase tracking-wide">
+          404 error
+        </p>
+        <h1 className="mt-2 text-4xl font-extrabold text-white tracking-tight sm:text-5xl">
+          Uh oh! I think you’re lost.
+        </h1>
+        <p className="mt-2 text-lg font-medium text-black text-opacity-50">
+          It looks like the page you’re looking for doesn't exist.
+        </p>
+        <div className="mt-6">
+          <Link
+            to="/"
+            className="inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md text-black text-opacity-75 bg-white bg-opacity-75 sm:bg-opacity-25 sm:hover:bg-opacity-50"
+          >
+            Go back home
+          </Link>
+        </div>
       </div>
-    </div>
+    </main>
   );
 };
 export default Component;
