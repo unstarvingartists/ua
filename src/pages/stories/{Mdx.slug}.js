@@ -20,7 +20,6 @@ export const query = graphql`
       id
       body
       frontmatter {
-        lede
         category {
           href
           name

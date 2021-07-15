@@ -117,9 +117,6 @@ export default function Component({ mdx }) {
               Transcript
             </span>
           </h1>
-          <p className="mt-8 text-xl text-gray-500 leading-8">
-            {mdx.frontmatter.lede}
-          </p>
         </div>
         <div className="mt-6 prose prose-blue prose-lg text-gray-500 mx-auto">
           <MDXRenderer>{mdx.body}</MDXRenderer>
