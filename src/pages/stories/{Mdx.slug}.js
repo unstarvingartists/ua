@@ -94,7 +94,7 @@ export default function Page({ data, location }) {
       <Hero {...data} {...location}>
         <Navigation />
       </Hero>
-      <Body {...data} />
+      <Body {...data} {...location} />
       <CheckoutMore {...data} />
       <CallToAction />
       <Footer />
