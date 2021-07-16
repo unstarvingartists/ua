@@ -131,7 +131,7 @@ export default function Component({ mdx, children, site, pathname }) {
 
             message: `${site.siteMetadata.siteURL + pathname}`,
             subject: `Check out this artist: ${mdx.frontmatter.student.name}`,
-            username: "@therealharryw",
+            username: "therealharryw",
           }}
         />
       </div>
