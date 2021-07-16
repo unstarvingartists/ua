@@ -1,22 +1,7 @@
-import React, { useEffect } from "react";
+import * as React from "react";
+import { MDXRenderer } from "gatsby-plugin-mdx";
 
-export default function Component({ mdx, children }) {
-  const wistia = `<div class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div class="wistia_embed wistia_async_${mdx.frontmatter.videoID} videoFoam=true playerColor=2564eb" style="height:100%;position:relative;width:100%"><div class="wistia_swatch" style="height:100%;left:0;opacity:0;overflow:hidden;position:absolute;top:0;transition:opacity 200ms;width:100%;"><img src="https://fast.wistia.com/embed/medias/${mdx.frontmatter.videoID}/swatch" style="filter:blur(5px);height:100%;object-fit:contain;width:100%;" alt="" aria-hidden="true" onload="this.parentNode.style.opacity=1;" /></div></div></div></div>`;
-
-  useEffect(() => {
-    const script1 = document.createElement("script");
-    const script2 = document.createElement("script");
-
-    script1.src = `https://fast.wistia.com/embed/medias/${mdx.frontmatter.videoID}.jsonp`;
-    script1.async = true;
-
-    script2.src = "https://fast.wistia.com/assets/external/E-v1.js";
-    script2.async = true;
-
-    document.body.appendChild(script1);
-    document.body.appendChild(script2);
-  });
-
+export default function Component({ mdx }) {
   return (
     <div className="relative bg-white overflow-hidden">
       <div className="hidden lg:block lg:absolute lg:inset-y-0 lg:h-full lg:w-full">
@@ -122,23 +107,19 @@ export default function Component({ mdx, children }) {
           </svg>
         </div>
       </div>
-      <div className="relative pt-6 pb-16 sm:pb-24 lg:pb-32 px-4 sm:px-6 lg:px-8">
-        {children}
-        <div className="text-lg max-w-prose mx-auto pt-10">
+      <div className="relative px-4 sm:px-6 lg:px-8">
+        <div className="text-lg max-w-prose mx-auto">
           <h1>
             <span className="block text-base text-center text-blue-600 font-semibold tracking-wide uppercase">
-              Student Story
+              Interview
             </span>
             <span className="mt-2 block text-3xl text-center leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
-              {mdx.frontmatter.student.name}
+              Transcript
             </span>
           </h1>
-          <p className="text-xl text-gray-500 text-center leading-8">
-            {mdx.frontmatter.genre} · {mdx.frontmatter.country}
-          </p>
         </div>
         <div className="mt-6 prose prose-blue prose-lg text-gray-500 mx-auto">
-          <div dangerouslySetInnerHTML={{ __html: wistia }}></div>
+          <MDXRenderer>{mdx.body}</MDXRenderer>
         </div>
       </div>
     </div>
