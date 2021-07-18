@@ -1,6 +1,7 @@
 import * as React from "react";
 import Layout from "../../components/layout";
 import Navigation from "../../components/white-navigation";
+import Hero from "../../components/stories/story/hero";
 import Body from "../../components/stories/story/body";
 import CheckoutMore from "../../components/stories/story/checkout-more";
 import CallToAction from "../../components/call-to-action";
@@ -10,8 +11,14 @@ import { graphql } from "gatsby";
 
 export const query = graphql`
   query studentStoryQuery($slug: String) {
+    site {
+      siteMetadata {
+        siteUrl
+      }
+    }
     mdx(slug: { eq: $slug }) {
       id
+      body
       frontmatter {
         category {
           href
@@ -84,9 +91,10 @@ export default function Page({ data, location }) {
         title={data.mdx.frontmatter.student.name}
         pathname={location.pathname}
       />
-      <Body {...data}>
+      <Hero {...data} {...location}>
         <Navigation />
-      </Body>
+      </Hero>
+      <Body {...data} {...location} />
       <CheckoutMore {...data} />
       <CallToAction />
       <Footer />
