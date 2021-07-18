@@ -1,5 +1,4 @@
 import React, { useEffect } from "react";
-import { InlineShareButtons } from "sharethis-reactjs";
 
 export default function Component({ mdx, children, site, pathname }) {
   const wistia = `<div class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div class="wistia_embed wistia_async_${mdx.frontmatter.videoID} videoFoam=true playerColor=2564eb" style="height:100%;position:relative;width:100%"><div class="wistia_swatch" style="height:100%;left:0;opacity:0;overflow:hidden;position:absolute;top:0;transition:opacity 200ms;width:100%;"><img src="https://fast.wistia.com/embed/medias/${mdx.frontmatter.videoID}/swatch" style="filter:blur(5px);height:100%;object-fit:contain;width:100%;" alt="" aria-hidden="true" onload="this.parentNode.style.opacity=1;" /></div></div></div></div>`;
@@ -16,6 +15,8 @@ export default function Component({ mdx, children, site, pathname }) {
 
     document.body.appendChild(script1);
     document.body.appendChild(script2);
+
+    window.__sharethis__.initialize();
   });
 
   return (
@@ -109,32 +110,7 @@ export default function Component({ mdx, children, site, pathname }) {
         <div className="my-6 prose prose-blue prose-lg text-gray-500 mx-auto">
           <div dangerouslySetInnerHTML={{ __html: wistia }}></div>
         </div>
-        <InlineShareButtons
-          config={{
-            property: "60ecf2af67414f0019fb74a5",
-            alignment: "center",
-            color: "white",
-            enabled: true,
-            font_size: 11,
-            labels: "cta",
-            language: "en",
-            networks: [
-              "facebook",
-              "twitter",
-              "email",
-              "sms",
-              "linkedin",
-              "messenger",
-            ],
-            padding: 8,
-            radius: 4,
-            size: 32,
-
-            message: `${site.siteMetadata.siteURL + pathname}`,
-            subject: `Check out this artist: ${mdx.frontmatter.student.name}`,
-            username: "therealharryw",
-          }}
-        />
+        <div className="sharethis-inline-share-buttons" />
         <div className="mt-3 text-center">
           <a
             href="https://www.facebook.com/groups/unstarvingartistscommunity"

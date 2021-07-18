@@ -10,6 +10,12 @@ head.appendChild(script);
 
 const HeadComponents = [
   <script key="hyros" dangerouslySetInnerHTML={{ __html: hyros }} />,
+  <script
+    key="sharethis"
+    type="text/javascript"
+    src="https://platform-api.sharethis.com/js/sharethis.js#property=60ecf2af67414f0019fb74a5&product=inline-share-buttons"
+    async="async"
+  />,
 ];
 
 exports.onRenderBody = ({ setHeadComponents }) => {
