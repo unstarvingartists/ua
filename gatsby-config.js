@@ -3,7 +3,10 @@ module.exports = {
     title: "Unstarving Artists",
     titleTemplate: "%s | Unstarving Artists",
     siteUrl: "https://www.unstarvingartists.com",
-    twitterUsername: "@unstarvingarts",
+    twitter: {
+      site: "@unstarvingarts",
+      creator: "@therealharryw",
+    },
     image: "/social-graph.png",
     metaImage: {
       height: 2400,
