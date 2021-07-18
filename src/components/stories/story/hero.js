@@ -106,7 +106,7 @@ export default function Component({ mdx, children, site, pathname }) {
             {mdx.frontmatter.genre} · {mdx.frontmatter.country}
           </p>
         </div>
-        <div className="mt-6 mb-3 prose prose-blue prose-lg text-gray-500 mx-auto">
+        <div className="my-6 prose prose-blue prose-lg text-gray-500 mx-auto">
           <div dangerouslySetInnerHTML={{ __html: wistia }}></div>
         </div>
         <InlineShareButtons
