@@ -111,6 +111,7 @@ export default function Component({ mdx, children, site, pathname }) {
         </div>
         <InlineShareButtons
           config={{
+            property: "60ecf2af67414f0019fb74a5",
             alignment: "center",
             color: "white",
             enabled: true,
