@@ -9,6 +9,7 @@ head.appendChild(script);
 `;
 
 const HeadComponents = [
+  <link key="inter" rel="stylesheet" href="https://rsms.me/inter/inter.css" />,
   <script key="hyros" dangerouslySetInnerHTML={{ __html: hyros }} />,
   <script
     key="sharethis"
