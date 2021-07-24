@@ -16,6 +16,10 @@ function SEO({ description, lang, meta, image: metaImage, title, pathname }) {
             keywords
             siteUrl
             image
+            twitter {
+              creator
+              site
+            }
             metaImage {
               height
               width
@@ -83,7 +87,11 @@ function SEO({ description, lang, meta, image: metaImage, title, pathname }) {
         },
         {
           name: `twitter:creator`,
-          content: site.siteMetadata.author,
+          content: site.siteMetadata.twitter.creator,
+        },
+        {
+          name: `twitter:site`,
+          content: site.siteMetadata.twitter.site,
         },
         {
           name: `twitter:title`,

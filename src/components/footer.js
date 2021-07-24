@@ -18,6 +18,7 @@ const navigation = {
   ],
   extras: [
     { name: "Free Training", href: "https://go.unstarvingartists.org/opt-in" },
+    { name: "Free Community", to: "/community" },
   ],
   social: [
     {
@@ -150,16 +151,31 @@ export default function Component() {
                   Extras
                 </h3>
                 <ul className="mt-4 space-y-4">
-                  {navigation.extras.map((item) => (
-                    <li key={item.name}>
-                      <a
-                        href={item.href}
-                        className="text-base text-gray-500 hover:text-gray-900"
-                      >
-                        {item.name}
-                      </a>
-                    </li>
-                  ))}
+                  {navigation.extras.map((item) => {
+                    if (!!item.to) {
+                      return (
+                        <li key={item.name}>
+                          <Link
+                            to={item.to}
+                            className="text-base text-gray-500 hover:text-gray-900"
+                          >
+                            {item.name}
+                          </Link>
+                        </li>
+                      );
+                    } else {
+                      return (
+                        <li key={item.name}>
+                          <a
+                            href={item.href}
+                            className="text-base text-gray-500 hover:text-gray-900"
+                          >
+                            {item.name}
+                          </a>
+                        </li>
+                      );
+                    }
+                  })}
                 </ul>
               </div>
             </div>

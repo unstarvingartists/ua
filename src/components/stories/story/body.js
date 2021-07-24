@@ -1,8 +1,11 @@
-import * as React from "react";
+import React, { useEffect } from "react";
 import { MDXRenderer } from "gatsby-plugin-mdx";
-import { InlineShareButtons } from "sharethis-reactjs";
 
 export default function Component({ mdx, site, pathname }) {
+  useEffect(() => {
+    window.__sharethis__.initialize();
+  });
+
   return (
     <div className="relative bg-white overflow-hidden">
       <div className="hidden lg:block lg:absolute lg:inset-y-0 lg:h-full lg:w-full">
@@ -122,31 +125,19 @@ export default function Component({ mdx, site, pathname }) {
         <div className="my-6 prose prose-blue prose-lg text-gray-500 mx-auto">
           <MDXRenderer>{mdx.body}</MDXRenderer>
         </div>
-        <InlineShareButtons
-          config={{
-            alignment: "center",
-            color: "white",
-            enabled: true,
-            font_size: 11,
-            labels: "cta",
-            language: "en",
-            networks: [
-              "facebook",
-              "twitter",
-              "email",
-              "sms",
-              "linkedin",
-              "messenger",
-            ],
-            padding: 8,
-            radius: 4,
-            size: 32,
-
-            message: `${site.siteMetadata.siteURL + pathname}`,
-            subject: `Check out this artist: ${mdx.frontmatter.student.name}`,
-            username: "therealharryw",
-          }}
-        />
+        <div className="sharethis-inline-share-buttons" />
+        <div className="mt-3 text-center">
+          <a
+            href="https://www.facebook.com/groups/unstarvingartistscommunity"
+            target="_blank"
+            rel="noreferrer"
+            className="text-base font-medium text-blue-600"
+          >
+            {" "}
+            Join Our FREE Facebook Group For Artists{" "}
+            <span aria-hidden="true">&rarr;</span>{" "}
+          </a>
+        </div>
       </div>
     </div>
   );
