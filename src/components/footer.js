@@ -17,7 +17,10 @@ const navigation = {
     { name: "FAQ", to: "/faq" },
   ],
   extras: [
-    { name: "Free Training", href: "https://go.unstarvingartists.org/opt-in" },
+    {
+      name: "Free Training",
+      href: "https://go.unstarvingartists.com/training",
+    },
     { name: "Free Community", to: "/community" },
   ],
   social: [

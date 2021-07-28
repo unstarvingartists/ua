@@ -32,7 +32,7 @@ export default function Component() {
                 </ul>
                 <div className="mt-6">
                   <a
-                    href="https://go.unstarvingartists.org/opt-in"
+                    href="https://go.unstarvingartists.com/training"
                     className="inline-flex px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-blue-600 hover:bg-blue-700"
                   >
                     See how it works
