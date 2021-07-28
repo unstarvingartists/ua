@@ -192,7 +192,7 @@ export default function Component({ children }) {
                 <p>
                   (ii) Your Success Or Lack Of It. Your success in using the
                   information or strategies provided at
-                  https://www.unstarvingartists.org depends on a variety of
+                  https://www.unstarvingartists.com depends on a variety of
                   factors. We have no way of knowing how well you will do, as we
                   do not know you, your background, your work ethic, your
                   dedication, your motivation, your desire, or your business

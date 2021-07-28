@@ -813,7 +813,7 @@ export default function Component({ children }) {
                   <a
                     target="_blank"
                     rel="noreferrer"
-                    href="https://go.unstarvingartists.org/opt-in"
+                    href="https://go.unstarvingartists.com/training"
                   >
                     "The 3 Step Process We Used To Earn A 5 Figure A Month
                     Income From Our Art"
@@ -845,7 +845,7 @@ export default function Component({ children }) {
               <div className="mt-10 text-center">
                 <div className="inline-flex rounded-md shadow">
                   <a
-                    href="https://go.unstarvingartists.org/opt-in"
+                    href="https://go.unstarvingartists.com/training"
                     className="px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700"
                   >
                     {" "}
