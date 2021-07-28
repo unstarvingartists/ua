@@ -38,3 +38,8 @@
   to = "https://www.unstarvingartists.com"
   status = 301
   force = true
+
+[[headers]]
+  for = "/stories/keval/"
+  [headers.values]
+    X-Robots-Tag = "noindex"
