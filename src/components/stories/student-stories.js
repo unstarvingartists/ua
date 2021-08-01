@@ -11,7 +11,7 @@ export default function Component() {
             filter: {
               frontmatter: { category: { name: { eq: "Student Story" } } }
             }
-            sort: { fields: [frontmatter___id], order: ASC }
+            sort: { fields: [frontmatter___id], order: DESC }
           ) {
             edges {
               node {
