@@ -267,7 +267,7 @@ export default function Component({ children }) {
                       className="text-base font-medium text-blue-600"
                     >
                       {" "}
-                      4.9 stars 29 student stories
+                      4.9 stars 32 student stories
                     </Link>
                   </div>
                 </div>
