@@ -12,7 +12,7 @@ export default function Component() {
             filter: {
               frontmatter: { category: { name: { eq: "Student Story" } } }
             }
-            sort: { fields: [frontmatter___id], order: ASC }
+            sort: { fields: [frontmatter___id], order: DESC }
             limit: 3
           ) {
             edges {
@@ -167,7 +167,7 @@ export default function Component() {
                 className="text-base font-medium text-blue-600"
               >
                 {" "}
-                4.9 stars from 29 student stories{" "}
+                4.9 stars from 32 student stories{" "}
                 <span aria-hidden="true">&rarr;</span>{" "}
               </Link>
             </div>
