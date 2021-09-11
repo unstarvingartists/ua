@@ -245,12 +245,12 @@ export default function Component({ children }) {
                 </p>
                 <p>
                   As long as you intend to use this program and do the bare
-                  minimum above you you have absolutely zero risk.
+                  minimum above you have absolutely zero risk.
                 </p>
                 <p>
-                  To claim your refund you must also return all properties of
-                  ours to us. This includes any templates, scripts, graphics,
-                  website themes, checklists, handouts, etc.
+                  To claim your refund you must also return all property of ours
+                  to us. This includes any templates, scripts, graphics, website
+                  themes, checklists, handouts, etc.
                 </p>
                 <h2>2. Use License</h2>
                 <ol type="a">
