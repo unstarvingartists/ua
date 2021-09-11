@@ -47,7 +47,7 @@ export const query = graphql`
         frontmatter: { category: { name: { eq: "Student Story" } } }
         slug: { ne: $slug }
       }
-      sort: { fields: [frontmatter___id], order: ASC }
+      sort: { fields: [frontmatter___id], order: DESC }
       limit: 3
     ) {
       edges {
