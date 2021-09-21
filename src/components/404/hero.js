@@ -54,10 +54,10 @@ const Component = ({ children }) => {
                 aria-hidden="true"
               />
               <Link
-                to="/stories"
+                to="/reviews"
                 className="text-sm font-medium text-gray-500 hover:text-gray-600"
               >
-                Student Stories
+                Reviews
               </Link>
               <span
                 className="inline-block border-l border-gray-300"

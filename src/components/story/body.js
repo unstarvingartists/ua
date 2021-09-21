@@ -879,7 +879,7 @@ export default function Component({ children }) {
                       />
                     </div>
                     <Link
-                      to="/stories"
+                      to="/reviews"
                       className="text-base font-medium text-blue-600"
                     >
                       {" "}
