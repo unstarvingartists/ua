@@ -1,9 +1,9 @@
 import * as React from "react";
 import Layout from "../../components/layout";
 import Navigation from "../../components/white-navigation";
-import Hero from "../../components/reviews/story/hero";
-import Body from "../../components/reviews/story/body";
-import CheckoutMore from "../../components/reviews/story/checkout-more";
+import Hero from "../../components/reviews/review/hero";
+import Body from "../../components/reviews/review/body";
+import CheckoutMore from "../../components/reviews/review/checkout-more";
 import CallToAction from "../../components/call-to-action";
 import Footer from "../../components/footer";
 import Seo from "../../components/seo";
