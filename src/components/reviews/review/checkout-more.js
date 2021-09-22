@@ -12,7 +12,7 @@ export default function Component({ allMdx }) {
       <div className="relative max-w-7xl mx-auto">
         <div className="text-center">
           <h2 className="text-3xl tracking-tight font-extrabold text-gray-900 sm:text-4xl">
-            Check out more student stories
+            Check out more student reviews
           </h2>
           <p className="mt-3 max-w-2xl mx-auto text-xl text-gray-500 sm:mt-4">
             Hundreds of artists around the world have used Unstarving Artists to
@@ -121,7 +121,7 @@ export default function Component({ allMdx }) {
           </div>
           <Link to="/reviews" className="text-base font-medium text-blue-600">
             {" "}
-            4.9 stars from 32 student stories{" "}
+            4.9 stars from 32 student reviews{" "}
             <span aria-hidden="true">&rarr;</span>{" "}
           </Link>
         </div>
