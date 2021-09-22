@@ -165,7 +165,7 @@ export default function Component() {
                 className="text-base font-medium text-blue-600"
               >
                 {" "}
-                4.9 stars from 32 student stories{" "}
+                4.9 stars from 32 student reviews{" "}
                 <span aria-hidden="true">&rarr;</span>{" "}
               </Link>
             </div>
