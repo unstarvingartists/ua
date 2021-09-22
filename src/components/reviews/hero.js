@@ -74,11 +74,10 @@ export default function Component({ children }) {
             <div className="sm:text-center md:max-w-2xl md:mx-auto lg:col-span-6 lg:text-left">
               <h1>
                 <span className="block text-sm font-semibold uppercase tracking-wide text-gray-500 sm:text-base lg:text-sm xl:text-base">
-                  Testimonials
+                  Real Artists. Real Results.
                 </span>
                 <span className="mt-1 block text-4xl tracking-tight font-extrabold sm:text-5xl xl:text-6xl">
-                  <span className="text-gray-900">Student</span>{" "}
-                  <span className="text-blue-600">Reviews</span>
+                  <span className="text-gray-900">Reviews</span>
                 </span>
               </h1>
               <p className="mt-3 text-base text-gray-500 sm:mt-5 sm:text-xl lg:text-lg xl:text-xl">
