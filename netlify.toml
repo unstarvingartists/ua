@@ -58,3 +58,13 @@
   to = "https://go.unstarvingartists.com/training"
   status = 301
   force = true
+[[redirects]]
+  from = "https://www.unstarvingartists.com/stories"
+  to = "https://www.unstarvingartists.com/reviews"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://www.unstarvingartists.com/stories/:student"
+  to = "https://www.unstarvingartists.com/reviews/:student"
+  status = 301
+  force = true

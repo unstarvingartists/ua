@@ -13,7 +13,7 @@ const navigation = {
     { name: "Flywheel Lab", to: "/flywheel-lab" },
   ],
   resources: [
-    { name: "Student Stories", to: "/stories" },
+    { name: "Reviews", to: "/reviews" },
     { name: "FAQ", to: "/faq" },
   ],
   extras: [

@@ -1,17 +1,15 @@
 import * as React from "react";
-import { StarIcon } from "@heroicons/react/solid";
+import { StaticQuery, graphql, Link } from "gatsby";
 import { GatsbyImage, getImage } from "gatsby-plugin-image";
-import { Link, StaticQuery, graphql } from "gatsby";
 
 export default function Component() {
   return (
     <StaticQuery
       query={graphql`
-        query inGoodCompanyQuery {
+        query reviewsQuery {
           allMdx(
             filter: { frontmatter: { category: { name: { eq: "Review" } } } }
             sort: { fields: [frontmatter___id], order: DESC }
-            limit: 3
           ) {
             edges {
               node {
@@ -54,18 +52,18 @@ export default function Component() {
           <div className="relative max-w-7xl mx-auto">
             <div className="text-center">
               <h2 className="text-3xl tracking-tight font-extrabold text-gray-900 sm:text-4xl">
-                You're in good company
+                Our Student Reviews
               </h2>
               <p className="mt-3 max-w-2xl mx-auto text-xl text-gray-500 sm:mt-4">
-                Hundreds of artists around the world have used Unstarving
-                Artists to start and grow their art practices, expand their
-                minds, and change their lives.
+                Hear from everyday people just like you who started earning more
+                from their creative and artistic work.
               </p>
             </div>
             <div className="mt-12 max-w-lg mx-auto grid gap-5 lg:grid-cols-3 lg:max-w-none">
               {data.allMdx.edges.map(({ node: post }) => {
                 const image = getImage(post.frontmatter.image);
                 const studentImage = getImage(post.frontmatter.student.image);
+
                 return (
                   <div
                     key={post.frontmatter.title}
@@ -132,42 +130,6 @@ export default function Component() {
                   </div>
                 );
               })}
-            </div>
-            <div className="mt-10 text-center">
-              <div className="mt-6 mb-1">
-                <div className="inline-flex items-center">
-                  <div className="flex-shrink-0 flex">
-                    <StarIcon
-                      className="h-10 w-10 text-yellow-400"
-                      aria-hidden="true"
-                    />
-                    <StarIcon
-                      className="h-10 w-10 text-yellow-400"
-                      aria-hidden="true"
-                    />
-                    <StarIcon
-                      className="h-10 w-10 text-yellow-400"
-                      aria-hidden="true"
-                    />
-                    <StarIcon
-                      className="h-10 w-10 text-yellow-400"
-                      aria-hidden="true"
-                    />
-                    <StarIcon
-                      className="h-10 w-10 text-yellow-400"
-                      aria-hidden="true"
-                    />
-                  </div>
-                </div>
-              </div>
-              <Link
-                to="/reviews"
-                className="text-base font-medium text-blue-600"
-              >
-                {" "}
-                4.9 stars from 32 student stories{" "}
-                <span aria-hidden="true">&rarr;</span>{" "}
-              </Link>
             </div>
           </div>
         </div>

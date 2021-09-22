@@ -66,7 +66,7 @@ export default function Component() {
                 <figcaption className="mt-3 flex text-sm text-gray-500">
                   <span>
                     Rather than hear from us why we're different, check out our
-                    Student Stories.
+                    Reviews.
                   </span>
                 </figcaption>
               </figure>
@@ -95,14 +95,14 @@ export default function Component() {
                 examples for artists.
               </p>
               <p>
-                #2: Go check out our Student Stories{" "}
-                <Link to="/stories">HERE</Link> and watch literally dozens and
-                dozens of in-depth interviews with artists and past clients of
-                ours. Hear them share firsthand about their experiences working
-                with Harry and Unstarving Artists vs. other things they've tried
-                in the past. There is a reason people constantly leave other
-                programs to become Unstarving Artists clients for life. Our
-                clients are quite vocal about why they love us and our programs.
+                #2: Go check out our Reviews <Link to="/reviews">HERE</Link> and
+                watch literally dozens and dozens of in-depth interviews with
+                artists and past clients of ours. Hear them share firsthand
+                about their experiences working with Harry and Unstarving
+                Artists vs. other things they've tried in the past. There is a
+                reason people constantly leave other programs to become
+                Unstarving Artists clients for life. Our clients are quite vocal
+                about why they love us and our programs.
               </p>
             </div>
             <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">

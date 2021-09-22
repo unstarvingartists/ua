@@ -52,7 +52,7 @@ export default function Component() {
           </div>
         </div>
         <div className="mt-10 text-center">
-          <Link to="/stories" className="text-base font-medium text-blue-600">
+          <Link to="/reviews" className="text-base font-medium text-blue-600">
             {" "}
             See all 32 student stories for yourself
             <span aria-hidden="true">&rarr;</span>{" "}

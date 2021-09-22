@@ -99,10 +99,10 @@ const Component = () => {
               </div>
               <div className="mt-3 sm:mt-0 sm:ml-3">
                 <Link
-                  to="/stories"
+                  to="/reviews"
                   className="flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-blue-700 bg-blue-100 hover:bg-blue-200"
                 >
-                  Student Stories
+                  Reviews
                 </Link>
               </div>
             </div>

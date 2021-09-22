@@ -13,7 +13,7 @@ import { ChevronDownIcon } from "@heroicons/react/solid";
 import logo from "../images/logo.svg";
 
 const navigation = [
-  { name: "Student Stories", href: "/stories" },
+  { name: "Reviews", href: "/reviews" },
   { name: "FAQ", href: "/faq" },
   { name: "Log in", href: "https://learn.unstarvingartists.com/login" },
 ];
