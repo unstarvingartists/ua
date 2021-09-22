@@ -9,7 +9,9 @@ export default function Component() {
       query={graphql`
         query inGoodCompanyQuery {
           allMdx(
-            filter: { frontmatter: { category: { name: { eq: "Review" } } } }
+            filter: {
+              frontmatter: { category: { name: { eq: "Student Review" } } }
+            }
             sort: { fields: [frontmatter___id], order: DESC }
             limit: 3
           ) {
