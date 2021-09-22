@@ -44,7 +44,7 @@ export const query = graphql`
     }
     allMdx(
       filter: {
-        frontmatter: { category: { name: { eq: "Review" } } }
+        frontmatter: { category: { name: { eq: "Student Review" } } }
         slug: { ne: $slug }
       }
       sort: { fields: [frontmatter___id], order: DESC }
