@@ -16,7 +16,7 @@ export default function Component({ mdx, children, site, pathname }) {
     document.body.appendChild(script1);
     document.body.appendChild(script2);
 
-    window.__sharethis__.initialize();
+    // window.__sharethis__.initialize();
   });
 
   return (
@@ -97,7 +97,7 @@ export default function Component({ mdx, children, site, pathname }) {
         <div className="text-lg max-w-prose mx-auto pt-10">
           <h1>
             <span className="block text-base text-center text-blue-600 font-semibold tracking-wide uppercase">
-              Student Review
+              {mdx.frontmatter.category.name}
             </span>
             <span className="mt-2 block text-3xl text-center leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
               {mdx.frontmatter.student.name}

@@ -16,7 +16,10 @@ export const query = graphql`
         siteUrl
       }
     }
-    mdx(slug: { eq: $slug }) {
+    mdx(
+      slug: { eq: $slug }
+      frontmatter: { category: { name: { eq: "Blog Post" } } }
+    ) {
       id
       body
       frontmatter {
@@ -44,7 +47,7 @@ export const query = graphql`
     }
     allMdx(
       filter: {
-        frontmatter: { category: { name: { eq: "Student Review" } } }
+        frontmatter: { category: { name: { eq: "Blog Post" } } }
         slug: { ne: $slug }
       }
       sort: { fields: [frontmatter___id], order: DESC }

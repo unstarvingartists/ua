@@ -16,7 +16,10 @@ export const query = graphql`
         siteUrl
       }
     }
-    mdx(slug: { eq: $slug }) {
+    mdx(
+      slug: { eq: $slug }
+      frontmatter: { category: { name: { eq: "Student Review" } } }
+    ) {
       id
       body
       frontmatter {
