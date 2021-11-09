@@ -113,17 +113,31 @@ export default function Component({ mdx, site, pathname }) {
       </div>
       <div className="relative px-4 sm:px-6 lg:px-8">
         <div className="text-lg max-w-prose mx-auto">
-          <h1>
-            <span className="block text-base text-center text-blue-600 font-semibold tracking-wide uppercase">
-              Interview
+          <h2>
+            <span className="block text-base text-center text-gray-600 font-semibold tracking-wide uppercase">
+              Summary
             </span>
-            <span className="mt-2 block text-3xl text-center leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
-              Transcript
-            </span>
-          </h1>
+          </h2>
         </div>
         <div className="my-6 prose prose-blue prose-lg text-gray-500 mx-auto">
-          <MDXRenderer>{mdx.body}</MDXRenderer>
+          Test{/*<MDXRenderer>{mdx.body}</MDXRenderer>*/}
+        </div>
+        <div className="text-lg max-w-prose mx-auto">
+          <h2>
+            <span className="block text-base text-center text-gray-600 font-semibold tracking-wide uppercase">
+              Transcript
+            </span>
+          </h2>
+        </div>
+        <div className="my-6 prose prose-blue prose-lg text-gray-500 mx-auto">
+          Test{/*<MDXRenderer>{mdx.body}</MDXRenderer>*/}
+        </div>
+        <div className="text-lg max-w-prose mx-auto">
+          <h2>
+            <span className="block text-base text-center text-gray-600 font-semibold tracking-wide uppercase">
+              Comments
+            </span>
+          </h2>
         </div>
         <div className="sharethis-inline-share-buttons" />
         <div className="mt-3 text-center">

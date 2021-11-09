@@ -29,7 +29,7 @@ export default function Component({ allMdx }) {
                 className="flex flex-col rounded-lg shadow-lg overflow-hidden"
               >
                 <div className="flex-shrink-0">
-                  <Link to={post.frontmatter.student.href}>
+                  <Link to={post.frontmatter.author.href}>
                     <GatsbyImage
                       className="h-48 w-full object-cover"
                       image={image}
@@ -41,7 +41,7 @@ export default function Component({ allMdx }) {
                   <div className="flex-1">
                     <p className="text-sm font-medium text-blue-600">
                       <Link
-                        to={post.frontmatter.student.href}
+                        to={post.frontmatter.author.href}
                         className="hover:underline"
                       >
                         {post.frontmatter.category.name}

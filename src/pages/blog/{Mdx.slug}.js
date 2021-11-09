@@ -32,7 +32,7 @@ export const query = graphql`
         genre
         href
         videoID
-        student {
+        author {
           href
           name
           image {
@@ -65,7 +65,7 @@ export const query = graphql`
             description
             genre
             href
-            student {
+            author {
               href
               name
               image {
@@ -91,7 +91,7 @@ export default function Page({ data, location }) {
   return (
     <Layout>
       <Seo
-        title={data.mdx.frontmatter.student.name}
+        title={data.mdx.frontmatter.author.name}
         pathname={location.pathname}
       />
       <Hero {...data} {...location}>

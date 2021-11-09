@@ -100,11 +100,11 @@ export default function Component({ mdx, children, site, pathname }) {
               {mdx.frontmatter.category.name}
             </span>
             <span className="mt-2 block text-3xl text-center leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
-              {mdx.frontmatter.student.name}
+              {mdx.frontmatter.title}
             </span>
           </h1>
           <p className="text-xl text-gray-500 text-center leading-8">
-            {mdx.frontmatter.genre} · {mdx.frontmatter.country}
+            {mdx.frontmatter.author.name}
           </p>
         </div>
         <div className="my-6 prose prose-blue prose-lg text-gray-500 mx-auto">
