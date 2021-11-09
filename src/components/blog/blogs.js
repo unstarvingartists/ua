@@ -8,9 +8,7 @@ export default function Component() {
       query={graphql`
         query blogsQuery {
           allMdx(
-            filter: {
-              frontmatter: { category: { name: { eq: "Student Review" } } }
-            }
+            filter: { frontmatter: { category: { name: { eq: "Blog Post" } } } }
             sort: { fields: [frontmatter___id], order: DESC }
           ) {
             edges {
