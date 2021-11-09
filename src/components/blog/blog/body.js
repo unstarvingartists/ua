@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import { MDXRenderer } from "gatsby-plugin-mdx";
+import { Disqus } from "gatsby-plugin-disqus";
 
 export default function Component({ mdx, site, pathname }) {
   useEffect(() => {
@@ -112,23 +113,6 @@ export default function Component({ mdx, site, pathname }) {
         </div>
       </div>
       <div className="relative px-4 sm:px-6 lg:px-8">
-        <div className="text-lg max-w-prose mx-auto">
-          <h2>
-            <span className="block text-base text-center text-gray-600 font-semibold tracking-wide uppercase">
-              Summary
-            </span>
-          </h2>
-        </div>
-        <div className="my-6 prose prose-blue prose-lg text-gray-500 mx-auto">
-          <MDXRenderer>{mdx.body}</MDXRenderer>
-        </div>
-        <div className="text-lg max-w-prose mx-auto">
-          <h2>
-            <span className="block text-base text-center text-gray-600 font-semibold tracking-wide uppercase">
-              Transcript
-            </span>
-          </h2>
-        </div>
         <div className="my-6 prose prose-blue prose-lg text-gray-500 mx-auto">
           <MDXRenderer>{mdx.body}</MDXRenderer>
         </div>
@@ -138,6 +122,16 @@ export default function Component({ mdx, site, pathname }) {
               Comments
             </span>
           </h2>
+          <Disqus
+              config={
+                  /* Replace PAGE_URL with your post's canonical URL variable */
+                  url: 'PAGE_URL',
+                  /* Replace PAGE_IDENTIFIER with your page's unique identifier variable */
+                  identifier: 'PAGE_IDENTIFIER',
+                  /* Replace PAGE_TITLE with the title of the page */
+                  title: 'PAGE_TITLE',
+              }
+          />
         </div>
         <div className="sharethis-inline-share-buttons" />
         <div className="mt-3 text-center">

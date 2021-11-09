@@ -33,11 +33,7 @@ export const query = graphql`
         href
         videoID
         author {
-          href
           name
-          image {
-            publicURL
-          }
         }
         title
         image {
@@ -66,13 +62,7 @@ export const query = graphql`
             genre
             href
             author {
-              href
               name
-              image {
-                childImageSharp {
-                  gatsbyImageData(width: 40)
-                }
-              }
             }
             title
             image {
