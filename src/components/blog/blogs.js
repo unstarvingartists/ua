@@ -23,15 +23,6 @@ export default function Component() {
                   description
                   genre
                   href
-                  student {
-                    href
-                    name
-                    image {
-                      childImageSharp {
-                        gatsbyImageData(width: 40)
-                      }
-                    }
-                  }
                   title
                   image {
                     childImageSharp {
@@ -53,7 +44,6 @@ export default function Component() {
             <div className="mt-12 max-w-lg mx-auto grid gap-5 lg:grid-cols-3 lg:max-w-none">
               {data.allMdx.edges.map(({ node: post }) => {
                 const image = getImage(post.frontmatter.image);
-                const studentImage = getImage(post.frontmatter.student.image);
 
                 return (
                   <div
@@ -61,7 +51,7 @@ export default function Component() {
                     className="flex flex-col rounded-lg shadow-lg overflow-hidden"
                   >
                     <div className="flex-shrink-0">
-                      <Link to={post.frontmatter.student.href}>
+                      <Link to={post.frontmatter.href}>
                         <GatsbyImage
                           className="h-48 w-full object-cover"
                           image={image}
@@ -73,7 +63,7 @@ export default function Component() {
                       <div className="flex-1">
                         <p className="text-sm font-medium text-blue-600">
                           <Link
-                            to={post.frontmatter.student.href}
+                            to={post.frontmatter.href}
                             className="hover:underline"
                           >
                             {post.frontmatter.category.name}
@@ -87,35 +77,6 @@ export default function Component() {
                             {post.frontmatter.description}
                           </p>
                         </Link>
-                      </div>
-                      <div className="mt-6 flex items-center">
-                        <div className="flex-shrink-0">
-                          <Link to={post.frontmatter.student.href}>
-                            <span className="sr-only">
-                              {post.frontmatter.student.name}
-                            </span>
-                            <GatsbyImage
-                              className="h-10 w-10 rounded-full"
-                              image={studentImage}
-                              alt={post.frontmatter.student.name}
-                            />
-                          </Link>
-                        </div>
-                        <div className="ml-3">
-                          <p className="text-sm font-medium text-gray-900">
-                            <Link
-                              to={post.frontmatter.student.href}
-                              className="hover:underline"
-                            >
-                              {post.frontmatter.student.name}
-                            </Link>
-                          </p>
-                          <div className="flex space-x-1 text-sm text-gray-500">
-                            <span>{post.frontmatter.genre}</span>
-                            <span aria-hidden="true">&middot;</span>
-                            <span>{post.frontmatter.country}</span>
-                          </div>
-                        </div>
                       </div>
                     </div>
                   </div>
