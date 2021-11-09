@@ -120,7 +120,7 @@ export default function Component({ mdx, site, pathname }) {
           </h2>
         </div>
         <div className="my-6 prose prose-blue prose-lg text-gray-500 mx-auto">
-          Test{/*<MDXRenderer>{mdx.body}</MDXRenderer>*/}
+          <MDXRenderer>{mdx.body}</MDXRenderer>
         </div>
         <div className="text-lg max-w-prose mx-auto">
           <h2>
@@ -130,7 +130,7 @@ export default function Component({ mdx, site, pathname }) {
           </h2>
         </div>
         <div className="my-6 prose prose-blue prose-lg text-gray-500 mx-auto">
-          Test{/*<MDXRenderer>{mdx.body}</MDXRenderer>*/}
+          <MDXRenderer>{mdx.body}</MDXRenderer>
         </div>
         <div className="text-lg max-w-prose mx-auto">
           <h2>
