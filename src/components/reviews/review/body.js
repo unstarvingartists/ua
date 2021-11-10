@@ -1,7 +1,14 @@
 import React, { useEffect } from "react";
 import { MDXRenderer } from "gatsby-plugin-mdx";
+import { Disqus } from "gatsby-plugin-disqus";
 
 export default function Component({ mdx, site, pathname }) {
+  let disqusConfig = {
+    url: `${site.siteMetadata.siteUrl + pathname}`,
+    identifier: mdx.id,
+    title: mdx.frontmatter.title,
+  };
+
   useEffect(() => {
     window.__sharethis__.initialize();
   });
@@ -124,6 +131,9 @@ export default function Component({ mdx, site, pathname }) {
         </div>
         <div className="my-6 prose prose-blue prose-lg text-gray-500 mx-auto">
           <MDXRenderer>{mdx.body}</MDXRenderer>
+        </div>
+        <div className="text-lg max-w-prose mx-auto">
+          <Disqus config={disqusConfig} />
         </div>
         <div className="sharethis-inline-share-buttons" />
         <div className="mt-3 text-center">
