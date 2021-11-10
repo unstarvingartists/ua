@@ -1,25 +1,22 @@
 import * as React from "react";
-import Layout from "../../components/layout";
-import Navigation from "../../components/white-navigation";
-import Hero from "../../components/reviews/review/hero";
-import Body from "../../components/reviews/review/body";
-import CheckoutMore from "../../components/reviews/review/checkout-more";
-import CallToAction from "../../components/call-to-action";
-import Footer from "../../components/footer";
-import Seo from "../../components/seo";
+import Layout from "../components/layout";
+import Navigation from "../components/white-navigation";
+import Hero from "../components/reviews/review/hero";
+import Body from "../components/reviews/review/body";
+import CheckoutMore from "../components/reviews/review/checkout-more";
+import CallToAction from "../components/call-to-action";
+import Footer from "../components/footer";
+import Seo from "../components/seo";
 import { graphql } from "gatsby";
 
 export const query = graphql`
-  query reviewQuery($slug: String) {
+  query reviewQuery($id: String) {
     site {
       siteMetadata {
         siteUrl
       }
     }
-    mdx(
-      slug: { eq: $slug }
-      frontmatter: { category: { name: { eq: "Student Review" } } }
-    ) {
+    mdx(id: { eq: $id }) {
       id
       body
       frontmatter {
@@ -48,7 +45,7 @@ export const query = graphql`
     allMdx(
       filter: {
         frontmatter: { category: { name: { eq: "Student Review" } } }
-        slug: { ne: $slug }
+        id: { ne: $id }
       }
       sort: { fields: [frontmatter___id], order: DESC }
       limit: 3

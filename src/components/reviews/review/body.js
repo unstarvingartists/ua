@@ -10,7 +10,7 @@ export default function Component({ mdx, site, pathname }) {
   };
 
   useEffect(() => {
-    window.__sharethis__.initialize();
+    // window.__sharethis__.initialize();
   });
 
   return (
