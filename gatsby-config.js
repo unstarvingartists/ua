@@ -64,14 +64,14 @@ module.exports = {
     {
       resolve: "gatsby-source-filesystem",
       options: {
-        name: "stories",
+        name: "reviews",
         path: `${__dirname}/content/reviews/`,
       },
     },
     {
       resolve: "gatsby-source-filesystem",
       options: {
-        name: "blog",
+        name: "blogs",
         path: `${__dirname}/content/blogs/`,
       },
     },
