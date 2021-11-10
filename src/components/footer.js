@@ -14,7 +14,7 @@ const navigation = {
   ],
   resources: [
     { name: "Reviews", to: "/reviews" },
-    { name: "Blog", to: "/blog" },
+    // { name: "Blog", to: "/blog" },
     { name: "FAQ", to: "/faq" },
   ],
   extras: [

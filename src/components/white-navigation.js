@@ -14,7 +14,7 @@ import logo from "../images/logo.svg";
 
 const navigation = [
   { name: "Reviews", href: "/reviews" },
-  { name: "Blog", to: "/blog" },
+  // { name: "Blog", to: "/blog" },
   { name: "FAQ", href: "/faq" },
   { name: "Log in", href: "https://learn.unstarvingartists.com/login" },
 ];
