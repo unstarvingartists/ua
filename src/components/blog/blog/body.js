@@ -3,6 +3,12 @@ import { MDXRenderer } from "gatsby-plugin-mdx";
 import { Disqus } from "gatsby-plugin-disqus";
 
 export default function Component({ mdx, site, pathname }) {
+  let disqusConfig = {
+    url: `${site.siteMetadata.siteUrl + pathname}`,
+    identifier: mdx.id,
+    title: mdx.frontmatter.title,
+  };
+
   useEffect(() => {
     // window.__sharethis__.initialize();
   });
@@ -117,21 +123,7 @@ export default function Component({ mdx, site, pathname }) {
           <MDXRenderer>{mdx.body}</MDXRenderer>
         </div>
         <div className="text-lg max-w-prose mx-auto">
-          <h2>
-            <span className="block text-base text-center text-gray-600 font-semibold tracking-wide uppercase">
-              Comments
-            </span>
-          </h2>
-          <Disqus
-              config={
-                  /* Replace PAGE_URL with your post's canonical URL variable */
-                  url: 'PAGE_URL',
-                  /* Replace PAGE_IDENTIFIER with your page's unique identifier variable */
-                  identifier: 'PAGE_IDENTIFIER',
-                  /* Replace PAGE_TITLE with the title of the page */
-                  title: 'PAGE_TITLE',
-              }
-          />
+          <Disqus config={disqusConfig} />
         </div>
         <div className="sharethis-inline-share-buttons" />
         <div className="mt-3 text-center">
