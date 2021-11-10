@@ -1,16 +1,16 @@
 import * as React from "react";
 import Layout from "../../components/layout";
 import Navigation from "../../components/white-navigation";
-import Hero from "../../components/reviews/review/hero";
-import Body from "../../components/reviews/review/body";
-import CheckoutMore from "../../components/reviews/review/checkout-more";
+import Hero from "../../components/blog/blog/hero";
+import Body from "../../components/blog/blog/body";
+import CheckoutMore from "../../components/blog/blog/checkout-more";
 import CallToAction from "../../components/call-to-action";
 import Footer from "../../components/footer";
 import Seo from "../../components/seo";
 import { graphql } from "gatsby";
 
 export const query = graphql`
-  query reviewQuery($slug: String) {
+  query blogQuery($slug: String) {
     site {
       siteMetadata {
         siteUrl
@@ -18,7 +18,7 @@ export const query = graphql`
     }
     mdx(
       slug: { eq: $slug }
-      frontmatter: { category: { name: { eq: "Student Review" } } }
+      frontmatter: { category: { name: { eq: "Blog Post" } } }
     ) {
       id
       body
@@ -32,12 +32,8 @@ export const query = graphql`
         genre
         href
         videoID
-        student {
-          href
+        author {
           name
-          image {
-            publicURL
-          }
         }
         title
         image {
@@ -47,7 +43,7 @@ export const query = graphql`
     }
     allMdx(
       filter: {
-        frontmatter: { category: { name: { eq: "Student Review" } } }
+        frontmatter: { category: { name: { eq: "Blog Post" } } }
         slug: { ne: $slug }
       }
       sort: { fields: [frontmatter___id], order: DESC }
@@ -65,14 +61,8 @@ export const query = graphql`
             description
             genre
             href
-            student {
-              href
+            author {
               name
-              image {
-                childImageSharp {
-                  gatsbyImageData(width: 40)
-                }
-              }
             }
             title
             image {
@@ -91,7 +81,7 @@ export default function Page({ data, location }) {
   return (
     <Layout>
       <Seo
-        title={data.mdx.frontmatter.student.name}
+        title={data.mdx.frontmatter.author.name}
         pathname={location.pathname}
       />
       <Hero {...data} {...location}>

@@ -119,16 +119,6 @@ export default function Component({ mdx, site, pathname }) {
         </div>
       </div>
       <div className="relative px-4 sm:px-6 lg:px-8">
-        <div className="text-lg max-w-prose mx-auto">
-          <h1>
-            <span className="block text-base text-center text-blue-600 font-semibold tracking-wide uppercase">
-              Interview
-            </span>
-            <span className="mt-2 block text-3xl text-center leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
-              Transcript
-            </span>
-          </h1>
-        </div>
         <div className="my-6 prose prose-blue prose-lg text-gray-500 mx-auto">
           <MDXRenderer>{mdx.body}</MDXRenderer>
         </div>
