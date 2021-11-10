@@ -24,9 +24,6 @@ export const query = graphql`
           href
           name
         }
-        country
-        description
-        genre
         href
         videoID
         author {
