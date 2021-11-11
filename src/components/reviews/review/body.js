@@ -141,7 +141,7 @@ export default function Component({ mdx, site, pathname }) {
             href="https://www.facebook.com/groups/unstarvingartistscommunity"
             target="_blank"
             rel="noreferrer"
-            className="text-base font-medium text-blue-600"
+            className="text-base font-medium text-blue-600 underline"
           >
             {" "}
             Join Our FREE Facebook Group For Artists{" "}
