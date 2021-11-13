@@ -1,20 +1,16 @@
 import * as React from "react";
 import Layout from "../components/layout";
-import Navigation from "../components/gray-navigation";
+import Navigation from "../components/training-navigation";
 import Hero from "../components/methodology/hero";
-import CallToAction from "../components/call-to-action";
-import Footer from "../components/footer";
 import Seo from "../components/seo";
 
 export default function Page({ location }) {
   return (
     <Layout>
-      <Seo title="Book Now" pathname={location.pathname} />
+      <Seo title="Free Training" pathname={location.pathname} />
       <Hero>
         <Navigation />
       </Hero>
-      <CallToAction />
-      <Footer />
     </Layout>
   );
 }

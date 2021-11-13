@@ -1,19 +1,19 @@
 import * as React from "react";
 import Layout from "../components/layout";
-import Navigation from "../components/gray-navigation";
+import Navigation from "../components/training-navigation";
 import Hero from "../components/methodology/hero";
-import CallToAction from "../components/call-to-action";
-import Footer from "../components/footer";
 import Seo from "../components/seo";
+import Footer from "../components/training/footer";
+import StudentStories from "../components/training/student-stories";
 
 export default function Page({ location }) {
   return (
     <Layout>
-      <Seo title="Case studies" pathname={location.pathname} />
+      <Seo title="Free Training" pathname={location.pathname} />
       <Hero>
         <Navigation />
       </Hero>
-      <CallToAction />
+      <StudentStories />
       <Footer />
     </Layout>
   );

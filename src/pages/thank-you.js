@@ -1,19 +1,19 @@
 import * as React from "react";
 import Layout from "../components/layout";
-import Navigation from "../components/gray-navigation";
+import Navigation from "../components/training-navigation";
 import Hero from "../components/methodology/hero";
-import CallToAction from "../components/call-to-action";
-import Footer from "../components/footer";
 import Seo from "../components/seo";
+import Footer from "../components/training/footer";
+import WhyShouldYouAttend from "../components/training/why-should-you-attend";
 
 export default function Page({ location }) {
   return (
     <Layout>
-      <Seo title="Thank You" pathname={location.pathname} />
+      <Seo title="Free Training" pathname={location.pathname} />
       <Hero>
         <Navigation />
       </Hero>
-      <CallToAction />
+      <WhyShouldYouAttend />
       <Footer />
     </Layout>
   );

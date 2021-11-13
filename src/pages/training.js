@@ -3,6 +3,7 @@ import Layout from "../components/layout";
 import Seo from "../components/seo";
 import Navigation from "../components/training-navigation";
 import Hero from "../components/training/hero";
+import Footer from "../components/training/footer";
 
 const NotFoundPage = ({ location }) => (
   <Layout>
@@ -10,6 +11,7 @@ const NotFoundPage = ({ location }) => (
     <Hero>
       <Navigation />
     </Hero>
+    <Footer />
   </Layout>
 );
 
