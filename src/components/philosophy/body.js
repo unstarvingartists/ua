@@ -228,15 +228,15 @@ export default function Component({ children }) {
               </div>
               <div className="mt-10 text-center">
                 <div className="inline-flex rounded-md shadow">
-                  <a
-                    href="https://go.unstarvingartists.com/training"
+                  <Link
+                    to="/training"
                     className="px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700"
                   >
                     {" "}
                     Join the revolution <span aria-hidden="true">
                       &rarr;
                     </span>{" "}
-                  </a>
+                  </Link>
                 </div>
                 <div className="mt-4 mb-1">
                   <div className="inline-flex items-center">

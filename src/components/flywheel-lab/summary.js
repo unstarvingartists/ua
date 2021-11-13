@@ -1,4 +1,5 @@
 import * as React from "react";
+import { Link } from "gatsby";
 import { FlagIcon } from "@heroicons/react/outline";
 import michael from "../../images/michael.jpeg";
 import summary from "../../images/undraw_Abstract_re_l9xy.svg";
@@ -31,12 +32,12 @@ export default function Component() {
                   <li>✔ Generate a 6-figure profit</li>
                 </ul>
                 <div className="mt-6">
-                  <a
-                    href="https://go.unstarvingartists.com/training"
+                  <Link
+                    to="/training"
                     className="inline-flex px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-blue-600 hover:bg-blue-700"
                   >
                     See how it works
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
