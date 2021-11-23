@@ -1,0 +1,70 @@
+import React, { useState } from "react";
+import Popup from "./popup";
+
+const CheckIcon = () => {
+  return (
+    <svg
+      aria-hidden="true"
+      data-prefix="fas"
+      data-icon="check-circle"
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 512 512"
+      className="flex-shrink-0 w-4 h-4 text-green-500 md:w-6 md:h-6"
+    >
+      <path
+        fill="currentColor"
+        d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z"
+      />
+    </svg>
+  );
+};
+
+export default function Video() {
+  const [open, setOpen] = useState(false);
+  return (
+    <>
+      <div className="flex flex-col px-4 pb-10 mx-auto space-y-5 md:flex-row md:space-y-0 md:space-x-20 max-w-7xl sm:px-6">
+        <img
+          onClick={() => setOpen(true)}
+          className="cursor-pointer"
+          src="https://images.clickfunnels.com/2e/e9d1fb5443434098d3a7d6aef06371/image.png"
+          alt=""
+        />
+        <div className="space-y-3 text-lg">
+          <p>In this training you will learn</p>
+          <ul className="space-y-3">
+            <li className="flex space-x-3">
+              <CheckIcon />
+              <p className="font-bold">
+                How we sell art online with zero technical skills, gallery
+                connections, or art world fame!
+              </p>
+            </li>
+            <li className="flex space-x-3">
+              <CheckIcon />
+              <p>
+                How we make money from selling our artwork to collectors
+                worldwide and with no upfront investment
+              </p>
+            </li>
+            <li className="flex space-x-3">
+              <CheckIcon />
+              <p>
+                ​*A simple 3 step artist launching process we use to get
+                collectors buying our works of art quickly
+              </p>
+            </li>
+          </ul>
+          <button
+            onClick={() => setOpen(true)}
+            className="inline-flex flex-col items-center justify-center px-5 py-3 text-base font-medium text-white bg-blue-600 border border-transparent rounded-md hover:bg-blue-700"
+          >
+            <span className="text-lg">Get Free Training + Checklist</span>
+            <span className="opacity-75">3,000+ Views and Counting </span>
+          </button>
+        </div>
+      </div>
+      <Popup open={open} setOpen={setOpen} />
+    </>
+  );
+}
