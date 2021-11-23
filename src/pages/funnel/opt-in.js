@@ -1,7 +1,7 @@
 import React from "react";
 import Layout from "../../components/layout";
-import Navigation from "../../components/white-navigation";
-import Footer from "../../components/footer";
+import Navigation from "../../components/funnel/navigation";
+import Footer from "../../components/funnel/footer";
 import Seo from "../../components/seo";
 import Hero from "../../components/funnel/hero";
 import Video from "../../components/funnel/video";
@@ -10,7 +10,7 @@ export default function OptInPage({ location }) {
   return (
     <>
       <Layout>
-        <Seo title="Opt In" pathname={location.pathname} />
+        <Seo title="A Short Film: Flywheels" pathname={location.pathname} />
         <Hero
           subheading="(From Home Without Hardcosts, Art World Connections, OR Techy
           Stuff)"

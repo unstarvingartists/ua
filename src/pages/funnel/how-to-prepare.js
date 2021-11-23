@@ -1,7 +1,7 @@
-import React, { useEffect } from "react";
+import React from "react";
 import Layout from "../../components/layout";
-import Navigation from "../../components/white-navigation";
-import Footer from "../../components/footer";
+import Navigation from "../../components/funnel/navigation";
+import Footer from "../../components/funnel/footer";
 import Seo from "../../components/seo";
 import Hero from "../../components/funnel/hero";
 import Wistia from "../../components/funnel/wistia";
@@ -12,10 +12,10 @@ export default function BookVariant({ location }) {
   return (
     <>
       <Layout>
-        <Seo title="Thank you" pathname={location.pathname} />
+        <Seo title="You Are Booked." pathname={location.pathname} />
         <Hero
           heading={
-            <p className="text-[40px] font-bold mb-2">
+            <p className="text-xl md:text-[40px] md:leading-tight font-bold mb-2">
               You Are Booked.
               <br />
               Watch This Quick Video OR You Will
@@ -33,10 +33,12 @@ export default function BookVariant({ location }) {
         >
           <Navigation />
         </Hero>
-        <Wistia id="60cb6qpa2e" />
+        <div className="max-w-4xl mx-auto">
+          <Wistia id="60cb6qpa2e" />
+        </div>
         <HowCallWork />
         <Examples />
-        <Footer />
+        <Footer short />
       </Layout>
     </>
   );

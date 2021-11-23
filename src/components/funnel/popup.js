@@ -21,7 +21,7 @@ export default function Popup({ open, setOpen }) {
             leaveFrom="opacity-100"
             leaveTo="opacity-0"
           >
-            <Dialog.Overlay className="fixed inset-0 transition-opacity bg-gray-500 bg-opacity-75" />
+            <Dialog.Overlay className="fixed inset-0 transition-opacity bg-black bg-opacity-75 backdrop-blur-sm" />
           </Transition.Child>
           <span
             className="hidden sm:inline-block sm:align-middle sm:h-screen"
@@ -31,12 +31,12 @@ export default function Popup({ open, setOpen }) {
           </span>
           <Transition.Child
             as={Fragment}
-            enter="ease-out duration-300"
-            enterFrom="opacity-0 translate-y-4 sm:translate-y-0 sm:scale-95"
-            enterTo="opacity-100 translate-y-0 sm:scale-100"
-            leave="ease-in duration-200"
-            leaveFrom="opacity-100 translate-y-0 sm:scale-100"
-            leaveTo="opacity-0 translate-y-4 sm:translate-y-0 sm:scale-95"
+            enter="linear duration-300"
+            enterFrom="opacity-0 sm:translate-y-[-1000px] sm:scale-95"
+            enterTo="opacity-100 sm:translate-y-[-1000px] sm:scale-100"
+            leave="linear duration-200"
+            leaveFrom="opacity-100 sm:translate-y-[-1000px] sm:scale-100"
+            leaveTo="opacity-0 sm:translate-y-[-1000px] sm:scale-95"
           >
             <div className="inline-block overflow-hidden text-left align-bottom transition-all transform bg-white rounded-lg shadow-xl sm:my-8 sm:align-middle sm:max-w-lg sm:w-full">
               <form
@@ -50,11 +50,11 @@ export default function Popup({ open, setOpen }) {
                     <div className="mt-3 text-center sm:mt-0 sm:text-left">
                       <Dialog.Title
                         as="h3"
-                        className="text-xl font-medium leading-6 text-center text-gray-900"
+                        className="text-xl font-medium leading-6 text-center text-gray-900 sm:text-3xl"
                       >
                         Watch Now For FREE!
                       </Dialog.Title>
-                      <div className="mt-2 space-y-3">
+                      <div className="mt-2 space-y-5">
                         <p className="text-base text-center text-gray-500">
                           Enter your info, start watching the film immediately
                         </p>
@@ -64,34 +64,24 @@ export default function Popup({ open, setOpen }) {
                         />
 
                         <div>
-                          <label
-                            htmlFor="first-name"
-                            className="block text-sm font-medium text-gray-700"
-                          >
-                            First name
-                          </label>
                           <input
+                            placeholder="Enter Your Name"
                             type="text"
                             name="first-name"
                             id="first-name"
                             autoComplete="given-name"
-                            className="block w-full mt-1 border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
+                            className="block w-full px-4 py-3 mt-1 border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
                           />
                         </div>
 
                         <div>
-                          <label
-                            htmlFor="email-address"
-                            className="block text-sm font-medium text-gray-700"
-                          >
-                            Email address
-                          </label>
                           <input
+                            placeholder="Enter Your Email Address"
                             type="text"
                             name="email-address"
                             id="email-address"
                             autoComplete="email"
-                            className="block w-full mt-1 border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
+                            className="block w-full px-4 py-3 mt-1 border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
                           />
                         </div>
                       </div>

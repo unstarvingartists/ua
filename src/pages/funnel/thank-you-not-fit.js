@@ -1,7 +1,6 @@
 import React from "react";
 import Layout from "../../components/layout";
-import Navigation from "../../components/white-navigation";
-import Footer from "../../components/footer";
+import Navigation from "../../components/funnel/navigation";
 import Seo from "../../components/seo";
 import Hero from "../../components/funnel/hero";
 
@@ -9,15 +8,15 @@ export default function BookVariant({ location }) {
   return (
     <>
       <Layout>
-        <Seo title="Thank you (not a fit)" pathname={location.pathname} />
+        <Seo title="Sorry, Not A Good Fit" pathname={location.pathname} />
         <Hero
           heading={
-            <p className="text-xl md:text-[40px] font-bold mb-2">
+            <p className="text-xl md:text-[40px] font-bold mb-8">
               Sorry, not a good fit at this time
             </p>
           }
           subheading={
-            <div className="space-y-3 font-normal text-left text-black md:text-lg">
+            <div className="space-y-5 font-normal text-left text-black md:text-xl">
               <p>
                 In order to keep our student experience at the highest level
                 possible, Unstarving Artists is by invitation only. At the
@@ -60,7 +59,6 @@ export default function BookVariant({ location }) {
         >
           <Navigation />
         </Hero>
-        <Footer />
       </Layout>
     </>
   );

@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 import Layout from "../../components/layout";
-import Navigation from "../../components/white-navigation";
-import Footer from "../../components/footer";
+import Navigation from "../../components/funnel/navigation";
 import Seo from "../../components/seo";
 import Wistia from "../../components/funnel/wistia";
 
@@ -40,11 +39,13 @@ export default function VideoControl({ location }) {
   return (
     <>
       <Layout>
-        <Seo title="Video (Variant)" pathname={location.pathname} />
+        <Seo title="A Short Film: Flywheels" pathname={location.pathname} />
         <div className="pt-6">
           <Navigation />
         </div>
-        <Wistia id="kqdi3nyjmf" />
+        <div className="max-w-5xl mx-auto">
+          <Wistia id="kqdi3nyjmf" />
+        </div>
         {visible && (
           <div className="flex flex-col mt-10 space-y-2 text-2xl font-bold text-center text-blue-500">
             <a
@@ -65,7 +66,6 @@ export default function VideoControl({ location }) {
             </a>
           </div>
         )}
-        <Footer />
       </Layout>
     </>
   );

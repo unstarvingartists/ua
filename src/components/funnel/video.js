@@ -23,10 +23,10 @@ export default function Video() {
   const [open, setOpen] = useState(false);
   return (
     <>
-      <div className="flex flex-col px-4 pb-10 mx-auto space-y-5 md:flex-row md:space-y-0 md:space-x-20 max-w-7xl sm:px-6">
+      <div className="flex flex-col min-h-[70vh] px-4 pb-10 mx-auto space-y-5 md:flex-row md:space-y-0 md:space-x-20 max-w-7xl sm:px-6">
         <img
           onClick={() => setOpen(true)}
-          className="cursor-pointer"
+          className="w-full h-[fit-content] cursor-pointer"
           src="https://images.clickfunnels.com/2e/e9d1fb5443434098d3a7d6aef06371/image.png"
           alt=""
         />
@@ -57,10 +57,14 @@ export default function Video() {
           </ul>
           <button
             onClick={() => setOpen(true)}
-            className="inline-flex flex-col items-center justify-center px-5 py-3 text-base font-medium text-white bg-blue-600 border border-transparent rounded-md hover:bg-blue-700"
+            className="inline-flex flex-col items-center justify-center w-full px-6 py-5 text-base font-medium text-white bg-blue-600 border border-transparent rounded-md md:w-auto hover:bg-blue-700"
           >
-            <span className="text-lg">Get Free Training + Checklist</span>
-            <span className="opacity-75">3,000+ Views and Counting </span>
+            <span className="text-lg md:text-3xl">
+              Get Free Training + Checklist
+            </span>
+            <span className="font-light opacity-75 md:text-xl">
+              3,000+ Views and Counting{" "}
+            </span>
           </button>
         </div>
       </div>

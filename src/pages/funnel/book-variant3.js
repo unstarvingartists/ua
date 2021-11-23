@@ -1,7 +1,6 @@
 import React from "react";
 import Layout from "../../components/layout";
-import Navigation from "../../components/white-navigation";
-import Footer from "../../components/footer";
+import Navigation from "../../components/funnel/navigation";
 import Seo from "../../components/seo";
 import { InlineWidget } from "react-calendly";
 
@@ -29,12 +28,11 @@ export default function BookVariant({ location }) {
   return (
     <>
       <Layout>
-        <Seo title="Book (Variant 3)" pathname={location.pathname} />
+        <Seo title="Book a Strategy Session" pathname={location.pathname} />
         <div className="pt-6">
           <Navigation />
         </div>
         <InlineWidget url={url} />
-        <Footer />
       </Layout>
     </>
   );
