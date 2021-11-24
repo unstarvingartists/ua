@@ -4,7 +4,7 @@ import Navigation from "../../components/funnel/navigation";
 import Seo from "../../components/seo";
 import Wistia from "../../components/funnel/wistia";
 
-export default function VideoVariant({ location }) {
+export default function VideoControl({ location }) {
   const [visible, setVisible] = useState(false);
 
   if (typeof window !== `undefined`) {
@@ -40,10 +40,10 @@ export default function VideoVariant({ location }) {
     <>
       <Layout>
         <Seo title="A Short Film: Flywheels" pathname={location.pathname} />
-        <div className="pt-6">
+        <div className="pt-10">
           <Navigation />
         </div>
-        <div className="max-w-5xl mx-auto">
+        <div className="max-w-4xl mx-auto">
           <Wistia id="kqdi3nyjmf" />
         </div>
         {visible && (

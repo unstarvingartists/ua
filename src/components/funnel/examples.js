@@ -58,27 +58,32 @@ const examples = [
     video: "6iq3mp56xi",
   },
   {
-    link: "",
-    text: "🍿 Kate Mayer - Original UK Artist - Selling paintings for more than £1,000",
+    link: null,
+    text: "Kate Mayer - Original UK Artist - Selling paintings for more than £1,000",
     image:
       "https://images.clickfunnels.com/58/913f4b339443649496b09f6f8d58fd/Screen-Shot-2021-03-23-at-11.34.55-AM.png",
     video: null,
   },
 ];
-export default function Examples({ showVideo }) {
+export default function Examples({ showVideo, withoutLink }) {
   return (
-    <div className="flex flex-col items-center max-w-3xl py-10 mx-auto space-y-10 text-center md:space-y-20 md:py-20">
+    <div className="flex flex-col items-center max-w-2xl py-4 mx-auto space-y-10 text-center md:space-y-20 md:py-6">
       {examples.map((item, i) => {
         const { link, text, image, video } = item;
         return (
           <div key={i}>
-            <a
-              className="inline-block mb-2 text-lg font-bold text-blue-500 hover:underline"
-              href={link}
-            >
-              {text}
-            </a>
-            <img src={image} alt="" />
+            {!withoutLink && link !== null ? (
+              <a
+                className="inline-block mb-2 text-lg font-bold text-blue-500 hover:underline"
+                href={link}
+              >
+                {text}
+              </a>
+            ) : (
+              <p className="inline-block mb-2 text-lg font-bold ">{text}</p>
+            )}
+
+            <img src={image} alt="" className="px-4" />
             {showVideo && video !== null && <Wistia id={video} />}
           </div>
         );

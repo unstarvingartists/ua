@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Footer({ short, fb }) {
   return (
-    <footer className="flex flex-col justify-between px-4 py-10 mx-auto space-y-5 text-xs text-gray-500 md:space-y-0 md:text-sm md:space-x-20 md:flex-row max-w-7xl sm:px-6">
+    <footer className="flex flex-col justify-between px-4 py-10 mx-auto space-y-5 text-xs text-[#6C757D] md:space-y-0 md:text-sm md:space-x-20 md:flex-row max-w-7xl sm:px-6">
       <div className="md:w-1/2">
         <div className="flex flex-col">
           <p>© 2021 Vouch Group, LLC dba Unstarving Artists</p>

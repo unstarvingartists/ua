@@ -12,12 +12,12 @@ export default function ApplyPage({ location }) {
           title="Strategy Session Application"
           pathname={location.pathname}
         />
-        <div className="pt-6">
+        <div className="pt-10">
           <Navigation />
         </div>
         <Widget
           id="T6neG6uW"
-          style={{ height: "500px" }}
+          style={{ height: "600px" }}
           className="mx-auto max-w-7xl"
         />
       </Layout>

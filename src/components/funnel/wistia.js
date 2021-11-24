@@ -16,7 +16,7 @@ export default function Wistia({ id }) {
   }, []);
   return (
     <div
-      className="relative mx-auto my-10 wistia_responsive_padding max-w-7xl"
+      className="relative mx-auto my-5 wistia_responsive_padding max-w-7xl"
       style={{ paddingTop: "56.25%" }}
     >
       <div className="absolute top-0 left-0 w-full h-full wistia_responsive_wrapper">
@@ -35,7 +35,6 @@ export default function Wistia({ id }) {
           <div
             className="box-content relative inline-block w-full h-full p-0 m-0 overflow-hidden leading-normal align-top outline-none"
             id="wistia_chrome_23"
-            className="w-chrome"
             tabIndex="-1"
           ></div>
         </div>

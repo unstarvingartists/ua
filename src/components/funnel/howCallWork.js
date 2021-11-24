@@ -2,17 +2,18 @@ import React from "react";
 
 export default function HowCallWork() {
   return (
-    <div className="mx-auto max-w-7xl">
+    <div className="max-w-6xl mx-auto">
       <div className="mx-auto space-y-3 text-center md:w-2/3">
         <h2 className="text-xl md:text-[32px] font-bold">
           HOW THIS CALL WILL WORK
         </h2>
         <p>
           -We will text/send you a message on social media the morning of your
-          call -Be at your computer and in a quiet place or we will politely end
-          the call
+          call
+          <br /> -Be at your computer and in a quiet place or we will politely
+          end the call
         </p>
-        <h2 className="text-xl md:text-[32px] font-bold">
+        <h2 className="text-xl md:text-[32px] leading-tight font-bold">
           Why Should You Attend?
           <br /> Look How It Turned Out For These Artists
         </h2>

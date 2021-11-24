@@ -23,14 +23,18 @@ export default function Video() {
   const [open, setOpen] = useState(false);
   return (
     <>
-      <div className="flex flex-col min-h-[70vh] px-4 pb-10 mx-auto space-y-5 md:flex-row md:space-y-0 md:space-x-20 max-w-7xl sm:px-6">
-        <img
+      <div className="flex flex-col min-h-[70vh] px-4 pb-10 mx-auto space-y-5 md:flex-row md:space-y-0 md:space-x-14 max-w-6xl sm:px-6">
+        <button
+          className="w-full md:w-1/2 h-[fit-content] cursor-pointer"
           onClick={() => setOpen(true)}
-          className="w-full h-[fit-content] cursor-pointer"
-          src="https://images.clickfunnels.com/2e/e9d1fb5443434098d3a7d6aef06371/image.png"
-          alt=""
-        />
-        <div className="space-y-3 text-lg">
+        >
+          <img
+            className="w-full h-full"
+            src="https://images.clickfunnels.com/2e/e9d1fb5443434098d3a7d6aef06371/image.png"
+            alt=""
+          />
+        </button>
+        <div className="space-y-3 text-base md:w-1/2">
           <p>In this training you will learn</p>
           <ul className="space-y-3">
             <li className="flex space-x-3">
@@ -57,7 +61,7 @@ export default function Video() {
           </ul>
           <button
             onClick={() => setOpen(true)}
-            className="inline-flex flex-col items-center justify-center w-full px-6 py-5 text-base font-medium text-white bg-blue-600 border border-transparent rounded-md md:w-auto hover:bg-blue-700"
+            className="inline-flex flex-col items-center justify-center w-full py-6 space-y-2 text-base font-medium text-white bg-blue-600 border border-transparent rounded-md px-7 md:w-auto hover:bg-blue-700"
           >
             <span className="text-lg md:text-3xl">
               Get Free Training + Checklist

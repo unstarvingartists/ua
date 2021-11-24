@@ -15,7 +15,7 @@ export default function BookVariant({ location }) {
         <Seo title="You Are Booked." pathname={location.pathname} />
         <Hero
           heading={
-            <p className="text-xl md:text-[40px] md:leading-tight font-bold mb-2">
+            <p className="text-xl md:text-[38px] md:leading-tight font-semibold mb-2">
               You Are Booked.
               <br />
               Watch This Quick Video OR You Will
@@ -33,7 +33,7 @@ export default function BookVariant({ location }) {
         >
           <Navigation />
         </Hero>
-        <div className="max-w-4xl mx-auto">
+        <div className="max-w-3xl mx-auto">
           <Wistia id="60cb6qpa2e" />
         </div>
         <HowCallWork />

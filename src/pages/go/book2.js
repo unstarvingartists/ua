@@ -29,7 +29,7 @@ export default function BookVariant({ location }) {
     <>
       <Layout>
         <Seo title="Book a Strategy Session" pathname={location.pathname} />
-        <div className="pt-6">
+        <div className="pt-10">
           <Navigation />
         </div>
         <InlineWidget url={url} />

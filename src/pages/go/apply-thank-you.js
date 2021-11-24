@@ -11,7 +11,7 @@ export default function BookVariant({ location }) {
         <Seo title="Sorry, Not A Good Fit" pathname={location.pathname} />
         <Hero
           heading={
-            <p className="text-xl md:text-[40px] font-bold mb-8">
+            <p className="text-xl md:text-[30px] font-bold mb-8">
               Sorry, not a good fit at this time
             </p>
           }
