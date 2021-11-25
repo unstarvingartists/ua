@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from "react";
-import Layout from "../components/layout";
-import Navigation from "../components/funnel/navigation";
-import Seo from "../components/seo";
-import Wistia from "../components/funnel/wistia";
+import Layout from "../../components/layout";
+import Navigation from "../../components/funnel/navigation";
+import Seo from "../../components/seo";
+import Wistia from "../../components/funnel/wistia";
 
-export default function VideoVariant({ location }) {
+export default function VideoControl({ location }) {
   const [visible, setVisible] = useState(false);
 
   if (typeof window !== `undefined`) {
