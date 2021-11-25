@@ -1,8 +1,8 @@
 import React from "react";
-import Layout from "../../components/layout";
-import Navigation from "../../components/funnel/navigation";
-import Seo from "../../components/seo";
-import Hero from "../../components/funnel/hero";
+import Layout from "../components/layout";
+import Navigation from "../components/funnel/navigation";
+import Seo from "../components/seo";
+import Hero from "../components/funnel/hero";
 
 export default function BookVariant({ location }) {
   return (

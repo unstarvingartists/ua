@@ -1,10 +1,10 @@
 import React from "react";
-import Layout from "../../components/layout";
-import Navigation from "../../components/funnel/navigation";
-import Footer from "../../components/funnel/footer";
-import Seo from "../../components/seo";
-import Hero from "../../components/funnel/hero";
-import Video from "../../components/funnel/video";
+import Layout from "../components/layout";
+import Navigation from "../components/funnel/navigation";
+import Footer from "../components/funnel/footer";
+import Seo from "../components/seo";
+import Hero from "../components/funnel/hero";
+import Video from "../components/funnel/video";
 
 export default function FBOptInPage({ location }) {
   return (
