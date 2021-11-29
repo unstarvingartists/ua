@@ -35,7 +35,7 @@ export default function BookVariant({ location }) {
                 If you think this is a mistake, please send us an email at{" "}
                 <a
                   className="text-blue-500 hover:underline"
-                  href="mailto: admissions@unstarvingartists.com"
+                  href="mailto:admissions@unstarvingartists.com"
                 >
                   admissions@unstarvingartists.com
                 </a>

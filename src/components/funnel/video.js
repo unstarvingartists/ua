@@ -9,7 +9,7 @@ const CheckIcon = () => {
       data-icon="check-circle"
       xmlns="http://www.w3.org/2000/svg"
       viewBox="0 0 512 512"
-      className="flex-shrink-0 w-4 h-4 text-green-500 md:w-6 md:h-6"
+      className="flex-shrink-0 w-4 h-4 text-green-500 md:w-5 md:h-5"
     >
       <path
         fill="currentColor"
@@ -59,17 +59,19 @@ export default function Video() {
               </p>
             </li>
           </ul>
-          <button
-            onClick={() => setOpen(true)}
-            className="inline-flex flex-col items-center justify-center w-full py-6 space-y-2 text-base font-medium text-white bg-blue-600 border border-transparent rounded-md px-7 md:w-auto hover:bg-blue-700"
-          >
-            <span className="text-lg md:text-3xl">
-              Get Free Training + Checklist
-            </span>
-            <span className="font-light opacity-75 md:text-xl">
-              3,000+ Views and Counting{" "}
-            </span>
-          </button>
+          <div className="flex justify-center md:justify-start">
+            <button
+              onClick={() => setOpen(true)}
+              className="inline-flex flex-col items-center justify-center w-auto py-6 space-y-2 text-base font-medium text-white bg-blue-600 border border-transparent rounded-md px-7 hover:bg-blue-700"
+            >
+              <span className="text-xl md:text-3xl">
+                Get Free Training + Checklist
+              </span>
+              <span className="font-light opacity-75 md:text-xl">
+                3,000+ Views and Counting{" "}
+              </span>
+            </button>
+          </div>
         </div>
       </div>
       <Popup open={open} setOpen={setOpen} />

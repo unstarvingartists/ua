@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Footer({ short, fb }) {
   return (
-    <footer className="flex flex-col justify-between px-4 py-10 mx-auto space-y-5 text-xs text-[#6C757D] md:space-y-0 md:text-sm md:space-x-20 md:flex-row max-w-7xl sm:px-6">
+    <footer className="flex flex-col justify-between px-4 py-10 mx-auto space-y-5 text-xs text-[#6C757D] md:space-y-0 md:text-sm md:space-x-20 md:flex-row max-w-6xl sm:px-6">
       <div className="md:w-1/2">
         <div className="flex flex-col">
           <p>© 2021 Vouch Group, LLC dba Unstarving Artists</p>
@@ -12,17 +12,26 @@ export default function Footer({ short, fb }) {
       <div className="space-y-3 text-right md:w-1/2">
         <ul className="flex flex-col text-left md:justify-end md:space-x-16 md:flex-row">
           <li>
-            <a href="https://www.unstarvingartists.com/terms/">
+            <a
+              className="hover:underline"
+              href="https://www.unstarvingartists.com/terms/"
+            >
               Terms &amp; Conditions
             </a>
           </li>
           <li>
-            <a href="https://www.unstarvingartists.com/privacy/">
+            <a
+              className="hover:underline"
+              href="https://www.unstarvingartists.com/privacy/"
+            >
               Privacy Policy
             </a>
           </li>
           <li>
-            <a href="https://www.unstarvingartists.com/earnings/">
+            <a
+              className="hover:underline"
+              href="https://www.unstarvingartists.com/earnings/"
+            >
               Earnings Disclaimer
             </a>
           </li>

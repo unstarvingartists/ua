@@ -15,10 +15,11 @@ export default function ApplyPage({ location }) {
         <div className="pt-10">
           <Navigation />
         </div>
+
         <Widget
+          className="max-w-5xl mx-auto 2xl:max-w-6xl"
           id="T6neG6uW"
           style={{ height: "600px" }}
-          className="mx-auto max-w-7xl"
         />
       </Layout>
     </>

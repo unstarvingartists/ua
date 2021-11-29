@@ -13,7 +13,7 @@ export default function ApplyPage({ location }) {
         <Seo title="Case Studies" pathname={location.pathname} />
         <Hero
           heading={
-            <p className="mb-2 font-bold text-[38px] leading-normal">
+            <p className="mb-2 text-base font-bold md:text-[38px] leading-normal">
               Want To Get The Most Out Of Your Call?
               <br />
               ...Then Watch A Client Interview (Or Two) Below AND
@@ -22,7 +22,7 @@ export default function ApplyPage({ location }) {
             </p>
           }
           subheading={
-            <p className="text-[22px] font-semibold">
+            <p className="text-sm md:text-[22px] font-semibold">
               Note: Mention The Password Shown During The Interview For A
               Special Rate
             </p>
@@ -30,9 +30,9 @@ export default function ApplyPage({ location }) {
         >
           <Navigation />
         </Hero>
-        <Examples withoutLink showVideo />
+        <Examples withoutLink showVideo hidePlaybar />
         <a
-          className="flex justify-center mb-10 text-lg font-bold text-center text-blue-500 hover:underline"
+          className="flex justify-center mb-10 text-lg font-bold text-center text-[#007bff] hover:underline"
           href="https://www.unstarvingartists.com/stories/"
         >
           🍿 Click Here To See All Our Student Stories

@@ -43,13 +43,13 @@ export default function VideoVariant({ location }) {
         <div className="pt-10">
           <Navigation />
         </div>
-        <div className="max-w-4xl mx-auto">
+        <div className="max-w-4xl px-3 pt-3 mx-auto md:px-0">
           <Wistia id="kqdi3nyjmf" />
         </div>
         {visible && (
           <div className="flex flex-col mt-10 space-y-2 text-2xl font-bold text-center text-blue-500">
             <a
-              href="https://vouch.iljmp.com/2/ianhh"
+              href="/apply1"
               target="_parent"
               rel="noopener noreferrer"
               className="hover:underline"
@@ -57,7 +57,7 @@ export default function VideoVariant({ location }) {
               Let Us Help You Do This
             </a>
             <a
-              href="https://vouch.iljmp.com/2/ianhh"
+              href="/apply1"
               target="_parent"
               className="hover:underline"
               rel="noopener noreferrer"

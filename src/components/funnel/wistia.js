@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 
-export default function Wistia({ id }) {
+export default function Wistia({ id, hidePlaybar }) {
   useEffect((id) => {
     const script1 = document.createElement("script");
     const script2 = document.createElement("script");
@@ -21,7 +21,9 @@ export default function Wistia({ id }) {
     >
       <div className="absolute top-0 left-0 w-full h-full wistia_responsive_wrapper">
         <div
-          className={`wistia_embed h-full relative w-full wistia_async_${id} videoFoam=true wistia_embed_initialized`}
+          className={`wistia_embed h-full relative w-full wistia_async_${id} videoFoam=true wistia_embed_initialized ${
+            hidePlaybar && "playbar=false"
+          }`}
           id={`wistia-${id}-1`}
         >
           <div className="absolute top-0 left-0 w-full h-full overflow-hidden transition-opacity opacity-100 wistia_swatch">

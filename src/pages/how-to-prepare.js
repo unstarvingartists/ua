@@ -15,7 +15,7 @@ export default function BookVariant({ location }) {
         <Seo title="You Are Booked." pathname={location.pathname} />
         <Hero
           heading={
-            <p className="text-xl md:text-[38px] md:leading-tight font-semibold mb-2">
+            <p className="text-lg md:text-[38px] md:leading-tight font-semibold mb-2">
               You Are Booked.
               <br />
               Watch This Quick Video OR You Will
@@ -23,7 +23,7 @@ export default function BookVariant({ location }) {
             </p>
           }
           subheading={
-            <p className="text-base">
+            <p className="text-sm md:text-base">
               We DO NOT offer reschedules. If you do not show up for the call
               you will NOT be able to book <br />
               another. This is non negotiable. If you cannot make the time, DO
@@ -33,7 +33,7 @@ export default function BookVariant({ location }) {
         >
           <Navigation />
         </Hero>
-        <div className="max-w-3xl mx-auto">
+        <div className="max-w-3xl px-3 mx-auto -mt-4 md:px-0">
           <Wistia id="60cb6qpa2e" />
         </div>
         <HowCallWork />

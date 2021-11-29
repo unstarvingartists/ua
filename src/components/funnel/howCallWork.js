@@ -2,7 +2,7 @@ import React from "react";
 
 export default function HowCallWork() {
   return (
-    <div className="max-w-6xl mx-auto">
+    <div className="max-w-6xl px-3 mx-auto md:px-0">
       <div className="mx-auto space-y-3 text-center md:w-2/3">
         <h2 className="text-xl md:text-[32px] font-bold">
           HOW THIS CALL WILL WORK
@@ -13,7 +13,7 @@ export default function HowCallWork() {
           <br /> -Be at your computer and in a quiet place or we will politely
           end the call
         </p>
-        <h2 className="text-xl md:text-[32px] leading-tight font-bold">
+        <h2 className="text-xl md:text-[32px] leading-tight font-bold pt-5">
           Why Should You Attend?
           <br /> Look How It Turned Out For These Artists
         </h2>

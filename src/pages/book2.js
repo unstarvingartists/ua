@@ -32,7 +32,9 @@ export default function BookVariant({ location }) {
         <div className="pt-10">
           <Navigation />
         </div>
-        <InlineWidget url={url} />
+        <div className="px-3 md:px-0">
+          <InlineWidget url={url} />
+        </div>
       </Layout>
     </>
   );
