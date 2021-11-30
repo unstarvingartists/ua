@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
 import Layout from "../components/layout";
-import Navigation from "../components/funnel/navigation";
+import Navigation from "../components/training/navigation";
 import Seo from "../components/seo";
-import Wistia from "../components/funnel/wistia";
+import Wistia from "../components/training/wistia";
 
 export default function VideoVariant({ location }) {
   const [visible, setVisible] = useState(false);

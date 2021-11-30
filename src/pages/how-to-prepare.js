@@ -1,12 +1,12 @@
 import React from "react";
 import Layout from "../components/layout";
-import Navigation from "../components/funnel/navigation";
-import Footer from "../components/funnel/footer";
+import Navigation from "../components/training/navigation";
+import Footer from "../components/training/footer";
 import Seo from "../components/seo";
-import Hero from "../components/funnel/hero";
-import Wistia from "../components/funnel/wistia";
-import Examples from "../components/funnel/examples";
-import HowCallWork from "../components/funnel/howCallWork";
+import Hero from "../components/training/hero";
+import Wistia from "../components/training/wistia";
+import Examples from "../components/training/examples";
+import HowCallWork from "../components/training/howCallWork";
 
 export default function BookVariant({ location }) {
   return (

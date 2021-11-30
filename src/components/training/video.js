@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import Popup from "./popup";
 
 const CheckIcon = () => {
@@ -21,6 +21,17 @@ const CheckIcon = () => {
 
 export default function Video() {
   const [open, setOpen] = useState(false);
+  const [beforeExit, setBeforeExit] = useState(true);
+
+  useEffect(() => {
+    document.addEventListener("mouseleave", function eventBeforeExit(e) {
+      if (beforeExit === true) {
+        setBeforeExit(false);
+        setOpen(true);
+        document.removeEventListener("mouseleave", eventBeforeExit);
+      }
+    });
+  }, []);
   return (
     <>
       <div className="flex flex-col min-h-[70vh] px-4 pb-10 mx-auto space-y-5 md:flex-row md:space-y-0 md:space-x-14 max-w-6xl sm:px-6">

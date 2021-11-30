@@ -100,10 +100,10 @@ export default function Examples({ showVideo, withoutLink, hidePlaybar }) {
       {examples.map((item, i) => {
         const { link, text, video, id, image } = item;
         return (
-          <div key={i} id={id}>
+          <div key={i}>
             {!withoutLink && link !== null ? (
               <Link
-                className="inline-block mb-2 px-3 md:px-0 md:text-lg font-bold text-[#007bff] md:whitespace-nowrap hover:underline"
+                className="inline-block px-3 mb-2 font-bold text-blue-500 md:px-0 md:text-lg md:whitespace-nowrap hover:underline"
                 to={link}
               >
                 {text}
@@ -115,12 +115,13 @@ export default function Examples({ showVideo, withoutLink, hidePlaybar }) {
             )}
             <GatsbyImage
               loading="eager"
+              imgStyle={{ objectFit: "contain" }}
               image={image}
               alt=""
               className="px-4"
             />
             {showVideo && video !== null && (
-              <div className="px-4 md:px-0">
+              <div id={id} className="px-4 md:px-0">
                 <Wistia hidePlaybar={hidePlaybar} id={video} />
               </div>
             )}

@@ -1,10 +1,10 @@
 import React from "react";
 import Layout from "../components/layout";
-import Navigation from "../components/funnel/navigation";
+import Navigation from "../components/training/navigation";
 import Seo from "../components/seo";
-import Hero from "../components/funnel/hero";
+import Hero from "../components/training/hero";
 
-export default function BookVariant({ location }) {
+export default function ApplyThankYouPage({ location }) {
   return (
     <>
       <Layout>

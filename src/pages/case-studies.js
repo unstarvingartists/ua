@@ -1,10 +1,10 @@
 import React from "react";
 import Layout from "../components/layout";
-import Navigation from "../components/funnel/navigation";
-import Footer from "../components/funnel/footer";
+import Navigation from "../components/training/navigation";
+import Footer from "../components/training/footer";
 import Seo from "../components/seo";
-import Hero from "../components/funnel/hero";
-import Examples from "../components/funnel/examples";
+import Hero from "../components/training/hero";
+import Examples from "../components/training/examples";
 
 export default function ApplyPage({ location }) {
   return (
@@ -32,7 +32,7 @@ export default function ApplyPage({ location }) {
         </Hero>
         <Examples withoutLink showVideo hidePlaybar />
         <a
-          className="flex justify-center mb-10 text-lg font-bold text-center text-[#007bff] hover:underline"
+          className="flex justify-center mb-10 text-lg font-bold text-center text-blue-500 hover:underline"
           href="https://www.unstarvingartists.com/stories/"
         >
           🍿 Click Here To See All Our Student Stories
