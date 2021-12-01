@@ -9,11 +9,17 @@ head.appendChild(script);
 `;
 
 let HeadComponents = [
-  <link key="inter" rel="stylesheet" href="https://rsms.me/inter/inter.css" />,
+  <link
+    key="inter"
+    rel="preload"
+    as="style"
+    onload="this.onload=null;this.rel='stylesheet'"
+    href="https://rsms.me/inter/inter.css"
+  />,
+  <noscript>
+    <link rel="stylesheet" href="https://rsms.me/inter/inter.css" />
+  </noscript>,
   <script key="hyros" dangerouslySetInnerHTML={{ __html: hyros }} />,
-];
-
-const sharethis = [
   <script
     key="sharethis"
     type="text/javascript"
@@ -22,12 +28,6 @@ const sharethis = [
   />,
 ];
 
-const sharethisPaths = ["/reviews", "/blog"];
-
-exports.onRenderBody = ({ pathname, setHeadComponents }) => {
-  if (sharethisPaths.some((path) => pathname.includes(path))) {
-    setHeadComponents(HeadComponents.concat(sharethis));
-  } else {
-    setHeadComponents(HeadComponents);
-  }
+exports.onRenderBody = ({ setHeadComponents }) => {
+  setHeadComponents(HeadComponents);
 };
