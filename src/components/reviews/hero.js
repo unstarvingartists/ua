@@ -16,8 +16,6 @@ export default function Component({ children }) {
 
     document.body.appendChild(script1);
     document.body.appendChild(script2);
-
-    window.__sharethis__.initialize();
   });
 
   return (
