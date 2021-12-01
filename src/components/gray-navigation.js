@@ -22,14 +22,14 @@ const navigation = [
 const programs = [
   {
     name: "Our Methodology",
-    href: "/methodology",
+    to: "/methodology",
     description:
       "Get a better understanding of how everyday people are transforming themselves into successful artists.",
     icon: LightBulbIcon,
   },
   {
     name: "Flywheel Lab",
-    href: "/flywheel-lab",
+    to: "/flywheel-lab",
     description:
       "Learn more about our flagship program and how artists inside are earning more from their artwork.",
     icon: FlagIcon,
@@ -116,7 +116,7 @@ const Component = () => {
                             {programs.map((item) => (
                               <Link
                                 key={item.name}
-                                to={item.href}
+                                to={item.to}
                                 className="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50"
                               >
                                 <item.icon
@@ -249,7 +249,7 @@ const Component = () => {
                       {programs.map((item) => (
                         <Link
                           key={item.name}
-                          to={item.href}
+                          to={item.to}
                           className="-m-3 p-3 flex items-center rounded-md hover:bg-gray-50"
                         >
                           <item.icon

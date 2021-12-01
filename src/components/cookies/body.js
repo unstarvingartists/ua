@@ -2,11 +2,11 @@ import * as React from "react";
 import { Link } from "gatsby";
 
 const navigation = [
-  { name: "Privacy Policy", href: "/privacy" },
-  { name: "Cookie Policy", href: "/cookies" },
-  { name: "Terms & Conditions", href: "/terms" },
-  { name: "Earnings Disclaimer", href: "/earnings" },
-  { name: "Acceptable Use", href: "/acceptable-use" },
+  { name: "Privacy Policy", to: "/privacy" },
+  { name: "Cookie Policy", to: "/cookies" },
+  { name: "Terms & Conditions", to: "/terms" },
+  { name: "Earnings Disclaimer", to: "/earnings" },
+  { name: "Acceptable Use", to: "/acceptable-use" },
 ];
 
 export default function Component({ children }) {
@@ -124,7 +124,7 @@ export default function Component({ children }) {
                 {navigation.map((item) => (
                   <li key={item.name}>
                     <Link
-                      to={item.href}
+                      to={item.to}
                       className="text-base text-gray-500 hover:text-gray-900"
                       activeClassName="text-gray-700 underline font-semibold"
                     >

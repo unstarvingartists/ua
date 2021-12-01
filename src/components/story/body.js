@@ -4,9 +4,9 @@ import { StarIcon } from "@heroicons/react/solid";
 import { StaticImage } from "gatsby-plugin-image";
 
 const navigation = [
-  { name: "Our story", href: "/story" },
-  { name: "Our philosophy", href: "/philosophy" },
-  { name: "Our company", href: "/company" },
+  { name: "Our story", to: "/story" },
+  { name: "Our philosophy", to: "/philosophy" },
+  { name: "Our company", to: "/company" },
 ];
 
 export default function Component({ children }) {
@@ -124,7 +124,7 @@ export default function Component({ children }) {
                 {navigation.map((item) => (
                   <li key={item.name}>
                     <Link
-                      to={item.href}
+                      to={item.to}
                       className="text-base text-gray-500 hover:text-gray-900"
                       activeClassName="text-gray-700 underline font-semibold"
                     >

@@ -22,7 +22,7 @@ const sharethis = [
   />,
 ];
 
-const sharethisPaths = ["/reviews/", "/blog/"];
+const sharethisPaths = ["/reviews", "/blog"];
 
 exports.onRenderBody = ({ pathname, setHeadComponents }) => {
   if (sharethisPaths.some((path) => pathname.includes(path))) {
