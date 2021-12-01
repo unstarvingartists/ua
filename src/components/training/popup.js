@@ -1,5 +1,6 @@
 import React, { Fragment, useRef } from "react";
 import { Dialog, Transition } from "@headlessui/react";
+import { StaticImage } from "gatsby-plugin-image";
 
 export default function Popup({ open, setOpen }) {
   const cancelButtonRef = useRef(null);
@@ -53,9 +54,11 @@ export default function Popup({ open, setOpen }) {
                         <p className="text-base text-center text-gray-500">
                           Enter your info, start watching the film immediately
                         </p>
-                        <img
-                          src="https://images.clickfunnels.com/f2/0132101dbc43feaacb9935e8e6b91f/status.png"
+                        <StaticImage
+                          className="w-full h-full"
+                          src="../../images/status.png"
                           alt=""
+                          imgStyle={{ objectFit: "contain" }}
                         />
 
                         <div>

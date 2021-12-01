@@ -1,3 +1,4 @@
+import { StaticImage } from "gatsby-plugin-image";
 import React, { useEffect, useState } from "react";
 import Popup from "./popup";
 
@@ -21,17 +22,12 @@ const CheckIcon = () => {
 
 export default function Video() {
   const [open, setOpen] = useState(false);
-  const [beforeExit, setBeforeExit] = useState(true);
 
   useEffect(() => {
     document.addEventListener("mouseleave", function eventBeforeExit(e) {
-      if (beforeExit === true) {
-        setBeforeExit(false);
-        setOpen(true);
-        document.removeEventListener("mouseleave", eventBeforeExit);
-      }
+      setOpen(true);
+      document.removeEventListener("mouseleave", eventBeforeExit);
     });
-    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
   return (
     <>
@@ -40,10 +36,11 @@ export default function Video() {
           className="w-full md:w-1/2 h-[fit-content] cursor-pointer"
           onClick={() => setOpen(true)}
         >
-          <img
+          <StaticImage
             className="w-full h-full"
-            src="https://images.clickfunnels.com/2e/e9d1fb5443434098d3a7d6aef06371/image.png"
+            src="../../images/video.png"
             alt=""
+            imgStyle={{ objectFit: "contain" }}
           />
         </button>
         <div className="space-y-3 text-base md:w-1/2">
