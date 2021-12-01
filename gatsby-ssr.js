@@ -8,9 +8,12 @@ script.src = "https://t.unstarvingartists.com/v1/lst/universal-script?ph=bfd3db6
 head.appendChild(script);
 `;
 
-const HeadComponents = [
+let HeadComponents = [
   <link key="inter" rel="stylesheet" href="https://rsms.me/inter/inter.css" />,
   <script key="hyros" dangerouslySetInnerHTML={{ __html: hyros }} />,
+];
+
+const sharethis = [
   <script
     key="sharethis"
     type="text/javascript"
@@ -19,6 +22,12 @@ const HeadComponents = [
   />,
 ];
 
-exports.onRenderBody = ({ setHeadComponents }) => {
-  setHeadComponents(HeadComponents);
+const sharethisPaths = ["/reviews/", "/blog/"];
+
+exports.onRenderBody = ({ pathname, setHeadComponents }) => {
+  if (sharethisPaths.some((path) => pathname.includes(path))) {
+    setHeadComponents(HeadComponents.concat(sharethis));
+  } else {
+    setHeadComponents(HeadComponents);
+  }
 };
