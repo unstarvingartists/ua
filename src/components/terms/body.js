@@ -365,8 +365,11 @@ export default function Component({ children }) {
                   you are representing: (i) that you are the owner of the
                   material, or are making your posting or submission with the
                   express consent of the owner of the material; and (ii) that
-                  you are thirteen years of age or older. In addition, when you
-                  submit, email, text or deliver or post any material, you are
+                  you are thirteen years of age or older.
+                </p>
+                <p>
+                  In addition, when you submit, email, text or deliver or post
+                  any material, excluding your original artwork, you are
                   granting us, and anyone authorized by us, a royalty-free,
                   perpetual, irrevocable, non-exclusive, unrestricted, worldwide
                   license to use, copy, modify, transmit, sell, exploit, create
@@ -384,29 +387,29 @@ export default function Component({ children }) {
                 </p>
                 <p>
                   You acknowledge and agree that any contributions originally
-                  created by you for us shall be deemed a “work made for hire”
-                  when the work performed is within the scope of the definition
-                  of a work made for hire in Section 101 of the United States
-                  Copyright Law, as amended. As such, the copyrights in those
-                  works shall belong to Unstarving Artists from their creation.
-                  Thus, Unstarving Artists shall be deemed the author and
-                  exclusive owner thereof and shall have the right to exploit
-                  any or all of the results and proceeds in any and all media,
-                  now known or hereafter devised, throughout the universe, in
-                  perpetuity, in all languages, as Unstarving Artists
-                  determines. In the event that any of the results and proceeds
-                  of your submissions hereunder are not deemed a “work made for
-                  hire” under Section 101 of the Copyright Act, as amended, you
-                  hereby, without additional compensation, irrevocably assign,
-                  convey and transfer to Unstarving Artists all proprietary
-                  rights, including without limitation, all copyrights and
-                  trademarks throughout the universe, in perpetuity in every
-                  medium, whether now known or hereafter devised, to such
-                  material and any and all right, title and interest in and to
-                  all such proprietary rights in every medium, whether now known
-                  or hereafter devised, throughout the universe, in perpetuity.
-                  Any posted material which are reproductions of prior works by
-                  you shall be co-owned by us.
+                  created by you for us, excluding your original artwork, shall
+                  be deemed a “work made for hire” when the work performed is
+                  within the scope of the definition of a work made for hire in
+                  Section 101 of the United States Copyright Law, as amended. As
+                  such, the copyrights in those works shall belong to Unstarving
+                  Artists from their creation. Thus, Unstarving Artists shall be
+                  deemed the author and exclusive owner thereof and shall have
+                  the right to exploit any or all of the results and proceeds in
+                  any and all media, now known or hereafter devised, throughout
+                  the universe, in perpetuity, in all languages, as Unstarving
+                  Artists determines. In the event that any of the results and
+                  proceeds of your submissions hereunder are not deemed a “work
+                  made for hire” under Section 101 of the Copyright Act, as
+                  amended, you hereby, without additional compensation,
+                  irrevocably assign, convey and transfer to Unstarving Artists
+                  all proprietary rights, including without limitation, all
+                  copyrights and trademarks throughout the universe, in
+                  perpetuity in every medium, whether now known or hereafter
+                  devised, to such material and any and all right, title and
+                  interest in and to all such proprietary rights in every
+                  medium, whether now known or hereafter devised, throughout the
+                  universe, in perpetuity. Any posted material which are
+                  reproductions of prior works by you shall be co-owned by us.
                 </p>
                 <p>
                   You agree that Unstarving Artists has the right to use
