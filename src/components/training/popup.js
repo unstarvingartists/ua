@@ -36,8 +36,8 @@ export default function Popup({ open, setOpen }) {
             <div className="inline-block my-20 text-left align-bottom transition-all transform bg-white rounded-lg shadow-xl sm:align-middle sm:max-w-lg sm:w-full">
               <form
                 action="https://formkeep.com/f/99bb97640331"
-                accept-charset="UTF-8"
-                enctype="multipart/form-data"
+                acceptCharset="UTF-8"
+                encType="multipart/form-data"
                 method="POST"
               >
                 <div className="px-4 pt-5 pb-4 bg-white sm:p-10 sm:pb-4 rounded-t-md">

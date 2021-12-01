@@ -31,6 +31,7 @@ export default function Video() {
         document.removeEventListener("mouseleave", eventBeforeExit);
       }
     });
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
   return (
     <>
