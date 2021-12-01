@@ -40,22 +40,12 @@
   force = true
 [[redirects]]
   from = "http://unstarvingartists.com/training"
-  to = "https://go.unstarvingartists.com/training"
+  to = "https://www.unstarvingartists.com/training"
   status = 301
   force = true
 [[redirects]]
   from = "https://unstarvingartists.com/training"
-  to = "https://go.unstarvingartists.com/training"
-  status = 301
-  force = true
-[[redirects]]
-  from = "http://www.unstarvingartists.com/training"
-  to = "https://go.unstarvingartists.com/training"
-  status = 301
-  force = true
-[[redirects]]
-  from = "https://www.unstarvingartists.com/training"
-  to = "https://go.unstarvingartists.com/training"
+  to = "https://www.unstarvingartists.com/training"
   status = 301
   force = true
 [[redirects]]

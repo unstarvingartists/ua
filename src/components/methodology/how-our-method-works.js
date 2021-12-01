@@ -1,4 +1,5 @@
 import * as React from "react";
+import { Link } from "gatsby";
 import {
   RefreshIcon,
   SunIcon,
@@ -85,15 +86,12 @@ export default function Component() {
           </dl>
         </div>
         <div className="mt-10 text-center">
-          <a
-            href="https://go.unstarvingartists.com/training"
-            className="text-base font-medium text-blue-600"
-          >
+          <Link to="/training" className="text-base font-medium text-blue-600">
             {" "}
             See how it works for yourself <span aria-hidden="true">
               &rarr;
             </span>{" "}
-          </a>
+          </Link>
         </div>
       </div>
     </div>

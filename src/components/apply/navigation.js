@@ -38,7 +38,7 @@ const programs = [
 const callsToAction = [
   {
     name: "See How It Works",
-    href: "https://go.unstarvingartists.com/training",
+    to: "/training",
     icon: PlayIcon,
   },
   { name: "Apply Now", to: "/apply", icon: LightningBoltIcon },

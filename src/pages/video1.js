@@ -4,7 +4,7 @@ import Navigation from "../components/training/navigation";
 import Seo from "../components/seo";
 import Wistia from "../components/training/wistia";
 
-export default function VideoControl({ location }) {
+export default function VideoVariant({ location }) {
   const [visible, setVisible] = useState(false);
 
   if (typeof window !== `undefined`) {
