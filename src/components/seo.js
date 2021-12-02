@@ -10,7 +10,7 @@ function SEO({
   image: metaImage,
   title,
   pathname,
-  noIndex,
+  noIndex = false,
 }) {
   const { site } = useStaticQuery(
     graphql`
