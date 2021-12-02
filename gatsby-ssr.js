@@ -13,10 +13,10 @@ let HeadComponents = [
     key="inter"
     rel="preload"
     as="style"
-    onload="this.onload=null;this.rel='stylesheet'"
+    onLoad="this.onload=null;this.rel='stylesheet'"
     href="https://rsms.me/inter/inter.css"
   />,
-  <noscript>
+  <noscript key="inter-noscript">
     <link rel="stylesheet" href="https://rsms.me/inter/inter.css" />
   </noscript>,
   <script key="hyros" dangerouslySetInnerHTML={{ __html: hyros }} />,

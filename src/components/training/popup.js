@@ -34,7 +34,7 @@ export default function Popup({ open, setOpen }) {
             leaveFrom="opacity-100 sm:translate-y-[-1000px] sm:scale-100"
             leaveTo="opacity-0 sm:translate-y-[-1000px] sm:scale-95"
           >
-            <div className="inline-block my-20 text-left align-bottom transition-all transform bg-white rounded-lg shadow-xl sm:align-middle sm:max-w-lg sm:w-full">
+            <div className="inline-block mb-20 mt-10 sm:my-20 text-left align-bottom transition-all transform bg-white rounded-lg shadow-xl sm:align-middle sm:max-w-lg sm:w-full">
               <form
                 action="https://formkeep.com/f/99bb97640331"
                 acceptCharset="UTF-8"
