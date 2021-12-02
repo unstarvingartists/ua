@@ -8,7 +8,11 @@ export default function BookVariant({ location }) {
   return (
     <>
       <Layout>
-        <Seo title="Book a Strategy Session" pathname={location.pathname} />
+        <Seo
+          noIndex
+          title="Book a Strategy Session"
+          pathname={location.pathname}
+        />
         <div className="pt-10">
           <Navigation />
         </div>

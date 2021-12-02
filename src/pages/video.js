@@ -39,7 +39,11 @@ export default function VideoControl({ location }) {
   return (
     <>
       <Layout>
-        <Seo title="A Short Film: Flywheels" pathname={location.pathname} />
+        <Seo
+          noIndex
+          title="A Short Film: Flywheels"
+          pathname={location.pathname}
+        />
         <div className="pt-10">
           <Navigation />
         </div>

@@ -10,7 +10,7 @@ export default function ApplyPage({ location }) {
   return (
     <>
       <Layout>
-        <Seo title="Case Studies" pathname={location.pathname} />
+        <Seo noIndex title="Case Studies" pathname={location.pathname} />
         <Hero
           heading={
             <p className="mb-2 text-base font-bold md:text-[38px] leading-normal">

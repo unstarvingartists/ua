@@ -12,7 +12,7 @@ export default function BookVariant({ location }) {
   return (
     <>
       <Layout>
-        <Seo title="You Are Booked." pathname={location.pathname} />
+        <Seo noIndex title="You Are Booked." pathname={location.pathname} />
         <Hero
           heading={
             <p className="text-lg md:text-[38px] md:leading-tight font-semibold mb-2">
