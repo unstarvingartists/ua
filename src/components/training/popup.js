@@ -12,7 +12,7 @@ export default function Popup({ open, setOpen }) {
         initialFocus={cancelButtonRef}
         onClose={setOpen}
       >
-        <div className="flex items-start min-h-screen px-4 pt-4 pb-20 text-center sm:block sm:p-0">
+        <div className="flex items-start sm:items-end sm:justify-center min-h-screen px-4 pt-4 pb-20 text-center sm:block sm:p-0">
           <Transition.Child
             as={Fragment}
             enter="ease-out duration-300"
@@ -34,7 +34,7 @@ export default function Popup({ open, setOpen }) {
             leaveFrom="opacity-100 sm:translate-y-[-1000px] sm:scale-100"
             leaveTo="opacity-0 sm:translate-y-[-1000px] sm:scale-95"
           >
-            <div className="inline-block my-10 text-left align-bottom transition-all transform bg-white rounded-lg shadow-xl sm:align-middle sm:max-w-lg sm:w-full">
+            <div className="inline-block my-10 sm:my-20 text-left align-bottom transition-all transform bg-white rounded-lg shadow-xl sm:align-middle sm:max-w-lg sm:w-full">
               <form
                 action="https://formkeep.com/f/99bb97640331"
                 acceptCharset="UTF-8"
