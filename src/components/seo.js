@@ -71,11 +71,11 @@ function SEO({
       meta={[
         noIndex && {
           name: "robots",
-          content: "noindex",
+          content: "noindex, nofollow, noimageindex",
         },
         noIndex && {
           name: "googlebot",
-          content: "noindex",
+          content: "noindex, nofollow, noimageindex",
         },
         {
           name: `description`,
