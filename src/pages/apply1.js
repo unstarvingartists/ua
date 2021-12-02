@@ -9,6 +9,7 @@ export default function ApplyPage({ location }) {
     <>
       <Layout>
         <Seo
+          noIndex
           title="Strategy Session Application"
           pathname={location.pathname}
         />

@@ -10,7 +10,11 @@ export default function FBOptInPage({ location }) {
   return (
     <>
       <Layout>
-        <Seo title="A Short Film: Flywheels" pathname={location.pathname} />
+        <Seo
+          noIndex
+          title="A Short Film: Flywheels"
+          pathname={location.pathname}
+        />
         <Hero
           subheading="(From Home Without Hardcosts, Art World Connections, OR Techy
           Stuff)"
