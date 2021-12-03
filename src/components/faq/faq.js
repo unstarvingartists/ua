@@ -107,7 +107,7 @@ export default function Component() {
           </h2>
           <p className="mt-4 text-gray-500 prose prose-blue">
             Have specific questions or want to sign up? Apply for a strategy
-            session <Link to="/apply">here</Link>.
+            session <Link to="/apply-now">here</Link>.
           </p>
         </div>
         <div className="mt-20">

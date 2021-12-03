@@ -4,7 +4,7 @@ import Navigation from "../components/training/navigation";
 import Seo from "../components/seo";
 import Hero from "../components/training/hero";
 
-export default function ApplyThankYouPage({ location }) {
+export default function ThankYouForApplyingPage({ location }) {
   return (
     <>
       <Layout>

@@ -21,7 +21,7 @@ export default function Component() {
           </div>
           <div className="ml-3 inline-flex">
             <Link
-              to="/apply"
+              to="/apply-now"
               className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-blue-700 bg-blue-100 hover:bg-blue-200"
             >
               Apply Now
