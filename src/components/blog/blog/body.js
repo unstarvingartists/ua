@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { MDXRenderer } from "gatsby-plugin-mdx";
 import { Disqus } from "gatsby-plugin-disqus";
 
