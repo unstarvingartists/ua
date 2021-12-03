@@ -200,7 +200,7 @@ const Component = () => {
               })}
               <span className="inline-flex rounded-md shadow-md ring-1 ring-black ring-opacity-5">
                 <Link
-                  to="/apply"
+                  to="/apply-now"
                   className="inline-flex items-center px-4 py-2 border border-transparent text-base font-medium rounded-md text-blue-600 bg-white hover:bg-gray-50"
                 >
                   Apply Now
@@ -290,7 +290,7 @@ const Component = () => {
                   })}
                 </div>
                 <Link
-                  to="/apply"
+                  to="/apply-now"
                   className="block w-full px-5 py-3 text-center font-medium text-blue-600 bg-gray-50 hover:bg-gray-100"
                 >
                   Apply Now

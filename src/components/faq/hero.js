@@ -42,7 +42,7 @@ export default function Component({ children }) {
                           See How It Works
                         </Link>
                         <Link
-                          to="/apply"
+                          to="/apply-now"
                           className="flex items-center justify-center px-4 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-blue-500 bg-opacity-60 hover:bg-opacity-70 sm:px-8"
                         >
                           Apply Now
@@ -136,7 +136,7 @@ export default function Component({ children }) {
     //               </div>
     //               <div className="mt-3 sm:mt-0 sm:ml-3">
     //                 <Link
-    //                   to="/apply"
+    //                   to="/apply-now"
     //                   className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-blue-700 bg-blue-100 hover:bg-blue-200 md:py-4 md:text-lg md:px-10"
     //                 >
     //                   Apply Now
