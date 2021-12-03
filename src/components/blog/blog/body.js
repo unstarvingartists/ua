@@ -9,6 +9,10 @@ export default function Component({ mdx, site, pathname }) {
     title: mdx.frontmatter.title,
   };
 
+  useEffect(() => {
+    window.__sharethis__.initialize();
+  });
+
   return (
     <div className="relative bg-white overflow-hidden">
       <div className="hidden lg:block lg:absolute lg:inset-y-0 lg:h-full lg:w-full">

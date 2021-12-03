@@ -15,6 +15,8 @@ export default function Component({ mdx, children, site, pathname }) {
 
     document.body.appendChild(script1);
     document.body.appendChild(script2);
+
+    window.__sharethis__.initialize();
   });
 
   return (

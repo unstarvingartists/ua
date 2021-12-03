@@ -3,6 +3,10 @@ import React, { useEffect } from "react";
 export default function Component({ mdx, children, site, pathname }) {
   const youtube = `<style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed//${mdx.frontmatter.videoID}' frameborder='0' allowfullscreen></iframe></div>`;
 
+  useEffect(() => {
+    window.__sharethis__.initialize();
+  });
+
   return (
     <div className="relative bg-white overflow-hidden">
       <div className="hidden lg:block lg:absolute lg:inset-y-0 lg:h-full lg:w-full">
