@@ -1,6 +1,7 @@
 import React, { Fragment, useRef } from "react";
 import { Dialog, Transition } from "@headlessui/react";
 import { StaticImage } from "gatsby-plugin-image";
+import { Formik } from "formik";
 
 export default function Popup({ open, setOpen }) {
   const cancelButtonRef = useRef(null);
@@ -35,75 +36,120 @@ export default function Popup({ open, setOpen }) {
             leaveTo="opacity-0 sm:translate-y-[-1000px] sm:scale-95"
           >
             <div className="inline-block my-10 sm:my-20 text-left align-bottom transition-all transform bg-white rounded-lg shadow-xl sm:align-middle sm:max-w-lg sm:w-full">
-              <form
-                action="https://formkeep.com/f/99bb97640331"
-                acceptCharset="UTF-8"
-                encType="multipart/form-data"
-                method="POST"
+              <Formik
+                initialValues={{ name: "", email: "" }}
+                validate={(values) => {
+                  const errors = {};
+                  if (!values.name) {
+                    errors.name = "Required";
+                  } else if (!values.email) {
+                    errors.email = "Required";
+                  } else if (
+                    !/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i.test(
+                      values.email
+                    )
+                  ) {
+                    errors.email = "Invalid email address";
+                  }
+                  return errors;
+                }}
+                onSubmit={(values, { setSubmitting }) => {
+                  setTimeout(() => {
+                    alert(JSON.stringify(values, null, 2));
+                    setSubmitting(false);
+                  }, 400);
+                }}
               >
-                <div className="px-4 pt-5 pb-4 bg-white sm:p-10 sm:pb-4 rounded-t-md">
-                  <div className="sm:flex sm:items-start">
-                    <div className="mt-3 text-center sm:mt-0 sm:text-left">
-                      <Dialog.Title
-                        as="h3"
-                        className="text-xl leading-6 text-center text-gray-900 sm:text-3xl"
-                      >
-                        Watch Now For FREE!
-                      </Dialog.Title>
-                      <div className="mt-2 space-y-5">
-                        <p className="text-base text-center text-gray-500">
-                          Enter your info, start watching the film immediately
-                        </p>
-                        <StaticImage
-                          className="w-full h-full"
-                          src="../../images/status.png"
-                          alt=""
-                          imgStyle={{ objectFit: "contain" }}
-                        />
+                {({
+                  values,
+                  errors,
+                  touched,
+                  handleChange,
+                  handleBlur,
+                  handleSubmit,
+                  isSubmitting,
+                  /* and other goodies */
+                }) => (
+                  <form
+                    action="https://formkeep.com/f/99bb97640331"
+                    acceptCharset="UTF-8"
+                    encType="multipart/form-data"
+                    method="POST"
+                    onSubmit={handleSubmit}
+                  >
+                    <div className="px-4 pt-5 pb-4 bg-white sm:p-10 sm:pb-4 rounded-t-md">
+                      <div className="sm:flex sm:items-start">
+                        <div className="mt-3 text-center sm:mt-0 sm:text-left">
+                          <Dialog.Title
+                            as="h3"
+                            className="text-xl leading-6 text-center text-gray-900 sm:text-3xl"
+                          >
+                            Watch Now For FREE!
+                          </Dialog.Title>
+                          <div className="mt-2 space-y-5">
+                            <p className="text-base text-center text-gray-500">
+                              Enter your info, start watching the film
+                              immediately
+                            </p>
+                            <StaticImage
+                              className="w-full h-full"
+                              src="../../images/status.png"
+                              alt=""
+                              imgStyle={{ objectFit: "contain" }}
+                            />
 
-                        <div>
-                          <input
-                            placeholder="Enter Your Name"
-                            type="text"
-                            name="first-name"
-                            id="first-name"
-                            autoComplete="given-name"
-                            className="block w-full px-4 py-3 mt-1 border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
-                          />
-                        </div>
+                            <div>
+                              <input
+                                placeholder="Enter Your Name"
+                                type="text"
+                                name="name"
+                                id="name"
+                                onChange={handleChange}
+                                onBlur={handleBlur}
+                                value={values.name}
+                                autoComplete="given-name"
+                                className="block w-full px-4 py-3 mt-1 border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
+                              />
+                              {errors.name && touched.name && errors.name}
+                            </div>
 
-                        <div>
-                          <input
-                            placeholder="Enter Your Email Address"
-                            type="text"
-                            name="email-address"
-                            id="email-address"
-                            autoComplete="email"
-                            className="block w-full px-4 py-3 mt-1 border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
-                          />
+                            <div>
+                              <input
+                                placeholder="Enter Your Email Address"
+                                type="text"
+                                onChange={handleChange}
+                                onBlur={handleBlur}
+                                value={values.email}
+                                name="email"
+                                id="email"
+                                autoComplete="email"
+                                className="block w-full px-4 py-3 mt-1 border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
+                              />
+                              {errors.email && touched.email && errors.email}
+                            </div>
+                          </div>
                         </div>
                       </div>
                     </div>
-                  </div>
-                </div>
-                <div className="px-4 py-3 pb-14 sm:px-10 sm:flex sm:flex-row-reverse">
-                  <button
-                    type="submit"
-                    className="inline-flex justify-center w-full px-4 py-2 mt-3 text-base font-medium text-white bg-red-500 border border-gray-300 rounded-md shadow-sm hover:bg-red-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500 sm:mt-0 sm:text-sm"
-                    onClick={() => setOpen(false)}
-                    //   ref={cancelButtonRef}
-                  >
-                    Let's Go
-                  </button>
-                  <button
-                    type="button"
-                    className="absolute z-10 p-1 text-white bg-black border-2 border-white rounded-full shadow -top-3 -right-3"
-                    onClick={() => setOpen(false)}
-                  >
-                    <CloseButton />
-                  </button>
-                </div>
-              </form>
+                    <div className="px-4 py-3 pb-14 sm:px-10 sm:flex sm:flex-row-reverse">
+                      <button
+                        type="submit"
+                        className="inline-flex justify-center w-full px-4 py-2 mt-3 text-base font-medium text-white bg-red-500 border border-gray-300 rounded-md shadow-sm hover:bg-red-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500 sm:mt-0 sm:text-sm"
+                        disabled={isSubmitting}
+                      >
+                        Let's Go
+                      </button>
+                      <button
+                        type="button"
+                        className="absolute z-10 p-1 text-white bg-black border-2 border-white rounded-full shadow -top-3 -right-3"
+                        onClick={() => setOpen(false)}
+                      >
+                        <CloseButton />
+                      </button>
+                    </div>
+                  </form>
+                )}
+              </Formik>
             </div>
           </Transition.Child>
         </div>
