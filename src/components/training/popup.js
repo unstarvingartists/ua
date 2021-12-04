@@ -1,10 +1,19 @@
 import React, { Fragment, useRef } from "react";
 import { Dialog, Transition } from "@headlessui/react";
 import { StaticImage } from "gatsby-plugin-image";
-import { Formik, Form, Field, ErrorMessage } from "formik";
+import { Formik, Form, Field, getIn } from "formik";
+
+function getClassName(errors, fieldName) {
+  if (getIn(errors, fieldName)) {
+    return "block w-full px-4 py-3 mt-1 border-red-500 rounded-md shadow-sm focus:ring-red-500 focus:border-red-500 sm:text-sm";
+  } else {
+    return "block w-full px-4 py-3 mt-1 border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm";
+  }
+}
 
 export default function Popup({ open, setOpen }) {
   const cancelButtonRef = useRef(null);
+  const formEl = useRef(null);
   return (
     <Transition.Root show={open} as={Fragment}>
       <Dialog
@@ -54,20 +63,19 @@ export default function Popup({ open, setOpen }) {
                   return errors;
                 }}
                 onSubmit={(values, { setSubmitting }) => {
-                  debugger;
-                  setTimeout(() => {
-                    alert(JSON.stringify(values, null, 2));
-                    setSubmitting(false);
-                  }, 400);
+                  formEl.current.submit();
+                  setOpen(false);
+                  setSubmitting(false);
                 }}
               >
-                {({ isSubmitting }) => (
+                {({ errors, isSubmitting }) => (
                   <Form
                     action="https://formkeep.com/f/99bb97640331"
                     acceptCharset="UTF-8"
                     encType="multipart/form-data"
                     method="POST"
-                    novalidate=""
+                    noValidate
+                    ref={formEl}
                   >
                     <div className="px-4 pt-5 pb-4 bg-white sm:p-10 sm:pb-4 rounded-t-md">
                       <div className="sm:flex sm:items-start">
@@ -97,18 +105,8 @@ export default function Popup({ open, setOpen }) {
                                 name="name"
                                 id="name"
                                 autoComplete="given-name"
-                                className="block w-full px-4 py-3 mt-1 border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
+                                className={getClassName(errors, "name")}
                               />
-                              <ErrorMessage name="name">
-                                {(message) => (
-                                  <span
-                                    class="text-xs text-red-700"
-                                    id="nameHelp"
-                                  >
-                                    {message}
-                                  </span>
-                                )}
-                              </ErrorMessage>
                             </div>
 
                             <div>
@@ -118,18 +116,8 @@ export default function Popup({ open, setOpen }) {
                                 name="email"
                                 id="email"
                                 autoComplete="email"
-                                className="block w-full px-4 py-3 mt-1 border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
+                                className={getClassName(errors, "email")}
                               />
-                              <ErrorMessage name="email">
-                                {(message) => (
-                                  <span
-                                    class="text-xs text-red-700"
-                                    id="emailHelp"
-                                  >
-                                    {message}
-                                  </span>
-                                )}
-                              </ErrorMessage>
                             </div>
                           </div>
                         </div>
