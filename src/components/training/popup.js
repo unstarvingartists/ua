@@ -1,7 +1,7 @@
 import React, { Fragment, useRef } from "react";
 import { Dialog, Transition } from "@headlessui/react";
 import { StaticImage } from "gatsby-plugin-image";
-import { Formik } from "formik";
+import { Formik, Form, Field, ErrorMessage } from "formik";
 
 export default function Popup({ open, setOpen }) {
   const cancelButtonRef = useRef(null);
@@ -41,41 +41,33 @@ export default function Popup({ open, setOpen }) {
                 validate={(values) => {
                   const errors = {};
                   if (!values.name) {
-                    errors.name = "Required";
+                    errors.name = "Please enter your name";
                   } else if (!values.email) {
-                    errors.email = "Required";
+                    errors.email = "Please enter your email";
                   } else if (
                     !/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i.test(
                       values.email
                     )
                   ) {
-                    errors.email = "Invalid email address";
+                    errors.email = "Please enter a valid email address";
                   }
                   return errors;
                 }}
                 onSubmit={(values, { setSubmitting }) => {
+                  debugger;
                   setTimeout(() => {
                     alert(JSON.stringify(values, null, 2));
                     setSubmitting(false);
                   }, 400);
                 }}
               >
-                {({
-                  values,
-                  errors,
-                  touched,
-                  handleChange,
-                  handleBlur,
-                  handleSubmit,
-                  isSubmitting,
-                  /* and other goodies */
-                }) => (
-                  <form
+                {({ isSubmitting }) => (
+                  <Form
                     action="https://formkeep.com/f/99bb97640331"
                     acceptCharset="UTF-8"
                     encType="multipart/form-data"
                     method="POST"
-                    onSubmit={handleSubmit}
+                    novalidate=""
                   >
                     <div className="px-4 pt-5 pb-4 bg-white sm:p-10 sm:pb-4 rounded-t-md">
                       <div className="sm:flex sm:items-start">
@@ -99,33 +91,45 @@ export default function Popup({ open, setOpen }) {
                             />
 
                             <div>
-                              <input
+                              <Field
                                 placeholder="Enter Your Name"
                                 type="text"
                                 name="name"
                                 id="name"
-                                onChange={handleChange}
-                                onBlur={handleBlur}
-                                value={values.name}
                                 autoComplete="given-name"
                                 className="block w-full px-4 py-3 mt-1 border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
                               />
-                              {errors.name && touched.name && errors.name}
+                              <ErrorMessage name="name">
+                                {(message) => (
+                                  <span
+                                    class="text-xs text-red-700"
+                                    id="nameHelp"
+                                  >
+                                    {message}
+                                  </span>
+                                )}
+                              </ErrorMessage>
                             </div>
 
                             <div>
-                              <input
+                              <Field
                                 placeholder="Enter Your Email Address"
-                                type="text"
-                                onChange={handleChange}
-                                onBlur={handleBlur}
-                                value={values.email}
+                                type="email"
                                 name="email"
                                 id="email"
                                 autoComplete="email"
                                 className="block w-full px-4 py-3 mt-1 border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
                               />
-                              {errors.email && touched.email && errors.email}
+                              <ErrorMessage name="email">
+                                {(message) => (
+                                  <span
+                                    class="text-xs text-red-700"
+                                    id="emailHelp"
+                                  >
+                                    {message}
+                                  </span>
+                                )}
+                              </ErrorMessage>
                             </div>
                           </div>
                         </div>
@@ -147,7 +151,7 @@ export default function Popup({ open, setOpen }) {
                         <CloseButton />
                       </button>
                     </div>
-                  </form>
+                  </Form>
                 )}
               </Formik>
             </div>
