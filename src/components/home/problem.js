@@ -58,10 +58,10 @@ export default function Component() {
               We help scatterbrained do-it-all creatives
             </h3>
             <p className="mt-3 text-lg text-gray-500">
-              This classification describes 99% of artists. They feed on shiny
-              objects and noisy fad-driven social media information. Their
-              attention span is measured in seconds and their plans rarely
-              extend past next week.
+              This classification describes most artists—heck it describes most
+              people. They feed on shiny objects and noisy fad-driven social
+              media information. Their attention span is measured in seconds and
+              their plans rarely extend past next week.
             </p>
             <p className="mt-3 text-lg text-gray-500">
               So uncertain about what to do, they try to do everything, throwing
