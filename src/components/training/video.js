@@ -50,6 +50,7 @@ export default function Video() {
           onClick={() => setOpen(true)}
         >
           <StaticImage
+            loading="eager"
             className="w-full h-full"
             src="../../images/video.png"
             alt=""
