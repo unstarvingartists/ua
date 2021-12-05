@@ -82,7 +82,7 @@ export default function Video() {
               </p>
             </li>
           </ul>
-          <div className="hidden md:flex justify-center md:justify-start">
+          <div className="flex justify-center md:justify-start">
             <button
               onClick={() => setOpen(true)}
               className="inline-flex flex-col items-center justify-center w-auto py-6 space-y-2 text-base font-medium text-white bg-blue-600 border border-transparent rounded-md px-7 hover:bg-blue-700"
