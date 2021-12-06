@@ -10,11 +10,7 @@ export default function OptInPage({ location }) {
   return (
     <>
       <Layout>
-        <Seo
-          noIndex
-          title="A Short Film: Flywheels"
-          pathname={location.pathname}
-        />
+        <Seo title="A Short Film: Flywheels" pathname={location.pathname} />
         <Hero
           subheading="(From Home Without Hardcosts, Art World Connections, OR Techy
           Stuff)"
