@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "gatsby";
 
 export default function Footer({ short, fb }) {
   return (
@@ -13,19 +12,34 @@ export default function Footer({ short, fb }) {
       <div className="space-y-3 text-right md:w-1/2">
         <ul className="flex flex-col text-left md:justify-end md:space-x-16 md:flex-row">
           <li>
-            <Link className="hover:underline" to="/terms">
+            <a
+              className="hover:underline"
+              href="https://www.unstarvingartists.com/terms/"
+              rel="noreferrer"
+              target="_blank"
+            >
               Terms &amp; Conditions
-            </Link>
+            </a>
           </li>
           <li>
-            <Link className="hover:underline" to="/privacy">
+            <a
+              className="hover:underline"
+              href="https://www.unstarvingartists.com/privacy/"
+              rel="noreferrer"
+              target="_blank"
+            >
               Privacy Policy
-            </Link>
+            </a>
           </li>
           <li>
-            <Link className="hover:underline" to="/earnings">
+            <a
+              className="hover:underline"
+              href="https://www.unstarvingartists.com/earnings/"
+              rel="noreferrer"
+              target="_blank"
+            >
               Earnings Disclaimer
-            </Link>
+            </a>
           </li>
         </ul>
         {!short && (
