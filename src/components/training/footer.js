@@ -13,26 +13,17 @@ export default function Footer({ short, fb }) {
       <div className="space-y-3 text-right md:w-1/2">
         <ul className="flex flex-col text-left md:justify-end md:space-x-16 md:flex-row">
           <li>
-            <Link
-              className="hover:underline"
-              to="https://www.unstarvingartists.com/terms/"
-            >
+            <Link className="hover:underline" to="/terms">
               Terms &amp; Conditions
             </Link>
           </li>
           <li>
-            <Link
-              className="hover:underline"
-              to="https://www.unstarvingartists.com/privacy/"
-            >
+            <Link className="hover:underline" to="/privacy">
               Privacy Policy
             </Link>
           </li>
           <li>
-            <Link
-              className="hover:underline"
-              to="https://www.unstarvingartists.com/earnings/"
-            >
+            <Link className="hover:underline" to="/earnings">
               Earnings Disclaimer
             </Link>
           </li>
