@@ -3,6 +3,7 @@ import Layout from "../components/layout";
 import Navigation from "../components/training/navigation";
 import Seo from "../components/seo";
 import Wistia from "../components/training/wistia";
+import { Link } from "gatsby";
 
 export default function VideoVariant({ location }) {
   const [visible, setVisible] = useState(false);
@@ -52,22 +53,12 @@ export default function VideoVariant({ location }) {
         </div>
         {visible && (
           <div className="flex flex-col mt-10 space-y-2 text-2xl font-bold text-center text-blue-500">
-            <a
-              href="/apply1"
-              target="_parent"
-              rel="noopener noreferrer"
-              className="hover:underline"
-            >
+            <Link to="/apply" className="hover:underline">
               Let Us Help You Do This
-            </a>
-            <a
-              href="/apply1"
-              target="_parent"
-              className="hover:underline"
-              rel="noopener noreferrer"
-            >
+            </Link>
+            <Link to="/apply" className="hover:underline">
               (Book A Free Strategy Session)
-            </a>
+            </Link>
           </div>
         )}
       </Layout>
