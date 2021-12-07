@@ -10,7 +10,12 @@ export default function Component({ mdx, site, pathname }) {
   };
 
   useEffect(() => {
-    window.__sharethis__.initialize();
+    if (
+      typeof window.__sharethis__ !== "undefined" &&
+      typeof window.__sharethis__.initialize !== "undefined"
+    ) {
+      window.__sharethis__.initialize();
+    }
   });
 
   return (
