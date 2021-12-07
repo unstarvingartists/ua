@@ -34,7 +34,7 @@ export default function ApplyPage({ location }) {
         <Examples withoutLink showVideo hidePlaybar />
         <Link
           className="flex justify-center mb-10 text-lg font-bold text-center text-blue-500 hover:underline"
-          to="/stories"
+          to="/reviews"
         >
           🍿 Click Here To See All Our Student Stories
         </Link>
