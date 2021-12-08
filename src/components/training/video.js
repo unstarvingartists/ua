@@ -25,26 +25,15 @@ export default function Video() {
 
   useEffect(() => {
     document.addEventListener("mouseleave", function eventBeforeExit(e) {
-      setOpen(true);
-      document.removeEventListener("mouseleave", eventBeforeExit);
+      if (e.pageY - window.scrollY <= 1) {
+        setOpen(true);
+        document.removeEventListener("mouseleave", eventBeforeExit);
+      }
     });
   }, []);
   return (
     <>
-      <div className="flex flex-col min-h-[70vh] px-4 pb-10 mx-auto space-y-5 md:flex-row md:space-y-0 md:space-x-14 max-w-6xl sm:px-6">
-        <div className="flex justify-center md:justify-start md:hidden">
-          <button
-            onClick={() => setOpen(true)}
-            className="inline-flex flex-col items-center justify-center w-auto py-6 space-y-2 text-base font-medium text-white bg-blue-600 border border-transparent rounded-md px-7 hover:bg-blue-700"
-          >
-            <span className="text-xl md:text-3xl">
-              Get Free Training + Checklist
-            </span>
-            <span className="font-light opacity-75 md:text-xl">
-              3,000+ Views and Counting{" "}
-            </span>
-          </button>
-        </div>
+      <div className="flex flex-col justify-center min-h-[70vh] px-4 pb-10 mx-auto space-y-5 md:flex-row md:space-y-0 md:space-x-14 max-w-6xl sm:px-6">
         <button
           className="w-full md:w-1/2 h-[fit-content] cursor-pointer"
           onClick={() => setOpen(true)}
@@ -57,7 +46,7 @@ export default function Video() {
             imgStyle={{ objectFit: "contain" }}
           />
         </button>
-        <div className="space-y-3 text-base md:w-1/2">
+        <div className="space-y-3 text-sm md:text-base md:w-1/2">
           <p>In this training you will learn</p>
           <ul className="space-y-3">
             <li className="flex space-x-3">

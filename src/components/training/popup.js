@@ -94,6 +94,7 @@ export default function Popup({ open, setOpen }) {
                             <StaticImage
                               className="w-full h-full"
                               src="../../images/status.png"
+                              loading="eager"
                               alt=""
                               imgStyle={{ objectFit: "contain" }}
                             />
