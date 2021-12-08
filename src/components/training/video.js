@@ -1,6 +1,12 @@
 import { StaticImage } from "gatsby-plugin-image";
 import React, { useEffect, useState } from "react";
 import Popup from "./popup";
+import * as FullStory from "@fullstory/browser";
+
+FullStory.init({
+  orgId: "MNF4Z",
+  devMode: process.env.NODE_ENV === "development",
+});
 
 const CheckIcon = () => {
   return (
@@ -23,6 +29,11 @@ const CheckIcon = () => {
 export default function Video() {
   const [open, setOpen] = useState(false);
 
+  const openPopup = () => {
+    FullStory.event("optin-popup-open");
+    setOpen(true);
+  };
+
   useEffect(() => {
     document.addEventListener("mouseleave", function eventBeforeExit(e) {
       if (e.pageY - window.scrollY <= 1) {
@@ -36,7 +47,7 @@ export default function Video() {
       <div className="flex flex-col justify-center min-h-[70vh] px-4 pb-10 mx-auto space-y-5 md:flex-row md:space-y-0 md:space-x-14 max-w-6xl sm:px-6">
         <button
           className="w-full md:w-1/2 h-[fit-content] cursor-pointer"
-          onClick={() => setOpen(true)}
+          onClick={() => openPopup()}
         >
           <StaticImage
             loading="eager"
@@ -73,7 +84,7 @@ export default function Video() {
           </ul>
           <div className="flex justify-center md:justify-start">
             <button
-              onClick={() => setOpen(true)}
+              onClick={() => openPopup()}
               className="inline-flex flex-col items-center justify-center w-auto py-6 space-y-2 text-base font-medium text-white bg-blue-600 border border-transparent rounded-md px-7 hover:bg-blue-700"
             >
               <span className="text-xl md:text-3xl">
