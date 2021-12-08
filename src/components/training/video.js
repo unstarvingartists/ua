@@ -3,11 +3,6 @@ import React, { useEffect, useState } from "react";
 import Popup from "./popup";
 import * as FullStory from "@fullstory/browser";
 
-FullStory.init({
-  orgId: "MNF4Z",
-  devMode: process.env.NODE_ENV === "development",
-});
-
 const CheckIcon = () => {
   return (
     <svg
@@ -35,6 +30,11 @@ export default function Video() {
   };
 
   useEffect(() => {
+    FullStory.init({
+      orgId: "MNF4Z",
+      devMode: process.env.NODE_ENV === "development",
+    });
+
     document.addEventListener("mouseleave", function eventBeforeExit(e) {
       if (e.pageY - window.scrollY <= 1) {
         setOpen(true);

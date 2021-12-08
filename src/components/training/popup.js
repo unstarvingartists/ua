@@ -1,13 +1,8 @@
-import React, { Fragment, useRef } from "react";
+import React, { Fragment, useRef, useEffect } from "react";
 import { Dialog, Transition } from "@headlessui/react";
 import { StaticImage } from "gatsby-plugin-image";
 import { Formik, Form, Field, getIn } from "formik";
 import * as FullStory from "@fullstory/browser";
-
-FullStory.init({
-  orgId: "MNF4Z",
-  devMode: process.env.NODE_ENV === "development",
-});
 
 function getClassName(errors, fieldName) {
   if (getIn(errors, fieldName)) {
@@ -22,6 +17,13 @@ export default function Popup({ open, setOpen }) {
     FullStory.event("optin-popup-closed");
     setOpen(false);
   };
+
+  useEffect(() => {
+    FullStory.init({
+      orgId: "MNF4Z",
+      devMode: process.env.NODE_ENV === "development",
+    });
+  });
 
   const cancelButtonRef = useRef(null);
   const formEl = useRef(null);
