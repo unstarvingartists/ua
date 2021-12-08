@@ -18,6 +18,11 @@ function getClassName(errors, fieldName) {
 }
 
 export default function Popup({ open, setOpen }) {
+  const closePopup = () => {
+    FullStory.event("optin-popup-closed");
+    setOpen(false);
+  };
+
   const cancelButtonRef = useRef(null);
   const formEl = useRef(null);
   return (
@@ -71,7 +76,7 @@ export default function Popup({ open, setOpen }) {
                 onSubmit={(values, { setSubmitting }) => {
                   formEl.current.submit();
                   FullStory.event("optin-submitted");
-                  setOpen(false);
+                  closePopup();
                   setSubmitting(false);
                 }}
               >
@@ -142,7 +147,7 @@ export default function Popup({ open, setOpen }) {
                       <button
                         type="button"
                         className="absolute z-10 p-1 text-white bg-black border-2 border-white rounded-full shadow -top-3 -right-3"
-                        onClick={() => setOpen(false)}
+                        onClick={() => closePopup()}
                       >
                         <CloseButton />
                       </button>
