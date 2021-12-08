@@ -25,8 +25,10 @@ export default function Video() {
 
   useEffect(() => {
     document.addEventListener("mouseleave", function eventBeforeExit(e) {
-      setOpen(true);
-      document.removeEventListener("mouseleave", eventBeforeExit);
+      if (e.pageY - window.scrollY <= 1) {
+        setOpen(true);
+        document.removeEventListener("mouseleave", eventBeforeExit);
+      }
     });
   }, []);
   return (
