@@ -3,7 +3,6 @@ import Layout from "../components/layout";
 import Navigation from "../components/training/navigation";
 import Seo from "../components/seo";
 import Wistia from "../components/training/wistia";
-import { Link } from "gatsby";
 
 export default function VideoControl({ location }) {
   const [visible, setVisible] = useState(false);
@@ -53,12 +52,18 @@ export default function VideoControl({ location }) {
         </div>
         {visible && (
           <div className="flex flex-col mt-10 space-y-2 text-2xl font-bold text-center text-blue-500">
-            <Link to="/apply" className="hover:underline">
+            <a
+              href="https://vouch.iljmp.com/2/ianhh"
+              className="hover:underline"
+            >
               Let Us Help You Do This
-            </Link>
-            <Link to="/apply" className="hover:underline">
+            </a>
+            <a
+              href="https://vouch.iljmp.com/2/ianhh"
+              className="hover:underline"
+            >
               (Book A Free Strategy Session)
-            </Link>
+            </a>
           </div>
         )}
       </Layout>
