@@ -5,9 +5,9 @@ import { Formik, Form, Field, getIn } from "formik";
 
 function getClassName(errors, fieldName) {
   if (getIn(errors, fieldName)) {
-    return "block w-full px-4 py-3 mt-1 border-red-500 rounded-md shadow-sm focus:ring-red-500 focus:border-red-500 sm:text-sm";
+    return "optin-input block w-full px-4 py-3 mt-1 border-red-500 rounded-md shadow-sm focus:ring-red-500 focus:border-red-500 sm:text-sm";
   } else {
-    return "block w-full px-4 py-3 mt-1 border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm";
+    return "optin-input block w-full px-4 py-3 mt-1 border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm";
   }
 }
 
@@ -64,6 +64,9 @@ export default function Popup({ open, setOpen }) {
                 }}
                 onSubmit={(values, { setSubmitting }) => {
                   formEl.current.submit();
+                  if (typeof FS !== "undefined" && FS.event !== "undefined") {
+                    FS.event("optin-submitted");
+                  }
                   setOpen(false);
                   setSubmitting(false);
                 }}
@@ -127,7 +130,7 @@ export default function Popup({ open, setOpen }) {
                     <div className="px-4 py-3 pb-14 sm:px-10 sm:flex sm:flex-row-reverse">
                       <button
                         type="submit"
-                        className="inline-flex justify-center w-full px-4 py-2 mt-3 text-base font-medium text-white bg-red-500 border border-gray-300 rounded-md shadow-sm hover:bg-red-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500 sm:mt-0 sm:text-sm"
+                        className="optin-submit-button inline-flex justify-center w-full px-4 py-2 mt-3 text-base font-medium text-white bg-red-500 border border-gray-300 rounded-md shadow-sm hover:bg-red-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500 sm:mt-0 sm:text-sm"
                         disabled={isSubmitting}
                       >
                         Let's Go
