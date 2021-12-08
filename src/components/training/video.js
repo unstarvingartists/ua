@@ -1,6 +1,12 @@
 import { StaticImage } from "gatsby-plugin-image";
 import React, { useEffect, useState } from "react";
 import Popup from "./popup";
+import * as FullStory from "@fullstory/browser";
+
+FullStory.init({
+  orgId: "MNF4Z",
+  devMode: process.env.NODE_ENV === "development",
+});
 
 const CheckIcon = () => {
   return (
@@ -20,15 +26,13 @@ const CheckIcon = () => {
   );
 };
 
-const openPopup = () => {
-  if (typeof FS !== "undefined" && FS.event !== "undefined") {
-    FS.event("optin-popup-open");
-  }
-  setOpen(true);
-};
-
 export default function Video() {
   const [open, setOpen] = useState(false);
+
+  const openPopup = () => {
+    FullStory.event("optin-popup-open");
+    setOpen(true);
+  };
 
   useEffect(() => {
     document.addEventListener("mouseleave", function eventBeforeExit(e) {

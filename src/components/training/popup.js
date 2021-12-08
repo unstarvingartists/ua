@@ -2,6 +2,12 @@ import React, { Fragment, useRef } from "react";
 import { Dialog, Transition } from "@headlessui/react";
 import { StaticImage } from "gatsby-plugin-image";
 import { Formik, Form, Field, getIn } from "formik";
+import * as FullStory from "@fullstory/browser";
+
+FullStory.init({
+  orgId: "MNF4Z",
+  devMode: process.env.NODE_ENV === "development",
+});
 
 function getClassName(errors, fieldName) {
   if (getIn(errors, fieldName)) {
@@ -64,9 +70,7 @@ export default function Popup({ open, setOpen }) {
                 }}
                 onSubmit={(values, { setSubmitting }) => {
                   formEl.current.submit();
-                  if (typeof FS !== "undefined" && FS.event !== "undefined") {
-                    FS.event("optin-submitted");
-                  }
+                  FullStory.event("optin-submitted");
                   setOpen(false);
                   setSubmitting(false);
                 }}
