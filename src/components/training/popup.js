@@ -1,7 +1,7 @@
 import React, { Fragment, useRef, useEffect, useState } from "react";
 import { Dialog, Transition } from "@headlessui/react";
 import { StaticImage } from "gatsby-plugin-image";
-import { Formik, Form, Field, getIn, connect } from "formik";
+import { Formik, Form, Field, getIn } from "formik";
 import * as FullStory from "@fullstory/browser";
 
 function getClassName(errors, fieldName) {
@@ -11,21 +11,6 @@ function getClassName(errors, fieldName) {
     return "optin-input block w-full px-4 py-3 mt-1 border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm";
   }
 }
-
-const HandleFieldChange = connect(
-  ({
-    name,
-    formik: {
-      values: { [name]: value },
-    },
-    onChange,
-  }) => {
-    useEffect(() => {
-      onChange(value);
-    }, [onChange, value]);
-    return null;
-  }
-);
 
 export default function Popup({ open, setOpen }) {
   const [name, setName] = useState(sessionStorage.getItem("optin:name") || "");
@@ -100,10 +85,12 @@ export default function Popup({ open, setOpen }) {
                   formEl.current.submit();
                   FullStory.event("optin-submitted");
                   closePopup();
+                  sessionStorage.setItem("optin:name", "");
+                  console.log("cleared storage!");
                   setSubmitting(false);
                 }}
               >
-                {({ errors, isSubmitting }) => (
+                {({ errors, isSubmitting, handleChange }) => (
                   <Form
                     action="https://formkeep.com/f/99bb97640331"
                     acceptCharset="UTF-8"
@@ -141,11 +128,11 @@ export default function Popup({ open, setOpen }) {
                                 name="name"
                                 id="name"
                                 autoComplete="given-name"
+                                onChange={(event) => {
+                                  setName(event.target.value);
+                                  handleChange(event);
+                                }}
                                 className={getClassName(errors, "name")}
-                              />
-                              <HandleFieldChange
-                                name="name"
-                                onChange={(value) => setName(value)}
                               />
                             </div>
 
