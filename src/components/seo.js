@@ -51,6 +51,62 @@ function SEO({
       : null;
   const canonical = pathname ? `${site.siteMetadata.siteUrl}${pathname}` : null;
 
+  let defaultMeta = [
+    {
+      name: `description`,
+      content: metaDescription,
+    },
+    {
+      name: "keywords",
+      content: site.siteMetadata.keywords.join(","),
+    },
+    {
+      property: `og:title`,
+      content: title,
+    },
+    {
+      property: `og:description`,
+      content: metaDescription,
+    },
+    {
+      property: `og:type`,
+      content: `website`,
+    },
+    {
+      property: `og:url`,
+      content: canonical,
+    },
+    {
+      name: `twitter:creator`,
+      content: site.siteMetadata.twitter.creator,
+    },
+    {
+      name: `twitter:site`,
+      content: site.siteMetadata.twitter.site,
+    },
+    {
+      name: `twitter:title`,
+      content: title,
+    },
+    {
+      name: `twitter:description`,
+      content: metaDescription,
+    },
+  ];
+
+  if (noIndex) {
+    defaultMeta = defaultMeta.concat([
+      {
+        name: "robots",
+        content: "noindex, nofollow, noimageindex",
+      },
+      {
+        name: "googlebot",
+        content: "noindex, nofollow, noimageindex",
+      },
+    ]);
+  }
+
   return (
     <Helmet
       htmlAttributes={{
@@ -68,56 +124,7 @@ function SEO({
             ]
           : []
       }
-      meta={[
-        noIndex && {
-          name: "robots",
-          content: "noindex, nofollow, noimageindex",
-        },
-        noIndex && {
-          name: "googlebot",
-          content: "noindex, nofollow, noimageindex",
-        },
-        {
-          name: `description`,
-          content: metaDescription,
-        },
-        {
-          name: "keywords",
-          content: site.siteMetadata.keywords.join(","),
-        },
-        {
-          property: `og:title`,
-          content: title,
-        },
-        {
-          property: `og:description`,
-          content: metaDescription,
-        },
-        {
-          property: `og:type`,
-          content: `website`,
-        },
-        {
-          property: `og:url`,
-          content: canonical,
-        },
-        {
-          name: `twitter:creator`,
-          content: site.siteMetadata.twitter.creator,
-        },
-        {
-          name: `twitter:site`,
-          content: site.siteMetadata.twitter.site,
-        },
-        {
-          name: `twitter:title`,
-          content: title,
-        },
-        {
-          name: `twitter:description`,
-          content: metaDescription,
-        },
-      ]
+      meta={defaultMeta
         .concat(
           metaImage
             ? [
