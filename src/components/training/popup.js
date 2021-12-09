@@ -1,7 +1,7 @@
-import React, { Fragment, useRef, useEffect } from "react";
+import React, { Fragment, useRef, useEffect, useState } from "react";
 import { Dialog, Transition } from "@headlessui/react";
 import { StaticImage } from "gatsby-plugin-image";
-import { Formik, Form, Field, getIn } from "formik";
+import { Formik, Form, Field, getIn, connect } from "formik";
 import * as FullStory from "@fullstory/browser";
 
 function getClassName(errors, fieldName) {
@@ -12,11 +12,32 @@ function getClassName(errors, fieldName) {
   }
 }
 
+const HandleFieldChange = connect(
+  ({
+    name,
+    formik: {
+      values: { [name]: value },
+    },
+    onChange,
+  }) => {
+    useEffect(() => {
+      onChange(value);
+    }, [onChange, value]);
+    return null;
+  }
+);
+
 export default function Popup({ open, setOpen }) {
+  const [name, setName] = useState(sessionStorage.getItem("optin:name") || "");
   const closePopup = () => {
     FullStory.event("optin-popup-closed");
     setOpen(false);
   };
+
+  useEffect(() => {
+    sessionStorage.setItem("optin:name", name);
+    console.log("stored name!", name);
+  }, [name]);
 
   useEffect(() => {
     FullStory.init({
@@ -59,7 +80,7 @@ export default function Popup({ open, setOpen }) {
           >
             <div className="inline-block my-10 sm:my-20 text-left align-bottom transition-all transform bg-white rounded-lg shadow-xl sm:align-middle sm:max-w-lg sm:w-full">
               <Formik
-                initialValues={{ name: "", email: "" }}
+                initialValues={{ name: name, email: "" }}
                 validate={(values) => {
                   const errors = {};
                   if (!values.name) {
@@ -121,6 +142,10 @@ export default function Popup({ open, setOpen }) {
                                 id="name"
                                 autoComplete="given-name"
                                 className={getClassName(errors, "name")}
+                              />
+                              <HandleFieldChange
+                                name="name"
+                                onChange={(value) => setName(value)}
                               />
                             </div>
 
