@@ -95,7 +95,7 @@ function SEO({
   ];
 
   if (noIndex) {
-    defaultMeta.concat([
+    defaultMeta = defaultMeta.concat([
       {
         name: "robots",
         content: "noindex, nofollow, noimageindex",
