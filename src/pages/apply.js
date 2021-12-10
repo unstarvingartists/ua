@@ -19,7 +19,7 @@ export default function ApplyPage({ location }) {
 
         <Widget
           className="max-w-5xl mx-auto 2xl:max-w-6xl"
-          id="T6neG6uW"
+          id="hZ5TaWKP"
           style={{ height: "600px" }}
         />
       </Layout>
