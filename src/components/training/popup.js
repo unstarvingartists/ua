@@ -90,8 +90,8 @@ export default function Popup({ open, setOpen }) {
                   formEl.current.submit();
                   FullStory.event("optin-submitted");
                   closePopup();
-                  localStorage.setItem("optin:name", "");
-                  localStorage.setItem("optin:email", "");
+                  setName("");
+                  setEmail("");
                   setSubmitting(false);
                 }}
               >
@@ -132,7 +132,7 @@ export default function Popup({ open, setOpen }) {
                                 type="text"
                                 name="name"
                                 id="name"
-                                autoComplete="given-name"
+                                autoComplete="name"
                                 onChange={(event) => {
                                   setName(event.target.value);
                                   handleChange(event);
