@@ -21,17 +21,13 @@ export default function Popup({ open, setOpen }) {
       orgId: "MNF4Z",
       devMode: process.env.NODE_ENV === "development",
     });
-    if (
-      localStorage.getItem("optin:name") &&
-      localStorage.getItem("optin:name") !== ""
-    ) {
-      setName(localStorage.getItem("optin:name"));
+    const storedName = localStorage.getItem("optin:name");
+    const storedEmail = localStorage.getItem("optin:email");
+    if (storedName && storedName !== "") {
+      setName(storedName);
     }
-    if (
-      localStorage.getItem("optin:email") &&
-      localStorage.getItem("optin:email") !== ""
-    ) {
-      setEmail(localStorage.getItem("optin:email"));
+    if (storedEmail && storedEmail !== "") {
+      setEmail(storedEmail);
     }
   }, []);
 
