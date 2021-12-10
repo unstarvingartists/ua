@@ -5,6 +5,7 @@ import Footer from "../components/training/footer";
 import Seo from "../components/seo";
 import Hero from "../components/training/hero";
 import Examples from "../components/training/examples";
+import { Link } from "gatsby";
 
 export default function ApplyPage({ location }) {
   return (
@@ -31,12 +32,12 @@ export default function ApplyPage({ location }) {
           <Navigation />
         </Hero>
         <Examples withoutLink showVideo hidePlaybar />
-        <a
+        <Link
           className="flex justify-center mb-10 text-lg font-bold text-center text-blue-500 hover:underline"
-          href="https://www.unstarvingartists.com/stories/"
+          to="/reviews"
         >
           🍿 Click Here To See All Our Student Stories
-        </a>
+        </Link>
         <Footer short />
       </Layout>
     </>

@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Footer({ short, fb }) {
   return (
-    <footer className="flex flex-col justify-between max-w-6xl px-4 py-10 mx-auto space-y-5 text-xs text-light-gray md:space-y-0 md:text-sm md:space-x-20 md:flex-row sm:px-6">
+    <footer className="flex flex-col justify-between max-w-6xl px-4 pt-96 pt-md-10 pb-10 mx-auto space-y-5 text-xs text-light-gray md:space-y-0 md:text-sm md:space-x-20 md:flex-row sm:px-6">
       <div className="md:w-1/2">
         <div className="flex flex-col">
           <p>© 2021 Vouch Group, LLC dba Unstarving Artists</p>
@@ -15,6 +15,8 @@ export default function Footer({ short, fb }) {
             <a
               className="hover:underline"
               href="https://www.unstarvingartists.com/terms/"
+              rel="noreferrer"
+              target="_blank"
             >
               Terms &amp; Conditions
             </a>
@@ -23,6 +25,8 @@ export default function Footer({ short, fb }) {
             <a
               className="hover:underline"
               href="https://www.unstarvingartists.com/privacy/"
+              rel="noreferrer"
+              target="_blank"
             >
               Privacy Policy
             </a>
@@ -31,6 +35,8 @@ export default function Footer({ short, fb }) {
             <a
               className="hover:underline"
               href="https://www.unstarvingartists.com/earnings/"
+              rel="noreferrer"
+              target="_blank"
             >
               Earnings Disclaimer
             </a>

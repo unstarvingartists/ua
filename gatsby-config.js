@@ -21,7 +21,24 @@ module.exports = {
     "gatsby-plugin-netlify-cms",
     "gatsby-plugin-image",
     "gatsby-plugin-react-helmet",
-    "gatsby-plugin-sitemap",
+    {
+      resolve: "gatsby-plugin-sitemap",
+      options: {
+        excludes: [
+          "/video/",
+          "/video1/",
+          "/book/",
+          "/book1/",
+          "/book2/",
+          "/apply/",
+          "/thank-you/",
+          "/case-studies/",
+          "/how-to-prepare/",
+          "/fb-training/",
+          "/thank-you-for-applying/",
+        ],
+      },
+    },
     {
       resolve: `gatsby-plugin-disqus`,
       options: {

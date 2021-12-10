@@ -53,18 +53,14 @@ export default function VideoControl({ location }) {
         {visible && (
           <div className="flex flex-col mt-10 space-y-2 text-2xl font-bold text-center text-blue-500">
             <a
-              href="/apply1"
-              target="_parent"
-              rel="noopener noreferrer"
+              href="https://vouch.iljmp.com/2/ianhh"
               className="hover:underline"
             >
               Let Us Help You Do This
             </a>
             <a
-              href="/apply1"
-              target="_parent"
+              href="https://vouch.iljmp.com/2/ianhh"
               className="hover:underline"
-              rel="noopener noreferrer"
             >
               (Book A Free Strategy Session)
             </a>

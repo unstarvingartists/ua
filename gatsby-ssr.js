@@ -20,6 +20,11 @@ let HeadComponents = [
     <link rel="stylesheet" href="https://rsms.me/inter/inter.css" />
   </noscript>,
   <script key="hyros" dangerouslySetInnerHTML={{ __html: hyros }} />,
+  <meta
+    key="fb-verification"
+    name="facebook-domain-verification"
+    content="2uzjd13yhe3pfmwjqb58uypacajmxb"
+  />,
 ];
 
 exports.onRenderBody = ({ setHeadComponents }) => {

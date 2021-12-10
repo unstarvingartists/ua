@@ -1,17 +1,49 @@
-import React, { Fragment, useRef } from "react";
+import React, { Fragment, useRef, useEffect, useState } from "react";
 import { Dialog, Transition } from "@headlessui/react";
 import { StaticImage } from "gatsby-plugin-image";
 import { Formik, Form, Field, getIn } from "formik";
+import * as FullStory from "@fullstory/browser";
 
 function getClassName(errors, fieldName) {
   if (getIn(errors, fieldName)) {
-    return "block w-full px-4 py-3 mt-1 border-red-500 rounded-md shadow-sm focus:ring-red-500 focus:border-red-500 sm:text-sm";
+    return "optin-input block w-full px-4 py-3 mt-1 border-red-500 rounded-md shadow-sm focus:ring-red-500 focus:border-red-500 sm:text-sm";
   } else {
-    return "block w-full px-4 py-3 mt-1 border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm";
+    return "optin-input block w-full px-4 py-3 mt-1 border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm";
   }
 }
 
 export default function Popup({ open, setOpen }) {
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+
+  useEffect(() => {
+    FullStory.init({
+      orgId: "MNF4Z",
+      devMode: process.env.NODE_ENV === "development",
+    });
+    const storedName = localStorage.getItem("optin:name");
+    const storedEmail = localStorage.getItem("optin:email");
+    if (storedName && storedName !== "") {
+      setName(storedName);
+    }
+    if (storedEmail && storedEmail !== "") {
+      setEmail(storedEmail);
+    }
+  }, []);
+
+  const closePopup = () => {
+    FullStory.event("optin-popup-closed");
+    setOpen(false);
+  };
+
+  useEffect(() => {
+    localStorage.setItem("optin:name", name);
+  }, [name]);
+
+  useEffect(() => {
+    localStorage.setItem("optin:email", email);
+  }, [email]);
+
   const cancelButtonRef = useRef(null);
   const formEl = useRef(null);
   return (
@@ -46,7 +78,7 @@ export default function Popup({ open, setOpen }) {
           >
             <div className="inline-block my-10 sm:my-20 text-left align-bottom transition-all transform bg-white rounded-lg shadow-xl sm:align-middle sm:max-w-lg sm:w-full">
               <Formik
-                initialValues={{ name: "", email: "" }}
+                initialValues={{ name: name, email: email }}
                 validate={(values) => {
                   const errors = {};
                   if (!values.name) {
@@ -64,11 +96,14 @@ export default function Popup({ open, setOpen }) {
                 }}
                 onSubmit={(values, { setSubmitting }) => {
                   formEl.current.submit();
-                  setOpen(false);
+                  FullStory.event("optin-submitted");
+                  closePopup();
+                  setName("");
+                  setEmail("");
                   setSubmitting(false);
                 }}
               >
-                {({ errors, isSubmitting }) => (
+                {({ errors, isSubmitting, handleChange }) => (
                   <Form
                     action="https://formkeep.com/f/99bb97640331"
                     acceptCharset="UTF-8"
@@ -94,6 +129,7 @@ export default function Popup({ open, setOpen }) {
                             <StaticImage
                               className="w-full h-full"
                               src="../../images/status.png"
+                              loading="eager"
                               alt=""
                               imgStyle={{ objectFit: "contain" }}
                             />
@@ -104,7 +140,11 @@ export default function Popup({ open, setOpen }) {
                                 type="text"
                                 name="name"
                                 id="name"
-                                autoComplete="given-name"
+                                autoComplete="name"
+                                onChange={(event) => {
+                                  setName(event.target.value);
+                                  handleChange(event);
+                                }}
                                 className={getClassName(errors, "name")}
                               />
                             </div>
@@ -116,6 +156,10 @@ export default function Popup({ open, setOpen }) {
                                 name="email"
                                 id="email"
                                 autoComplete="email"
+                                onChange={(event) => {
+                                  setEmail(event.target.value);
+                                  handleChange(event);
+                                }}
                                 className={getClassName(errors, "email")}
                               />
                             </div>
@@ -126,7 +170,7 @@ export default function Popup({ open, setOpen }) {
                     <div className="px-4 py-3 pb-14 sm:px-10 sm:flex sm:flex-row-reverse">
                       <button
                         type="submit"
-                        className="inline-flex justify-center w-full px-4 py-2 mt-3 text-base font-medium text-white bg-red-500 border border-gray-300 rounded-md shadow-sm hover:bg-red-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500 sm:mt-0 sm:text-sm"
+                        className="optin-submit-button inline-flex justify-center w-full px-4 py-2 mt-3 text-base font-medium text-white bg-red-500 border border-gray-300 rounded-md shadow-sm hover:bg-red-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500 sm:mt-0 sm:text-sm"
                         disabled={isSubmitting}
                       >
                         Let's Go
@@ -134,7 +178,7 @@ export default function Popup({ open, setOpen }) {
                       <button
                         type="button"
                         className="absolute z-10 p-1 text-white bg-black border-2 border-white rounded-full shadow -top-3 -right-3"
-                        onClick={() => setOpen(false)}
+                        onClick={() => closePopup()}
                       >
                         <CloseButton />
                       </button>
