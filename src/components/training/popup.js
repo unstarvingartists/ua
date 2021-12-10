@@ -13,8 +13,23 @@ function getClassName(errors, fieldName) {
 }
 
 export default function Popup({ open, setOpen }) {
-  const [name, setName] = useState(localStorage.getItem("optin:name") || "");
-  const [email, setEmail] = useState(localStorage.getItem("optin:email") || "");
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+
+  useEffect(() => {
+    FullStory.init({
+      orgId: "MNF4Z",
+      devMode: process.env.NODE_ENV === "development",
+    });
+    const storedName = localStorage.getItem("optin:name");
+    const storedEmail = localStorage.getItem("optin:email");
+    if (storedName && storedName !== "") {
+      setName(storedName);
+    }
+    if (storedEmail && storedEmail !== "") {
+      setEmail(storedEmail);
+    }
+  }, []);
 
   const closePopup = () => {
     FullStory.event("optin-popup-closed");
@@ -28,13 +43,6 @@ export default function Popup({ open, setOpen }) {
   useEffect(() => {
     localStorage.setItem("optin:email", email);
   }, [email]);
-
-  useEffect(() => {
-    FullStory.init({
-      orgId: "MNF4Z",
-      devMode: process.env.NODE_ENV === "development",
-    });
-  });
 
   const cancelButtonRef = useRef(null);
   const formEl = useRef(null);
