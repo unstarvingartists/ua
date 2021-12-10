@@ -21,6 +21,7 @@ export default function ApplyPage({ location }) {
           className="max-w-5xl mx-auto 2xl:max-w-6xl"
           id="hZ5TaWKP"
           style={{ height: "600px" }}
+          inlineOnMobile={true}
         />
       </Layout>
     </>
