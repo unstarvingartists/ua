@@ -1,4 +1,4 @@
-import React, { Fragment, useRef, useEffect } from "react";
+import React, { Fragment, useRef, useEffect, useState } from "react";
 import { Dialog, Transition } from "@headlessui/react";
 import { StaticImage } from "gatsby-plugin-image";
 import { Formik, Form, Field, getIn } from "formik";
@@ -13,10 +13,21 @@ function getClassName(errors, fieldName) {
 }
 
 export default function Popup({ open, setOpen }) {
+  const [name, setName] = useState(localStorage.getItem("optin:name") || "");
+  const [email, setEmail] = useState(localStorage.getItem("optin:email") || "");
+
   const closePopup = () => {
     FullStory.event("optin-popup-closed");
     setOpen(false);
   };
+
+  useEffect(() => {
+    localStorage.setItem("optin:name", name);
+  }, [name]);
+
+  useEffect(() => {
+    localStorage.setItem("optin:email", email);
+  }, [email]);
 
   useEffect(() => {
     FullStory.init({
@@ -59,7 +70,7 @@ export default function Popup({ open, setOpen }) {
           >
             <div className="inline-block my-10 sm:my-20 text-left align-bottom transition-all transform bg-white rounded-lg shadow-xl sm:align-middle sm:max-w-lg sm:w-full">
               <Formik
-                initialValues={{ name: "", email: "" }}
+                initialValues={{ name: name, email: email }}
                 validate={(values) => {
                   const errors = {};
                   if (!values.name) {
@@ -79,10 +90,12 @@ export default function Popup({ open, setOpen }) {
                   formEl.current.submit();
                   FullStory.event("optin-submitted");
                   closePopup();
+                  setName("");
+                  setEmail("");
                   setSubmitting(false);
                 }}
               >
-                {({ errors, isSubmitting }) => (
+                {({ errors, isSubmitting, handleChange }) => (
                   <Form
                     action="https://formkeep.com/f/99bb97640331"
                     acceptCharset="UTF-8"
@@ -119,7 +132,11 @@ export default function Popup({ open, setOpen }) {
                                 type="text"
                                 name="name"
                                 id="name"
-                                autoComplete="given-name"
+                                autoComplete="name"
+                                onChange={(event) => {
+                                  setName(event.target.value);
+                                  handleChange(event);
+                                }}
                                 className={getClassName(errors, "name")}
                               />
                             </div>
@@ -131,6 +148,10 @@ export default function Popup({ open, setOpen }) {
                                 name="email"
                                 id="email"
                                 autoComplete="email"
+                                onChange={(event) => {
+                                  setEmail(event.target.value);
+                                  handleChange(event);
+                                }}
                                 className={getClassName(errors, "email")}
                               />
                             </div>
