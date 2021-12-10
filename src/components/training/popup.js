@@ -13,16 +13,21 @@ function getClassName(errors, fieldName) {
 }
 
 export default function Popup({ open, setOpen }) {
-  const [name, setName] = useState(sessionStorage.getItem("optin:name") || "");
+  const [name, setName] = useState(localStorage.getItem("optin:name") || "");
+  const [email, setEmail] = useState(localStorage.getItem("optin:email") || "");
+
   const closePopup = () => {
     FullStory.event("optin-popup-closed");
     setOpen(false);
   };
 
   useEffect(() => {
-    sessionStorage.setItem("optin:name", name);
-    console.log("stored name!", name);
+    localStorage.setItem("optin:name", name);
   }, [name]);
+
+  useEffect(() => {
+    localStorage.setItem("optin:email", email);
+  }, [email]);
 
   useEffect(() => {
     FullStory.init({
@@ -65,7 +70,7 @@ export default function Popup({ open, setOpen }) {
           >
             <div className="inline-block my-10 sm:my-20 text-left align-bottom transition-all transform bg-white rounded-lg shadow-xl sm:align-middle sm:max-w-lg sm:w-full">
               <Formik
-                initialValues={{ name: name, email: "" }}
+                initialValues={{ name: name, email: email }}
                 validate={(values) => {
                   const errors = {};
                   if (!values.name) {
@@ -85,8 +90,8 @@ export default function Popup({ open, setOpen }) {
                   formEl.current.submit();
                   FullStory.event("optin-submitted");
                   closePopup();
-                  sessionStorage.setItem("optin:name", "");
-                  console.log("cleared storage!");
+                  localStorage.setItem("optin:name", "");
+                  localStorage.setItem("optin:email", "");
                   setSubmitting(false);
                 }}
               >
@@ -143,6 +148,10 @@ export default function Popup({ open, setOpen }) {
                                 name="email"
                                 id="email"
                                 autoComplete="email"
+                                onChange={(event) => {
+                                  setEmail(event.target.value);
+                                  handleChange(event);
+                                }}
                                 className={getClassName(errors, "email")}
                               />
                             </div>
