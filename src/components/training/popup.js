@@ -140,6 +140,7 @@ export default function Popup({ open, setOpen }) {
                                 type="text"
                                 name="name"
                                 id="name"
+                                autoFocus // eslint-disable-line jsx-a11y/no-autofocus
                                 autoComplete="name"
                                 onChange={(event) => {
                                   setName(event.target.value);
