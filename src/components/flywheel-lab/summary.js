@@ -32,12 +32,12 @@ export default function Component() {
                   <li>✔ Generate a 6-figure profit</li>
                 </ul>
                 <div className="mt-6">
-                  <Link
-                    to="/training"
+                  <a
+                    href="https://go.unstarvingartists.com/training"
                     className="inline-flex px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-blue-600 hover:bg-blue-700"
                   >
                     See how it works
-                  </Link>
+                  </a>
                 </div>
               </div>
             </div>
