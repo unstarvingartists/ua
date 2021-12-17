@@ -86,12 +86,15 @@ export default function Component() {
           </dl>
         </div>
         <div className="mt-10 text-center">
-          <Link to="/training" className="text-base font-medium text-blue-600">
+          <a
+            href="https://go.unstarvingartists.com/training"
+            className="text-base font-medium text-blue-600"
+          >
             {" "}
             See how it works for yourself <span aria-hidden="true">
               &rarr;
             </span>{" "}
-          </Link>
+          </a>
         </div>
       </div>
     </div>

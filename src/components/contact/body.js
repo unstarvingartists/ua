@@ -23,8 +23,11 @@ export default function Component() {
               Future Clients
             </h2>
             <p className="prose prose-blue mt-4 text-lg text-gray-500 sm:mt-3">
-              Watch our <Link to="/training">free training</Link> and then apply
-              for a strategy session.
+              Watch our{" "}
+              <a href="https://go.unstarvingartists.com/training">
+                free training
+              </a>{" "}
+              and then apply for a strategy session.
             </p>
             <h2 className="text-3xl mt-9 font-extrabold tracking-tight sm:text-4xl">
               Clients
