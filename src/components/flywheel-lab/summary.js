@@ -1,5 +1,4 @@
 import * as React from "react";
-import { Link } from "gatsby";
 import { FlagIcon } from "@heroicons/react/outline";
 import michael from "../../images/michael.jpeg";
 import summary from "../../images/undraw_Abstract_re_l9xy.svg";
