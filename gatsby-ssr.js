@@ -9,6 +9,10 @@ script.src = "https://t.unstarvingartists.com/v1/lst/universal-script?ph=bfd3db6
 head.appendChild(script);
 `;
 
+const gecEmail = `
+window.gecEmail = localStorage.getItem('optin:email');
+`;
+
 const generateGTM = ({
   id,
   environmentParamStr,
@@ -60,6 +64,7 @@ exports.onRenderBody = (
   }
 ) => {
   const inlineScripts = [
+    <script key="gecEmail" dangerouslySetInnerHTML={{ __html: gecEmail }} />,
     <link
       key="inter"
       rel="preload"

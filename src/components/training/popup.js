@@ -98,8 +98,6 @@ export default function Popup({ open, setOpen }) {
                   formEl.current.submit();
                   FullStory.event("optin-submitted");
                   closePopup();
-                  setName("");
-                  setEmail("");
                   setSubmitting(false);
                 }}
               >
