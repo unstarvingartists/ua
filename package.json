@@ -27,7 +27,6 @@
     "formik": "^2.2.9",
     "gatsby": "^3.6.2",
     "gatsby-plugin-disqus": "^1.2.3",
-    "gatsby-plugin-google-tagmanager": "^3.9.0",
     "gatsby-plugin-image": "^1.8.0",
     "gatsby-plugin-manifest": "^3.8.0",
     "gatsby-plugin-mdx": "^2.8.0",
