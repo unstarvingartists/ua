@@ -6585,14 +6585,6 @@ gatsby-plugin-disqus@^1.2.3:
   resolved "https://registry.yarnpkg.com/gatsby-plugin-disqus/-/gatsby-plugin-disqus-1.2.3.tgz#c0ad7920860cf0f6f2d8ad256869b1d4591365ac"
   integrity sha512-HjsMCGPt1qI/oryCw1NJjFS6XQ99eQmsXjrxxRi295sjlpvvcnNXlB11O7v4BbjNu2euqCY6XzK/fBkYJjjgCQ==
 
-gatsby-plugin-google-tagmanager@^3.9.0:
-  version "3.9.0"
-  resolved "https://registry.npmjs.org/gatsby-plugin-google-tagmanager/-/gatsby-plugin-google-tagmanager-3.9.0.tgz"
-  integrity sha512-33qfePZGcXCVgdIA6LK7ZEkbdk1v5IfpOjW5WhXEd8VWCqH5PdzLLBZ7v7qNwaZaZoEVsvptHdqaO8r+927r5g==
-  dependencies:
-    "@babel/runtime" "^7.14.0"
-    web-vitals "^1.1.2"
-
 gatsby-plugin-image@^1.8.0:
   version "1.8.0"
   resolved "https://registry.npmjs.org/gatsby-plugin-image/-/gatsby-plugin-image-1.8.0.tgz"
@@ -15483,7 +15475,7 @@ web-namespaces@^1.0.0, web-namespaces@^1.1.2:
 
 web-vitals@^1.1.2:
   version "1.1.2"
-  resolved "https://registry.npmjs.org/web-vitals/-/web-vitals-1.1.2.tgz"
+  resolved "https://registry.yarnpkg.com/web-vitals/-/web-vitals-1.1.2.tgz#06535308168986096239aa84716e68b4c6ae6d1c"
   integrity sha512-PFMKIY+bRSXlMxVAQ+m2aw9c/ioUYfDgrYot0YUa+/xa0sakubWhSDyxAKwzymvXVdF4CZI71g06W+mqhzu6ig==
 
 webpack-dev-middleware@^3.7.2:
