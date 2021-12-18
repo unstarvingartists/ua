@@ -6,7 +6,7 @@ export default function Footer({ short, fb }) {
       <div className="md:w-1/2">
         <div className="flex flex-col">
           <p>© 2021 Vouch Group, LLC dba Unstarving Artists</p>
-          <p>285 W Wieuca Rd Ne, PMB #4213, Atlanta, Ga 30342</p>
+          <p>285 W Wieuca Rd NE, PMB #4213, Atlanta, Ga 30342</p>
         </div>
       </div>
       <div className="space-y-3 text-right md:w-1/2">
