@@ -47,7 +47,11 @@ export default function ThankYouForApplyingPage({ location }) {
                 Unstarving Artists.
               </p>
               <p>
-                Alternatively, check out our Facebook Group for Artists which is
+                You are also welcome to reapply for consideration in a month as
+                your situation changes.
+              </p>
+              <p>
+                Lastly, please check out our Facebook Group for Artists which is
                 open to all artists.
               </p>
               <div className="flex items-center justify-center">
