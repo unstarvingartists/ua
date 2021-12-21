@@ -92,6 +92,13 @@ module.exports = {
         path: `${__dirname}/content/blogs/`,
       },
     },
+    {
+      resolve: "gatsby-plugin-google-tagmanager",
+      options: {
+        id: "GTM-TX4GXWB",
+        enableWebVitalsTracking: true,
+      },
+    },
     "gatsby-plugin-postcss",
   ],
 };
