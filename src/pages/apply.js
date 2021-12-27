@@ -19,7 +19,7 @@ export default function ApplyPage({ location }) {
 
         <Widget
           className="max-w-5xl mx-auto 2xl:max-w-6xl"
-          id="hZ5TaWKP"
+          id="Xtpi7rF2"
           style={{ height: "600px" }}
           inlineOnMobile={true}
         />
