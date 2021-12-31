@@ -17,9 +17,9 @@ export default function Page({ location }) {
         <Navigation />
       </Hero>
       <Benefits />
-      <CallToAction />
       <OurValues />
       <TeamOfLeaders />
+      <CallToAction />
       <Footer />
     </Layout>
   );
