@@ -11,37 +11,37 @@ import {
 
 const features = [
   {
-    name: "Positive",
+    name: "1. Positive",
     description:
       "Assume good intentions. Always seek out the charitable and open-minded way to view things.",
     icon: ThumbUpIcon,
   },
   {
-    name: "Supportive",
+    name: "2. Supportive",
     description:
       "We win the battle for our clients by protecting and taking care of each other.",
     icon: ShieldCheckIcon,
   },
   {
-    name: "Self-Starting",
+    name: "3. Self-Starting",
     description:
       "Instinctively pursuing and solving hard problems is where our success comes from.",
     icon: LightBulbIcon,
   },
   {
-    name: "Make The Experience Share Worthy",
+    name: "4. Make The Experience Share Worthy",
     description:
       'In all things consider the impression the client will have and think, "Will this WOW them so much that they HAVE to tell someone about it".',
     icon: HeartIcon,
   },
   {
-    name: "Brutal Data-Driven Truth",
+    name: "5. Brutal Data-Driven Truth",
     description:
       "Trust in accurate data. In our work, we must never operate off anything but the 110% accurate truth.",
     icon: LightningBoltIcon,
   },
   {
-    name: "Eagle-Eyed Long-Term Focus",
+    name: "6. Eagle-Eyed Long-Term Focus",
     description:
       "Have courage to focus on the long-term mission. Everything else will follow.",
     icon: EyeIcon,
