@@ -5,7 +5,7 @@ export default function Footer({ short, fb }) {
     <footer className="flex flex-col justify-between max-w-6xl px-4 pt-96 pt-md-10 pb-10 mx-auto space-y-5 text-xs text-light-gray md:space-y-0 md:text-sm md:space-x-20 md:flex-row sm:px-6">
       <div className="md:w-1/2">
         <div className="flex flex-col">
-          <p>© 2021 Vouch Group, LLC dba Unstarving Artists</p>
+          <p>© 2022 Vouch Group, LLC dba Unstarving Artists</p>
           <p>285 W Wieuca Rd NE, PMB #4213, Atlanta, Ga 30342</p>
         </div>
       </div>
