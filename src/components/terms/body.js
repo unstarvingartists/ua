@@ -194,7 +194,11 @@ export default function Component({ children }) {
                   3. Establish a Foundational Marketing Presence following our
                   process.
                 </p>
-                <p>4. Adapt a Sales Script following our process. Complete 10+ hours of mock studio tour practice with fellow artists in the program. Record 10+ live studio tours.</p>
+                <p>
+                  4. Adapt a Sales Script following our process. Complete 10+
+                  hours of mock studio tour practice with fellow artists in the
+                  program. Record 10+ live studio tours.
+                </p>
                 <p>
                   5. Conduct 2 Client Or Niche Interviews following our process.
                 </p>
@@ -203,10 +207,12 @@ export default function Component({ children }) {
                   organically in Facebook Groups and in Facebook Messenger.
                 </p>
                 <p>
-                  7. Ask coaches for help at least 3 times per week in our Facebook Group for 90 days. One mulligan week.
+                  7. Ask coaches for help at least 3 times per week in our
+                  Facebook Group for 90 days. One mulligan week.
                 </p>
                 <p>
-                  8. Ask questions at both weekly Q&A calls for 90 days. One mulligan week.
+                  8. Ask questions at both weekly Q&A calls for 90 days. One
+                  mulligan week.
                 </p>
                 <p>
                   9. Make an honest attempt. This means you put effort in over
