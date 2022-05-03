@@ -7,13 +7,12 @@ export default function Component() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-3xl font-extrabold text-gray-900 sm:text-4xl">
-            Proven real-world results with artists like you
+            Proven real-world results with people like you
           </h2>
           <p className="mt-3 text-xl text-gray-500 sm:mt-4">
-            We don’t provide our artists with certificates, degrees,
-            credentials, badges, or participation awards. We provide our artists
-            with real-world results: collectors, growth, profits,
-            self-improvement, and success.
+            We don’t hand out certificates, degrees, credentials, badges, or
+            participation awards. We provide our clients with real-world
+            results: collectors, growth, profits, self-improvement, and success.
           </p>
         </div>
       </div>
@@ -28,7 +27,7 @@ export default function Component() {
                     Active students
                   </dt>
                   <dd className="order-1 text-5xl font-extrabold text-blue-600">
-                    115
+                    194
                   </dd>
                 </div>
                 <div className="flex flex-col border-t border-b border-gray-100 p-6 text-center sm:border-0 sm:border-l sm:border-r">
