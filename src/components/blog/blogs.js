@@ -18,12 +18,22 @@ export default function Component() {
                   category {
                     href
                     name
+                    label
                   }
-                  country
                   description
-                  genre
                   href
                   title
+                  author {
+                    href
+                    name
+                    location
+                    title
+                    image {
+                      childImageSharp {
+                        gatsbyImageData(width: 40)
+                      }
+                    }
+                  }
                   image {
                     childImageSharp {
                       gatsbyImageData(width: 392)
@@ -44,6 +54,7 @@ export default function Component() {
             <div className="mt-12 max-w-lg mx-auto grid gap-5 lg:grid-cols-3 lg:max-w-none">
               {data.allMdx.edges.map(({ node: post }) => {
                 const image = getImage(post.frontmatter.image);
+                const authorImage = getImage(post.frontmatter.author.image);
 
                 return (
                   <div
@@ -66,7 +77,7 @@ export default function Component() {
                             to={post.frontmatter.href}
                             className="hover:underline"
                           >
-                            {post.frontmatter.category.name}
+                            {post.frontmatter.category.label}
                           </Link>
                         </p>
                         <Link to={post.frontmatter.href} className="block mt-2">
@@ -77,6 +88,35 @@ export default function Component() {
                             {post.frontmatter.description}
                           </p>
                         </Link>
+                      </div>
+                      <div className="mt-6 flex items-center">
+                        <div className="flex-shrink-0">
+                          <Link to={post.frontmatter.author.href}>
+                            <span className="sr-only">
+                              {post.frontmatter.author.name}
+                            </span>
+                            <GatsbyImage
+                              className="h-10 w-10 rounded-full"
+                              image={authorImage}
+                              alt={post.frontmatter.author.name}
+                            />
+                          </Link>
+                        </div>
+                        <div className="ml-3">
+                          <p className="text-sm font-medium text-gray-900">
+                            <Link
+                              to={post.frontmatter.author.href}
+                              className="hover:underline"
+                            >
+                              {post.frontmatter.author.name}
+                            </Link>
+                          </p>
+                          <div className="flex space-x-1 text-sm text-gray-500">
+                            <span>{post.frontmatter.author.title}</span>
+                            <span aria-hidden="true">&middot;</span>
+                            <span>{post.frontmatter.author.location}</span>
+                          </div>
+                        </div>
                       </div>
                     </div>
                   </div>
