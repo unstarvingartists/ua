@@ -155,10 +155,10 @@ export default function Component({ children }) {
                   warranties, promises, suggestions, projections,
                   representations or guarantees whatsoever to you about future
                   prospects or earnings, or that you will earn any money, with
-                  respect to your purchase of Vouch Group, LLC ("Unstarving
-                  Artists" hereafter) products and/or services, and that we have
-                  not authorized any such projection, promise, or representation
-                  by others.
+                  respect to your purchase of Unstarving Artists, LLC
+                  ("Unstarving Artists" hereafter) products and/or services, and
+                  that we have not authorized any such projection, promise, or
+                  representation by others.
                 </p>
                 <p>
                   Any earnings or income statements, or any earnings or income

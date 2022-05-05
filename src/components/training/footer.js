@@ -5,7 +5,7 @@ export default function Footer({ short, fb }) {
     <footer className="flex flex-col justify-between max-w-6xl px-4 pt-96 pt-md-10 pb-10 mx-auto space-y-5 text-xs text-light-gray md:space-y-0 md:text-sm md:space-x-20 md:flex-row sm:px-6">
       <div className="md:w-1/2">
         <div className="flex flex-col">
-          <p>© 2022 Vouch Group, LLC dba Unstarving Artists</p>
+          <p>© 2022 Unstarving Artists, LLC dba Unstarving Artists</p>
           <p>285 W Wieuca Rd NE, PMB #4213, Atlanta, Ga 30342</p>
         </div>
       </div>
@@ -46,11 +46,12 @@ export default function Footer({ short, fb }) {
           <>
             <p className="text-xs">
               *Earnings and income representations made by Harry Whelchel and
-              Vouch Group, LLC and their advertisers/sponsors (collectively,
-              "Unstarving Artists") are aspirational statements only of your
-              earnings potential. These results are not typical and results will
-              vary. The results on this page are OUR results and from years of
-              testing. We can in NO way guarantee you will get similar results
+              Unstarving Artists, LLC and their advertisers/sponsors
+              (collectively, "Unstarving Artists") are aspirational statements
+              only of your earnings potential. These results are not typical and
+              results will vary. The results on this page are OUR results and
+              from years of testing. We can in NO way guarantee you will get
+              similar results
             </p>
             {fb && (
               <p className="text-xs">

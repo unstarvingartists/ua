@@ -242,8 +242,8 @@ export default function Component() {
             ))}
           </div>
           <p className="mt-8 text-xs text-gray-400 md:mt-0 md:order-1">
-            &copy; {new Date().getFullYear()} Vouch Group, LLC. All rights
-            reserved.{" "}
+            &copy; {new Date().getFullYear()} Unstarving Artists, LLC. All
+            rights reserved.{" "}
             <Link className="mx-2" to="/privacy">
               Privacy & Terms
             </Link>{" "}

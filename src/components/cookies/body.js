@@ -151,11 +151,12 @@ export default function Component({ children }) {
               </div>
               <div className="mt-6 prose prose-blue prose-lg text-gray-500 mx-auto">
                 <p>
-                  This cookie policy is part of Vouch Group, LLC's privacy
-                  policy, and covers the use of cookies between your device and
-                  our site. We also provide basic information on third-party
-                  services we may use, who may also use cookies as part of their
-                  service, though they are not covered by our policy.
+                  This cookie policy is part of Unstarving Artists, LLC's
+                  privacy policy, and covers the use of cookies between your
+                  device and our site. We also provide basic information on
+                  third-party services we may use, who may also use cookies as
+                  part of their service, though they are not covered by our
+                  policy.
                 </p>
                 <p>
                   If you don’t wish to accept cookies from us, you should
@@ -244,7 +245,7 @@ export default function Component({ children }) {
                   they are providing. Third-party cookies can be used to track
                   you on other websites that use the same third-party service.
                   As we have no control over third-party cookies, they are not
-                  covered by Vouch Group, LLC's cookie policy.
+                  covered by Unstarving Artists, LLC's cookie policy.
                 </p>
                 <h3>Our third-party privacy promise</h3>
                 <p>

@@ -146,7 +146,7 @@ export default function Component({ children }) {
                 </h1>
                 <p className="mt-8 text-xl text-gray-500 leading-8">
                   This acceptable use policy ("Acceptable Use Policy", "AUP",
-                  "Policy") is an agreement between Vouch Group, LLC
+                  "Policy") is an agreement between Unstarving Artists, LLC
                   ("Unstarving Artists", "us", "we" or "our") and you ("User",
                   "you" or "your"). This Policy sets forth the general
                   guidelines and acceptable and prohibited uses of the{" "}

@@ -150,7 +150,7 @@ export default function Component({ children }) {
               </div>
               <div className="mt-6 prose prose-blue prose-lg text-gray-500 mx-auto">
                 <p>
-                  It is Vouch Group, LLC’s policy to respect your privacy
+                  It is Unstarving Artists, LLC’s policy to respect your privacy
                   regarding any information we may collect from you across our
                   website, <Link to="/">unstarvingartists.com</Link>, and other
                   sites we own and operate.
@@ -461,14 +461,16 @@ export default function Component({ children }) {
                   amended privacy policy.
                 </p>
                 <p>
-                  <strong>Vouch Group, LLC Data Controller</strong>
+                  <strong>Unstarving Artists, LLC Data Controller</strong>
                   <br />
                   Harry Whelchel
                   <br />
                   hello@unstarvingartists.com
                 </p>
                 <p>
-                  <strong>Vouch Group, LLC Data Protection Officer</strong>
+                  <strong>
+                    Unstarving Artists, LLC Data Protection Officer
+                  </strong>
                   <br />
                   Harry Whelchel
                   <br />
