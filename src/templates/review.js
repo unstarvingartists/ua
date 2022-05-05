@@ -28,6 +28,7 @@ export const query = graphql`
         description
         genre
         href
+        interviewHref
         videoID
         student {
           href
@@ -62,6 +63,7 @@ export const query = graphql`
             description
             genre
             href
+            interviewHref
             student {
               href
               name

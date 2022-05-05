@@ -1,4 +1,5 @@
 import React, { useEffect } from "react";
+import { Link } from "gatsby";
 
 export default function Component({ mdx, children, site, pathname }) {
   const wistia = `<div class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div class="wistia_embed wistia_async_${mdx.frontmatter.videoID} videoFoam=true playerColor=2564eb" style="height:100%;position:relative;width:100%"><div class="wistia_swatch" style="height:100%;left:0;opacity:0;overflow:hidden;position:absolute;top:0;transition:opacity 200ms;width:100%;"><img src="https://fast.wistia.com/embed/medias/${mdx.frontmatter.videoID}/swatch" style="filter:blur(5px);height:100%;object-fit:contain;width:100%;" alt="" aria-hidden="true" onload="this.parentNode.style.opacity=1;" /></div></div></div></div>`;
@@ -116,17 +117,17 @@ export default function Component({ mdx, children, site, pathname }) {
           <div dangerouslySetInnerHTML={{ __html: wistia }}></div>
         </div>
         <div className="sharethis-inline-share-buttons" />
-        <div className="mt-3 text-center">
-          <a
-            href="https://www.facebook.com/groups/unstarvingartistscommunity"
+        <div className="text-center">
+          <Link
+            to={mdx.frontmatter.interviewHref}
             target="_blank"
             rel="noreferrer"
             className="text-base font-medium text-blue-600 underline"
           >
             {" "}
-            Join Our FREE Facebook Group For Artists{" "}
+            Watch {mdx.frontmatter.student.name.split(" ", 1)}'s Full Interview{" "}
             <span aria-hidden="true">&rarr;</span>{" "}
-          </a>
+          </Link>
         </div>
       </div>
     </div>
