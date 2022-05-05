@@ -119,7 +119,7 @@ export default function Component({ mdx, children, site, pathname }) {
         <div className="sharethis-inline-share-buttons" />
         <div className="text-center">
           <Link
-            to={mdx.frontmatter.interviewHref}
+            to={mdx.frontmatter.blogHref}
             target="_blank"
             rel="noreferrer"
             className="text-base font-medium text-blue-600 underline"
