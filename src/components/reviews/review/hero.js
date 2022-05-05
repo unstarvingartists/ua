@@ -117,7 +117,7 @@ export default function Component({ mdx, children, site, pathname }) {
           <div dangerouslySetInnerHTML={{ __html: wistia }}></div>
         </div>
         <div className="sharethis-inline-share-buttons" />
-        <div className="text-center">
+        <div className="mt-3 text-center">
           <Link
             to={mdx.frontmatter.blogHref}
             target="_blank"
