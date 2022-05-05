@@ -2,8 +2,30 @@ import React, { useEffect } from "react";
 
 export default function Component({ mdx, children, site, pathname }) {
   const youtube = `<style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed//${mdx.frontmatter.videoID}' frameborder='0' allowfullscreen></iframe></div>`;
+  const wistia = `<div class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div class="wistia_embed wistia_async_${mdx.frontmatter.videoID} videoFoam=true playerColor=2564eb" style="height:100%;position:relative;width:100%"><div class="wistia_swatch" style="height:100%;left:0;opacity:0;overflow:hidden;position:absolute;top:0;transition:opacity 200ms;width:100%;"><img src="https://fast.wistia.com/embed/medias/${mdx.frontmatter.videoID}/swatch" style="filter:blur(5px);height:100%;object-fit:contain;width:100%;" alt="" aria-hidden="true" onload="this.parentNode.style.opacity=1;" /></div></div></div></div>`;
+  let videoEmbed;
+
+  if (mdx.frontmatter.videoType === "youtube") {
+    videoEmbed = youtube;
+  } else {
+    videoEmbed = wistia;
+  }
 
   useEffect(() => {
+    if (mdx.frontmatter.videoType !== "youtube") {
+      const script1 = document.createElement("script");
+      const script2 = document.createElement("script");
+
+      script1.src = `https://fast.wistia.com/embed/medias/${mdx.frontmatter.videoID}.jsonp`;
+      script1.async = true;
+
+      script2.src = "https://fast.wistia.com/assets/external/E-v1.js";
+      script2.async = true;
+
+      document.body.appendChild(script1);
+      document.body.appendChild(script2);
+    }
+
     if (
       typeof window.__sharethis__ !== "undefined" &&
       typeof window.__sharethis__.initialize !== "undefined"
@@ -90,7 +112,7 @@ export default function Component({ mdx, children, site, pathname }) {
         <div className="text-lg max-w-prose mx-auto pt-10">
           <h1>
             <span className="block text-base text-center text-blue-600 font-semibold tracking-wide uppercase">
-              {mdx.frontmatter.category.name}
+              {mdx.frontmatter.category.label}
             </span>
             <span className="mt-2 block text-3xl text-center leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
               {mdx.frontmatter.title}
@@ -101,7 +123,7 @@ export default function Component({ mdx, children, site, pathname }) {
           </p>
         </div>
         <div className="my-6 prose prose-blue prose-lg text-gray-500 mx-auto">
-          <div dangerouslySetInnerHTML={{ __html: youtube }}></div>
+          <div dangerouslySetInnerHTML={{ __html: videoEmbed }}></div>
         </div>
         <div className="sharethis-inline-share-buttons" />
         <div className="mt-3 text-center">
