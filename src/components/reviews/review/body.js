@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import { MDXRenderer } from "gatsby-plugin-mdx";
 import { Disqus } from "gatsby-plugin-disqus";
+import { Link } from "gatsby";
 
 export default function Component({ mdx, site, pathname }) {
   let disqusConfig = {
@@ -124,16 +125,6 @@ export default function Component({ mdx, site, pathname }) {
         </div>
       </div>
       <div className="relative px-4 sm:px-6 lg:px-8">
-        <div className="text-lg max-w-prose mx-auto">
-          <h1>
-            <span className="block text-base text-center text-blue-600 font-semibold tracking-wide uppercase">
-              Interview
-            </span>
-            <span className="mt-2 block text-3xl text-center leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
-              Transcript
-            </span>
-          </h1>
-        </div>
         <div className="my-6 prose prose-blue prose-lg text-gray-500 mx-auto">
           <MDXRenderer>{mdx.body}</MDXRenderer>
         </div>
@@ -142,16 +133,16 @@ export default function Component({ mdx, site, pathname }) {
         </div>
         <div className="sharethis-inline-share-buttons" />
         <div className="mt-3 text-center">
-          <a
-            href="https://www.facebook.com/groups/unstarvingartistscommunity"
+          <Link
+            to={mdx.frontmatter.interviewHref}
             target="_blank"
             rel="noreferrer"
             className="text-base font-medium text-blue-600 underline"
           >
             {" "}
-            Join Our FREE Facebook Group For Artists{" "}
+            Watch {mdx.frontmatter.student.name.split(" ", 1)}'s Full Interview{" "}
             <span aria-hidden="true">&rarr;</span>{" "}
-          </a>
+          </Link>
         </div>
       </div>
     </div>
