@@ -129,13 +129,13 @@
   status = 301
   force = true
 [[redirects]]
-  from = "https://www.unstarvingartists.com/reviews/kelly-gordon"
-  to = "https://www.unstarvingartists.com/blog/kelly-gordon"
+  from = "https://www.unstarvingartists.com/reviews/kelly-30k"
+  to = "https://www.unstarvingartists.com/blog/kelly-30k"
   status = 301
   force = true
 [[redirects]]
-  from = "https://www.unstarvingartists.com/reviews/kelly"
-  to = "https://www.unstarvingartists.com/blog/kelly"
+  from = "https://www.unstarvingartists.com/reviews/kelly-gordon"
+  to = "https://www.unstarvingartists.com/blog/kelly-gordon"
   status = 301
   force = true
 [[redirects]]
