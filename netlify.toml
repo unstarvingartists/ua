@@ -129,11 +129,6 @@
   status = 301
   force = true
 [[redirects]]
-  from = "https://www.unstarvingartists.com/reviews/kelly-30k"
-  to = "https://www.unstarvingartists.com/blog/kelly-30k"
-  status = 301
-  force = true
-[[redirects]]
   from = "https://www.unstarvingartists.com/reviews/kelly-gordon"
   to = "https://www.unstarvingartists.com/blog/kelly-gordon"
   status = 301
@@ -151,11 +146,6 @@
 [[redirects]]
   from = "https://www.unstarvingartists.com/reviews/khierstyn"
   to = "https://www.unstarvingartists.com/blog/khierstyn"
-  status = 301
-  force = true
-[[redirects]]
-  from = "https://www.unstarvingartists.com/reviews/lauren"
-  to = "https://www.unstarvingartists.com/blog/lauren"
   status = 301
   force = true
 [[redirects]]
