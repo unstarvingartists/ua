@@ -88,7 +88,6 @@ export default function Page({ data, location }) {
   return (
     <Layout>
       <Seo
-        noIndex
         title={data.mdx.frontmatter.student.name}
         pathname={location.pathname}
       />
