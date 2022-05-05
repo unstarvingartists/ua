@@ -23,11 +23,19 @@ export const query = graphql`
         category {
           href
           name
+          label
         }
         href
         videoID
+        videoType
         author {
           name
+          href
+          location
+          title
+          image {
+            publicURL
+          }
         }
         title
         image {
@@ -50,13 +58,20 @@ export const query = graphql`
             category {
               href
               name
+              label
             }
-            country
             description
-            genre
             href
             author {
+              href
               name
+              title
+              location
+              image {
+                childImageSharp {
+                  gatsbyImageData(width: 40)
+                }
+              }
             }
             title
             image {

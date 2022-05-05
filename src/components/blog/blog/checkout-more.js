@@ -22,6 +22,7 @@ export default function Component({ allMdx }) {
         <div className="mt-12 max-w-lg mx-auto grid gap-5 lg:grid-cols-3 lg:max-w-none">
           {allMdx.edges.map(({ node: post }) => {
             const image = getImage(post.frontmatter.image);
+            const authorImage = getImage(post.frontmatter.author.image);
 
             return (
               <div
@@ -29,7 +30,7 @@ export default function Component({ allMdx }) {
                 className="flex flex-col rounded-lg shadow-lg overflow-hidden"
               >
                 <div className="flex-shrink-0">
-                  <Link to={post.frontmatter.author.href}>
+                  <Link to={post.frontmatter.href}>
                     <GatsbyImage
                       className="h-48 w-full object-cover"
                       image={image}
@@ -41,10 +42,10 @@ export default function Component({ allMdx }) {
                   <div className="flex-1">
                     <p className="text-sm font-medium text-blue-600">
                       <Link
-                        to={post.frontmatter.author.href}
+                        to={post.frontmatter.href}
                         className="hover:underline"
                       >
-                        {post.frontmatter.category.name}
+                        {post.frontmatter.category.label}
                       </Link>
                     </p>
                     <Link to={post.frontmatter.href} className="block mt-2">
@@ -55,6 +56,35 @@ export default function Component({ allMdx }) {
                         {post.frontmatter.description}
                       </p>
                     </Link>
+                  </div>
+                  <div className="mt-6 flex items-center">
+                    <div className="flex-shrink-0">
+                      <Link to={post.frontmatter.author.href}>
+                        <span className="sr-only">
+                          {post.frontmatter.author.name}
+                        </span>
+                        <GatsbyImage
+                          className="h-10 w-10 rounded-full"
+                          image={authorImage}
+                          alt={post.frontmatter.author.name}
+                        />
+                      </Link>
+                    </div>
+                    <div className="ml-3">
+                      <p className="text-sm font-medium text-gray-900">
+                        <Link
+                          to={post.frontmatter.author.href}
+                          className="hover:underline"
+                        >
+                          {post.frontmatter.author.name}
+                        </Link>
+                      </p>
+                      <div className="flex space-x-1 text-sm text-gray-500">
+                        <span>{post.frontmatter.author.title}</span>
+                        <span aria-hidden="true">&middot;</span>
+                        <span>{post.frontmatter.author.location}</span>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
