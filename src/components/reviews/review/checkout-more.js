@@ -27,7 +27,7 @@ export default function Component({ allMdx }) {
 
             return (
               <div
-                key={post.frontmatter.title}
+                key={post.id}
                 className="flex flex-col rounded-lg shadow-lg overflow-hidden"
               >
                 <div className="flex-shrink-0">

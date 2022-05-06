@@ -87,6 +87,7 @@ export const query = graphql`
 `;
 
 export default function Page({ data, location }) {
+  const { key, ...passableLocation } = location;
   return (
     <Layout>
       <Seo
@@ -96,10 +97,10 @@ export default function Page({ data, location }) {
         description={data.mdx.frontmatter.description}
         pathname={location.pathname}
       />
-      <Hero {...data} {...location}>
+      <Hero {...data} {...passableLocation}>
         <Navigation />
       </Hero>
-      <Body {...data} {...location} />
+      <Body {...data} {...passableLocation} />
       <CheckoutMore {...data} />
       <CallToAction />
       <Footer />
