@@ -153,8 +153,8 @@ export default function Component({ children }) {
                   Terms and Conditions.
                 </p>
                 <p className="mt-8 text-xl text-gray-500 leading-8">
-                  These Terms and Conditions are subject to change by Vouch
-                  Group, LLC, a Limited Liability Company having offices in
+                  These Terms and Conditions are subject to change by Unstarving
+                  Artists, LLC, a Limited Liability Company having offices in
                   Atlanta, GA, USA. (hereinafter “Unstarving Artists”) at any
                   time and at our discretion without notice. Your use of the
                   Website after any changes are implemented constitutes your

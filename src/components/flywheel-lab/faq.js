@@ -19,7 +19,7 @@ const features = [
   },
   {
     name: "Program Length",
-    description: "7 Weeks",
+    description: "6 Weeks",
     icon: ClockIcon,
   },
   {
@@ -34,7 +34,7 @@ const faqs = [
     id: 1,
     question: "What is it?",
     answer:
-      "Flywheel Lab is a 7-week online training program with live Q&A calls and a community of semi-professional and professional artists. It shows you how to start a profitable art practice from scratch.",
+      "Flywheel Lab is a 6-week online training program with live Q&A calls and a community of semi-professional and professional artists. It shows you how to start a profitable art practice from scratch.",
   },
   {
     id: 2,

@@ -65,8 +65,14 @@ export default function Component() {
                 </div>
                 <figcaption className="mt-3 flex text-sm text-gray-500">
                   <span>
-                    Rather than hear from us why we're different, check out our
-                    Reviews.
+                    Rather than hear from us why we're different, check out our{" "}
+                    <Link
+                      to="/reviews"
+                      class="underline font-medium text-gray-500"
+                    >
+                      Reviews
+                    </Link>
+                    .
                   </span>
                 </figcaption>
               </figure>
@@ -88,7 +94,7 @@ export default function Component() {
               <p>
                 #1: PLEASE go try our "competitors" and run our methods head to
                 head with theirs. Unlike our competitors, we have a 90-day
-                action-based guarantee BECAUSE we know our program delivers
+                action-based guarantee* BECAUSE we know our program delivers
                 superior results. If you put in the work, we are 100% positive
                 you will see not only better results, but also better client
                 support, easier-to-use training, and far more specialized
@@ -103,6 +109,13 @@ export default function Component() {
                 reason people constantly leave other programs to become
                 Unstarving Artists clients for life. Our clients are quite vocal
                 about why they love us and our programs.
+              </p>
+              <p class="text-sm">
+                *For more on how to qualify, visit our{" "}
+                <Link class="text-gray-500" to="/terms">
+                  terms
+                </Link>
+                .
               </p>
             </div>
             <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
