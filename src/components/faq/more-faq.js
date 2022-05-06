@@ -72,7 +72,7 @@ const faqs = [
   {
     question: "What's your refund policy?",
     answer:
-      "Your investment is 100% risk-free provided that you take the action outlined in our action-based guarantee (see terms). Your effort must be a good faith honest attempt to apply the program over 90 days. If you take the action that we ask you to take and are not seeing value, we will happily work out a refund.",
+      "Your investment is 100% risk-free provided that you take the action outlined in our action-based guarantee (see terms). Your effort must be a good faith honest attempt to apply the program over 90 days. If you take the action that we ask you to take and are not seeing value, we will happily refund your full payment.",
   },
 ];
 
