@@ -90,7 +90,10 @@ export default function Page({ data, location }) {
   return (
     <Layout>
       <Seo
-        title={data.mdx.frontmatter.student.name}
+        title={
+          data.mdx.frontmatter.title + " · " + data.mdx.frontmatter.student.name
+        }
+        description={data.mdx.frontmatter.description}
         pathname={location.pathname}
       />
       <Hero {...data} {...location}>

@@ -89,7 +89,13 @@ export const query = graphql`
 export default function Page({ data, location }) {
   return (
     <Layout>
-      <Seo title={data.mdx.frontmatter.title} pathname={location.pathname} />
+      <Seo
+        title={
+          data.mdx.frontmatter.title + " · " + data.mdx.frontmatter.author.name
+        }
+        description={data.mdx.frontmatter.description}
+        pathname={location.pathname}
+      />
       <Hero {...data} {...location}>
         <Navigation />
       </Hero>
