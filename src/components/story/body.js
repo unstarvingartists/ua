@@ -139,7 +139,7 @@ export default function Component({ children }) {
                 <blockquote>
                   <p>
                     Harry Whelchel is a multi 6-figure art market consultant
-                    working closely with over 80 semi-professional and
+                    working closely with over 200 semi-professional and
                     professional artists spanning more than 12 countries.
                   </p>
                   <p>
