@@ -25,6 +25,35 @@ export default function Component({ mdx, children, site, pathname }) {
     }
   });
 
+  let ctaLink;
+  if (mdx.frontmatter.blogHref) {
+    ctaLink = (
+      <Link
+        to={mdx.frontmatter.blogHref}
+        target="_blank"
+        rel="noreferrer"
+        className="text-base font-medium text-blue-600 underline"
+      >
+        {" "}
+        Watch {mdx.frontmatter.student.name.split(" ", 1)}'s Full Interview{" "}
+        <span aria-hidden="true">&rarr;</span>{" "}
+      </Link>
+    );
+  } else {
+    ctaLink = (
+      <a
+        href="https://www.facebook.com/groups/unstarvingartistscommunity"
+        target="_blank"
+        rel="noreferrer"
+        className="text-base font-medium text-blue-600 underline"
+      >
+        {" "}
+        Join Our FREE Facebook Group For Artists{" "}
+        <span aria-hidden="true">&rarr;</span>{" "}
+      </a>
+    );
+  }
+
   return (
     <div className="relative bg-white overflow-hidden">
       <div className="hidden lg:block lg:absolute lg:inset-y-0 lg:h-full lg:w-full">
@@ -117,18 +146,7 @@ export default function Component({ mdx, children, site, pathname }) {
           <div dangerouslySetInnerHTML={{ __html: wistia }}></div>
         </div>
         <div className="sharethis-inline-share-buttons" />
-        <div className="mt-3 text-center">
-          <Link
-            to={mdx.frontmatter.blogHref}
-            target="_blank"
-            rel="noreferrer"
-            className="text-base font-medium text-blue-600 underline"
-          >
-            {" "}
-            Watch {mdx.frontmatter.student.name.split(" ", 1)}'s Full Interview{" "}
-            <span aria-hidden="true">&rarr;</span>{" "}
-          </Link>
-        </div>
+        <div className="mt-3 text-center">{ctaLink}</div>
       </div>
     </div>
   );
