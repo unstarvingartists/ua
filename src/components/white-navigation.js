@@ -41,7 +41,7 @@ const callsToAction = [
     href: "https://go.unstarvingartists.com/training",
     icon: PlayIcon,
   },
-  { name: "Apply Now", to: "/apply", icon: LightningBoltIcon },
+  { name: "Apply Now", to: "/apply-now", icon: LightningBoltIcon },
 ];
 
 function classNames(...classes) {

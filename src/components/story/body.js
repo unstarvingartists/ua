@@ -764,7 +764,7 @@ export default function Component({ children }) {
                   <StaticImage
                     src="../../images/flywheel-lab-box.png"
                     alt="The Flywheel Lab program have been battle tested and proven
-                    with 100+ students worldwide."
+                    with 200+ students worldwide."
                     className="w-full"
                     imgClassName="w-full"
                     width={736}
@@ -772,7 +772,7 @@ export default function Component({ children }) {
                   />
                   <figcaption>
                     The Flywheel Lab program have been battle tested and proven
-                    with 100+ students worldwide.
+                    with 200+ students worldwide.
                   </figcaption>
                 </figure>
                 <p>

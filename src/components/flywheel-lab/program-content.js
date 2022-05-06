@@ -33,11 +33,6 @@ const faqs = [
     answer:
       "In week six we discuss the art and science of attracting collectors to your art practice with free organic strategies.</br></br>From grass roots strategies you can implement immediately and for free through to world class lead generation campaigns. Week four shows you how to attract hot, ready to buy collectors to your art practice in droves.",
   },
-  {
-    question: "Week Seven - Minimum Viable Craft",
-    answer:
-      "In week seven we discuss how to structure the service delivery and operations of your art practice so that you can wow your collectors, deliver jaw dropping artwork while keeping your sanity and high profit margins.</br></br>Here you will learn how to set your collector's expectations, work effectively with your collectors and with contractors as well as manage your own time for maximum efficiency.",
-  },
 ];
 
 function classNames(...classes) {
@@ -54,7 +49,7 @@ export default function Component() {
               Flywheel Lab Program Content
             </h2>
             <p className="text-center mt-3 text-lg text-gray-500">
-              In just 7-weeks, we'll help you grow your art practice and turn it
+              In just 6-weeks, we'll help you grow your art practice and turn it
               into a machine. Here's how.
             </p>
           </div>

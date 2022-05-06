@@ -9,7 +9,7 @@ const faqs = [
   },
   {
     question:
-      "Are there any other ways working with Unstarving Artists differs from working with a gallery or art agent?",
+      "Are there any other ways working with Unstarving Artists differs from working with a gallery or an art agent?",
     answer:
       "Yes. Galleries and art agents usually represent multiple artists. As a result, they have no special incentive to ensure your work sells instead of another of their artists' works. With Unstarving Artists, we have a special incentive to ensure each of our artists sells their work. The more our artists see success, the more other artists want to work with us and the easier it is to grow our business.",
   },
@@ -68,6 +68,11 @@ const faqs = [
       "This sounds like exactly what I've been looking for. How do I get started?",
     answer:
       'Awesome, so glad to hear you are interested in joining us. First, click the "See How It Works" button below to watch a brief free training on our approach. Toward the end of the training video you will see a link appear that will invite you to apply for a strategy session. Complete an application and we will see if we are a good fit for your art practice. Looking forward to hearing from you!',
+  },
+  {
+    question: "What's your refund policy?",
+    answer:
+      "Your investment is 100% risk-free provided that you take the action outlined in our action-based guarantee (see terms). Your effort must be a good faith honest attempt to apply the program over 90 days. If you take action and are not seeing value, we will happily work out a refund. We are only able to offer refunds through our action-based guarantee—no refunds are issued for any other reasons.",
   },
 ];
 

@@ -84,7 +84,7 @@ const Component = () => {
               Trusted by the happiest artists in the world
             </h2>
             <p className="mt-3 max-w-3xl text-lg text-gray-500">
-              Join 100+ artists across 12 countries who are connecting with
+              Join 200+ artists across 12 countries who are connecting with
               collectors, earning a great living from their art practice, and
               mastering their craft.
             </p>

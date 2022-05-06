@@ -48,7 +48,7 @@ export default function Component() {
                   Happy Clients
                 </dt>
                 <dd className="order-1 text-2xl font-extrabold text-blue-600 sm:text-3xl">
-                  100+
+                  200+
                 </dd>
               </div>
               <div className="flex flex-col px-8 pt-8">

@@ -61,10 +61,10 @@ export default function Component({ children }) {
               <h1>
                 <span className="mt-1 block text-4xl tracking-tight font-extrabold sm:text-5xl xl:text-6xl">
                   <span className="block text-gray-900">
-                    How To Start A Profitable Art Practice &
+                    How To Grow A Profitable Art Practice &
                   </span>
                   <span className="block text-blue-600">
-                    Get Your First Collector In 42-Days
+                    Get Your Next Collector In 42-Days
                   </span>
                 </span>
               </h1>
