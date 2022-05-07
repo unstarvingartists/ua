@@ -59,11 +59,6 @@
   status = 301
   force = true
 [[redirects]]
-  from = "https://www.unstarvingartists.com/reviews/bryce-art"
-  to = "https://www.unstarvingartists.com/blog/bryce-art"
-  status = 302
-  force = true
-[[redirects]]
   from = "https://www.unstarvingartists.com/reviews/bryce"
   to = "https://www.unstarvingartists.com/blog/bryce"
   status = 302
@@ -124,11 +119,6 @@
   status = 302
   force = true
 [[redirects]]
-  from = "https://www.unstarvingartists.com/reviews/kate"
-  to = "https://www.unstarvingartists.com/blog/kate"
-  status = 302
-  force = true
-[[redirects]]
   from = "https://www.unstarvingartists.com/reviews/kelly-30k"
   to = "https://www.unstarvingartists.com/blog/kelly-30k"
   status = 302
@@ -154,16 +144,6 @@
   status = 302
   force = true
 [[redirects]]
-  from = "https://www.unstarvingartists.com/reviews/michael"
-  to = "https://www.unstarvingartists.com/blog/michael"
-  status = 302
-  force = true
-[[redirects]]
-  from = "https://www.unstarvingartists.com/reviews/oliver"
-  to = "https://www.unstarvingartists.com/blog/oliver"
-  status = 302
-  force = true
-[[redirects]]
   from = "https://www.unstarvingartists.com/reviews/pedro"
   to = "https://www.unstarvingartists.com/blog/pedro"
   status = 302
@@ -174,18 +154,8 @@
   status = 302
   force = true
 [[redirects]]
-  from = "https://www.unstarvingartists.com/reviews/preston"
-  to = "https://www.unstarvingartists.com/blog/preston"
-  status = 302
-  force = true
-[[redirects]]
   from = "https://www.unstarvingartists.com/reviews/scott"
   to = "https://www.unstarvingartists.com/blog/scott"
-  status = 302
-  force = true
-[[redirects]]
-  from = "https://www.unstarvingartists.com/reviews/sharif"
-  to = "https://www.unstarvingartists.com/blog/sharif"
   status = 302
   force = true
 [[redirects]]
