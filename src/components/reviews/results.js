@@ -29,14 +29,14 @@ export default function Component() {
             <div className="bg-white h-1/3 sm:h-2/3" />
           </div>
           <div className="relative max-w-7xl mx-auto">
-            <div className="mt-12 max-w-lg mx-auto columns-3 gap-5 lg:max-w-none">
+            <div className="mt-12 max-w-lg mx-auto columns-1 lg:columns-3 gap-5 lg:max-w-none">
               {data.allFile.edges.map(({ node: result }) => {
                 const image = getImage(result.childImageSharp);
 
                 return (
                   <GatsbyImage
                     key={result.id}
-                    className="w-full aspect-square rounded-lg shadow-lg mt-4"
+                    className="rounded-lg shadow-lg mt-4"
                     image={image}
                     alt={result.name}
                   />
