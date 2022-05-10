@@ -8,7 +8,7 @@ export default function Component() {
       query={graphql`
         query resultsQuery {
           allFile(
-            sort: { fields: sourceInstanceName, order: DESC }
+            sort: { fields: name, order: ASC }
             filter: { relativePath: { regex: "/results/" } }
           ) {
             edges {
@@ -28,21 +28,16 @@ export default function Component() {
             <div className="bg-white h-1/3 sm:h-2/3" />
           </div>
           <div className="relative max-w-7xl mx-auto">
-            <div className="mt-12 max-w-lg mx-auto grid gap-5 lg:grid-cols-3 lg:max-w-none">
+            <div className="mt-12 max-w-lg mx-auto columns-3 gap-5 lg:max-w-none">
               {data.allFile.edges.map(({ node: result }) => {
                 const image = getImage(result.childImageSharp);
-                debugger;
+
                 return (
-                  <div
-                    key={result.id}
-                    className="flex flex-col rounded-lg shadow-lg overflow-hidden"
-                  >
-                    <GatsbyImage
-                      className="h-48 w-full object-cover"
-                      image={image}
-                      alt={result.name}
-                    />
-                  </div>
+                  <GatsbyImage
+                    className="w-full aspect-square rounded-lg shadow-lg mt-4"
+                    image={image}
+                    alt={result.name}
+                  />
                 );
               })}
             </div>
