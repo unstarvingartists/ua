@@ -16,7 +16,7 @@ export default function Component() {
                 id
                 name
                 childImageSharp {
-                  gatsbyImageData(width: 468)
+                  gatsbyImageData(width: 496)
                 }
               }
             }
@@ -29,7 +29,7 @@ export default function Component() {
             <div className="bg-white h-1/3 sm:h-2/3" />
           </div>
           <div className="relative max-w-7xl mx-auto">
-            <div className="mt-12 max-w-lg mx-auto columns-1 lg:columns-3 gap-5 lg:max-w-none">
+            <div className="mt-12 max-w-lg mx-auto columns-1 lg:columns-2 gap-8 lg:max-w-5xl">
               {data.allFile.edges.map(({ node: result }) => {
                 const image = getImage(result.childImageSharp);
 
