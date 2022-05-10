@@ -7,16 +7,20 @@ export default function Component() {
     <StaticQuery
       query={graphql`
         query resultsQuery {
-          allFile(
-            sort: { fields: name, order: ASC }
-            filter: { relativePath: { regex: "/results/" } }
+          allMdx(
+            filter: { frontmatter: { category: { name: { eq: "Result" } } } }
+            sort: { fields: [frontmatter___sales], order: DESC }
           ) {
             edges {
               node {
                 id
-                name
-                childImageSharp {
-                  gatsbyImageData(width: 496)
+                frontmatter {
+                  image {
+                    name
+                    childImageSharp {
+                      gatsbyImageData(width: 496)
+                    }
+                  }
                 }
               }
             }
@@ -30,15 +34,15 @@ export default function Component() {
           </div>
           <div className="relative max-w-7xl mx-auto">
             <div className="mt-12 max-w-lg mx-auto columns-1 lg:columns-2 gap-8 lg:max-w-5xl">
-              {data.allFile.edges.map(({ node: result }) => {
-                const image = getImage(result.childImageSharp);
+              {data.allMdx.edges.map(({ node: result }) => {
+                const image = getImage(result.frontmatter.image);
 
                 return (
                   <GatsbyImage
                     key={result.id}
                     className="rounded-lg mt-4"
                     image={image}
-                    alt={result.name}
+                    alt={result.frontmatter.image.name}
                   />
                 );
               })}
