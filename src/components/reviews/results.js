@@ -14,6 +14,7 @@ export default function Component() {
             edges {
               node {
                 id
+                name
                 childImageSharp {
                   gatsbyImageData(width: 392)
                 }
@@ -34,6 +35,7 @@ export default function Component() {
 
                 return (
                   <GatsbyImage
+                    key={result.id}
                     className="w-full aspect-square rounded-lg shadow-lg mt-4"
                     image={image}
                     alt={result.name}
