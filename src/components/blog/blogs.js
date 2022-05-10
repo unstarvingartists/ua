@@ -36,7 +36,7 @@ export default function Component() {
                   }
                   image {
                     childImageSharp {
-                      gatsbyImageData(width: 392)
+                      gatsbyImageData(width: 468)
                     }
                   }
                 }
