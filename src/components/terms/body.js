@@ -199,7 +199,7 @@ export default function Component({ children }) {
                 </p>
                 <p>
                   4. Adapt a Sales Script following our process. Complete 10+
-                  hours of mock studio tour practice with fellow artists in the
+                  hours of practice studio tours with fellow artists in the
                   program. Record 10+ live studio tours.
                 </p>
                 <p>
