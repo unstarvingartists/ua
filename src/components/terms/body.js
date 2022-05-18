@@ -192,7 +192,7 @@ export default function Component({ children }) {
                   items prior to the Weekly Q&A recordings and any bonus
                   sections).
                 </p>
-                <p>2. Craft an Offer following our process.</p>
+                <p>2. Craft an Art Offer following our process.</p>
                 <p>
                   3. Establish a Foundational Marketing Presence following our
                   process.
