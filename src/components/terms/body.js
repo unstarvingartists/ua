@@ -187,9 +187,10 @@ export default function Component({ children }) {
                   you must simply do the following within 90 days.
                 </p>
                 <p>
-                  1. Watch and complete all assessments up to section 6
-                  "Collector Attraction" (this means all content and assessments
-                  prior to the Weekly Q&A recordings and any bonus sections).
+                  1. Watch and complete all action items up to section 6
+                  "Collector Attraction" (this means all content and action
+                  items prior to the Weekly Q&A recordings and any bonus
+                  sections).
                 </p>
                 <p>2. Craft an Offer following our process.</p>
                 <p>
