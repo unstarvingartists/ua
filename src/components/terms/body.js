@@ -173,17 +173,18 @@ export default function Component({ children }) {
                 <h3>Last Revised: July 4, 2021</h3>
                 <h2>1. Refund and Cancellation Policies</h2>
                 <p>
-                  1.1. Our Clear Action Based Refund Guarantee On All Purchases:
+                  1.1. Our Clear Action Based Refund Guarantee On The Flywheel
+                  Lab Program:
                 </p>
                 <p>
-                  We stand behind the ability of our programs to get you results
-                  when you spend the time studying and implementing what you
-                  learn. Because of this we simply ask that you give the program
-                  a fair attempt.
+                  We stand behind the ability of the Flywheel Lab program to get
+                  you results when you spend the time studying and implementing
+                  what you learn. Because of this we simply ask that you give
+                  the program a fair attempt.
                 </p>
                 <p>
-                  In order to qualify for a refund you must simply do the
-                  following within 90 days.
+                  In order to qualify for a refund of the Flywheel Lab program
+                  you must simply do the following within 90 days.
                 </p>
                 <p>
                   1. Watch and complete all assessments up to week 6 (this means
