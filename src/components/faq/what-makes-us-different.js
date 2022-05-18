@@ -93,12 +93,12 @@ export default function Component() {
               <strong>Here is what we suggest</strong>
               <p>
                 #1: PLEASE go try our "competitors" and run our methods head to
-                head with theirs. Unlike our competitors, our flagship Flywheel
-                Lab program has a 90-day action-based guarantee* BECAUSE we know
-                it delivers superior results. If you put in the work, we are
-                100% positive you will see not only better results, but also
-                better client support, easier-to-use training, and far more
-                specialized examples for artists.
+                head with theirs. Unlike our competitors, we have a 90-day
+                action-based guarantee* BECAUSE we know our program delivers
+                superior results. If you put in the work, we are 100% positive
+                you will see not only better results, but also better client
+                support, easier-to-use training, and far more specialized
+                examples for artists.
               </p>
               <p>
                 #2: Go check out our Reviews <Link to="/reviews">HERE</Link> and
