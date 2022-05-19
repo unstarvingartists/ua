@@ -53,7 +53,7 @@ export default function Component() {
         <div className="mt-10 text-center">
           <Link to="/reviews" className="text-base font-medium text-blue-600">
             {" "}
-            See all 32 student reviews for yourself
+            See all 45 student reviews for yourself
             <span aria-hidden="true">&rarr;</span>{" "}
           </Link>
         </div>

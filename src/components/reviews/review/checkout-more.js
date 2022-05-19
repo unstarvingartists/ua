@@ -121,7 +121,7 @@ export default function Component({ allMdx }) {
           </div>
           <Link to="/reviews" className="text-base font-medium text-blue-600">
             {" "}
-            4.9 stars from 32 student reviews{" "}
+            4.9 stars from 45 student reviews{" "}
             <span aria-hidden="true">&rarr;</span>{" "}
           </Link>
         </div>
