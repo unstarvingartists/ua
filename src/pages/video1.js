@@ -53,13 +53,13 @@ export default function VideoVariant({ location }) {
         {visible && (
           <div className="flex flex-col mt-10 space-y-2 text-2xl font-bold text-center text-blue-500">
             <a
-              href="https://vouch.iljmp.com/2/ianhh"
+              href="https://go.unstarvingartists.com/apply"
               className="hover:underline"
             >
               Let Us Help You Do This
             </a>
             <a
-              href="https://vouch.iljmp.com/2/ianhh"
+              href="https://go.unstarvingartists.com/apply"
               className="hover:underline"
             >
               (Book A Free Strategy Session)
