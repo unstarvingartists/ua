@@ -27,7 +27,7 @@ const navigation = {
   social: [
     {
       name: "YouTube",
-      href: "https://www.youtube.com/c/HarryWhelchel",
+      href: "https://www.youtube.com/c/HarryWhelchel?sub_confirmation=1",
       icon: (props) => (
         <svg fill="currentColor" viewBox="0 0 576 512" {...props}>
           <path
