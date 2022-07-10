@@ -15,7 +15,7 @@ export default function BookVariant({ location }) {
   let email = params.get("email");
   let phone = params.get("a1");
   var url =
-    "https://calendly.com/unstarvingartists/artist-strategy-session-tf?hide_gdpr_banner=1&text_color=212529&primary_color=007bff";
+    "https://calendly.com/unstarvingartists/strategy-session-ig?hide_gdpr_banner=1&text_color=212529&primary_color=007bff";
   if (!!fullname) {
     url = url + "&name=" + fullname;
   }
