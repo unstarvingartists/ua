@@ -65,6 +65,6 @@
   force = true
 [[redirects]]
   from = "https://www.unstarvingartists.com/partner"
-  to = "https://join.unstarvingartists.com/checkout"
+  to = "https://join.unstarvingartists.com/partner"
   status = 302
   force = true
