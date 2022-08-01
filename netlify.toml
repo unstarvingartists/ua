@@ -63,3 +63,8 @@
   to = "https://go.unstarvingartists.com/training"
   status = 302
   force = true
+[[redirects]]
+  from = "https://www.unstarvingartists.com/partner"
+  to = "https://join.unstarvingartists.com/checkout"
+  status = 302
+  force = true
