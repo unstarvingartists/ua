@@ -637,9 +637,8 @@ export default function Component({ children }) {
                   online art booth meets all of the requirements. Once your
                   submission has been approved, our team will get back to you
                   regarding the status of your application. As indicated in the
-                  application area, online art booths set up through the
-                  Guaranteed Profits Workshop are not eligible to claim this
-                  bonus.
+                  application area, online art booths set up under the 7-day
+                  profit challenge are not eligible to claim this bonus.
                 </p>
                 <h2>10. Payment Methods</h2>
                 <p>
