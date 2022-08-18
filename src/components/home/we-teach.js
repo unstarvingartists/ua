@@ -133,7 +133,9 @@ export default function Component() {
                   />
                 </div>
                 <span className="relative ml-4 text-blue-300 font-semibold leading-6 sm:ml-24 sm:pl-1">
-                  <p className="text-white font-semibold sm:inline">Oliver</p>{" "}
+                  <p className="text-white font-semibold sm:inline">
+                    Oliver H.
+                  </p>{" "}
                   <p className="sm:inline">Abstract Artist</p>
                 </span>
               </cite>
