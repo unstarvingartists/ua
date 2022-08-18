@@ -5,13 +5,6 @@ import { GatsbyImage, getImage } from "gatsby-plugin-image";
 
 const examples = [
   {
-    link: "/case-studies#oliver-hojas",
-    id: "oliver-hojas",
-    text: "🍿 Oliver Hojas - Abstract Artist - €0 to €25,800 in 60 days",
-    src: "case-studies/oliver.png",
-    video: "wnney1gjx8",
-  },
-  {
     link: "/case-studies#lauren-satok",
     id: "lauren-satok",
     text: "🍿 Lauren Satok - Landscapes - $15,700 in less than 60 days",

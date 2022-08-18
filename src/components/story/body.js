@@ -663,7 +663,7 @@ export default function Component({ children }) {
                 <p>
                   I started reflecting back on the 70+ clients I had worked with
                   over the past year and one client soon jumped out at me—a
-                  young artist named Oliver Hojas.
+                  young artist named Oliver.
                 </p>
                 <p>
                   Oliver and I had connected on social media after he had been

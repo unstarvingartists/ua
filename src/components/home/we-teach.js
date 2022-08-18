@@ -102,7 +102,7 @@ export default function Component() {
               <div className="rounded-t-lg px-6 py-8 sm:px-10 sm:pt-10 sm:pb-8">
                 <StaticImage
                   src="../../images/oliver-logo.png"
-                  alt="Oliver Hojas Logo"
+                  alt="Oliver Logo"
                   height={32}
                 />
                 <div className="relative text-lg text-gray-700 font-medium mt-8">
@@ -128,14 +128,12 @@ export default function Component() {
                   <StaticImage
                     className="w-12 h-12 sm:w-20 sm:h-20 rounded-full bg-blue-300"
                     src="../../images/oliver.jpeg"
-                    alt="Oliver Hojas"
+                    alt="Oliver"
                     width={80}
                   />
                 </div>
                 <span className="relative ml-4 text-blue-300 font-semibold leading-6 sm:ml-24 sm:pl-1">
-                  <p className="text-white font-semibold sm:inline">
-                    Oliver Hojas
-                  </p>{" "}
+                  <p className="text-white font-semibold sm:inline">Oliver</p>{" "}
                   <p className="sm:inline">Abstract Artist</p>
                 </span>
               </cite>
