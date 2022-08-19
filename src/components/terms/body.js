@@ -912,15 +912,15 @@ export default function Component({ children }) {
                   relevant documents and information, and the proposed
                   resolution. You may send the written description of any
                   dispute you have with us by U.S. Mail to Unstarving Artists,
-                  Attn: Legal Department, 2965 Peachtree Rd NE Unit 2103
-                  Atlanta, GA 30305. Unstarving Artists will contact you by
-                  letter at the billing address you provided to us or at the
-                  email address you provided to us. You agree to negotiate with
-                  Unstarving Artists or its designated representative in good
-                  faith about your problem or dispute. If for some reason the
-                  dispute is not resolved within 60 days after receipt of the
-                  written dispute, we agree to the dispute resolution provisions
-                  below. Notwithstanding the foregoing or any other term of this
+                  Attn: Legal Department, 285 W Wieuca Rd, PMB #4213, Atlanta,
+                  Ga 30342. Unstarving Artists will contact you by letter at the
+                  billing address you provided to us or at the email address you
+                  provided to us. You agree to negotiate with Unstarving Artists
+                  or its designated representative in good faith about your
+                  problem or dispute. If for some reason the dispute is not
+                  resolved within 60 days after receipt of the written dispute,
+                  we agree to the dispute resolution provisions below.
+                  Notwithstanding the foregoing or any other term of this
                   arbitration agreement, we will have the right to seek
                   injunctive or other equitable relief in state or federal court
                   located in Fulton County, Georgia to enforce these Terms or
