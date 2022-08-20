@@ -4,11 +4,6 @@ import { GatsbyImage, getImage } from "gatsby-plugin-image";
 
 const people = [
   {
-    name: "Oliver Hojas",
-    genre: "Abstract 🇨🇭",
-    src: "oliver.jpeg",
-  },
-  {
     name: "Lauren Satok",
     genre: "Landscape 🇨🇦",
     src: "lauren.jpeg",
@@ -20,13 +15,18 @@ const people = [
   },
   {
     name: "Ehab Omaro",
-    genre: "Commission 🇳🇱",
+    genre: "Abstract 🇳🇱",
     src: "ehab.jpeg",
   },
   {
     name: "Kate Padget-Koh",
     genre: "Portrait 🇭🇰",
     src: "kate.jpeg",
+  },
+  {
+    name: "Valerie McKeehan",
+    genre: "Pastoral 🇺🇸",
+    src: "valerie.jpeg",
   },
   {
     name: "Sharif Carter",
@@ -45,7 +45,7 @@ const Component = () => {
           sourceInstanceName: { eq: "images" }
           relativePath: {
             in: [
-              "oliver.jpeg"
+              "valerie.jpeg"
               "kate.jpeg"
               "michael.jpeg"
               "sharif.jpeg"
