@@ -86,7 +86,7 @@ export default function Component() {
         </div>
         <div className="mt-10 text-center">
           <a
-            href="https://join.unstarvingartists.com/workshop"
+            href="https://go.unstarvingartists.com/training"
             className="text-base font-medium text-blue-600"
           >
             {" "}
