@@ -16,7 +16,6 @@ const navigation = [
   { name: "Reviews", to: "/reviews" },
   { name: "Blog", to: "/blog" },
   { name: "FAQ", to: "/faq" },
-  { name: "Log in", href: "https://learn.unstarvingartists.com/login" },
 ];
 
 const programs = [
@@ -38,10 +37,9 @@ const programs = [
 const callsToAction = [
   {
     name: "See How It Works",
-    href: "https://go.unstarvingartists.com/training",
+    href: "https://join.unstarvingartists.com/workshop",
     icon: PlayIcon,
   },
-  { name: "Apply Now", to: "/apply-now", icon: LightningBoltIcon },
 ];
 
 function classNames(...classes) {
@@ -200,10 +198,10 @@ const Component = () => {
               })}
               <span className="inline-flex rounded-md shadow-md ring-1 ring-black ring-opacity-5">
                 <Link
-                  to="/apply-now"
+                  href="https://learn.unstarvingartists.com/login"
                   className="inline-flex items-center px-4 py-2 border border-transparent text-base font-medium rounded-md text-blue-600 bg-white hover:bg-gray-50"
                 >
-                  Apply Now
+                  Log in
                 </Link>
               </span>
             </div>
@@ -289,12 +287,6 @@ const Component = () => {
                     }
                   })}
                 </div>
-                <Link
-                  to="/apply-now"
-                  className="block w-full px-5 py-3 text-center font-medium text-blue-600 bg-gray-50 hover:bg-gray-100"
-                >
-                  Apply Now
-                </Link>
               </div>
             </Popover.Panel>
           </Transition>

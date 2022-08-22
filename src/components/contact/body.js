@@ -23,7 +23,7 @@ export default function Component() {
             </h2>
             <p className="prose prose-blue mt-4 text-lg text-gray-500 sm:mt-3">
               Watch our{" "}
-              <a href="https://go.unstarvingartists.com/training">
+              <a href="https://join.unstarvingartists.com/workshop">
                 free training
               </a>{" "}
               and then apply for a strategy session.

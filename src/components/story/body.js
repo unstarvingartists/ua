@@ -810,7 +810,7 @@ export default function Component({ children }) {
                 <p>
                   If you’d like to get a better feel for what the Flywheel Lab
                   is all about, check out this video:{" "}
-                  <a href="https://go.unstarvingartists.com/training">
+                  <a href="https://join.unstarvingartists.com/workshop">
                     "The 3 Step Process We Used To Earn A 5 Figure A Month
                     Income From Our Art"
                   </a>
@@ -841,7 +841,7 @@ export default function Component({ children }) {
               <div className="mt-10 text-center">
                 <div className="inline-flex rounded-md shadow">
                   <a
-                    href="https://go.unstarvingartists.com/training"
+                    href="https://join.unstarvingartists.com/workshop"
                     className="px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700"
                   >
                     {" "}
