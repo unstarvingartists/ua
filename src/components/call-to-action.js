@@ -8,7 +8,6 @@ export default function Component() {
         <h2 className="text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl">
           <span className="block">Ready to earn more from your art?</span>
           <span className="block">First, see how it works.</span>
-          <span className="block">Then, apply to see if you qualify.</span>
         </h2>
         <div className="mt-8 flex justify-center">
           <div className="inline-flex rounded-md shadow">
@@ -18,14 +17,6 @@ export default function Component() {
             >
               See How It Works
             </a>
-          </div>
-          <div className="ml-3 inline-flex">
-            <Link
-              to="/apply-now"
-              className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-blue-700 bg-blue-100 hover:bg-blue-200"
-            >
-              Apply Now
-            </Link>
           </div>
         </div>
       </div>
