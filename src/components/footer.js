@@ -20,7 +20,7 @@ const navigation = {
   extras: [
     {
       name: "Free Training",
-      href: "https://go.unstarvingartists.com/training",
+      href: "https://join.unstarvingartists.com/workshop",
     },
     { name: "Free Community", to: "/community" },
   ],
