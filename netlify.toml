@@ -73,3 +73,13 @@
   to = "https://join.unstarvingartists.com/partner"
   status = 302
   force = true
+[[redirects]]
+  from = "https://www.unstarvingartists.com/orientation"
+  to = "https://join.unstarvingartists.com/orientation"
+  status = 302
+  force = true
+[[redirects]]
+  from = "https://www.unstarvingartists.com/orientation*"
+  to = "https://join.unstarvingartists.com/orientation"
+  status = 302
+  force = true
