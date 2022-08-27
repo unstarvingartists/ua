@@ -83,3 +83,13 @@
   to = "https://join.unstarvingartists.com/orientation"
   status = 302
   force = true
+[[redirects]]
+  from = "https://www.unstarvingartists.com/workshop"
+  to = "https://join.unstarvingartists.com/workshop"
+  status = 302
+  force = true
+[[redirects]]
+  from = "https://www.unstarvingartists.com/workshop*"
+  to = "https://join.unstarvingartists.com/workshop"
+  status = 302
+  force = true
