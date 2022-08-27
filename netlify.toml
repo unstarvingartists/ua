@@ -93,3 +93,13 @@
   to = "https://join.unstarvingartists.com/workshop"
   status = 302
   force = true
+[[redirects]]
+  from = "https://www.unstarvingartists.com/li/workshop"
+  to = "https://join.unstarvingartists.com/workshop?el=linkedin"
+  status = 302
+  force = true
+[[redirects]]
+  from = "https://www.unstarvingartists.com/li/workshop*"
+  to = "https://join.unstarvingartists.com/workshop?el=linkedin"
+  status = 302
+  force = true
