@@ -1,5 +1,4 @@
 import * as React from "react";
-import { Link } from "gatsby";
 
 import image from "../../images/undraw_artist_b4rc.svg";
 

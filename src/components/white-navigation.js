@@ -5,7 +5,6 @@ import {
   LightBulbIcon,
   FlagIcon,
   MenuIcon,
-  LightningBoltIcon,
   PlayIcon,
   XIcon,
 } from "@heroicons/react/outline";
