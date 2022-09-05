@@ -200,12 +200,12 @@ const Component = () => {
                 }
               })}
               <span className="inline-flex rounded-md shadow-md ring-1 ring-black ring-opacity-5">
-                <Link
+                <a
                   href="https://www.skool.com/the-academy"
                   className="inline-flex items-center px-4 py-2 border border-transparent text-base font-medium rounded-md text-blue-600 bg-white hover:bg-gray-50"
                 >
                   Log in
-                </Link>
+                </a>
               </span>
             </div>
           </nav>
@@ -290,6 +290,12 @@ const Component = () => {
                     }
                   })}
                 </div>
+                <a
+                  href="https://www.skool.com/the-academy"
+                  className="block w-full bg-gray-50 px-5 py-3 text-center font-medium text-blue-600 hover:bg-gray-100"
+                >
+                  Log in
+                </a>
               </div>
             </Popover.Panel>
           </Transition>
