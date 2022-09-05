@@ -15,6 +15,10 @@ const navigation = [
   { name: "Reviews", to: "/reviews" },
   { name: "Blog", to: "/blog" },
   { name: "FAQ", to: "/faq" },
+  {
+    name: "Flywheel Lab",
+    href: "https://learn.unstarvingartists.com/login",
+  },
 ];
 
 const programs = [
@@ -197,7 +201,7 @@ const Component = () => {
               })}
               <span className="inline-flex rounded-md shadow-md ring-1 ring-black ring-opacity-5">
                 <Link
-                  href="https://learn.unstarvingartists.com/login"
+                  href="https://www.skool.com/the-academy"
                   className="inline-flex items-center px-4 py-2 border border-transparent text-base font-medium rounded-md text-blue-600 bg-white hover:bg-gray-50"
                 >
                   Log in
