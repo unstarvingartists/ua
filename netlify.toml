@@ -133,3 +133,8 @@
   to = "https://calendly.com/unstarvingartists/1on1-success"
   status = 302
   force = true
+[[redirects]]
+  from = "https://www.unstarvingartists.com/flick*"
+  to = "https://flick.tech?fpr=unstarvingartists"
+  status = 302
+  force = true
