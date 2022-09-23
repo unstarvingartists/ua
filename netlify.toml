@@ -138,3 +138,8 @@
   to = "https://flick.tech?fpr=unstarvingartists"
   status = 302
   force = true
+[[redirects]]
+  from = "https://www.unstarvingartists.com/saatchi*"
+  to = "https://www.saatchiart.com/"
+  status = 302
+  force = true
