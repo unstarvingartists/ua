@@ -1,20 +1,12 @@
 import React, { useEffect } from "react";
 
-const wistia = `<div class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div class="wistia_embed wistia_async_fwgweegkhk videoFoam=true playerColor=2564eb" style="height:100%;position:relative;width:100%"><div class="wistia_swatch" style="height:100%;left:0;opacity:0;overflow:hidden;position:absolute;top:0;transition:opacity 200ms;width:100%;"><img src="https://fast.wistia.com/embed/medias/fwgweegkhk/swatch" style="filter:blur(5px);height:100%;object-fit:contain;width:100%;" alt="" aria-hidden="true" onload="this.parentNode.style.opacity=1;" /></div></div></div></div>`;
+const videoEmbed = `<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/758041367?h=9912a25edb&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe></div>`;
 
 export default function Component({ children }) {
   useEffect(() => {
-    const script1 = document.createElement("script");
-    const script2 = document.createElement("script");
-
-    script1.src = "https://fast.wistia.com/embed/medias/fwgweegkhk.jsonp";
-    script1.async = true;
-
-    script2.src = "https://fast.wistia.com/assets/external/E-v1.js";
-    script2.async = true;
-
-    document.body.appendChild(script1);
-    document.body.appendChild(script2);
+    const script = document.createElement("script");
+    script.src = "https://player.vimeo.com/api/player.js";
+    document.body.appendChild(script);
   });
 
   return (
@@ -145,7 +137,7 @@ export default function Component({ children }) {
               <div className="relative mx-auto w-full rounded-lg shadow-lg lg:max-w-md">
                 <div className="relative block w-full bg-white rounded-lg overflow-hidden focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500">
                   <span className="sr-only">Watch our video to learn more</span>
-                  <div dangerouslySetInnerHTML={{ __html: wistia }}></div>
+                  <div dangerouslySetInnerHTML={{ __html: videoEmbed }}></div>
                 </div>
               </div>
             </div>
