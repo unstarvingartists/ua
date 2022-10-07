@@ -28,7 +28,7 @@ export const query = graphql`
         }
         href
         videoID
-        videoType
+        hashID
         author {
           name
           href

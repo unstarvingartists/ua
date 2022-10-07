@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 
 export default function Component({ mdx, children, site, pathname }) {
-  const videoEmbed = `<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/758081157?h=4211f9b620&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="How Charlie Price went from $6k to $33k mo in 5 months helping accountants build 6 figure practices"></iframe></div>`;
+  const videoEmbed = `<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/${mdx.frontmatter.videoID}?h=${mdx.frontmatter.hashID}&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="${mdx.frontmatter.title}"></iframe></div>`;
 
   useEffect(() => {
     const script = document.createElement("script");
