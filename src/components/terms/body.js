@@ -912,8 +912,8 @@ export default function Component({ children }) {
                   relevant documents and information, and the proposed
                   resolution. You may send the written description of any
                   dispute you have with us by U.S. Mail to Unstarving Artists,
-                  Attn: Legal Department, 285 W Wieuca Rd, PMB #4213, Atlanta,
-                  Ga 30342. Unstarving Artists will contact you by letter at the
+                  Attn: Legal Department, 309 E. Paces Ferry Rd NE, Atlanta, GA
+                  30305. Unstarving Artists will contact you by letter at the
                   billing address you provided to us or at the email address you
                   provided to us. You agree to negotiate with Unstarving Artists
                   or its designated representative in good faith about your
@@ -1034,8 +1034,8 @@ export default function Component({ children }) {
                   PROVISION WITHIN THIRTY (30) DAYS FROM THE DATE THAT YOU
                   PURCHASE, USE, OR ATTEMPT TO USE A PRODUCT PURCHASED ON OR
                   THROUGH THE WEBSITE (WHICHEVER COMES FIRST) BY WRITING TO US
-                  AT UNSTARVING ARTISTS, ATTN: LEGAL DEPARTMENT, 285 W WIEUCA RD
-                  NE, PMB #4213, ATLANTA, GA 30342. FOR YOUR OPT-OUT TO BE
+                  AT UNSTARVING ARTISTS, ATTN: LEGAL DEPARTMENT, 309 E. Paces
+                  Ferry Rd NE, Atlanta, GA 30305. FOR YOUR OPT-OUT TO BE
                   EFFECTIVE, YOU MUST SUBMIT A SIGNED WRITTEN NOTICE IDENTIFYING
                   ANY PRODUCT YOU PURCHASED, USED OR ATTEMPTED TO USE WITHIN THE
                   30 DAYS AND THE DATE YOU FIRST PURCHASED, USED OR ATTEMPTED TO
