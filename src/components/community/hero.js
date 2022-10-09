@@ -10,27 +10,26 @@ export default function Component({ children }) {
         <div className="mx-auto max-w-7xl w-full pt-16 pb-20 text-center lg:py-48 lg:text-left">
           <div className="px-4 lg:w-1/2 sm:px-8 xl:pr-16">
             <h1 className="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl lg:text-5xl xl:text-6xl">
-              <span className="block xl:inline">
-                Join Our FREE Community For
-              </span>{" "}
+              <span className="block xl:inline">Join Our FREE</span>{" "}
               <span className="block text-blue-600 xl:inline">
-                Artists Today!
-              </span>
+                Artist Community
+              </span>{" "}
+              <span className="block xl:inline">On Instagram.</span>
             </h1>
             <p className="font-bold mt-3 max-w-md mx-auto text-lg text-gray-900 sm:text-xl md:mt-5 md:max-w-3xl">
-              Follow Harry On Instagram And Get Access To...
+              By Following Harry On Instagram, Get Access To...
             </p>
             <p className="mt-3 max-w-md mx-auto text-lg text-gray-500 sm:text-xl md:mt-5 md:max-w-3xl">
-              ⚡ Exclusive training on the process we used to earn a 5 figure a
-              month income from art (Our FREE gift to you for following).
-            </p>
-            <p className="mt-3 max-w-md mx-auto text-lg text-gray-500 sm:text-xl md:mt-5 md:max-w-3xl">
-              ⚡ Real-life case studies from our best clients showing you
-              exactly what's working right now.
+              ⚡ Real-life case studies from our clients showing you exactly
+              what's working right now (Our FREE gift to you for following).
             </p>
             <p className="mt-3 max-w-md mx-auto text-lg text-gray-500 sm:text-xl md:mt-5 md:max-w-3xl">
               ⚡ Regular art income tips & tricks from Harry and the team as
               well as industry leading experts.
+            </p>
+            <p className="mt-3 max-w-md mx-auto text-lg text-gray-500 sm:text-xl md:mt-5 md:max-w-3xl">
+              ⚡ Exclusive training on the process we used to earn a 5 figure a
+              month income from art.
             </p>
             <div className="mt-10 sm:flex sm:justify-center lg:justify-start">
               <div className="rounded-md shadow">
