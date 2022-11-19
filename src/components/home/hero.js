@@ -80,14 +80,14 @@ const Component = ({ children }) => {
           <div className="text-center">
             <h1 className="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl">
               <span className="block xl:inline">
-                Become A Highly Paid Artist Without
+                Become A Successful Artist Without
               </span>{" "}
               <span className="block text-blue-600 xl:inline">
                 Art World Or Gallery Connections
               </span>
             </h1>
             <p className="mt-3 max-w-md mx-auto text-base text-gray-500 sm:text-lg md:mt-5 md:text-xl md:max-w-3xl">
-              Everything you need to become a highly paid artist. No art degree,
+              Everything you need to become a successful artist. No art degree,
               art world connections, or gallery representation required. Not a
               tech whiz? That's ok too.
             </p>

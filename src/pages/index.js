@@ -17,7 +17,7 @@ import Seo from "../components/seo";
 export default function Page({ location }) {
   return (
     <Layout>
-      <Seo title="Become A Highly Paid Artist" pathname={location.pathname} />
+      <Seo title="Become A Successful Artist" pathname={location.pathname} />
       <Hero>
         <Navigation />
       </Hero>

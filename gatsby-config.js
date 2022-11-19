@@ -13,9 +13,9 @@ module.exports = {
       width: 1260,
     },
     author: "Unstarving Artists",
-    keywords: ["artists", "sales", "become a highly paid artist"],
+    keywords: ["artists", "sales", "become a successful artist"],
     description:
-      "Everything you need to become a highly paid artist. No art degree, art world connections, or gallery representation required. Not a tech whiz? That's ok too.",
+      "Everything you need to become a successful artist. No art degree, art world connections, or gallery representation required. Not a tech whiz? That's ok too.",
   },
   plugins: [
     "gatsby-plugin-netlify-cms",
