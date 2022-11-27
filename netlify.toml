@@ -114,6 +114,16 @@
   status = 302
   force = true
 [[redirects]]
+  from = "https://www.unstarvingartists.com/tw/workshop"
+  to = "https://join.unstarvingartists.com/workshop?el=twitter"
+  status = 302
+  force = true
+[[redirects]]
+  from = "https://www.unstarvingartists.com/tw/workshop*"
+  to = "https://join.unstarvingartists.com/workshop?el=twitter"
+  status = 302
+  force = true
+[[redirects]]
   from = "https://www.unstarvingartists.com/agreement"
   to = "https://join.unstarvingartists.com/agreement"
   status = 302
