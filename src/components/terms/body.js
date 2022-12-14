@@ -562,14 +562,14 @@ export default function Component({ children }) {
                   Any damages are limited to the amounts paid to Unstarving
                   Artists, LLC.
                 </p>
-                <h4>c. The Flywheel Lab</h4>
+                <h4>c. The Academy</h4>
                 <p>
-                  We stand behind the ability of The Flywheel Lab program to get
-                  you results when you spend the time studying and implementing
-                  what you learn. Because of this we simply ask that you give
-                  the program a fair attempt. In order to qualify for a refund
-                  of The Flywheel Lab program you must simply do the following
-                  within 90 days:
+                  We stand behind the ability of The Academy program to get you
+                  results when you spend the time studying and implementing what
+                  you learn. Because of this we simply ask that you give the
+                  program a fair attempt. In order to qualify for a refund of
+                  The Academy program you must simply do the following within 90
+                  days:
                 </p>
                 <ol>
                   <li>
