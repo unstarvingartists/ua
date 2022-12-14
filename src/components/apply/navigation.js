@@ -30,8 +30,8 @@ const programs = [
     icon: LightBulbIcon,
   },
   {
-    name: "Flywheel Lab",
-    to: "/flywheel-lab",
+    name: "The Academy",
+    to: "/academy",
     description:
       "Learn more about our flagship program and how artists inside are earning more from their artwork.",
     icon: FlagIcon,

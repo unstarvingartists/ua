@@ -1,11 +1,10 @@
 import * as React from "react";
 import Layout from "../components/layout";
 import Navigation from "../components/white-navigation";
-import Hero from "../components/flywheel-lab/hero";
+import Hero from "../components/academy/hero";
 import CallToAction from "../components/call-to-action";
-import Faq from "../components/flywheel-lab/faq";
-import ProgramContent from "../components/flywheel-lab/program-content";
-import Summary from "../components/flywheel-lab/summary";
+import Faq from "../components/academy/faq";
+import Summary from "../components/academy/summary";
 import LearnTheWay from "../components/home/learn-the-way";
 import HowItWorks from "../components/home/how-it-works";
 import YoureInGoodCompany from "../components/home/youre-in-good-company";
@@ -16,14 +15,13 @@ import Footer from "../components/footer";
 export default function Page({ location }) {
   return (
     <Layout>
-      <Seo title="Flywheel Lab" pathname={location.pathname} />
+      <Seo title="Academy" pathname={location.pathname} />
       <Hero>
         <Navigation />
       </Hero>
       <Faq />
       <HowItWorks />
       <TheProofIsInTheNumbers />
-      <ProgramContent />
       <LearnTheWay />
       <Summary />
       <YoureInGoodCompany />

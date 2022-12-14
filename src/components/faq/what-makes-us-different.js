@@ -13,7 +13,7 @@ export default function Component() {
               What Makes Us Different
             </h2>
             <h3 className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
-              Why Is Flywheel Lab Better Than Other Programs On The Market?
+              Why Is Academy Better Than Other Programs On The Market?
             </h3>
           </div>
         </div>
@@ -83,10 +83,10 @@ export default function Component() {
               <p className="text-lg text-gray-500">
                 At Unstarving Artists we build our business by delivering
                 superior results, not by trashing our competitors. Simply put,
-                our Flywheel Lab program is unlike any other training program on
-                the market and we take a completely different approach to
-                helping our artists build profitable art practices. It would be
-                like comparing a rocketship to a scooter.
+                our Academy program is unlike any other training program on the
+                market and we take a completely different approach to helping
+                our artists build profitable art practices. It would be like
+                comparing a rocketship to a scooter.
               </p>
             </div>
             <div className="mt-5 prose prose-blue text-gray-500 mx-auto lg:max-w-none lg:row-start-1 lg:col-start-1">

@@ -24,11 +24,11 @@ export default function Component() {
                 </p>
                 <ul className="mt-4 text-lg text-gray-500">
                   <li>✔ Reprogram your brain</li>
-                  <li>✔ Discover your niche</li>
+                  <li>✔ Discover your art topic</li>
                   <li>✔ Identify a market desire</li>
                   <li>✔ See your art as a solution</li>
                   <li>✔ Market & sell it successfully</li>
-                  <li>✔ Generate a 6-figure profit</li>
+                  <li>✔ Become a successful artist</li>
                 </ul>
                 <div className="mt-6">
                   <a

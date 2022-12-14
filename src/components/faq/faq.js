@@ -4,9 +4,9 @@ import { Link } from "gatsby";
 const faqs = [
   {
     question:
-      "How does the Flywheel Lab program work and why use it over other ways to grow your art practice?",
+      "How does the Academy program work and why use it over other ways to grow your art practice?",
     answer:
-      "Flywheel Lab is a 6-week online training program with live Q&A calls and a community of semi-professional and professional artists. It shows you how to start a profitable art practice from scratch and grow it to 6-figures. It is the simplest, clearest, most effective way for people to become successful artists.",
+      "Academy is a 7 module online training program with live Q&A calls and a community of semi-professional and professional artists. It shows you how to start a profitable art practice from scratch and grow it to 6-figures. It is the simplest, clearest, most effective way for people to become successful artists.",
   },
   {
     question:

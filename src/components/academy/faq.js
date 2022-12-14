@@ -19,7 +19,7 @@ const features = [
   },
   {
     name: "Program Length",
-    description: "6 Weeks",
+    description: "7 modules",
     icon: ClockIcon,
   },
   {
@@ -34,19 +34,19 @@ const faqs = [
     id: 1,
     question: "What is it?",
     answer:
-      "Flywheel Lab is a 6-week online training program with live Q&A calls and a community of semi-professional and professional artists. It shows you how to start a profitable art practice from scratch.",
+      "Academy is a 7 module online training program with live Q&A calls and a community of semi-professional and professional artists. It shows you how to start a profitable art practice from scratch.",
   },
   {
     id: 2,
     question: "Who is it for?",
     answer:
-      "Flywheel Lab is for anybody who wants to start their own art practice and grow it to 6-figures. It works for anybody, regardless of your previous knowledge or experience.",
+      "Academy is for anybody who wants to start their own profitable and successful art practice. It works for anybody, regardless of your previous knowledge or experience.",
   },
   {
     id: 3,
     question: "Where does it happen?",
     answer:
-      "Flywheel Lab is online and consists of training videos, tools, live Q&A calls and a client community. You complete it online, on your own time.",
+      "Academy is online and consists of training videos, tools, live Q&A calls and a client community. You complete it online, on your own time.",
   },
   {
     id: 4,
@@ -58,13 +58,13 @@ const faqs = [
     id: 5,
     question: "When does it start?",
     answer:
-      "Flywheel Lab is an online program and starts the moment you enroll. You can complete it in your own time and work through it as fast or slow as you wish. You get lifetime access.",
+      "Academy is an online program and starts the moment you enroll. You can complete it in your own time and work through it as fast or slow as you wish. You get lifetime access.",
   },
   {
     id: 6,
     question: "Why does it exist?",
     answer:
-      "We created the Flywheel Lab program because there was nothing that showed a complete beginner how to start their own art practice from scratch. We filled that gap and in extreme detail.",
+      "We created the Academy program because there was nothing that showed a complete beginner how to start their own art practice from scratch. We filled that gap and in extreme detail.",
   },
 ];
 

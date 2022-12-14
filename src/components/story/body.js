@@ -143,7 +143,7 @@ export default function Component({ children }) {
                     professional artists spanning more than 12 countries.
                   </p>
                   <p>
-                    His flagship Flywheel Lab training program has produced 3
+                    His flagship Academy training program has produced 3
                     millionaires, dozens of six-figure earners, and allowed many
                     everyday people to become full-time artists.
                   </p>
@@ -726,10 +726,9 @@ export default function Component({ children }) {
                 <p>
                   I knew I had see if more artists would resonate with my
                   message and what I had to offer. And with that, Unstarving
-                  Artists and our flagship training program, Flywheel Lab, was
-                  born.
+                  Artists and our flagship training program, Academy, was born.
                 </p>
-                <h2>The Flywheel Lab Training</h2>
+                <h2>The Academy Training</h2>
                 <p>
                   Like my previous businesses, I didn't experience an overnight
                   success. I wasn't failing this time by any stretch of the
@@ -762,8 +761,8 @@ export default function Component({ children }) {
                 </p>
                 <figure>
                   <StaticImage
-                    src="../../images/flywheel-lab-box.png"
-                    alt="The Flywheel Lab program have been battle tested and proven
+                    src="../../images/academy-box.png"
+                    alt="The Academy program have been battle tested and proven
                     with 200+ students worldwide."
                     className="w-full"
                     imgClassName="w-full"
@@ -771,8 +770,8 @@ export default function Component({ children }) {
                     objectFit="contain"
                   />
                   <figcaption>
-                    The Flywheel Lab program have been battle tested and proven
-                    with 200+ students worldwide.
+                    The Academy program have been battle tested and proven with
+                    200+ students worldwide.
                   </figcaption>
                 </figure>
                 <p>
@@ -784,12 +783,12 @@ export default function Component({ children }) {
                 </p>
 
                 <p>
-                  And in the pursuit of this ideal, the Flywheel Lab training
-                  program was born.
+                  And in the pursuit of this ideal, the Academy training program
+                  was born.
                 </p>
 
                 <p>
-                  When I first introduced the Flywheel Lab to a small group of
+                  When I first introduced the Academy to a small group of
                   students, I knew I had created something special. That said,
                   even I couldn't have foreseen just how effective and popular
                   the program would be.
@@ -804,12 +803,12 @@ export default function Component({ children }) {
                 <p>
                   It also brought in $500,000 in revenue for my business,
                   allowing me to move to a dream apartment, hire team members,
-                  and launch the new Flywheel Lab 2.0.
+                  and launch the new Academy 2.0.
                 </p>
 
                 <p>
-                  If you’d like to get a better feel for what the Flywheel Lab
-                  is all about, check out this video:{" "}
+                  If you’d like to get a better feel for what the Academy is all
+                  about, check out this video:{" "}
                   <a href="https://join.unstarvingartists.com/workshop">
                     "The 3 Step Process We Used To Earn A 5 Figure A Month
                     Income From Our Art"

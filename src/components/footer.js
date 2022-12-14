@@ -10,7 +10,7 @@ const navigation = {
   ],
   programs: [
     { name: "Our methodology", to: "/methodology" },
-    { name: "Flywheel Lab", to: "/flywheel-lab" },
+    { name: "The Academy", to: "/academy" },
   ],
   resources: [
     { name: "Reviews", to: "/reviews" },

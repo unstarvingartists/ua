@@ -46,11 +46,11 @@ export default function Component() {
         <div className="max-w-3xl mx-auto divide-y-2 divide-gray-200">
           <div>
             <h2 className="text-center text-3xl font-extrabold text-gray-900 sm:text-4xl">
-              Flywheel Lab Program Content
+              Academy Program Content
             </h2>
             <p className="text-center mt-3 text-lg text-gray-500">
-              In just 6-weeks, we'll help you grow your art practice and turn it
-              into a machine. Here's how.
+              In just 7 modules, we'll help you grow your art practice and turn
+              it into a machine. Here's how.
             </p>
           </div>
           <dl className="mt-6 space-y-6 divide-y divide-gray-200">
