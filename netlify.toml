@@ -79,6 +79,11 @@
   status = 302
   force = true
 [[redirects]]
+  from = "https://www.unstarvingartists.com/flywheel-lab"
+  to = "https://www.unstarvingartists.com/academy"
+  status = 301
+  force = true
+[[redirects]]
   from = "https://www.unstarvingartists.com/orientation*"
   to = "https://join.unstarvingartists.com/orientation"
   status = 302
