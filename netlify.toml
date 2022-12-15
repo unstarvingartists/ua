@@ -149,6 +149,11 @@
   status = 302
   force = true
 [[redirects]]
+  from = "https://www.unstarvingartists.com/bonuses"
+  to = "https://join.unstarvingartists.com/bonuses"
+  status = 302
+  force = true
+[[redirects]]
   from = "https://www.unstarvingartists.com/flick*"
   to = "https://flick.tech?fpr=unstarvingartists"
   status = 302
