@@ -4,32 +4,32 @@ import { GatsbyImage, getImage } from "gatsby-plugin-image";
 
 const people = [
   {
-    name: "Lauren Satok",
+    name: "Lauren S.",
     genre: "Landscape 🇨🇦",
     src: "lauren.jpeg",
   },
   {
-    name: "Michael Gibson",
+    name: "Michael G.",
     genre: "Graphite 🇨🇦",
     src: "michael.jpeg",
   },
   {
-    name: "Ehab Omaro",
+    name: "Ehab O.",
     genre: "Abstract 🇳🇱",
     src: "ehab.jpeg",
   },
   {
-    name: "Kate Padget-Koh",
+    name: "Kate P.",
     genre: "Portrait 🇭🇰",
     src: "kate.jpeg",
   },
   {
-    name: "Valerie McKeehan",
+    name: "Valerie M.",
     genre: "Pastoral 🇺🇸",
     src: "valerie.jpeg",
   },
   {
-    name: "Sharif Carter",
+    name: "Sharif C.",
     genre: "Pop Art 🇺🇸",
     src: "sharif.jpeg",
   },
