@@ -94,6 +94,11 @@
   status = 302
   force = true
 [[redirects]]
+  from = "https://www.unstarvingartists.com/kelly-gordon"
+  to = "https://www.unstarvingartists.com/kelly-g"
+  status = 302
+  force = true
+[[redirects]]
   from = "https://www.unstarvingartists.com/workshop*"
   to = "https://join.unstarvingartists.com/workshop"
   status = 302
@@ -106,6 +111,11 @@
 [[redirects]]
   from = "https://www.unstarvingartists.com/fl/orientation"
   to = "https://calendly.com/unstarvingartists/fl-orientation"
+  status = 302
+  force = true
+[[redirects]]
+  from = "https://www.unstarvingartists.com/cs/workshop"
+  to = "https://join.unstarvingartists.com/workshop?el=cheatsheet"
   status = 302
   force = true
 [[redirects]]
