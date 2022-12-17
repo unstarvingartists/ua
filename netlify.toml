@@ -109,6 +109,11 @@
   status = 302
   force = true
 [[redirects]]
+  from = "https://www.unstarvingartists.com/migrate"
+  to = "https://join.unstarvingartists.com/migrate"
+  status = 302
+  force = true
+[[redirects]]
   from = "https://www.unstarvingartists.com/fl/orientation"
   to = "https://calendly.com/unstarvingartists/fl-orientation"
   status = 302
