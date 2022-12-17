@@ -109,6 +109,11 @@
   status = 302
   force = true
 [[redirects]]
+  from = "https://www.unstarvingartists.com/cs/workshop"
+  to = "https://join.unstarvingartists.com/workshop?el=cheatsheet"
+  status = 302
+  force = true
+[[redirects]]
   from = "https://www.unstarvingartists.com/li/workshop*"
   to = "https://join.unstarvingartists.com/workshop?el=linkedin"
   status = 302
