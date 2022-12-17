@@ -15,10 +15,6 @@ const navigation = [
   { name: "Reviews", to: "/reviews" },
   { name: "Blog", to: "/blog" },
   { name: "FAQ", to: "/faq" },
-  {
-    name: "Flywheel Lab",
-    href: "https://learn.unstarvingartists.com/login",
-  },
 ];
 
 const programs = [
