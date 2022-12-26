@@ -40,12 +40,6 @@ module.exports = {
       },
     },
     {
-      resolve: `gatsby-plugin-disqus`,
-      options: {
-        shortname: `unstarvingartists`,
-      },
-    },
-    {
       resolve: "gatsby-plugin-manifest",
       options: {
         icon: "src/images/icon.png",
