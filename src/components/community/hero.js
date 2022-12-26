@@ -50,7 +50,7 @@ export default function Component({ children }) {
             className="absolute inset-0 w-full h-full object-cover"
             width={1280}
             src="../../images/harry-5.jpg"
-            alt="Join Our FREE Facebook Group For Artists Today!"
+            alt="Follow Us On Instagram For Art Income Tips & Tricks"
             loading="eager"
           />
         </div>
