@@ -74,9 +74,9 @@
   status = 302
   force = true
 [[redirects]]
-  from = "https://www.unstarvingartists.com/orientation/agreement"
-  query = {signup_code = ":signup_code"}
-  to = "https://www.unstarvingartists.com/:signup_code/agreement"
+  from = "https://www.unstarvingartists.com/o/agreement"
+  query = {utm_campaign = ":utm_campaign"}
+  to = "https://www.unstarvingartists.com/:utm_campaign/agreement"
   status = 302
   force = true
 [[redirects]]
