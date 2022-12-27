@@ -80,6 +80,11 @@
   status = 302
   force = true
 [[redirects]]
+  from = "https://www.unstarvingartists.com/migrate/agreement"
+  to = "https://www.skool.com/the-academy/"
+  status = 302
+  force = true
+[[redirects]]
   from = "https://www.unstarvingartists.com/start/agreement"
   to = "https://start.unstarvingartists.com/agreement1671386243769"
   status = 302
