@@ -135,11 +135,6 @@
   status = 302
   force = true
 [[redirects]]
-  from = "https://www.unstarvingartists.com/fl/orientation"
-  to = "https://calendly.com/unstarvingartists/fl-orientation"
-  status = 302
-  force = true
-[[redirects]]
   from = "https://www.unstarvingartists.com/cs/workshop"
   to = "https://join.unstarvingartists.com/workshop?el=cheatsheet"
   status = 302
