@@ -149,6 +149,22 @@
   status = 302
   force = true
 [[redirects]]
+  from = "https://www.unstarvingartists.com/orientation/agreement"
+  query = {signup_code = ":signup_code"}
+  to = "https://www.unstarvingartists.com/:signup_code/agreement"
+  status = 302
+  force = true
+[[redirects]]
+  from = "https://www.unstarvingartists.com/start/agreement"
+  to = "https://start.unstarvingartists.com/agreement1671386243769"
+  status = 302
+  force = true
+[[redirects]]
+  from = "https://www.unstarvingartists.com/join/agreement"
+  to = "https://join.unstarvingartists.com/agreement1660492693399"
+  status = 302
+  force = true
+[[redirects]]
   from = "https://www.unstarvingartists.com/agreement"
   to = "https://join.unstarvingartists.com/agreement"
   status = 302
