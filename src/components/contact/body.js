@@ -32,7 +32,7 @@ export default function Component() {
               Clients
             </h2>
             <p className="mt-4 text-lg text-gray-500 sm:mt-3">
-              For general questions, use the Facebook group. That way everyone
+              For general questions, use the client community. That way everyone
               can benefit from the discussion.
             </p>
             <p className="mt-4 text-lg text-gray-500 sm:mt-3">

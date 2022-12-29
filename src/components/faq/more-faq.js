@@ -45,7 +45,7 @@ const faqs = [
     question:
       "When I join Unstarving Artists, what kind of support do I receive?",
     answer:
-      "When you join Unstarving Artists, you will get 24/7/365 access to multi 6-figure art market experts who work closely with you to help you see results. This happens by answering your questions on live Q&A calls as well as in the client community Facebook group. You just have to ask, and we will be there to help.",
+      "When you join Unstarving Artists, you will get 24/7/365 access to multi 6-figure art market experts who work closely with you to help you see results. This happens by answering your questions on live Q&A calls as well as in the client community. You just have to ask, and we will be there to help.",
   },
   {
     question:
