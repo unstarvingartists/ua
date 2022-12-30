@@ -74,6 +74,16 @@
   status = 302
   force = true
 [[redirects]]
+  from = "https://www.unstarvingartists.com/start"
+  to = "https://start.unstarvingartists.com/partner1671386235222"
+  status = 302
+  force = true
+[[redirects]]
+  from = "https://www.unstarvingartists.com/start*"
+  to = "https://start.unstarvingartists.com/partner1671386235222"
+  status = 302
+  force = true
+[[redirects]]
   from = "https://www.unstarvingartists.com/o/agreement"
   query = {utm_campaign = ":utm_campaign"}
   to = "https://www.unstarvingartists.com/:utm_campaign/agreement"
