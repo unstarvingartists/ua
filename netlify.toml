@@ -74,6 +74,27 @@
   status = 302
   force = true
 [[redirects]]
+  from = "https://www.unstarvingartists.com/o/agreement"
+  query = {utm_campaign = ":utm_campaign"}
+  to = "https://www.unstarvingartists.com/:utm_campaign/agreement"
+  status = 302
+  force = true
+[[redirects]]
+  from = "https://www.unstarvingartists.com/migrate/agreement"
+  to = "https://www.skool.com/the-academy/"
+  status = 302
+  force = true
+[[redirects]]
+  from = "https://www.unstarvingartists.com/start/agreement"
+  to = "https://start.unstarvingartists.com/agreement1671386243769"
+  status = 302
+  force = true
+[[redirects]]
+  from = "https://www.unstarvingartists.com/join/agreement"
+  to = "https://join.unstarvingartists.com/agreement1660492693399"
+  status = 302
+  force = true
+[[redirects]]
   from = "https://www.unstarvingartists.com/orientation"
   to = "https://join.unstarvingartists.com/orientation"
   status = 302
@@ -111,11 +132,6 @@
 [[redirects]]
   from = "https://www.unstarvingartists.com/migrate"
   to = "https://join.unstarvingartists.com/migrate"
-  status = 302
-  force = true
-[[redirects]]
-  from = "https://www.unstarvingartists.com/fl/orientation"
-  to = "https://calendly.com/unstarvingartists/fl-orientation"
   status = 302
   force = true
 [[redirects]]

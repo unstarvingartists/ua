@@ -40,9 +40,9 @@ const features = [
       "Step-by-step instructions, templates, and workflows to create social media funnels.",
   },
   {
-    name: "Creating Facebook posts",
+    name: "Creating Instagram posts",
     description:
-      "Instructions, templates, and tools to create world class FB posts that attract deep-pocketed collectors.",
+      "Instructions, templates, and tools to create world class IG posts that attract deep-pocketed collectors.",
   },
   {
     name: "Hiring and managing contractors",

@@ -1,14 +1,7 @@
 import React, { useEffect } from "react";
 import { MDXRenderer } from "gatsby-plugin-mdx";
-import { Disqus } from "gatsby-plugin-disqus";
 
 export default function Component({ mdx, site, pathname }) {
-  let disqusConfig = {
-    url: `${site.siteMetadata.siteUrl + pathname}`,
-    identifier: mdx.id,
-    title: mdx.frontmatter.title,
-  };
-
   useEffect(() => {
     if (
       typeof window.__sharethis__ !== "undefined" &&
@@ -127,19 +120,16 @@ export default function Component({ mdx, site, pathname }) {
         <div className="my-6 prose prose-blue prose-lg text-gray-500 mx-auto">
           <MDXRenderer>{mdx.body}</MDXRenderer>
         </div>
-        <div className="text-lg max-w-prose mx-auto">
-          <Disqus config={disqusConfig} />
-        </div>
         <div className="sharethis-inline-share-buttons" />
         <div className="mt-3 text-center">
           <a
-            href="https://www.facebook.com/groups/unstarvingartistscommunity"
+            href="https://www.instagram.com/harrywhelchel/"
             target="_blank"
             rel="noreferrer"
             className="text-base font-medium text-blue-600 underline"
           >
             {" "}
-            Join Our FREE Facebook Group For Artists{" "}
+            Follow Us On Instagram For Art Income Tips & Tricks{" "}
             <span aria-hidden="true">&rarr;</span>{" "}
           </a>
         </div>
