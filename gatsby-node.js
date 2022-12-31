@@ -9,15 +9,16 @@ exports.createPages = ({ graphql, actions }) => {
     `
       query loadPagesQuery {
         allMdx {
-          edges {
-            node {
-              frontmatter {
-                href
-                category {
-                  name
-                }
+          nodes {
+            frontmatter {
+              href
+              category {
+                name
               }
-              id
+            }
+            id
+            internal {
+              contentFilePath
             }
           }
         }
@@ -28,21 +29,21 @@ exports.createPages = ({ graphql, actions }) => {
       throw result.errors;
     }
 
-    result.data.allMdx.edges.forEach((edge) => {
-      const slug = edge.node.frontmatter.href;
-      const categoryName = edge.node.frontmatter.category.name;
-      const id = edge.node.id;
+    result.data.allMdx.nodes.forEach((node) => {
+      const slug = node.frontmatter.href;
+      const categoryName = node.frontmatter.category.name;
+      const id = node.id;
 
       if (categoryName === "Blog Post") {
         createPage({
           path: slug,
-          component: blogTemplate,
+          component: `${blogTemplate}?__contentFilePath=${node.internal.contentFilePath}`,
           context: { id },
         });
       } else if (categoryName === "Student Review") {
         createPage({
           path: slug,
-          component: reviewTemplate,
+          component: `${reviewTemplate}?__contentFilePath=${node.internal.contentFilePath}`,
           context: { id },
         });
       }

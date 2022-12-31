@@ -9,7 +9,7 @@ export default function Component() {
         query resultsQuery {
           allMdx(
             filter: { frontmatter: { category: { name: { eq: "Result" } } } }
-            sort: { fields: [frontmatter___sales], order: DESC }
+            sort: { frontmatter: { sales: DESC } }
           ) {
             edges {
               node {

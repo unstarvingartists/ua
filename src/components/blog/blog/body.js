@@ -1,7 +1,6 @@
 import React, { useEffect } from "react";
-import { MDXRenderer } from "gatsby-plugin-mdx";
 
-export default function Component({ mdx, site, pathname }) {
+export default function Component({ mdx, site, pathname, children }) {
   useEffect(() => {
     if (
       typeof window.__sharethis__ !== "undefined" &&
@@ -118,7 +117,7 @@ export default function Component({ mdx, site, pathname }) {
       </div>
       <div className="relative px-4 sm:px-6 lg:px-8">
         <div className="my-6 prose prose-blue prose-lg text-gray-500 mx-auto">
-          <MDXRenderer>{mdx.body}</MDXRenderer>
+          {children}
         </div>
         <div className="sharethis-inline-share-buttons" />
         <div className="mt-3 text-center">

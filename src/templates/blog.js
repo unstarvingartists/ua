@@ -18,7 +18,6 @@ export const query = graphql`
     }
     mdx(id: { eq: $id }) {
       id
-      body
       frontmatter {
         description
         category {
@@ -49,7 +48,7 @@ export const query = graphql`
         frontmatter: { category: { name: { eq: "Blog Post" } } }
         id: { ne: $id }
       }
-      sort: { fields: [frontmatter___id], order: DESC }
+      sort: { frontmatter: { id: DESC } }
       limit: 3
     ) {
       edges {
@@ -87,9 +86,8 @@ export const query = graphql`
   }
 `;
 
-export default function Page({ data, location }) {
+export default function Page({ data, location, children }) {
   const { key, ...passableLocation } = location;
-
   return (
     <Layout>
       <Seo
@@ -102,7 +100,7 @@ export default function Page({ data, location }) {
       <Hero {...data} {...passableLocation}>
         <Navigation />
       </Hero>
-      <Body {...data} {...passableLocation} />
+      <Body {...data} {...passableLocation} children={children} />
       <CheckoutMore {...data} />
       <CallToAction />
       <Footer />

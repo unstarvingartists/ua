@@ -9,7 +9,7 @@ export default function Component() {
         query blogsQuery {
           allMdx(
             filter: { frontmatter: { category: { name: { eq: "Blog Post" } } } }
-            sort: { fields: [frontmatter___id], order: DESC }
+            sort: { frontmatter: { id: DESC } }
           ) {
             edges {
               node {
