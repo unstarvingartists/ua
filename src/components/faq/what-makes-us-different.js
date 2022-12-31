@@ -68,7 +68,7 @@ export default function Component() {
                     Rather than hear from us why we're different, check out our{" "}
                     <Link
                       to="/reviews"
-                      class="underline font-medium text-gray-500"
+                      className="underline font-medium text-gray-500"
                     >
                       Reviews
                     </Link>
@@ -110,9 +110,9 @@ export default function Component() {
                 Unstarving Artists clients for life. Our clients are quite vocal
                 about why they love us and our programs.
               </p>
-              <p class="text-sm">
+              <p className="text-sm">
                 *For more on how to qualify, visit our{" "}
-                <Link class="text-gray-500" to="/terms">
+                <Link className="text-gray-500" to="/terms">
                   terms
                 </Link>
                 .
