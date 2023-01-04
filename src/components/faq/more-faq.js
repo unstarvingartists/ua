@@ -67,7 +67,7 @@ const faqs = [
     question:
       "This sounds like exactly what I've been looking for. How do I get started?",
     answer:
-      'Awesome, so glad to hear you are interested in joining us. First, click the "See How It Works" button below to watch a brief free training on our approach. Toward the end of the training video you will see a link appear that will invite you to apply for a strategy session. Complete an application and we will see if we are a good fit for your art practice. Looking forward to hearing from you!',
+      'Awesome, so glad to hear you are interested in joining us. First, click the "See How It Works" button below to watch an in-depth free training on our approach.',
   },
   {
     question: "What's your refund policy?",

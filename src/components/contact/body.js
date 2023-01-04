@@ -26,7 +26,7 @@ export default function Component() {
               <a href="https://join.unstarvingartists.com/workshop">
                 free training
               </a>{" "}
-              and then apply for a strategy session.
+              to learn more about The Academy.
             </p>
             <h2 className="text-3xl mt-9 font-extrabold tracking-tight sm:text-4xl">
               Clients
