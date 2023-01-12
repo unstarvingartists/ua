@@ -397,9 +397,14 @@ export default function Component({ children }) {
                   that you give the program a fair attempt.
                 </p>
                 <p>
-                  The Academy comes with a 72 hour no questions asked refund
-                  period. After 72 hours have passed, the program comes with our
-                  action-based Money Back Guarantee.
+                  The Academy comes with a 72 hour cancellation period which
+                  means you may cancel the transaction at any time within 72
+                  hours of the payment being made. If you cancel within 72
+                  hours, any payments made by you under this contract or sale
+                  will be returned to you within 14 business days. All
+                  cancellation requests must be in writing via email to
+                  support@unstarvingartists.com. After 72 hours have passed, the
+                  program comes with our action-based Money Back Guarantee.
                 </p>
                 <p>
                   Our refund guarantee is a black and white guarantee meaning
