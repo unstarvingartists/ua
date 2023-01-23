@@ -24,6 +24,11 @@ const people = [
     src: "kate.jpeg",
   },
   {
+    name: "Alexandra S.",
+    genre: "Wildlife 🇺🇸",
+    src: "alexandra.jpeg",
+  },
+  {
     name: "Sharif C.",
     genre: "Pop Art 🇺🇸",
     src: "sharif.jpeg",
@@ -40,7 +45,7 @@ const Component = () => {
           sourceInstanceName: { eq: "images" }
           relativePath: {
             in: [
-              "valerie.jpeg"
+              "alexandra.jpeg"
               "kate.jpeg"
               "michael.jpeg"
               "sharif.jpeg"
