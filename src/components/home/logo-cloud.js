@@ -24,9 +24,9 @@ const people = [
     src: "kate.jpeg",
   },
   {
-    name: "Valerie M.",
-    genre: "Pastoral 🇺🇸",
-    src: "valerie.jpeg",
+    name: "Preston Z.",
+    genre: "Abstract 🇺🇸",
+    src: "preston-profile.jpeg",
   },
   {
     name: "Sharif C.",
