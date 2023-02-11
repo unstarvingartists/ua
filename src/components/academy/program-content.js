@@ -49,7 +49,7 @@ export default function Component() {
               Academy Program Content
             </h2>
             <p className="text-center mt-3 text-lg text-gray-500">
-              In just 7 modules, we'll help you grow your art practice and turn
+              In just 8 modules, we'll help you grow your art practice and turn
               it into a machine. Here's how.
             </p>
           </div>

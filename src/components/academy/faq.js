@@ -19,7 +19,7 @@ const features = [
   },
   {
     name: "Program Length",
-    description: "7 modules",
+    description: "8 modules",
     icon: ClockIcon,
   },
   {
@@ -34,7 +34,7 @@ const faqs = [
     id: 1,
     question: "What is it?",
     answer:
-      "Academy is a 7 module online training program with live Q&A calls and a community of semi-professional and professional artists. It shows you how to start a profitable art practice from scratch.",
+      "Academy is a 8 module online training program with live Q&A calls and a community of semi-professional and professional artists. It shows you how to start a profitable art practice from scratch.",
   },
   {
     id: 2,
