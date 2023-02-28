@@ -95,7 +95,7 @@
   status = 302
   force = true
 [[redirects]]
-  from = "https://www.unstarvingartists.com/catalyst/agreement"
+  from = "https://www.unstarvingartists.com/catalyst"
   to = "https://get.unstarvingartists.com/catalyst"
   status = 302
   force = true
