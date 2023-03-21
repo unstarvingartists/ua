@@ -195,6 +195,11 @@
   status = 302
   force = true
 [[redirects]]
+  from = "https://www.unstarvingartists.com/stripe"
+  to = "https://stripe.com/payments/features#dashboard-mobile-app"
+  status = 302
+  force = true
+[[redirects]]
   from = "https://www.unstarvingartists.com/success*"
   to = "https://calendly.com/unstarvingartists/1on1-success"
   status = 302
