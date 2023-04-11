@@ -3,8 +3,57 @@ import { Link } from "gatsby";
 
 const faqs = [
   {
+    question: "What types of artists does Unstarving Artists work with?",
+    answer:
+      "We work with both professional and rookie artists. Professionals are artists who earn their living from their work but aspire to make an even better living. Rookies are artists who have a stable income from other sources and have sold multiple pieces of their work. While their art may feel like a side hustle, they believe it could be more.",
+  },
+  {
+    question: "Will Unstarving Artists work for my specific art medium?",
+    answer:
+      "Unstarving Artists can work for any art medium, including photography, quilt making, digital art, and more. If you're open to selling pieces for $1,000+ and have seen others in your medium achieve this, the program can work for artists like you. Following the recommended steps and being eager to sell at this price point are key to having a great experience.",
+  },
+  {
     question:
-      "How does the Academy program work and why use it over other ways to grow your art practice?",
+      "Do I need to be a full-time artist to have success with Unstarving Artists?",
+    answer:
+      "No, you don't. When you join Unstarving Artists, you'll find a mix of part-time and full-time artists growing their art practices. The program allows you to progress at your own pace so even if something comes up and you need to pause for a while, you can pick up right where you left off, and we'll be happy to support you.",
+  },
+  {
+    question:
+      "Do I need to have an art degree, MFA, etc., to have success with Unstarving Artists?",
+    answer:
+      "No, not at all. When you join Unstarving Artists, you will find plenty of artists with no formal training or higher education in art. Often these artists do well and do well quite quickly. They come in open-minded without getting confused by theories or bad habits from the old ways they were taught to do things.",
+  },
+  {
+    question: "I have an art degree. Can Unstarving Artists still work for me?",
+    answer:
+      "Absolutely. When you join Unstarving Artists, you will find plenty of artists with formal training and higher education in art. Often these artists do well and do well quite quickly. They come in confidently, believing in themselves and the value of their work, which often leads to their conversations with collectors more quickly turning into sales.",
+  },
+  {
+    question:
+      "Do I need to have art world connections, gallery representation, etc., to have success with Unstarving Artists?",
+    answer:
+      "No, not at all. Many artists who join Unstarving Artists have not been featured in galleries, exhibits, or publications. Nevertheless, they successfully sell their artwork at high rates by connecting directly with collectors in their niche.",
+  },
+  {
+    question:
+      "I have gallery representation. Can Unstarving Artists still work for me?",
+    answer:
+      "Definitely. Many artists in Unstarving Artists have gallery relationships. These artists often maintain their gallery representation while choosing to work with fewer, higher-quality galleries. Moreover, they frequently secure more favorable commission splits with their galleries moving forward.",
+  },
+  {
+    question: "Do I need a portfolio of work when starting out?",
+    answer:
+      "Absolutely not. Most people who ask this question have experience applying to art schools or galleries, where a large portfolio of work is expected. However, prospective collectors are less concerned about seeing 12 to 15 pieces that demonstrate your range of skills and expertise. Instead, they want to know, like, and trust you as a person and as an artist. They want to feel like you can meet their needs through an original or commission. So, don't worry if you have little or no portfolio when starting out. We offer a specific training called the No Portfolio Kickstarter to help you in this situation.",
+  },
+  {
+    question: "How much time per week do I need to spend to see progress?",
+    answer:
+      "With any meaningful project, the more time and effort you invest, the faster and greater results you will typically achieve. However, even if you can only dedicate a couple of hours per week, like 30 minutes a day, 3 to 4 times a week, or 3 to 4 hours each weekend, you can still make solid, steady progress in the program.\n\nWhat matters most is taking one step at a time, maintaining steady, consistent progress, and striving to improve each week compared to the previous one. By doing so, you will be amazed at the significant progress you achieve in 3 months, 6 months, and beyond.",
+  },
+  {
+    question:
+      "How does The Academy program work and why use it over other ways to grow your art practice?",
     answer:
       "Academy is a 8 module online training program with live Q&A calls and a community of semi-professional and professional artists. It shows you how to start a profitable art practice from scratch and grow it to 6-figures. It is the simplest, clearest, most effective way for people to become successful artists.",
   },
@@ -27,73 +76,21 @@ const faqs = [
       "Making more sales is all about having an intentional systematic approach to your conversations with collectors. If you'd prefer to speak with warm friendly collectors who are highly educated in you and your work, rather than standoffish uninterested strangers looking for a fast exit from the conversation, then you will love our approach.",
   },
   {
-    question: "What sorts of artists does Unstarving Artists' work with?",
-    answer:
-      "We work with professional and rookie artists. Professionals are artists that make a living day to day from their work. They may make an OK living but they want to make a fantastic living. Rookies are artists with a stable income from elsewhere yet they've sold multiple pieces of their work. Their art feels like a side hustle but they know it could be more.",
-  },
-  {
-    question:
-      "I'm a sculptor, ceramist, architect, drafter, photographer, etc. Can I have success with Unstarving Artists?",
-    answer:
-      "Absolutely. Unstarving Artists can be a great fit for all visual artists regardless of their medium. What's most important is that you want to earn more income from your work, that you are open to learning and growing in new ways in order to do so, and that you are able to stay committed to the process.",
-  },
-  {
-    question:
-      "Do I need to be a full-time artist to have success with Unstarving Artists?",
-    answer:
-      "No you do not. When you join Unstarving Artists you will find a great mix of part-time and full-time artists growing their art practices. The program allows you to go at your own pace and it comes with lifetime access. So even if something comes up, and you have to pause for a short time, you can pick things right back up where you left off and we are happy to support you.",
-  },
-  {
-    question:
-      "Do I need to have an art degree, MFA, etc. to have success with Unstarving Artists?",
-    answer:
-      "No, not at all. When you join Unstarving Artists, you will find plenty of artists with no formal training or higher education in art. Often these artists do well and do well quite quickly. They come in open-minded without getting confused by theories or bad habits from the old ways they were taught to do things.",
-  },
-  {
     question: "Why join Unstarving Artists instead of getting an art degree?",
     answer:
-      "The traditional education system is broken. Due to a number of factors, every year traditional degrees are preparing people less and less well for a career in the field of their choice. At the same time, costs are skyrocketing—the average net cost of attending art school is $42,000. If you'd prefer a real world, results focused, accessible and affordable program, then you will love our approach.",
-  },
-  {
-    question: "I have an art degree. Can Unstarving Artists still work for me?",
-    answer:
-      "Absolutely. When you join Unstarving Artists, you will find plenty of artists with formal training and higher education in art. Often these artists do well and do well quite quickly. They come in confidently, believing in themselves and the value of their work, which often leads to their conversations with collectors more quickly turning into sales.",
-  },
-  {
-    question:
-      "Do I need to have art world connections, gallery representation, etc. to have success with Unstarving Artists?",
-    answer:
-      "No, not at all. When you join Unstarving Artists, you will find plenty of artists who have not been featured in galleries, exhibits, or publications. That said, they still sell their artwork at high rates by connecting directly with collectors in their niche.",
+      "The traditional education system is flawed. Due to various factors, traditional degrees are becoming less effective at preparing people for careers in their chosen fields. Meanwhile, costs are skyrocketing, with the average net cost of attending art school at $42,000. If you prefer a real-world, results-focused, accessible, and affordable program, our approach will resonate with you.",
   },
   {
     question:
       "Why join Unstarving Artists instead of securing gallery representation?",
     answer:
-      "You can actually do both. We love the gallery ecosystem and a number of our artists work with galleries. When you join Unstarving Artists, your increased sales will give you the confidence, if you'd like, to wind down underperforming galleries and secure more favorable commission splits with the galleries you keep.",
-  },
-  {
-    question:
-      "I have gallery representation. Can Unstarving Artists still work for me?",
-    answer:
-      "Absolutely. When you join Unstarving Artists, you will find plenty of artists with gallery relationships. Often these artists maintain gallery representation but choose to work with fewer higher quality galleries. What's more, they often secure more favorable commission splits with their galleries going forward.",
+      "You can actually do both. We appreciate the gallery ecosystem, and many of our artists work with galleries. Joining Unstarving Artists can boost your sales, giving you the confidence to wind down underperforming galleries and secure more favorable commission splits with the galleries you retain.",
   },
   {
     question:
       "Do I need to be a tech whiz to have success with Unstarving Artists?",
     answer:
-      "No, not at all. When you join Unstarving Artists, you will find plenty of artists that generate leads in their local area. It's not about specific tech. It's about fundamental communication skills that equally apply online or in person. Plus, if you do wish to generate leads online, our methods are simple and user friendly.",
-  },
-  {
-    question:
-      "Do I need to budget for hard costs (software, tools, ad spend, etc.) to have success with Unstarving Artists?",
-    answer:
-      "No, not at all. When you join Unstarving Artists, you will be able to start making sales without having to invest in any software, tools, or ad spend. Once you start having success, there are optional tools you can invest in. That said, any optional fees are nominal and we often are able to secure deep discounts for our students.",
-  },
-  {
-    question:
-      "Do I need to have a big social media following to have success with Unstarving Artists?",
-    answer:
-      "No, not at all. When you join Unstarving Artists, you will find plenty of artists whose are just starting out on social media. Our approach doesn't require you to painstakingly build a large following first before you can make sales. You will be able to make sales right away while growing your following at the same time.",
+      "No, you don't. Whether you're 18 years old or 82 years young joining The Academy, there are people with similar backgrounds experiencing success in the program. We've simplified the tech as much as possible and removed anything non-essential.\n\nFor example, as you progress through The Academy, you'll notice we never discuss setting up a website. That's because you don't need a website to succeed online today. Why? Your Instagram can serve as a website for you, and it's much easier to manage.",
   },
 ];
 
