@@ -103,8 +103,11 @@ export default function Component() {
             Frequently asked questions
           </h2>
           <p className="mt-4 text-gray-500 prose prose-blue">
-            Have specific questions or want to sign up? Apply for a strategy
-            session <Link to="/apply-now">here</Link>.
+            Have specific questions or want to sign up? Join a{" "}
+            <Link href="https://join.unstarvingartists.com/workshop">
+              free workshop
+            </Link>{" "}
+            on our approach.
           </p>
         </div>
         <div className="mt-20">
