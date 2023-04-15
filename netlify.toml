@@ -200,6 +200,11 @@
   status = 302
   force = true
 [[redirects]]
+  from = "https://www.unstarvingartists.com/call"
+  to = "https://calendly.com/harrywhelchel/discovery"
+  status = 302
+  force = true
+[[redirects]]
   from = "https://www.unstarvingartists.com/stripe"
   to = "https://stripe.com/payments/features#dashboard-mobile-app"
   status = 302
