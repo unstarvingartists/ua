@@ -100,6 +100,11 @@
   status = 302
   force = true
 [[redirects]]
+  from = "https://www.unstarvingartists.com/community"
+  to = "https://get.unstarvingartists.com/community"
+  status = 302
+  force = true
+[[redirects]]
   from = "https://www.unstarvingartists.com/start/agreement"
   to = "https://start.unstarvingartists.com/agreement1671386243769"
   status = 302
