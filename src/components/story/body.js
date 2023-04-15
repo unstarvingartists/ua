@@ -143,9 +143,9 @@ export default function Component({ children }) {
                     professional artists spanning more than 12 countries.
                   </p>
                   <p>
-                    His flagship Academy training program has produced 3
-                    millionaires, dozens of six-figure earners, and allowed many
-                    everyday people to become full-time artists.
+                    His flagship training programs have produced 3 millionaires,
+                    dozens of six-figure earners, and allowed many everyday
+                    people to become full-time artists.
                   </p>
                 </blockquote>
               </div>
