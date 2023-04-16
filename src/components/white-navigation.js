@@ -153,6 +153,8 @@ const Component = () => {
                                   <div key={item.name} className="flow-root">
                                     <a
                                       href={item.href}
+                                      target="_blank"
+                                      rel="noreferrer"
                                       className="-m-3 p-3 flex items-center rounded-md text-base font-medium text-gray-900 hover:bg-gray-100"
                                     >
                                       <item.icon
@@ -189,6 +191,8 @@ const Component = () => {
                       key={item.name}
                       className="font-medium bg-white-50 text-gray-500 hover:text-gray-900"
                       href={item.href}
+                      target="_blank"
+                      rel="noreferrer"
                     >
                       {item.name}
                     </a>
@@ -279,6 +283,8 @@ const Component = () => {
                           key={item.name}
                           className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50"
                           href={item.href}
+                          target="_blank"
+                          rel="noreferrer"
                         >
                           {item.name}
                         </a>

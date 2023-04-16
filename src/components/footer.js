@@ -77,16 +77,33 @@ export default function Component() {
                   Resources
                 </h3>
                 <ul className="mt-4 space-y-4">
-                  {navigation.resources.map((item) => (
-                    <li key={item.name}>
-                      <Link
-                        to={item.to}
-                        className="text-base text-gray-500 hover:text-gray-900"
-                      >
-                        {item.name}
-                      </Link>
-                    </li>
-                  ))}
+                  {navigation.resources.map((item) => {
+                    if (!!item.to) {
+                      return (
+                        <li key={item.name}>
+                          <Link
+                            to={item.to}
+                            className="text-base text-gray-500 hover:text-gray-900"
+                          >
+                            {item.name}
+                          </Link>
+                        </li>
+                      );
+                    } else {
+                      return (
+                        <li key={item.name}>
+                          <a
+                            href={item.href}
+                            rel="noreferrer"
+                            target="_blank"
+                            className="text-base text-gray-500 hover:text-gray-900"
+                          >
+                            {item.name}
+                          </a>
+                        </li>
+                      );
+                    }
+                  })}
                 </ul>
               </div>
               <div className="mt-12 md:mt-0">
@@ -111,6 +128,8 @@ export default function Component() {
                         <li key={item.name}>
                           <a
                             href={item.href}
+                            target="_blank"
+                            rel="noreferrer"
                             className="text-base text-gray-500 hover:text-gray-900"
                           >
                             {item.name}
