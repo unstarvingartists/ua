@@ -9,7 +9,7 @@ export default function Component() {
         <div className="hidden lg:block bg-gray-50 absolute top-0 bottom-0 left-3/4 w-screen" />
         <div className="mx-auto text-base max-w-prose lg:grid lg:grid-cols-2 lg:gap-8 lg:max-w-none">
           <div>
-            <h2 className="text-base text-blue-600 font-semibold tracking-wide uppercase">
+            <h2 className="text-base text-emerald-600 font-semibold tracking-wide uppercase">
               What Makes Us Different
             </h2>
             <h3 className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
@@ -89,7 +89,7 @@ export default function Component() {
                 comparing a rocketship to a scooter.
               </p>
             </div>
-            <div className="mt-5 prose prose-blue text-gray-500 mx-auto lg:max-w-none lg:row-start-1 lg:col-start-1">
+            <div className="mt-5 prose prose-emerald text-gray-500 mx-auto lg:max-w-none lg:row-start-1 lg:col-start-1">
               <strong>Here is what we suggest</strong>
               <p>
                 #1: PLEASE go try our "competitors" and run our methods head to
@@ -122,7 +122,7 @@ export default function Component() {
               <div className="rounded-md shadow">
                 <a
                   href="https://join.unstarvingartists.com/workshop"
-                  className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700 md:py-4 md:text-lg md:px-10"
+                  className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-emerald-600 hover:bg-emerald-700 md:py-4 md:text-lg md:px-10"
                 >
                   See How It Works
                 </a>

@@ -21,18 +21,18 @@ export default function Component({ children }) {
                       alt="George Washington Crossing The Delaware"
                       loading="eager"
                     />
-                    <div className="absolute inset-0 bg-blue-700 mix-blend-multiply" />
+                    <div className="absolute inset-0 bg-emerald-700 mix-blend-multiply" />
                   </div>
                   <div className="relative px-4 py-16 sm:px-6 sm:py-24 lg:py-32 lg:px-8">
                     <h1 className="text-center text-4xl font-extrabold tracking-tight sm:text-5xl lg:text-6xl">
                       <span className="block text-white">
                         Luck Is What Happens When
                       </span>
-                      <span className="block text-blue-200">
+                      <span className="block text-emerald-200">
                         Preparation Meets Opportunity
                       </span>
                     </h1>
-                    <p className="mt-6 max-w-lg mx-auto text-center text-xl text-blue-200 sm:max-w-3xl">
+                    <p className="mt-6 max-w-lg mx-auto text-center text-xl text-emerald-200 sm:max-w-3xl">
                       Success isn't born, it's made. To us, success is a
                       science. We don't believe in luck, fate or magic — only
                       cause & effect. Our method focuses on the things with
@@ -43,7 +43,7 @@ export default function Component({ children }) {
                       <div className="space-y-4 sm:space-y-0 sm:mx-auto sm:inline-grid sm:grid-cols-1 sm:gap-5">
                         <a
                           href="https://join.unstarvingartists.com/workshop"
-                          className="flex items-center justify-center px-4 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-blue-700 bg-gray-50 hover:bg-blue-50 sm:px-8"
+                          className="flex items-center justify-center px-4 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-emerald-700 bg-gray-50 hover:bg-emerald-50 sm:px-8"
                         >
                           See How It Works
                         </a>

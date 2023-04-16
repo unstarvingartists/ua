@@ -83,7 +83,7 @@ export default function LearnEssentials() {
             <div key={feature.name} className="relative">
               <dt>
                 <CheckIcon
-                  className="absolute h-6 w-6 text-green-500"
+                  className="absolute h-6 w-6 text-emerald-500"
                   aria-hidden="true"
                 />
                 <p className="ml-9 text-lg leading-6 font-medium text-gray-900">
@@ -99,7 +99,7 @@ export default function LearnEssentials() {
         <div className="mt-10 text-center">
           <Link
             to="/methodology"
-            className="text-base font-medium text-blue-600"
+            className="text-base font-medium text-emerald-600"
           >
             {" "}
             Learn more about our methodology{" "}

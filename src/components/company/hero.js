@@ -21,14 +21,14 @@ export default function Component({ children }) {
                       alt="Our Company"
                       loading="eager"
                     />
-                    <div className="absolute inset-0 bg-blue-700 mix-blend-multiply" />
+                    <div className="absolute inset-0 bg-emerald-700 mix-blend-multiply" />
                   </div>
                   <div className="relative px-4 py-16 sm:px-6 sm:py-24 lg:py-32 lg:px-8">
                     <h1 className="text-center text-4xl font-extrabold tracking-tight sm:text-5xl lg:text-6xl">
                       <span className="block text-white">Our</span>
-                      <span className="block text-blue-200">Company</span>
+                      <span className="block text-emerald-200">Company</span>
                     </h1>
-                    <p className="mt-6 max-w-lg mx-auto text-center text-xl text-blue-200 sm:max-w-3xl">
+                    <p className="mt-6 max-w-lg mx-auto text-center text-xl text-emerald-200 sm:max-w-3xl">
                       Why We Do What We Do
                     </p>
                   </div>

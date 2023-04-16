@@ -14,7 +14,7 @@ const navigation = {
   ],
   resources: [
     { name: "Reviews", to: "/reviews" },
-    { name: "Blog", to: "/blog" },
+    { name: "Blog", href: "https://unstarvingartists.substack.com/" },
     { name: "FAQ", to: "/faq" },
   ],
   extras: [

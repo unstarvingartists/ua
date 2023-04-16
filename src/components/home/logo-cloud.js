@@ -92,7 +92,7 @@ const Component = () => {
               <div className="rounded-md shadow">
                 <Link
                   to="/methodology"
-                  className="flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700"
+                  className="flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-emerald-600 hover:bg-emerald-700"
                 >
                   Our Methodology
                 </Link>
@@ -100,7 +100,7 @@ const Component = () => {
               <div className="mt-3 sm:mt-0 sm:ml-3">
                 <Link
                   to="/reviews"
-                  className="flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-blue-700 bg-blue-100 hover:bg-blue-200"
+                  className="flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-emerald-700 bg-emerald-100 hover:bg-emerald-200"
                 >
                   Reviews
                 </Link>
@@ -123,7 +123,7 @@ const Component = () => {
                   />
                   <div className="font-medium text-lg leading-6 space-y-1">
                     <h3>{person.name}</h3>
-                    <p className="text-blue-600">{person.genre}</p>
+                    <p className="text-emerald-600">{person.genre}</p>
                   </div>
                 </div>
               );

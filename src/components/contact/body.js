@@ -21,7 +21,7 @@ export default function Component() {
             <h2 className="text-3xl font-extrabold tracking-tight sm:text-4xl">
               Future Clients
             </h2>
-            <p className="prose prose-blue mt-4 text-lg text-gray-500 sm:mt-3">
+            <p className="prose prose-emerald mt-4 text-lg text-gray-500 sm:mt-3">
               Watch our{" "}
               <a href="https://join.unstarvingartists.com/workshop">
                 free training

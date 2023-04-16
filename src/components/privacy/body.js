@@ -137,7 +137,7 @@ export default function Component({ children }) {
             <div className="sm:col-start-2 sm:col-span-4">
               <div className="text-lg max-w-prose mx-auto pt-10">
                 <h1>
-                  <span className="block text-base text-center text-blue-600 font-semibold tracking-wide uppercase">
+                  <span className="block text-base text-center text-emerald-600 font-semibold tracking-wide uppercase">
                     The Fine <span className="line-through">Art</span> Print
                   </span>
                   <span className="mt-2 block text-3xl text-center leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
@@ -148,7 +148,7 @@ export default function Component({ children }) {
                   Your privacy is important to us.
                 </p>
               </div>
-              <div className="mt-6 prose prose-blue prose-lg text-gray-500 mx-auto">
+              <div className="mt-6 prose prose-emerald prose-lg text-gray-500 mx-auto">
                 <p>
                   It is Unstarving Artists, LLC’s policy to respect your privacy
                   regarding any information we may collect from you across our
