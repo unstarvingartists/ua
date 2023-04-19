@@ -15,7 +15,7 @@ import Footer from "../components/footer";
 export default function Page({ location }) {
   return (
     <Layout>
-      <Seo title="Academy" pathname={location.pathname} />
+      <Seo title="The Academy" pathname={location.pathname} />
       <Hero>
         <Navigation />
       </Hero>
