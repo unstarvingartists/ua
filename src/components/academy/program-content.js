@@ -46,7 +46,7 @@ export default function Component() {
         <div className="max-w-3xl mx-auto divide-y-2 divide-gray-200">
           <div>
             <h2 className="text-center text-3xl font-extrabold text-gray-900 sm:text-4xl">
-              Academy Program Content
+              The Academy Program Content
             </h2>
             <p className="text-center mt-3 text-lg text-gray-500">
               In just 8 modules, we'll help you grow your art practice and turn

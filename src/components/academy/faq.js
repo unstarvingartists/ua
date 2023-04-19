@@ -34,19 +34,19 @@ const faqs = [
     id: 1,
     question: "What is it?",
     answer:
-      "Academy is a 8 module online training program with live Q&A calls and a community of semi-professional and professional artists. It shows you how to start a profitable art practice from scratch.",
+      "The Academy is an 8 module online training program with live Q&A calls and a community of semi-professional and professional artists. It shows you how to start a profitable art practice from scratch.",
   },
   {
     id: 2,
     question: "Who is it for?",
     answer:
-      "Academy is for anybody who wants to start their own profitable and successful art practice. It works for anybody, regardless of your previous knowledge or experience.",
+      "The Academy is for anybody who wants to start their own profitable and successful art practice. It works for anybody, regardless of your previous knowledge or experience.",
   },
   {
     id: 3,
     question: "Where does it happen?",
     answer:
-      "Academy is online and consists of training videos, tools, live Q&A calls and a client community. You complete it online, on your own time.",
+      "The Academy is online and consists of training videos, tools, live Q&A calls and a client community. You complete it online, on your own time.",
   },
   {
     id: 4,
@@ -58,7 +58,7 @@ const faqs = [
     id: 5,
     question: "When does it start?",
     answer:
-      "Academy is an online program and starts the moment you enroll. You can complete it in your own time and work through it as fast or slow as you wish. You get lifetime access.",
+      "The Academy is an online program and starts the moment you enroll. You can complete it in your own time and work through it as fast or slow as you wish. You get lifetime access.",
   },
   {
     id: 6,

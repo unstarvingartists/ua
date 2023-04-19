@@ -726,7 +726,8 @@ export default function Component({ children }) {
                 <p>
                   I knew I had see if more artists would resonate with my
                   message and what I had to offer. And with that, Unstarving
-                  Artists and our flagship training program, Academy, was born.
+                  Artists and our flagship training program, The Academy, was
+                  born.
                 </p>
                 <h2>The Academy Training</h2>
                 <p>
@@ -763,7 +764,7 @@ export default function Component({ children }) {
                   <StaticImage
                     src="../../images/academy-box.png"
                     alt="The Academy program have been battle tested and proven
-                    with 200+ students worldwide."
+                    with 300+ students worldwide."
                     className="w-full"
                     imgClassName="w-full"
                     width={736}
@@ -771,7 +772,7 @@ export default function Component({ children }) {
                   />
                   <figcaption>
                     The Academy program have been battle tested and proven with
-                    200+ students worldwide.
+                    300+ students worldwide.
                   </figcaption>
                 </figure>
                 <p>
@@ -807,7 +808,7 @@ export default function Component({ children }) {
                 </p>
 
                 <p>
-                  If you’d like to get a better feel for what the Academy is all
+                  If you’d like to get a better feel for what The Academy is all
                   about, check out this video:{" "}
                   <a href="https://join.unstarvingartists.com/workshop">
                     "The 3 Step Process We Used To Earn A 5 Figure A Month
