@@ -116,7 +116,7 @@ export default function Component() {
                 Interactive artist community
               </h3>
               <p className="mt-3 text-lg text-gray-500">
-                Join an energetic community of 200+ artists on the same
+                Join an energetic community of 300+ artists on the same
                 wavelength as you. Becoming a successful artist is lonely when
                 you’re surrounded by “normal people” who just don’t get it. Get
                 inspired, ask questions, generate ideas, make friends and have
