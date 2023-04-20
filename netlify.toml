@@ -225,6 +225,11 @@
   status = 302
   force = true
 [[redirects]]
+  from = "https://www.unstarvingartists.com/hotline"
+  to = "https://www.videoask.com/fv73s5zkc"
+  status = 302
+  force = true
+[[redirects]]
   from = "https://www.unstarvingartists.com/saatchi*"
   to = "https://www.saatchiart.com/"
   status = 302
