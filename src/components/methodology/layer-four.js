@@ -1,7 +1,7 @@
 import * as React from "react";
 import { CheckIcon } from "@heroicons/react/outline";
 
-import layerfour from "../../images/undraw_sculpting_-1-c9p.svg";
+import layerfour from "../../images/undraw_sculpting_1c9p.svg";
 
 const features = [
   {

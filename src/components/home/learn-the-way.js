@@ -1,8 +1,8 @@
 import * as React from "react";
 import onlineTrainingPlatform from "../../images/undraw_Online_learning_re_qw08.svg";
 import interactiveArtistCommunity from "../../images/undraw_conference_call_b0w6.svg";
-import expertMentorship from "../../images/undraw_group_video_re_btu7.svg";
-import liveRealTime from "../../images/undraw_real_time_collaboration_c62i.svg";
+import expertMentorship from "../../images/undraw_group_video_el8e.svg";
+import liveRealTime from "../../images/undraw_team_spirit_hrr4.svg";
 import { Link } from "gatsby";
 
 export default function Component() {

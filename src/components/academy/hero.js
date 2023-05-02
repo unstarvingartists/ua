@@ -1,6 +1,6 @@
 import * as React from "react";
 
-import image from "../../images/undraw_artist_b-4-rc.svg";
+import image from "../../images/undraw_artist_b4rc.svg";
 
 export default function Component({ children }) {
   return (
