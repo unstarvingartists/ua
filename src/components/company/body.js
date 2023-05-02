@@ -137,7 +137,7 @@ export default function Component({ children }) {
             <div className="sm:col-start-2 sm:col-span-4">
               <div className="text-lg max-w-prose mx-auto pt-4">
                 <h1>
-                  <span className="block text-base text-center text-emerald-600 font-semibold tracking-wide uppercase">
+                  <span className="block text-base text-center text-blue-600 font-semibold tracking-wide uppercase">
                     How We Got Here
                   </span>
                   <span className="mt-2 block text-3xl text-center leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
@@ -151,7 +151,7 @@ export default function Component({ children }) {
                   laptop, and a dream.
                 </p>
               </div>
-              <div className="mt-6 prose prose-emerald prose-lg text-gray-500 mx-auto">
+              <div className="mt-6 prose prose-blue prose-lg text-gray-500 mx-auto">
                 <p>
                   Today the company has evolved into a market leading education
                   platform that helps everyday people start and grow their own
@@ -235,7 +235,7 @@ export default function Component({ children }) {
                 <div className="inline-flex rounded-md shadow">
                   <a
                     href="https://join.unstarvingartists.com/workshop"
-                    className="px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-emerald-600 hover:bg-emerald-700"
+                    className="px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700"
                   >
                     {" "}
                     Join the revolution <span aria-hidden="true">
@@ -269,7 +269,7 @@ export default function Component({ children }) {
                     </div>
                     <Link
                       to="/reviews"
-                      className="text-base font-medium text-emerald-600"
+                      className="text-base font-medium text-blue-600"
                     >
                       {" "}
                       4.9 stars 45 student reviews

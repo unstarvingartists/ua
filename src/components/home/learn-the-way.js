@@ -320,7 +320,7 @@ export default function Component() {
         <div className="mt-10 text-center">
           <Link
             to="/methodology"
-            className="text-base font-medium text-emerald-600"
+            className="text-base font-medium text-blue-600"
           >
             {" "}
             Learn more about our methodology{" "}

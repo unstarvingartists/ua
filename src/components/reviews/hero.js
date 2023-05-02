@@ -69,7 +69,7 @@ export default function Component({ children }) {
                 </span>
                 <span className="mt-1 block text-4xl tracking-tight font-extrabold sm:text-5xl xl:text-6xl">
                   <span className="text-gray-900">Student</span>{" "}
-                  <span className="text-emerald-600">Reviews</span>
+                  <span className="text-blue-600">Reviews</span>
                 </span>
               </h1>
               <p className="mt-3 text-base text-gray-500 sm:mt-5 sm:text-xl lg:text-lg xl:text-xl">
@@ -83,7 +83,7 @@ export default function Component({ children }) {
                   <div className="rounded-md shadow">
                     <a
                       href="https://join.unstarvingartists.com/workshop"
-                      className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-emerald-600 hover:bg-emerald-700 md:py-4 md:text-lg md:px-10"
+                      className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700 md:py-4 md:text-lg md:px-10"
                     >
                       See How It Works
                     </a>
@@ -135,7 +135,7 @@ export default function Component({ children }) {
                 />
               </svg>
               <div className="relative mx-auto w-full rounded-lg shadow-lg lg:max-w-md">
-                <div className="relative block w-full bg-white rounded-lg overflow-hidden focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-emerald-500">
+                <div className="relative block w-full bg-white rounded-lg overflow-hidden focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500">
                   <span className="sr-only">Watch our video to learn more</span>
                   <div dangerouslySetInnerHTML={{ __html: videoEmbed }}></div>
                 </div>

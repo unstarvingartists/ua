@@ -93,7 +93,7 @@ export default function Component({ mdx, children, site, pathname }) {
         {children}
         <div className="text-lg max-w-prose mx-auto pt-10">
           <h1>
-            <span className="block text-base text-center text-emerald-600 font-semibold tracking-wide uppercase">
+            <span className="block text-base text-center text-blue-600 font-semibold tracking-wide uppercase">
               {mdx.frontmatter.category.label}
             </span>
             <span className="mt-2 block text-3xl text-center leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
@@ -104,7 +104,7 @@ export default function Component({ mdx, children, site, pathname }) {
             {mdx.frontmatter.author.name}
           </p>
         </div>
-        <div className="my-6 prose prose-emerald prose-lg text-gray-500 mx-auto">
+        <div className="my-6 prose prose-blue prose-lg text-gray-500 mx-auto">
           <div dangerouslySetInnerHTML={{ __html: videoEmbed }}></div>
         </div>
         <div className="sharethis-inline-share-buttons" />
@@ -113,7 +113,7 @@ export default function Component({ mdx, children, site, pathname }) {
             href="https://instagram.com/harrywhelchel/"
             target="_blank"
             rel="noreferrer"
-            className="text-base font-medium text-emerald-600 underline"
+            className="text-base font-medium text-blue-600 underline"
           >
             {" "}
             Follow Us On Instagram For Art Income Tips & Tricks{" "}

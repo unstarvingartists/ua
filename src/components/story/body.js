@@ -135,7 +135,7 @@ export default function Component({ children }) {
               </ul>
             </div>
             <div className="sm:col-start-2 sm:col-span-4">
-              <div className="mt-6 prose prose-emerald prose-lg text-gray-500 mx-auto">
+              <div className="mt-6 prose prose-blue prose-lg text-gray-500 mx-auto">
                 <blockquote>
                   <p>
                     Harry Whelchel is a multi 6-figure art market consultant
@@ -151,7 +151,7 @@ export default function Component({ children }) {
               </div>
               <div className="text-lg max-w-prose mx-auto pt-4">
                 <h1>
-                  <span className="block text-base text-center text-emerald-600 font-semibold tracking-wide uppercase">
+                  <span className="block text-base text-center text-blue-600 font-semibold tracking-wide uppercase">
                     How It All Began
                   </span>
                   <span className="mt-2 block text-3xl text-center leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
@@ -163,7 +163,7 @@ export default function Component({ children }) {
                   story with you.
                 </p>
               </div>
-              <div className="mt-6 prose prose-emerald prose-lg text-gray-500 mx-auto">
+              <div className="mt-6 prose prose-blue prose-lg text-gray-500 mx-auto">
                 <p>
                   I grew up in Atlanta, GA in an everyday, white-collar,
                   middle-class family, and I didn't know anything else. I was
@@ -842,7 +842,7 @@ export default function Component({ children }) {
                 <div className="inline-flex rounded-md shadow">
                   <a
                     href="https://join.unstarvingartists.com/workshop"
-                    className="px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-emerald-600 hover:bg-emerald-700"
+                    className="px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700"
                   >
                     {" "}
                     Join the revolution <span aria-hidden="true">
@@ -876,7 +876,7 @@ export default function Component({ children }) {
                     </div>
                     <Link
                       to="/reviews"
-                      className="text-base font-medium text-emerald-600"
+                      className="text-base font-medium text-blue-600"
                     >
                       {" "}
                       4.9 stars 45 student reviews

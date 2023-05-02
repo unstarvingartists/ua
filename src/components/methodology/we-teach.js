@@ -6,7 +6,7 @@ export default function Component() {
     <div className="py-16 bg-gray-50 overflow-hidden">
       <div className="max-w-7xl mx-auto px-4 space-y-8 sm:px-6 lg:px-8">
         <div className="text-base max-w-prose mx-auto lg:max-w-none">
-          <h2 className="text-base text-emerald-600 font-semibold tracking-wide uppercase">
+          <h2 className="text-base text-blue-600 font-semibold tracking-wide uppercase">
             There Is No Magic Pill
           </h2>
           <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
@@ -22,7 +22,7 @@ export default function Component() {
         </div>
         <div className="lg:grid lg:grid-cols-2 lg:gap-8 lg:items-start">
           <div className="relative z-10">
-            <div className="prose prose-emerald text-gray-500 mx-auto lg:max-w-none">
+            <div className="prose prose-blue text-gray-500 mx-auto lg:max-w-none">
               <p>
                 To build a successful art practice, you must embrace the “full
                 stack”—five connected layers of fundamental principles that
@@ -113,16 +113,16 @@ export default function Component() {
                   </p>
                 </div>
               </div>
-              <cite className="relative flex items-center sm:items-start bg-emerald-600 rounded-b-lg not-italic py-5 px-6 sm:py-5 sm:pl-12 sm:pr-10 sm:mt-10">
+              <cite className="relative flex items-center sm:items-start bg-blue-600 rounded-b-lg not-italic py-5 px-6 sm:py-5 sm:pl-12 sm:pr-10 sm:mt-10">
                 <div className="relative rounded-full border-2 border-white sm:absolute sm:top-0 sm:transform sm:-translate-y-1/2">
                   <StaticImage
-                    className="w-12 h-12 sm:w-20 sm:h-20 rounded-full bg-emerald-300"
+                    className="w-12 h-12 sm:w-20 sm:h-20 rounded-full bg-blue-300"
                     src="../../images/oliver.jpeg"
                     alt="Oliver"
                     width={80}
                   />
                 </div>
-                <span className="relative ml-4 text-emerald-300 font-semibold leading-6 sm:ml-24 sm:pl-1">
+                <span className="relative ml-4 text-blue-300 font-semibold leading-6 sm:ml-24 sm:pl-1">
                   <p className="text-white font-semibold sm:inline">
                     Oliver H.
                   </p>{" "}

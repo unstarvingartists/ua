@@ -67,7 +67,7 @@ const Component = () => {
                   </span>
                 </Link>
                 <div className="-mr-2 flex items-center md:hidden">
-                  <Popover.Button className="bg-gray-50 rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-emerald-500">
+                  <Popover.Button className="bg-gray-50 rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-blue-500">
                     <span className="sr-only">Open main menu</span>
                     <MenuIcon className="h-6 w-6" aria-hidden="true" />
                   </Popover.Button>
@@ -81,7 +81,7 @@ const Component = () => {
                     <Popover.Button
                       className={classNames(
                         open ? "text-gray-900" : "text-gray-500",
-                        "group bg-gray-50 rounded-md inline-flex items-center text-base font-medium hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-emerald-500"
+                        "group bg-gray-50 rounded-md inline-flex items-center text-base font-medium hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500"
                       )}
                     >
                       <span>Programs</span>
@@ -117,7 +117,7 @@ const Component = () => {
                                 className="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50"
                               >
                                 <item.icon
-                                  className="flex-shrink-0 h-6 w-6 text-emerald-600"
+                                  className="flex-shrink-0 h-6 w-6 text-blue-600"
                                   aria-hidden="true"
                                 />
                                 <div className="ml-4">
@@ -202,7 +202,7 @@ const Component = () => {
               <span className="inline-flex rounded-md shadow-md ring-1 ring-black ring-opacity-5">
                 <a
                   href="https://www.skool.com/the-academy"
-                  className="inline-flex items-center px-4 py-2 border border-transparent text-base font-medium rounded-md text-emerald-600 bg-white hover:bg-gray-50"
+                  className="inline-flex items-center px-4 py-2 border border-transparent text-base font-medium rounded-md text-blue-600 bg-white hover:bg-gray-50"
                 >
                   Log in
                 </a>
@@ -239,7 +239,7 @@ const Component = () => {
                       </span>
                     </div>
                     <div className="-mr-2">
-                      <Popover.Button className="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-emerald-500">
+                      <Popover.Button className="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-blue-500">
                         <span className="sr-only">Close main menu</span>
                         <XIcon className="h-6 w-6" aria-hidden="true" />
                       </Popover.Button>
@@ -254,7 +254,7 @@ const Component = () => {
                           className="-m-3 p-3 flex items-center rounded-md hover:bg-gray-50"
                         >
                           <item.icon
-                            className="flex-shrink-0 h-6 w-6 text-emerald-600"
+                            className="flex-shrink-0 h-6 w-6 text-blue-600"
                             aria-hidden="true"
                           />
                           <span className="ml-3 text-base font-medium text-gray-900">
@@ -294,7 +294,7 @@ const Component = () => {
                 </div>
                 <a
                   href="https://www.skool.com/the-academy"
-                  className="block w-full bg-gray-50 px-5 py-3 text-center font-medium text-emerald-600 hover:bg-gray-100"
+                  className="block w-full bg-gray-50 px-5 py-3 text-center font-medium text-blue-600 hover:bg-gray-100"
                 >
                   Log in
                 </a>

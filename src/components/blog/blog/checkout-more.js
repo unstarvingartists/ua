@@ -40,7 +40,7 @@ export default function Component({ allMdx }) {
                 </div>
                 <div className="flex-1 bg-white p-6 flex flex-col justify-between">
                   <div className="flex-1">
-                    <p className="text-sm font-medium text-emerald-600">
+                    <p className="text-sm font-medium text-blue-600">
                       <Link
                         to={post.frontmatter.href}
                         className="hover:underline"

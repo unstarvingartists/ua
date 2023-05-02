@@ -26,7 +26,7 @@ export default function Component() {
                   <dt className="order-2 mt-2 text-lg leading-6 font-medium text-gray-500">
                     Active students
                   </dt>
-                  <dd className="order-1 text-5xl font-extrabold text-emerald-600">
+                  <dd className="order-1 text-5xl font-extrabold text-blue-600">
                     300+
                   </dd>
                 </div>
@@ -34,7 +34,7 @@ export default function Component() {
                   <dt className="order-2 mt-2 text-lg leading-6 font-medium text-gray-500">
                     Revenue earned by students
                   </dt>
-                  <dd className="order-1 text-5xl font-extrabold text-emerald-600">
+                  <dd className="order-1 text-5xl font-extrabold text-blue-600">
                     $12m
                   </dd>
                 </div>
@@ -42,7 +42,7 @@ export default function Component() {
                   <dt className="order-2 mt-2 text-lg leading-6 font-medium text-gray-500">
                     Millionaire students
                   </dt>
-                  <dd className="order-1 text-5xl font-extrabold text-emerald-600">
+                  <dd className="order-1 text-5xl font-extrabold text-blue-600">
                     3
                   </dd>
                 </div>
@@ -51,10 +51,7 @@ export default function Component() {
           </div>
         </div>
         <div className="mt-10 text-center">
-          <Link
-            to="/reviews"
-            className="text-base font-medium text-emerald-600"
-          >
+          <Link to="/reviews" className="text-base font-medium text-blue-600">
             {" "}
             See all 45 student reviews for yourself
             <span aria-hidden="true">&rarr;</span>{" "}

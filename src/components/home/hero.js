@@ -82,7 +82,7 @@ const Component = ({ children }) => {
               <span className="block xl:inline">
                 Become A Successful Artist Without
               </span>{" "}
-              <span className="block text-emerald-600 xl:inline">
+              <span className="block text-blue-600 xl:inline">
                 Art World Or Gallery Connections
               </span>
             </h1>
@@ -95,7 +95,7 @@ const Component = ({ children }) => {
               <div className="rounded-md shadow">
                 <a
                   href="https://join.unstarvingartists.com/workshop"
-                  className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-emerald-600 hover:bg-emerald-700 md:py-4 md:text-lg md:px-10"
+                  className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700 md:py-4 md:text-lg md:px-10"
                 >
                   See How It Works
                 </a>

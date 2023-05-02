@@ -25,7 +25,7 @@ const features = [
 
 export default function Component() {
   return (
-    <div className="relative bg-emerald-800">
+    <div className="relative bg-blue-800">
       <div className="absolute inset-0">
         <StaticImage
           className="w-full h-full object-cover"
@@ -34,7 +34,7 @@ export default function Component() {
           width={2560}
         />
         <div
-          className="absolute inset-0 bg-emerald-800 mix-blend-multiply"
+          className="absolute inset-0 bg-blue-800 mix-blend-multiply"
           aria-hidden="true"
         />
       </div>
@@ -42,16 +42,16 @@ export default function Component() {
         <h1 className="text-4xl font-extrabold tracking-tight text-white sm:text-5xl lg:text-6xl">
           With Unstarving Artists you will be able to
         </h1>
-        <div className="mt-6 text-xl text-emerald-100 max-w-3xl">
+        <div className="mt-6 text-xl text-blue-100 max-w-3xl">
           <dl className="space-y-10 sm:space-y-0 sm:grid sm:grid-cols-1 sm:grid-rows-6 sm:grid-flow-col sm:gap-x-6 sm:gap-y-10 lg:gap-x-8">
             {features.map((feature) => (
               <div key={feature.name} className="relative">
                 <dt>
                   <CheckIcon
-                    className="absolute h-6 w-6 text-emerald-500"
+                    className="absolute h-6 w-6 text-blue-500"
                     aria-hidden="true"
                   />
-                  <p className="ml-9 text-xl leading-6 font-medium text-emerald-100">
+                  <p className="ml-9 text-xl leading-6 font-medium text-blue-100">
                     {feature.name}
                   </p>
                 </dt>
