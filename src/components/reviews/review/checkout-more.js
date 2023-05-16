@@ -41,7 +41,7 @@ export default function Component({ allMdx }) {
                 </div>
                 <div className="flex-1 bg-white p-6 flex flex-col justify-between">
                   <div className="flex-1">
-                    <p className="text-sm font-medium text-blue-600">
+                    <p className="text-sm font-medium text-emerald-600">
                       <Link
                         to={post.frontmatter.student.href}
                         className="hover:underline"
@@ -119,7 +119,10 @@ export default function Component({ allMdx }) {
               </div>
             </div>
           </div>
-          <Link to="/reviews" className="text-base font-medium text-blue-600">
+          <Link
+            to="/reviews"
+            className="text-base font-medium text-emerald-600"
+          >
             {" "}
             4.9 stars from 45 student reviews{" "}
             <span aria-hidden="true">&rarr;</span>{" "}

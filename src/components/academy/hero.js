@@ -1,6 +1,6 @@
 import * as React from "react";
 
-import image from "../../images/undraw_artist_b4rc.svg";
+import image from "../../images/undraw_artist_b-4-rc.svg";
 
 export default function Component({ children }) {
   return (
@@ -62,7 +62,7 @@ export default function Component({ children }) {
                   <span className="block text-gray-900">
                     How To Grow A Profitable Art Practice &
                   </span>
-                  <span className="block text-blue-600">
+                  <span className="block text-emerald-600">
                     Get Your Next Collector In 42-Days
                   </span>
                 </span>
@@ -72,7 +72,7 @@ export default function Component({ children }) {
                   <div className="rounded-md shadow">
                     <a
                       href="https://join.unstarvingartists.com/workshop"
-                      className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700 md:py-4 md:text-lg md:px-10"
+                      className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-emerald-600 hover:bg-emerald-700 md:py-4 md:text-lg md:px-10"
                     >
                       See How It Works
                     </a>

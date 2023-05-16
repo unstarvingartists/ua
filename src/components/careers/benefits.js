@@ -5,7 +5,7 @@ import { StaticImage } from "gatsby-plugin-image";
 export default function Component() {
   return (
     <div className="relative bg-white">
-      <div className="h-56 bg-blue-600 sm:h-72 lg:absolute lg:left-0 lg:h-full lg:w-1/2">
+      <div className="h-56 bg-emerald-600 sm:h-72 lg:absolute lg:left-0 lg:h-full lg:w-1/2">
         <StaticImage
           width={1280}
           className="w-full h-full object-cover"
@@ -16,7 +16,7 @@ export default function Component() {
       <div className="relative max-w-7xl mx-auto px-4 py-8 sm:py-12 sm:px-6 lg:py-16">
         <div className="max-w-2xl mx-auto lg:max-w-none lg:mr-0 lg:ml-auto lg:w-1/2 lg:pl-10">
           <div>
-            <div className="flex items-center justify-center h-12 w-12 rounded-md bg-blue-500 text-white">
+            <div className="flex items-center justify-center h-12 w-12 rounded-md bg-emerald-500 text-white">
               <UserGroupIcon className="h-6 w-6" aria-hidden="true" />
             </div>
           </div>
@@ -39,7 +39,7 @@ export default function Component() {
                 <dt className="order-2 text-base font-medium text-gray-500">
                   Artists Reached
                 </dt>
-                <dd className="order-1 text-2xl font-extrabold text-blue-600 sm:text-3xl">
+                <dd className="order-1 text-2xl font-extrabold text-emerald-600 sm:text-3xl">
                   1,000's
                 </dd>
               </div>
@@ -47,7 +47,7 @@ export default function Component() {
                 <dt className="order-2 text-base font-medium text-gray-500">
                   Happy Clients
                 </dt>
-                <dd className="order-1 text-2xl font-extrabold text-blue-600 sm:text-3xl">
+                <dd className="order-1 text-2xl font-extrabold text-emerald-600 sm:text-3xl">
                   300+
                 </dd>
               </div>
@@ -55,7 +55,7 @@ export default function Component() {
                 <dt className="order-2 text-base font-medium text-gray-500">
                   Room For Growth
                 </dt>
-                <dd className="order-1 text-2xl font-extrabold text-blue-600 sm:text-3xl">
+                <dd className="order-1 text-2xl font-extrabold text-emerald-600 sm:text-3xl">
                   Unmatched
                 </dd>
               </div>

@@ -73,7 +73,7 @@ export default function Component() {
                   </div>
 
                   <svg
-                    className="hidden md:block mx-1 h-5 w-5 text-blue-600"
+                    className="hidden md:block mx-1 h-5 w-5 text-emerald-600"
                     fill="currentColor"
                     viewBox="0 0 20 20"
                   >

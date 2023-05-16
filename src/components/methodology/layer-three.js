@@ -1,7 +1,7 @@
 import * as React from "react";
 import { CheckIcon } from "@heroicons/react/outline";
 
-import layerthree from "../../images/undraw_creativity_wqmm.svg";
+import layerthree from "../../images/undraw_creative_woman_re_u5tk.svg";
 
 const features = [
   {
@@ -194,7 +194,7 @@ export default function Component() {
                 <div key={feature.name} className="relative">
                   <dt>
                     <CheckIcon
-                      className="absolute h-6 w-6 text-blue-500"
+                      className="absolute h-6 w-6 text-emerald-500"
                       aria-hidden="true"
                     />
                     <p className="ml-9 text-lg leading-6 font-medium text-gray-900">

@@ -1,6 +1,6 @@
 import * as React from "react";
-import loading from "../../images/undraw_teaching_f1cm.svg";
-import thoughtProcess from "../../images/undraw_thought_process_67my.svg";
+import loading from "../../images/undraw_educator_re_ju47.svg";
+import thoughtProcess from "../../images/undraw_thought_process_re_om58.svg";
 
 export default function Component() {
   return (

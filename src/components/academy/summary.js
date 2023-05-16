@@ -10,7 +10,7 @@ export default function Component() {
           <div className="px-4 max-w-xl mx-auto sm:px-6 lg:py-16 lg:max-w-none lg:mx-0 lg:px-0">
             <div>
               <div>
-                <span className="h-12 w-12 rounded-md flex items-center justify-center bg-blue-600">
+                <span className="h-12 w-12 rounded-md flex items-center justify-center bg-emerald-600">
                   <FlagIcon className="h-6 w-6 text-white" aria-hidden="true" />
                 </span>
               </div>
@@ -33,7 +33,7 @@ export default function Component() {
                 <div className="mt-6">
                   <a
                     href="https://join.unstarvingartists.com/workshop"
-                    className="inline-flex px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-blue-600 hover:bg-blue-700"
+                    className="inline-flex px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-emerald-600 hover:bg-emerald-700"
                   >
                     See how it works
                   </a>

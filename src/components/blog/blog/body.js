@@ -116,7 +116,7 @@ export default function Component({ mdx, site, pathname, children }) {
         </div>
       </div>
       <div className="relative px-4 sm:px-6 lg:px-8">
-        <div className="my-6 prose prose-blue prose-lg text-gray-500 mx-auto">
+        <div className="my-6 prose prose-emerald prose-lg text-gray-500 mx-auto">
           {children}
         </div>
         <div className="sharethis-inline-share-buttons" />
@@ -125,7 +125,7 @@ export default function Component({ mdx, site, pathname, children }) {
             href="https://www.instagram.com/harrywhelchel/"
             target="_blank"
             rel="noreferrer"
-            className="text-base font-medium text-blue-600 underline"
+            className="text-base font-medium text-emerald-600 underline"
           >
             {" "}
             Follow Us On Instagram For Art Income Tips & Tricks{" "}
