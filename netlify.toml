@@ -180,6 +180,16 @@
   status = 302
   force = true
 [[redirects]]
+  from = "https://www.unstarvingartists.com/twi/workshop"
+  to = "https://join.unstarvingartists.com/workshop?el=twitch"
+  status = 302
+  force = true
+[[redirects]]
+  from = "https://www.unstarvingartists.com/yt/workshop"
+  to = "https://join.unstarvingartists.com/workshop?el=youtube"
+  status = 302
+  force = true
+[[redirects]]
   from = "https://www.unstarvingartists.com/tw/workshop"
   to = "https://join.unstarvingartists.com/workshop?el=twitter"
   status = 302
