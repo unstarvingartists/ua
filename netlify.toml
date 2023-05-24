@@ -249,3 +249,33 @@
   to = "https://www.saatchiart.com/"
   status = 302
   force = true
+[[redirects]]
+  from = "https://www.unstarvingartists.com/tw/book"
+  to = "https://book.unstarvingartists.com/offer?el=twitter"
+  status = 302
+  force = true
+[[redirects]]
+  from = "https://www.unstarvingartists.com/ig/book"
+  to = "https://book.unstarvingartists.com/offer?el=instagram"
+  status = 302
+  force = true
+[[redirects]]
+  from = "https://www.unstarvingartists.com/fb/book"
+  to = "https://book.unstarvingartists.com/offer?el=facebook"
+  status = 302
+  force = true
+[[redirects]]
+  from = "https://www.unstarvingartists.com/li/book"
+  to = "https://book.unstarvingartists.com/offer?el=linkedin"
+  status = 302
+  force = true
+[[redirects]]
+  from = "https://www.unstarvingartists.com/yt/book"
+  to = "https://book.unstarvingartists.com/offer?el=youtube"
+  status = 302
+  force = true
+[[redirects]]
+  from = "https://www.unstarvingartists.com/twi/book"
+  to = "https://book.unstarvingartists.com/offer?el=twitch"
+  status = 302
+  force = true
