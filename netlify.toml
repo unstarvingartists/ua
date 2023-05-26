@@ -294,3 +294,13 @@
   to = "https://book.unstarvingartists.com/offer?el=livestream&htrafficsource=livestream"
   status = 302
   force = true
+[[redirects]]
+  from = "https://www.unstarvingartists.com/tp/book"
+  to = "https://book.unstarvingartists.com/offer?el=trustpilot&htrafficsource=trustpilot"
+  status = 302
+  force = true
+[[redirects]]
+  from = "https://www.unstarvingartists.com/go/book"
+  to = "https://book.unstarvingartists.com/offer?el=google&htrafficsource=google"
+  status = 302
+  force = true
