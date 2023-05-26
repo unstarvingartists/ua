@@ -284,3 +284,8 @@
   to = "https://book.unstarvingartists.com/offer?el=substack"
   status = 302
   force = true
+[[redirects]]
+  from = "https://www.unstarvingartists.com/rs/book"
+  to = "https://book.unstarvingartists.com/offer?el=restream"
+  status = 302
+  force = true
