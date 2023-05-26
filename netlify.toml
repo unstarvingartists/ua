@@ -251,41 +251,46 @@
   force = true
 [[redirects]]
   from = "https://www.unstarvingartists.com/tw/book"
-  to = "https://book.unstarvingartists.com/offer?el=twitter"
+  to = "https://book.unstarvingartists.com/offer?el=twitter&htrafficsource=twitter"
   status = 302
   force = true
 [[redirects]]
   from = "https://www.unstarvingartists.com/ig/book"
-  to = "https://book.unstarvingartists.com/offer?el=instagram"
+  to = "https://book.unstarvingartists.com/offer?el=instagram&htrafficsource=instagram"
   status = 302
   force = true
 [[redirects]]
   from = "https://www.unstarvingartists.com/fb/book"
-  to = "https://book.unstarvingartists.com/offer?el=facebook"
+  to = "https://book.unstarvingartists.com/offer?el=facebook&htrafficsource=facebook"
   status = 302
   force = true
 [[redirects]]
   from = "https://www.unstarvingartists.com/li/book"
-  to = "https://book.unstarvingartists.com/offer?el=linkedin"
+  to = "https://book.unstarvingartists.com/offer?el=linkedin&htrafficsource=linkedin"
   status = 302
   force = true
 [[redirects]]
   from = "https://www.unstarvingartists.com/yt/book"
-  to = "https://book.unstarvingartists.com/offer?el=youtube"
+  to = "https://book.unstarvingartists.com/offer?el=youtube&htrafficsource=youtube"
   status = 302
   force = true
 [[redirects]]
   from = "https://www.unstarvingartists.com/twi/book"
-  to = "https://book.unstarvingartists.com/offer?el=twitch"
+  to = "https://book.unstarvingartists.com/offer?el=twitch&htrafficsource=twitch"
   status = 302
   force = true
 [[redirects]]
   from = "https://www.unstarvingartists.com/st/book"
-  to = "https://book.unstarvingartists.com/offer?el=substack"
+  to = "https://book.unstarvingartists.com/offer?el=substack&htrafficsource=substack"
   status = 302
   force = true
 [[redirects]]
   from = "https://www.unstarvingartists.com/rs/book"
   to = "https://book.unstarvingartists.com/offer?el=restream"
+  status = 302
+  force = true
+[[redirects]]
+  from = "https://www.unstarvingartists.com/ls/book"
+  to = "https://book.unstarvingartists.com/offer?el=livestream&htrafficsource=livestream"
   status = 302
   force = true
