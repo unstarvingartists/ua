@@ -304,3 +304,13 @@
   to = "https://book.unstarvingartists.com/offer?el=google&htrafficsource=google"
   status = 302
   force = true
+[[redirects]]
+  from = "https://www.unstarvingartists.com/tp"
+  to = "https://www.unstarvingartists.com?el=trustpilot&htrafficsource=trustpilot"
+  status = 302
+  force = true
+[[redirects]]
+  from = "https://www.unstarvingartists.com/go"
+  to = "https://www.unstarvingartists.com?el=google&htrafficsource=google"
+  status = 302
+  force = true
