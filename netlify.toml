@@ -250,6 +250,11 @@
   status = 302
   force = true
 [[redirects]]
+  from = "https://www.unstarvingartists.com/book"
+  to = "https://book.unstarvingartists.com/offer?el=wordofmouth&htrafficsource=wordofmouth"
+  status = 302
+  force = true
+[[redirects]]
   from = "https://www.unstarvingartists.com/tw/book"
   to = "https://book.unstarvingartists.com/offer?el=twitter&htrafficsource=twitter"
   status = 302
