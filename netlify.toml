@@ -310,6 +310,11 @@
   status = 302
   force = true
 [[redirects]]
+  from = "https://www.unstarvingartists.com/pc/book"
+  to = "https://book.unstarvingartists.com/offer?el=podcast&htrafficsource=podcast"
+  status = 302
+  force = true
+[[redirects]]
   from = "https://www.unstarvingartists.com/tp"
   to = "https://www.unstarvingartists.com?el=trustpilot&htrafficsource=trustpilot"
   status = 302
