@@ -319,3 +319,23 @@
   to = "https://www.unstarvingartists.com?el=google&htrafficsource=google"
   status = 302
   force = true
+[[redirects]]
+  from = "https://unstarvingartist.com/*"
+  to = "https://www.unstarvingartists.com/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "http://unstarvingartist.com/*"
+  to = "https://www.unstarvingartists.com/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://unstarvingartists.org/*"
+  to = "https://www.unstarvingartists.com/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "http://unstarvingartists.org/*"
+  to = "https://www.unstarvingartists.com/:splat"
+  status = 301
+  force = true
