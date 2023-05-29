@@ -27,7 +27,6 @@ const navigation = {
       href: "https://www.skool.com/the-catalyst",
     },
     { name: "The Academy", href: "https://www.skool.com/the-academy" },
-    { name: "The Accelerator", href: "https://www.skool.com/the-accelerator" },
   ],
 };
 
