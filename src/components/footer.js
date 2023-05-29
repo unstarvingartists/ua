@@ -19,6 +19,10 @@ const navigation = {
   ],
   login: [
     {
+      name: "The Unstarving Artist",
+      href: "https://book.unstarvingartists.com/members-area1683064132058",
+    },
+    {
       name: "The Catalyst",
       href: "https://www.skool.com/the-catalyst",
     },
