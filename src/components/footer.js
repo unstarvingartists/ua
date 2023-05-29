@@ -17,12 +17,13 @@ const navigation = {
     { name: "Blog", href: "https://unstarvingartists.substack.com/" },
     { name: "FAQ", to: "/faq" },
   ],
-  extras: [
+  login: [
     {
-      name: "Free Training",
-      href: "https://book.unstarvingartists.com/offer",
+      name: "The Catalyst",
+      href: "https://www.skool.com/the-catalyst",
     },
-    { name: "Free Community", to: "/community" },
+    { name: "The Academy", href: "https://www.skool.com/the-academy" },
+    { name: "The Accelerator", href: "https://www.skool.com/the-accelerator" },
   ],
 };
 
@@ -108,10 +109,10 @@ export default function Component() {
               </div>
               <div className="mt-12 md:mt-0">
                 <h3 className="text-sm font-semibold text-gray-400 tracking-wider uppercase">
-                  Extras
+                  Login
                 </h3>
                 <ul className="mt-4 space-y-4">
-                  {navigation.extras.map((item) => {
+                  {navigation.login.map((item) => {
                     if (!!item.to) {
                       return (
                         <li key={item.name}>
