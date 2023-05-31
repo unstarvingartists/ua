@@ -39,6 +39,61 @@
   status = 301
   force = true
 [[redirects]]
+  from = "https://www.unstarvingartists.com/bcatalyst*"
+  to = "https://book.unstarvingartists.com/members-area1683064132058#lesson6-1"
+  status = 302
+  force = true
+[[redirects]]
+  from = "https://www.unstarvingartists.com/flick*"
+  to = "https://flick.tech?fpr=unstarvingartists"
+  status = 302
+  force = true
+[[redirects]]
+  from = "https://www.unstarvingartists.com/grammarly*"
+  to = "https://grammarly.go2cloud.org/aff_c?offer_id=3&aff_id=98727"
+  status = 302
+  force = true
+[[redirects]]
+  from = "https://www.unstarvingartists.com/jasper*"
+  to = "https://jasper.ai/?fpr=unstarvingartists"
+  status = 302
+  force = true
+[[redirects]]
+  from = "https://www.unstarvingartists.com/canva*"
+  to = "https://partner.canva.com/unstarvingartists"
+  status = 302
+  force = true
+[[redirects]]
+  from = "https://www.unstarvingartists.com/upwork*"
+  to = "https://upwork.pxf.io/unstarvingartists"
+  status = 302
+  force = true
+[[redirects]]
+  from = "https://www.unstarvingartists.com/foster*"
+  to = "https://www.foster.co/welcome?referral=UNSTARVINGARTISTS"
+  status = 302
+  force = true
+[[redirects]]
+  from = "https://www.unstarvingartists.com/workspace*"
+  to = "https://referworkspace.app.goo.gl/2hnD"
+  status = 302
+  force = true
+[[redirects]]
+  from = "https://www.unstarvingartists.com/flock*"
+  to = "https://flocksocial.com/?ref=unstarvingartists"
+  status = 302
+  force = true
+[[redirects]]
+  from = "https://www.unstarvingartists.com/videohusky*"
+  to = "https://www.videohusky.com/booking/?via=harry82"
+  status = 302
+  force = true
+[[redirects]]
+  from = "https://www.unstarvingartists.com/becreatives*"
+  to = "https://becreatives.co/cart-video-editing-reel-deal-plan-monthly/?via=unstarvingartists"
+  status = 302
+  force = true
+[[redirects]]
   from = "http://unstarvingartists.com/training"
   to = "https://www.unstarvingartists.com/training"
   status = 301
@@ -232,11 +287,6 @@
 [[redirects]]
   from = "https://www.unstarvingartists.com/bonuses"
   to = "https://join.unstarvingartists.com/bonuses"
-  status = 302
-  force = true
-[[redirects]]
-  from = "https://www.unstarvingartists.com/flick*"
-  to = "https://flick.tech?fpr=unstarvingartists"
   status = 302
   force = true
 [[redirects]]
