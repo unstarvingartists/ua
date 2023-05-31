@@ -39,7 +39,7 @@
   status = 301
   force = true
 [[redirects]]
-  from = "https://www.unstarvingartists.com/bcatalyst*"
+  from = "https://www.unstarvingartists.com/catalyst*"
   to = "https://book.unstarvingartists.com/members-area1683064132058#lesson6-1"
   status = 302
   force = true
@@ -147,11 +147,6 @@
 [[redirects]]
   from = "https://www.unstarvingartists.com/migrate/agreement"
   to = "https://www.skool.com/the-academy/"
-  status = 302
-  force = true
-[[redirects]]
-  from = "https://www.unstarvingartists.com/catalyst"
-  to = "https://get.unstarvingartists.com/community"
   status = 302
   force = true
 [[redirects]]
