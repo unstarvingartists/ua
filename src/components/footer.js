@@ -19,7 +19,7 @@ const navigation = {
   ],
   login: [
     {
-      name: "The Unstarving Artist Book",
+      name: "The Unstarving Artist",
       href: "https://book.unstarvingartists.com/members-area1683064132058",
     },
     {
