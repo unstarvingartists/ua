@@ -266,7 +266,7 @@
   force = true
 [[redirects]]
   from = "https://www.unstarvingartists.com/call"
-  to = "https://calendly.com/harrywhelchel/discovery"
+  to = "https://calendly.com/harrywhelchel/artist-chat"
   status = 302
   force = true
 [[redirects]]
