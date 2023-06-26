@@ -36,7 +36,7 @@ const programs = [
 const callsToAction = [
   {
     name: "See How It Works",
-    href: "https://join.unstarvingartists.com/workshop",
+    href: "https://book.unstarvingartists.com/offer",
     icon: PlayIcon,
   },
 ];
@@ -201,10 +201,10 @@ const Component = () => {
               })}
               <span className="inline-flex rounded-md shadow-md ring-1 ring-black ring-opacity-5">
                 <a
-                  href="https://join.unstarvingartists.com/workshop"
+                  href="https://book.unstarvingartists.com/offer"
                   className="inline-flex items-center px-4 py-2 border border-transparent text-base font-medium rounded-md text-emerald-600 bg-white hover:bg-gray-50"
                 >
-                  Join the Workshop
+                  Get the Book
                 </a>
               </span>
             </div>
@@ -293,10 +293,10 @@ const Component = () => {
                   })}
                 </div>
                 <a
-                  href="https://join.unstarvingartists.com/workshop"
+                  href="https://book.unstarvingartists.com/offer"
                   className="block w-full bg-gray-50 px-5 py-3 text-center font-medium text-emerald-600 hover:bg-gray-100"
                 >
-                  Join the Workshop
+                  Get the Book
                 </a>
               </div>
             </Popover.Panel>

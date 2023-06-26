@@ -23,7 +23,7 @@ export default function Component() {
             </h2>
             <p className="prose prose-emerald mt-4 text-lg text-gray-500 sm:mt-3">
               Watch our{" "}
-              <a href="https://join.unstarvingartists.com/workshop">
+              <a href="https://book.unstarvingartists.com/offer">
                 free training
               </a>{" "}
               to learn more about The Academy.
