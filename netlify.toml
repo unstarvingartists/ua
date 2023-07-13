@@ -325,7 +325,7 @@
   status = 302
   force = true
 [[redirects]]
-  from = "https://www.unstarvingartists.com/pod"
+  from = "https://www.unstarvingartists.com/podcast"
   to = "https://pod.link/1682703463"
   status = 302
   force = true
