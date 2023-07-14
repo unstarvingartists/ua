@@ -326,7 +326,7 @@
   force = true
 [[redirects]]
   from = "https://www.unstarvingartists.com/podcast"
-  to = "https://pod.link/1682703463"
+  to = "https://www.youtube.com/playlist?list=PLtEhPljJBndg1OL2aOkclolfMryd5or7p"
   status = 302
   force = true
 [[redirects]]
