@@ -326,7 +326,7 @@
   force = true
 [[redirects]]
   from = "https://www.unstarvingartists.com/podcast"
-  to = "https://unstarvingartists.substack.com/"
+  to = "https://link.chtbl.com/theunstarvingartist"
   status = 302
   force = true
 [[redirects]]
