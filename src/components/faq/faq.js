@@ -104,7 +104,7 @@ export default function Component() {
           </h2>
           <p className="mt-4 text-gray-500 prose prose-emerald">
             Have specific questions or want to sign up? Join a{" "}
-            <Link href="https://book.unstarvingartists.com/offer">
+            <Link href="https://book.unstarvingartists.com/checkout59148282">
               free workshop
             </Link>{" "}
             on our approach.

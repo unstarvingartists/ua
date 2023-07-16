@@ -36,7 +36,7 @@ const programs = [
 const callsToAction = [
   {
     name: "See How It Works",
-    href: "https://book.unstarvingartists.com/offer",
+    href: "https://book.unstarvingartists.com/checkout59148282",
     icon: PlayIcon,
   },
 ];
@@ -201,7 +201,7 @@ const Component = () => {
               })}
               <span className="inline-flex rounded-md shadow-md ring-1 ring-black ring-opacity-5">
                 <a
-                  href="https://book.unstarvingartists.com/offer"
+                  href="https://book.unstarvingartists.com/checkout59148282"
                   className="inline-flex items-center px-4 py-2 border border-transparent text-base font-medium rounded-md text-emerald-600 bg-white hover:bg-gray-50"
                 >
                   Get the Book
@@ -293,7 +293,7 @@ const Component = () => {
                   })}
                 </div>
                 <a
-                  href="https://book.unstarvingartists.com/offer"
+                  href="https://book.unstarvingartists.com/checkout59148282"
                   className="block w-full bg-gray-50 px-5 py-3 text-center font-medium text-emerald-600 hover:bg-gray-100"
                 >
                   Get the Book
