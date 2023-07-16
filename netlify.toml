@@ -296,32 +296,32 @@
   force = true
 [[redirects]]
   from = "https://www.unstarvingartists.com/book"
-  to = "https://book.unstarvingartists.com/offer?el=wordofmouth&htrafficsource=wordofmouth"
+  to = "https://book.unstarvingartists.com/checkout59148282?el=wordofmouth&htrafficsource=wordofmouth"
   status = 302
   force = true
 [[redirects]]
   from = "https://www.unstarvingartists.com/tw/book"
-  to = "https://book.unstarvingartists.com/offer?el=twitter&htrafficsource=twitter"
+  to = "https://book.unstarvingartists.com/checkout59148282?el=twitter&htrafficsource=twitter"
   status = 302
   force = true
 [[redirects]]
   from = "https://www.unstarvingartists.com/ig/book"
-  to = "https://book.unstarvingartists.com/offer?el=instagram&htrafficsource=instagram"
+  to = "https://book.unstarvingartists.com/checkout59148282?el=instagram&htrafficsource=instagram"
   status = 302
   force = true
 [[redirects]]
   from = "https://www.unstarvingartists.com/fb/book"
-  to = "https://book.unstarvingartists.com/offer?el=facebook&htrafficsource=facebook"
+  to = "https://book.unstarvingartists.com/checkout59148282?el=facebook&htrafficsource=facebook"
   status = 302
   force = true
 [[redirects]]
   from = "https://www.unstarvingartists.com/li/book"
-  to = "https://book.unstarvingartists.com/offer?el=linkedin&htrafficsource=linkedin"
+  to = "https://book.unstarvingartists.com/checkout59148282?el=linkedin&htrafficsource=linkedin"
   status = 302
   force = true
 [[redirects]]
   from = "https://www.unstarvingartists.com/yt/book"
-  to = "https://book.unstarvingartists.com/offer?el=youtube&htrafficsource=youtube"
+  to = "https://book.unstarvingartists.com/checkout59148282?el=youtube&htrafficsource=youtube"
   status = 302
   force = true
 [[redirects]]
@@ -331,37 +331,37 @@
   force = true
 [[redirects]]
   from = "https://www.unstarvingartists.com/twi/book"
-  to = "https://book.unstarvingartists.com/offer?el=twitch&htrafficsource=twitch"
+  to = "https://book.unstarvingartists.com/checkout59148282?el=twitch&htrafficsource=twitch"
   status = 302
   force = true
 [[redirects]]
   from = "https://www.unstarvingartists.com/st/book"
-  to = "https://book.unstarvingartists.com/offer?el=substack&htrafficsource=substack"
+  to = "https://book.unstarvingartists.com/checkout59148282?el=substack&htrafficsource=substack"
   status = 302
   force = true
 [[redirects]]
   from = "https://www.unstarvingartists.com/rs/book"
-  to = "https://book.unstarvingartists.com/offer?el=restream"
+  to = "https://book.unstarvingartists.com/checkout59148282?el=restream"
   status = 302
   force = true
 [[redirects]]
   from = "https://www.unstarvingartists.com/ls/book"
-  to = "https://book.unstarvingartists.com/offer?el=livestream&htrafficsource=livestream"
+  to = "https://book.unstarvingartists.com/checkout59148282?el=livestream&htrafficsource=livestream"
   status = 302
   force = true
 [[redirects]]
   from = "https://www.unstarvingartists.com/tp/book"
-  to = "https://book.unstarvingartists.com/offer?el=trustpilot&htrafficsource=trustpilot"
+  to = "https://book.unstarvingartists.com/checkout59148282?el=trustpilot&htrafficsource=trustpilot"
   status = 302
   force = true
 [[redirects]]
   from = "https://www.unstarvingartists.com/go/book"
-  to = "https://book.unstarvingartists.com/offer?el=google&htrafficsource=google"
+  to = "https://book.unstarvingartists.com/checkout59148282?el=google&htrafficsource=google"
   status = 302
   force = true
 [[redirects]]
   from = "https://www.unstarvingartists.com/pc/book"
-  to = "https://book.unstarvingartists.com/offer?el=podcast&htrafficsource=podcast"
+  to = "https://book.unstarvingartists.com/checkout59148282?el=podcast&htrafficsource=podcast"
   status = 302
   force = true
 [[redirects]]
