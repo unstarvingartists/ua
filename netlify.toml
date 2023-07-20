@@ -331,7 +331,7 @@
   force = true
 [[redirects]]
   from = "https://www.unstarvingartists.com/producer"
-  to = "https://docs.google.com/forms/d/e/1FAIpQLSffVxOyQMcIh28lgQtSt7JOIrKlarWp7BkwC2BjkNt0e7Oy4w/viewform"
+  to = "https://forms.gle/Z3bvLsf1MdGPqNfT8"
   status = 302
   force = true
 [[redirects]]
