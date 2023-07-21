@@ -94,7 +94,7 @@ const Component = ({ children }) => {
             <div className="mt-5 max-w-md mx-auto sm:flex sm:justify-center md:mt-8">
               <div className="rounded-md shadow">
                 <a
-                  href="https://book.unstarvingartists.com/checkout59148282"
+                  href="https://book.unstarvingartists.com/offer"
                   className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-emerald-600 hover:bg-emerald-700 md:py-4 md:text-lg md:px-10"
                 >
                   See How It Works

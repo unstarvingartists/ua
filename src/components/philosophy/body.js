@@ -229,7 +229,7 @@ export default function Component({ children }) {
               <div className="mt-10 text-center">
                 <div className="inline-flex rounded-md shadow">
                   <a
-                    href="https://book.unstarvingartists.com/checkout59148282"
+                    href="https://book.unstarvingartists.com/offer"
                     className="px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-emerald-600 hover:bg-emerald-700"
                   >
                     {" "}

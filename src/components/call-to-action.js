@@ -11,7 +11,7 @@ export default function Component() {
         <div className="mt-8 flex justify-center">
           <div className="inline-flex rounded-md shadow">
             <a
-              href="https://book.unstarvingartists.com/checkout59148282"
+              href="https://book.unstarvingartists.com/offer"
               className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-emerald-600 hover:bg-emerald-700"
             >
               See How It Works
