@@ -3,7 +3,6 @@ import { Link } from "gatsby";
 
 const navigation = {
   company: [
-    { name: "Our story", to: "/story" },
     { name: "Our philosophy", to: "/philosophy" },
     { name: "Our company", to: "/company" },
     { name: "Careers", to: "/careers" },

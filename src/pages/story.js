@@ -10,7 +10,7 @@ import Seo from "../components/seo";
 export default function Page({ location }) {
   return (
     <Layout>
-      <Seo title="Our story" pathname={location.pathname} />
+      <Seo noIndex title="Our story" pathname={location.pathname} />
       <Hero>
         <Navigation />
       </Hero>

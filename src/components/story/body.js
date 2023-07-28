@@ -4,7 +4,6 @@ import { StarIcon } from "@heroicons/react/solid";
 import { StaticImage } from "gatsby-plugin-image";
 
 const navigation = [
-  { name: "Our story", to: "/story" },
   { name: "Our philosophy", to: "/philosophy" },
   { name: "Our company", to: "/company" },
 ];
