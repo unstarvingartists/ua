@@ -5,7 +5,7 @@ module.exports = {
     siteUrl: "https://www.unstarvingartists.com",
     twitter: {
       site: "@unstarvingarts",
-      creator: "@therealharryw",
+      creator: "@howdyitsharry",
     },
     image: "/social-graph.png",
     metaImage: {
